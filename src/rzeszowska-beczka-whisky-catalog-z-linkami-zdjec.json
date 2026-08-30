@@ -1,0 +1,1820 @@
+{
+  "schemaVersion": 4,
+  "brand": "Rzeszowska Beczka",
+  "currency": "PLN",
+  "pricingCheckedAt": "2026-08-30",
+  "pricingPolicy": {
+    "preferredSupplier": "Grupa Grabiec",
+    "fallback": "Other current online retailer when exact bottle was not found at Grupa Grabiec",
+    "pricesIncludeVat": true,
+    "warning": "Retail online prices and availability can change. Recheck before purchasing stock."
+  },
+  "whiskies": [
+    {
+      "id": 1,
+      "slug": "ballantines-finest",
+      "name": "Ballantine’s Finest",
+      "category": "Szkocja",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 1000,
+        "grossPricePln": 73.99,
+        "grossCostPerLiterPln": 73.99,
+        "costPer25mlPln": 1.85,
+        "costPer50mlPln": 3.7,
+        "nominalServings25ml": 40,
+        "nominalServings50ml": 20,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/whisky-ballantines-finest-1l/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.topdrinks.fr/media/catalog/product/L/_/L_06_061_00_1_e9c5.png?canvas=460%3A512&fit=bounds&height=512&optimize=medium&width=460",
+        "sourcePage": "https://www.topdrinks.fr/ballantine-s-finest-1ltr",
+        "alt": "Butelka Ballantine’s Finest",
+        "recommendedLocalPath": "/assets/whisky/ballantines-finest.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 2,
+      "slug": "johnnie-walker-black-label-12",
+      "name": "Johnnie Walker Black Label 12",
+      "category": "Szkocja",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 89.99,
+        "grossCostPerLiterPln": 128.56,
+        "costPer25mlPln": 3.21,
+        "costPer50mlPln": 6.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta od 89,99 zł",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/cena/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://nlliquor.com/wp-content/uploads/1528-1.jpg",
+        "sourcePage": "https://nlliquor.com/product/johnnie-walker-black-label-12-yo-scotch-whisky/",
+        "alt": "Butelka Johnnie Walker Black Label 12",
+        "recommendedLocalPath": "/assets/whisky/johnnie-walker-black-label-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 3,
+      "slug": "chivas-regal-12",
+      "name": "Chivas Regal 12",
+      "category": "Szkocja",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 89.99,
+        "grossCostPerLiterPln": 128.56,
+        "costPer25mlPln": 3.21,
+        "costPer50mlPln": 6.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/cennik-whisky/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://casalisboa.com.br/wp-content/uploads/2020/05/Whisky-Chivas-Regal-12A-750Ml-616x1024.jpg",
+        "sourcePage": "https://casalisboa.com.br/produto/whisky-chivas-regal-12a-750ml/",
+        "alt": "Butelka Chivas Regal 12",
+        "recommendedLocalPath": "/assets/whisky/chivas-regal-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 4,
+      "slug": "monkey-shoulder",
+      "name": "Monkey Shoulder",
+      "category": "Szkocja",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 89.99,
+        "grossCostPerLiterPln": 128.56,
+        "costPer25mlPln": 3.21,
+        "costPer50mlPln": 6.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta promocyjna",
+        "sourceUrl": "https://grupagrabiec.pl/promowane/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://rc-digitalcatalog-casino-back-prod.storage.googleapis.com/s3fs-public/styles/card_square_medium/public/images/product/al085942.webp",
+        "sourcePage": "https://spar.casino.fr/department/alcools-et-spiritueux",
+        "alt": "Butelka Monkey Shoulder",
+        "recommendedLocalPath": "/assets/whisky/monkey-shoulder.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 5,
+      "slug": "glenfiddich-12",
+      "name": "Glenfiddich 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 179.99,
+        "grossCostPerLiterPln": 257.13,
+        "costPer25mlPln": 6.43,
+        "costPer50mlPln": 12.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://barbank.com/cdn/shop/products/glenfiddich12.jpg?height=645&pad_color=fff&v=1692650405&width=645",
+        "sourcePage": "https://barbank.com/products/glenfiddich-12",
+        "alt": "Butelka Glenfiddich 12",
+        "recommendedLocalPath": "/assets/whisky/glenfiddich-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 6,
+      "slug": "the-glenlivet-12",
+      "name": "The Glenlivet 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 129.99,
+        "grossCostPerLiterPln": 185.7,
+        "costPer25mlPln": 4.64,
+        "costPer50mlPln": 9.29,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.platinaliquor.com/uploads/products/7%20%289%29.jpg",
+        "sourcePage": "https://www.platinaliquor.com/liquor/the-glenlivet-12-year-old/3193",
+        "alt": "Butelka The Glenlivet 12",
+        "recommendedLocalPath": "/assets/whisky/the-glenlivet-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 7,
+      "slug": "glenmorangie-the-original-12",
+      "name": "Glenmorangie The Original 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 149.99,
+        "grossCostPerLiterPln": 214.27,
+        "costPer25mlPln": 5.36,
+        "costPer50mlPln": 10.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/rodzaj/~~-sortuj_6s-strona_6s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.whiskymag.com/media/pl0jlygs/glenmorangie-original-12yo.png",
+        "sourcePage": "https://www.whiskymag.com/tastings/glenmorangie-the-original-12-years-old/",
+        "alt": "Butelka Glenmorangie The Original 12",
+        "recommendedLocalPath": "/assets/whisky/glenmorangie-the-original-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 8,
+      "slug": "aberlour-12",
+      "name": "Aberlour 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 167.99,
+        "grossCostPerLiterPln": 239.99,
+        "costPer25mlPln": 6.0,
+        "costPer50mlPln": 12.0,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta specjalna",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.platinaliquor.com/uploads/products/ABERLOUR%2012%20YEAR%20OLD.jpg",
+        "sourcePage": "https://www.thecrowncellars.com/liquor/aberlour-12-year-old/2084",
+        "alt": "Butelka Aberlour 12",
+        "recommendedLocalPath": "/assets/whisky/aberlour-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 9,
+      "slug": "glendronach-12",
+      "name": "GlenDronach 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 239.99,
+        "grossCostPerLiterPln": 342.84,
+        "costPer25mlPln": 8.57,
+        "costPer50mlPln": 17.14,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/10-15-lat/~~-sortuj_2s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://whiskylibraryshop.co.za/cdn/shop/files/Glendronach_12_Billy_Walker_Single_malt.png?v=1724599883&width=1445",
+        "sourcePage": "https://whiskylibraryshop.co.za/products/glendronach-12-billy-walker-single-malt-scotch-whisky",
+        "alt": "Butelka GlenDronach 12",
+        "recommendedLocalPath": "/assets/whisky/glendronach-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 10,
+      "slug": "glenallachie-12",
+      "name": "GlenAllachie 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 249.99,
+        "grossCostPerLiterPln": 357.13,
+        "costPer25mlPln": 8.93,
+        "costPer50mlPln": 17.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "AlkoOutlet",
+        "availability": "duża ilość",
+        "sourceUrl": "https://alkooutlet.pl/pl/p/Glenallachie-12YO-46-0%2C7/4024",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://theliquidcollection.com/cdn/shop/files/G-12.webp?v=1750992368&width=720",
+        "sourcePage": "https://theliquidcollection.com/products/the-glenallachie-12-year-old-single-malt-scotch-whisky-70cl",
+        "alt": "Butelka GlenAllachie 12",
+        "recommendedLocalPath": "/assets/whisky/glenallachie-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 11,
+      "slug": "arran-10",
+      "name": "Arran 10",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 209.0,
+        "grossCostPerLiterPln": 298.57,
+        "costPer25mlPln": 7.46,
+        "costPer50mlPln": 14.93,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Singlemalt.pl",
+        "availability": "oferta online",
+        "sourceUrl": "https://singlemalt.pl/wg-ceny/200-zl-300-zl?wh_destylernia%5B4%5D=Arran+%2F+Lochranza",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.everythingwine.ca/media/catalog/product/3/1/311001_isle_of_arran_distillery_arran_10_year_single_malt_scotch_700_ml_1.jpg?bg-color=255%2C255%2C255&canvas=700%3A700&fit=bounds&height=700&quality=80&width=700",
+        "sourcePage": "https://www.everythingwine.ca/isle-of-arran-distillery-arran-10-year-single-malt-scotch-700ml",
+        "alt": "Butelka Arran 10",
+        "recommendedLocalPath": "/assets/whisky/arran-10.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 12,
+      "slug": "deanston-12",
+      "name": "Deanston 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 239.0,
+        "grossCostPerLiterPln": 341.43,
+        "costPer25mlPln": 8.54,
+        "costPer50mlPln": 17.07,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Singlemalt.pl",
+        "availability": "oferta online",
+        "sourceUrl": "https://singlemalt.pl/destylarnie/deanston/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.akros.gr/media/14786.jpg",
+        "sourcePage": "https://www.akros.gr/en/Product/6738-deanston-12-year-old-unchillfiltered-700ml-highland-single-malt-scotch-whisky-deanston",
+        "alt": "Butelka Deanston 12",
+        "recommendedLocalPath": "/assets/whisky/deanston-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 13,
+      "slug": "clynelish-14",
+      "name": "Clynelish 14",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 239.99,
+        "grossCostPerLiterPln": 342.84,
+        "costPer25mlPln": 8.57,
+        "costPer50mlPln": 17.14,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/10-15-lat/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://lejeuneliquors.com/uploads/products/8cb22bdd0b7ba1ab13d742e22eed8da2/clynelish-14-years-750ml-0.jpg",
+        "sourcePage": "https://lejeuneliquors.com/products/clynelish-14-years-750ml",
+        "alt": "Butelka Clynelish 14",
+        "recommendedLocalPath": "/assets/whisky/clynelish-14.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 14,
+      "slug": "oban-14",
+      "name": "Oban 14",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 329.99,
+        "grossCostPerLiterPln": 471.41,
+        "costPer25mlPln": 11.79,
+        "costPer50mlPln": 23.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://hic-winemerchants.com/cdn/shop/products/Oban14.jpg?v=1662052647&width=1024",
+        "sourcePage": "https://hic-winemerchants.com/products/oban-14-year-old-highland-single-malt-scotch-whisky",
+        "alt": "Butelka Oban 14",
+        "recommendedLocalPath": "/assets/whisky/oban-14.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 15,
+      "slug": "highland-park-12",
+      "name": "Highland Park 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 199.99,
+        "grossCostPerLiterPln": 285.7,
+        "costPer25mlPln": 7.14,
+        "costPer50mlPln": 14.29,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/na-prezent/~~-sortuj_1s-strona_2s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn11.bigcommerce.com/s-mdpjfu7lb2/images/stencil/1280x1280/products/12500/12974/PPS-26-NO2-HILAND-bottle__34701.1768353988.png?c=1",
+        "sourcePage": "https://tobacconistofgreenwich.com/product/padron-serie-1926-no-2-highland-park-12/",
+        "alt": "Butelka Highland Park 12",
+        "recommendedLocalPath": "/assets/whisky/highland-park-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 16,
+      "slug": "talisker-10",
+      "name": "Talisker 10",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 179.99,
+        "grossCostPerLiterPln": 257.13,
+        "costPer25mlPln": 6.43,
+        "costPer50mlPln": 12.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://winesonline.com.sg/cdn/shop/products/Talisker-10-Year-Old-Single-Malt-Scotch-Whisky.jpg?v=1548057358&width=1200",
+        "sourcePage": "https://winesonline.com.sg/products/talisker-10-year-old-single-malt-scotch-whisky",
+        "alt": "Butelka Talisker 10",
+        "recommendedLocalPath": "/assets/whisky/talisker-10.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 17,
+      "slug": "bunnahabhain-12",
+      "name": "Bunnahabhain 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 249.0,
+        "grossCostPerLiterPln": 355.71,
+        "costPer25mlPln": 8.89,
+        "costPer50mlPln": 17.79,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Singlemalt.pl",
+        "availability": "cena promocyjna",
+        "sourceUrl": "https://singlemalt.pl/wg-ceny?wh_destylernia%5B1%5D=Bunnahabhain",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.whiskybrother.com/cdn/shop/products/bunnahabhain-12yo-new.jpg?v=1754975245",
+        "sourcePage": "https://www.whiskybrother.com/products/bunnahabhain-12-year-old-scotch-whisky",
+        "alt": "Butelka Bunnahabhain 12",
+        "recommendedLocalPath": "/assets/whisky/bunnahabhain-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 18,
+      "slug": "bruichladdich-the-classic-laddie",
+      "name": "Bruichladdich The Classic Laddie",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.99,
+        "grossCostPerLiterPln": 314.27,
+        "costPer25mlPln": 7.86,
+        "costPer50mlPln": 15.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.dunells.com/media/l3jddsbi/bruichladdich-the-classic-laddie.jpg?bgcolor=ffffff&mode=pad&saturation=0",
+        "sourcePage": "https://www.dunells.com/spirits/whisky-scottish/bruichladdich-classic-the-laddie-scottish-barley-unpeated-islay-single-malt-whisky-bottle-70cl-50-abv-los/",
+        "alt": "Butelka Bruichladdich The Classic Laddie",
+        "recommendedLocalPath": "/assets/whisky/bruichladdich-the-classic-laddie.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 19,
+      "slug": "caol-ila-12",
+      "name": "Caol Ila 12",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.0,
+        "grossCostPerLiterPln": 312.86,
+        "costPer25mlPln": 7.82,
+        "costPer50mlPln": 15.64,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Dom Whisky",
+        "availability": "duża ilość",
+        "sourceUrl": "https://sklep-domwhisky.pl/product-pol-6007-Caol-Ila-12-letnia-43-0-7l.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://media.ohlq.com/products/1751B.webp",
+        "sourcePage": "https://www.ohlq.com/liquor/whiskey/scotch/single-malt/caol-ila-12-year-old-single-malt-scotch-whisky",
+        "alt": "Butelka Caol Ila 12",
+        "recommendedLocalPath": "/assets/whisky/caol-ila-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 20,
+      "slug": "laphroaig-10",
+      "name": "Laphroaig 10",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 279.99,
+        "grossCostPerLiterPln": 399.99,
+        "costPer25mlPln": 10.0,
+        "costPer50mlPln": 20.0,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/rodzaj/~~-sortuj_6s-strona_6s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://target.scene7.com/is/image/Target/GUEST_0b94f4cf-df36-42a3-bce6-24fd9a1332b8",
+        "sourcePage": "https://www.target.com/p/-/A-48625579",
+        "alt": "Butelka Laphroaig 10",
+        "recommendedLocalPath": "/assets/whisky/laphroaig-10.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 21,
+      "slug": "ardbeg-10",
+      "name": "Ardbeg 10",
+      "category": "Szkocja",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.99,
+        "grossCostPerLiterPln": 314.27,
+        "costPer25mlPln": 7.86,
+        "costPer50mlPln": 15.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.thebottleclub.com/cdn/shop/files/whisky-ardbeg-10-year-old-whisky-70-cl-28383417139315.png?v=1702058857",
+        "sourcePage": "https://www.thebottleclub.com/products/ardbeg-10yo",
+        "alt": "Butelka Ardbeg 10",
+        "recommendedLocalPath": "/assets/whisky/ardbeg-10.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 22,
+      "slug": "lagavulin-16",
+      "name": "Lagavulin 16",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 445.99,
+        "grossCostPerLiterPln": 637.13,
+        "costPer25mlPln": 15.93,
+        "costPer50mlPln": 31.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://pasanellaandson.com/cdn/shop/files/lag16_900x.png?v=1749066496",
+        "sourcePage": "https://pasanellaandson.com/products/lagavulin-16-year-old",
+        "alt": "Butelka Lagavulin 16",
+        "recommendedLocalPath": "/assets/whisky/lagavulin-16.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 23,
+      "slug": "balvenie-12-doublewood",
+      "name": "Balvenie 12 DoubleWood",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.99,
+        "grossCostPerLiterPln": 314.27,
+        "costPer25mlPln": 7.86,
+        "costPer50mlPln": 15.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://static.wixstatic.com/media/1bbfe3_9f2f01febfcf46f9b9b8ab13126965f9~mv2.jpg/v1/fit/w_500%2Ch_500%2Cq_90/file.jpg",
+        "sourcePage": "https://www.consuvino.com.mx/product-page/balvenie-12-a%C3%B1os-single-malt-750-ml",
+        "alt": "Butelka Balvenie 12 DoubleWood",
+        "recommendedLocalPath": "/assets/whisky/balvenie-12-doublewood.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 24,
+      "slug": "macallan-12-double-cask",
+      "name": "Macallan 12 Double Cask",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 299.99,
+        "grossCostPerLiterPln": 428.56,
+        "costPer25mlPln": 10.71,
+        "costPer50mlPln": 21.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://whiskylibraryshop.co.za/cdn/shop/files/macallan-12yo-double-cask-whisky-bottle.webp?v=1762350800&width=1946",
+        "sourcePage": "https://whiskylibraryshop.co.za/products/macallan-12yo-double-cask-single-malt-scotch-whisky",
+        "alt": "Butelka Macallan 12 Double Cask",
+        "recommendedLocalPath": "/assets/whisky/macallan-12-double-cask.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 25,
+      "slug": "glendronach-15-revival",
+      "name": "GlenDronach 15 Revival",
+      "category": "Szkocja",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 329.99,
+        "grossCostPerLiterPln": 471.41,
+        "costPer25mlPln": 11.79,
+        "costPer50mlPln": 23.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/10-15-lat/~~-sortuj_2s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://codenesia.oss-ap-southeast-5.aliyuncs.com/product/e7DpuPjQBOUiM5hVA5ITLc07djjd7ra2RVWCjjRL.jpg",
+        "sourcePage": "https://pancaindo.com/product/detail/192/glendronach-15-yo-revival",
+        "alt": "Butelka GlenDronach 15 Revival",
+        "recommendedLocalPath": "/assets/whisky/glendronach-15-revival.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 26,
+      "slug": "octomore-aktualna-edycja-1",
+      "name": "Octomore – aktualna edycja .1",
+      "category": "Szkocja",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 699.89,
+        "grossCostPerLiterPln": 999.84,
+        "costPer25mlPln": 25.0,
+        "costPer50mlPln": 49.99,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Sklep z Whisky",
+        "availability": "Octomore 15.1, oferta online",
+        "sourceUrl": "https://www.sklepzwhisky.pl/producent/octomore/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/9751/10013/bruichladdich-octomore-15-1-islay-single-malt-scotch__02000.1752495553.1280.1280__40461.1755243295.jpg?c=1",
+        "sourcePage": "https://www.finewinehouse.com/bruichladdich-octomore-15-1-islay-single-malt-scotch-700ml.html",
+        "alt": "Butelka Octomore – aktualna edycja .1",
+        "recommendedLocalPath": "/assets/whisky/octomore-aktualna-edycja-1.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 27,
+      "slug": "talisker-18",
+      "name": "Talisker 18",
+      "category": "Szkocja",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 999.0,
+        "grossCostPerLiterPln": 1427.14,
+        "costPer25mlPln": 35.68,
+        "costPer50mlPln": 71.36,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Singlemalt.pl",
+        "availability": "oferta online",
+        "sourceUrl": "https://singlemalt.pl/destylarnie/talisker/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.akros.gr/media/27901.jpg",
+        "sourcePage": "https://www.akros.gr/Product/14065-talisker-18-year-old-700ml-single-malt-scotch-whisky-talisker",
+        "alt": "Butelka Talisker 18",
+        "recommendedLocalPath": "/assets/whisky/talisker-18.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 28,
+      "slug": "glendronach-18-allardice",
+      "name": "GlenDronach 18 Allardice",
+      "category": "Szkocja",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 489.0,
+        "grossCostPerLiterPln": 698.57,
+        "costPer25mlPln": 17.46,
+        "costPer50mlPln": 34.93,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Propaganda24h",
+        "availability": "chwilowo niedostępny",
+        "sourceUrl": "https://propaganda24h.pl/pl/c/WHISKY-THE-GLENDRONACH/206",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena widoczna online, lecz sklep oznacza produkt jako niedostępny.",
+      "image": {
+        "remoteUrl": "https://codenesia.oss-ap-southeast-5.aliyuncs.com/product/klDInYRnwcqRAPxzUGPjp2jEijJGCxsLQ1FHXZoB.jpg",
+        "sourcePage": "https://pancaindo.com/product/detail/193/glendronach-18-yo-allardice",
+        "alt": "Butelka GlenDronach 18 Allardice",
+        "recommendedLocalPath": "/assets/whisky/glendronach-18-allardice.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 29,
+      "slug": "balvenie-21-portwood",
+      "name": "Balvenie 21 PortWood",
+      "category": "Szkocja",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 1099.99,
+        "grossCostPerLiterPln": 1571.41,
+        "costPer25mlPln": 39.29,
+        "costPer50mlPln": 78.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/rodzaj/~~-sortuj_6s-strona_6s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn11.bigcommerce.com/s-0ddlsmhg83/images/stencil/original/products/5628/5856/the-balvenie-21-year-old-portwood-speyside-single-malt-scotch-750ml__63384.1754742125.1280.1280__11866.1755242599.jpg?c=1",
+        "sourcePage": "https://www.finewinehouse.com/the-balvenie-21-year-old-portwood-speyside-single-malt-scotch-750ml.html",
+        "alt": "Butelka Balvenie 21 PortWood",
+        "recommendedLocalPath": "/assets/whisky/balvenie-21-portwood.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 30,
+      "slug": "macallan-18",
+      "name": "Macallan 18",
+      "category": "Szkocja",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 1199.99,
+        "grossCostPerLiterPln": 1714.27,
+        "costPer25mlPln": 42.86,
+        "costPer50mlPln": 85.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://whiskyandwhiskey.com/cdn/shop/files/the-macallan-18-years-old-double-cask-750ml_170194e8-09c7-4918-9416-1992480baeaf.jpg?v=1761424599&width=1200",
+        "sourcePage": "https://whiskyandwhiskey.com/collections/the-macallan",
+        "alt": "Butelka Macallan 18",
+        "recommendedLocalPath": "/assets/whisky/macallan-18.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 31,
+      "slug": "jameson",
+      "name": "Jameson",
+      "category": "Irlandia",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 69.99,
+        "grossCostPerLiterPln": 99.99,
+        "costPer25mlPln": 2.5,
+        "costPer50mlPln": 5.0,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/cennik-whisky/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://sarap.online/wp-content/uploads/2025/01/jameson-irish-whiskey.webp",
+        "sourcePage": "https://sarap.online/produkt/jameson-irish-whiskey/",
+        "alt": "Butelka Jameson",
+        "recommendedLocalPath": "/assets/whisky/jameson.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 32,
+      "slug": "jameson-black-barrel",
+      "name": "Jameson Black Barrel",
+      "category": "Irlandia",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 109.99,
+        "grossCostPerLiterPln": 157.13,
+        "costPer25mlPln": 3.93,
+        "costPer50mlPln": 7.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.espaciovino.com.ar/media/default/0001/72/thumb_71812_default_big.jpeg",
+        "sourcePage": "https://www.espaciovino.com.ar/whisky-ficha/Jameson-Black-Barrel-Whiskey-750-ml",
+        "alt": "Butelka Jameson Black Barrel",
+        "recommendedLocalPath": "/assets/whisky/jameson-black-barrel.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 33,
+      "slug": "bushmills-10",
+      "name": "Bushmills 10",
+      "category": "Irlandia",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 117.99,
+        "grossCostPerLiterPln": 168.56,
+        "costPer25mlPln": 4.21,
+        "costPer50mlPln": 8.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/single-malt/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://mcos.coldstorage.com.sg/uploads/product/96681/005104830.jpg?v=1775790183",
+        "sourcePage": "https://coldstorage.com.sg/product/bushmills-single-malt-10years-70cl",
+        "alt": "Butelka Bushmills 10",
+        "recommendedLocalPath": "/assets/whisky/bushmills-10.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 34,
+      "slug": "teeling-small-batch",
+      "name": "Teeling Small Batch",
+      "category": "Irlandia",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 119.99,
+        "grossCostPerLiterPln": 171.41,
+        "costPer25mlPln": 4.29,
+        "costPer50mlPln": 8.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/blended-whisky/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://bg.coca-colahellenic.com/content/dam/cch/bg/images/our-24-7-portfolio_new/2025/alchohol_2025/Teeling_Small_Batch.png",
+        "sourcePage": "https://bg.coca-colahellenic.com/en/our-24-7-portfolio/brands-a-z/teeling",
+        "alt": "Butelka Teeling Small Batch",
+        "recommendedLocalPath": "/assets/whisky/teeling-small-batch.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 35,
+      "slug": "redbreast-12",
+      "name": "Redbreast 12",
+      "category": "Irlandia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 249.99,
+        "grossCostPerLiterPln": 357.13,
+        "costPer25mlPln": 8.93,
+        "costPer50mlPln": 17.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "AlkoOutlet",
+        "availability": "na wyczerpaniu",
+        "sourceUrl": "https://alkooutlet.pl/pl/p/Redbreast-12YO-0%2C7/3484",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.lavignery.fr/312821-large_default/redbreast-12-ans.jpg",
+        "sourcePage": "https://www.lavignery.fr/irlande/220-redbreast-12-ans.html",
+        "alt": "Butelka Redbreast 12",
+        "recommendedLocalPath": "/assets/whisky/redbreast-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 36,
+      "slug": "green-spot",
+      "name": "Green Spot",
+      "category": "Irlandia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 199.99,
+        "grossCostPerLiterPln": 285.7,
+        "costPer25mlPln": 7.14,
+        "costPer50mlPln": 14.29,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/~~-sortuj_5s-strona_4s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.mchughs.ie/image/cache/catalog/products/Spirits/Green-Spot-Irish-Whiskey-70cl-1000x1000.jpg",
+        "sourcePage": "https://www.mchughs.ie/Green-Spot-Irish-Whiskey-700ml",
+        "alt": "Butelka Green Spot",
+        "recommendedLocalPath": "/assets/whisky/green-spot.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 37,
+      "slug": "redbreast-21",
+      "name": "Redbreast 21",
+      "category": "Irlandia",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 999.0,
+        "grossCostPerLiterPln": 1427.14,
+        "costPer25mlPln": 35.68,
+        "costPer50mlPln": 71.36,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Aleeks Alkohole",
+        "availability": "produkt dostępny",
+        "sourceUrl": "https://aleeksalkohole.pl/pl/p/Whiskey-Redbreast-21-yo-Single-Pot-Still-0%2C7L-46/2636",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://thewhiskeyreserve.com/cdn/shop/files/redbreast-21-year-old_grande.png?v=1707836174",
+        "sourcePage": "https://thewhiskeyreserve.com/products/redbreast-21yrs-70cl",
+        "alt": "Butelka Redbreast 21",
+        "recommendedLocalPath": "/assets/whisky/redbreast-21.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 38,
+      "slug": "jack-daniels-old-no-7",
+      "name": "Jack Daniel’s Old No. 7",
+      "category": "USA",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 79.99,
+        "grossCostPerLiterPln": 114.27,
+        "costPer25mlPln": 2.86,
+        "costPer50mlPln": 5.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/whisky-jack-daniels-classic-40-07l/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn.prod2.whisky.fr/media/lmdw/lmdw_large/412_9_m4e677___abf2d18b025bdf5a.webp",
+        "sourcePage": "https://www.whisky.fr/en/jack-daniel-s-n-7.html",
+        "alt": "Butelka Jack Daniel’s Old No. 7",
+        "recommendedLocalPath": "/assets/whisky/jack-daniels-old-no-7.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 39,
+      "slug": "buffalo-trace",
+      "name": "Buffalo Trace",
+      "category": "USA",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 109.9,
+        "grossCostPerLiterPln": 157.0,
+        "costPer25mlPln": 3.92,
+        "costPer50mlPln": 7.85,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Propaganda24h",
+        "availability": "oferta online",
+        "sourceUrl": "https://propaganda24h.pl/pl/c/Bourbon/19",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://web-whisky-live.s3-eu-west-1.amazonaws.com/s3fs-public/styles/uc_product_full/public/5075370-001.JPG?itok=pwl7xZ7R",
+        "sourcePage": "https://whiskyauctioneer.com/lot/5075370/buffalo-trace-kentucky-straight-bourbon-80-proof-70cl",
+        "alt": "Butelka Buffalo Trace",
+        "recommendedLocalPath": "/assets/whisky/buffalo-trace.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 40,
+      "slug": "makers-mark",
+      "name": "Maker’s Mark",
+      "category": "USA",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 109.99,
+        "grossCostPerLiterPln": 157.13,
+        "costPer25mlPln": 3.93,
+        "costPer50mlPln": 7.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/cena/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://thirstyliquorislington.co.nz/cdn/shop/files/Makers-mark-bottle-generic-2017_89eb2770-af9d-4ff6-a029-affed0d499a5.jpg?v=1719191777",
+        "sourcePage": "https://thirstyliquorislington.co.nz/products/makers-mark-1l",
+        "alt": "Butelka Maker’s Mark",
+        "recommendedLocalPath": "/assets/whisky/makers-mark.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 41,
+      "slug": "woodford-reserve",
+      "name": "Woodford Reserve",
+      "category": "USA",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 179.99,
+        "grossCostPerLiterPln": 257.13,
+        "costPer25mlPln": 6.43,
+        "costPer50mlPln": 12.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://goodpour.com/cdn/shop/files/woodford-reserve-kentucky-straight-bourbon-375mL_1000x.png?v=1717424641",
+        "sourcePage": "https://goodpour.com/collections/bourbon",
+        "alt": "Butelka Woodford Reserve",
+        "recommendedLocalPath": "/assets/whisky/woodford-reserve.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 42,
+      "slug": "wild-turkey-101",
+      "name": "Wild Turkey 101",
+      "category": "USA",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 119.99,
+        "grossCostPerLiterPln": 171.41,
+        "costPer25mlPln": 4.29,
+        "costPer50mlPln": 8.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/do-150-zl/~~-sortuj_2s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://shop.iowaabd.com/assets/products/022156.main.640.640.jpg",
+        "sourcePage": "https://shop.iowaabd.com/products/22156-wild-turkey-101-750-ml",
+        "alt": "Butelka Wild Turkey 101",
+        "recommendedLocalPath": "/assets/whisky/wild-turkey-101.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 43,
+      "slug": "four-roses-small-batch",
+      "name": "Four Roses Small Batch",
+      "category": "USA",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 169.0,
+        "grossCostPerLiterPln": 241.43,
+        "costPer25mlPln": 6.04,
+        "costPer50mlPln": 12.07,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Aleeks Alkohole",
+        "availability": "oferta online",
+        "sourceUrl": "https://aleeksalkohole.pl/pl/c/Bourbon/63/2",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://lovescotch.com/cdn/shop/files/DSC03801_grande.png?v=1760545714",
+        "sourcePage": "https://lovescotch.com/products/four-roses-small-batch-bourbon-whiskey",
+        "alt": "Butelka Four Roses Small Batch",
+        "recommendedLocalPath": "/assets/whisky/four-roses-small-batch.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 44,
+      "slug": "knob-creek-9",
+      "name": "Knob Creek 9",
+      "category": "USA",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.0,
+        "grossCostPerLiterPln": 312.86,
+        "costPer25mlPln": 7.82,
+        "costPer50mlPln": 15.64,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Dom Whisky",
+        "availability": "oferta online",
+        "sourceUrl": "https://sklep-domwhisky.pl/pol_m_Kraje-pochodzenia_Stany-Zjednoczone_Bourbon-2265.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.yewel.de/media/image/product/1537/lg/knob-creek-9-years-kentucky-straight-bourbon-whiskey-50-vol-07l.jpg",
+        "sourcePage": "https://www.yewel.de/Knob-Creek-9-Years-Kentucky-Straight-Bourbon-Whiskey-50-Vol-07l",
+        "alt": "Butelka Knob Creek 9",
+        "recommendedLocalPath": "/assets/whisky/knob-creek-9.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 45,
+      "slug": "rittenhouse-rye-100-proof",
+      "name": "Rittenhouse Rye 100 Proof",
+      "category": "USA",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 169.0,
+        "grossCostPerLiterPln": 241.43,
+        "costPer25mlPln": 6.04,
+        "costPer50mlPln": 12.07,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Dom Whisky",
+        "availability": "oferta online",
+        "sourceUrl": "https://sklep-domwhisky.pl/product-pol-9359-Rittenhouse-Rye-Bottled-in-Bond-50-0-7l.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.bittersandbottles.com/cdn/shop/products/rittenhouse-rye-whiskey_1280x1280.jpg?v=1571310917",
+        "sourcePage": "https://www.bittersandbottles.com/products/rittenhouse-rye-whiskey",
+        "alt": "Butelka Rittenhouse Rye 100 Proof",
+        "recommendedLocalPath": "/assets/whisky/rittenhouse-rye-100-proof.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 46,
+      "slug": "suntory-toki",
+      "name": "Suntory Toki",
+      "category": "Japonia",
+      "segment": "Wejściowa",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.99,
+        "grossCostPerLiterPln": 314.27,
+        "costPer25mlPln": 7.86,
+        "costPer50mlPln": 15.71,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/do-10_lat/~~-sortuj_7s-strona_3s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://shop.r10s.jp/teramachi/cabinet/sake093-097/094170.jpg",
+        "sourcePage": "https://item.rakuten.co.jp/teramachi/s094170/",
+        "alt": "Butelka Suntory Toki",
+        "recommendedLocalPath": "/assets/whisky/suntory-toki.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 47,
+      "slug": "nikka-from-the-barrel",
+      "name": "Nikka From The Barrel",
+      "category": "Japonia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 500,
+        "grossPricePln": 183.0,
+        "grossCostPerLiterPln": 366.0,
+        "costPer25mlPln": 9.15,
+        "costPer50mlPln": 18.3,
+        "nominalServings25ml": 20,
+        "nominalServings50ml": 10,
+        "supplier": "Dom Whisky",
+        "availability": "oferta online",
+        "sourceUrl": "https://sklep-domwhisky.pl/product-pol-5707-Nikka-From-The-Barrel-51-4-0-5l.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://de.excaliburshop.com/uploads/item/774/template/108/images/0-nikka-from-the-barrel-0-5l-51-4-122520.jpg",
+        "sourcePage": "https://de.excaliburshop.com/catalog/item/774/nikka-from-the-barrel-0-5l-51-4/",
+        "alt": "Butelka Nikka From The Barrel",
+        "recommendedLocalPath": "/assets/whisky/nikka-from-the-barrel.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 48,
+      "slug": "nikka-coffey-grain",
+      "name": "Nikka Coffey Grain",
+      "category": "Japonia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 269.99,
+        "grossCostPerLiterPln": 385.7,
+        "costPer25mlPln": 9.64,
+        "costPer50mlPln": 19.29,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/~~-sortuj_2s-strona_3s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.tasteselectrepeat.com/cdn/shop/files/nikka-coffey-grain-whisky_tsr-950.png?v=1739050960&width=500",
+        "sourcePage": "https://www.tasteselectrepeat.com/ko/products/nikka-whisky-coffey-grain",
+        "alt": "Butelka Nikka Coffey Grain",
+        "recommendedLocalPath": "/assets/whisky/nikka-coffey-grain.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 49,
+      "slug": "nikka-yoichi-single-malt",
+      "name": "Nikka Yoichi Single Malt",
+      "category": "Japonia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 449.99,
+        "grossCostPerLiterPln": 642.84,
+        "costPer25mlPln": 16.07,
+        "costPer50mlPln": 32.14,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/~~-sortuj_2s-strona_3s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.mizunaratheshop.sg/cdn/shop/files/NikkaYoichiSingleMaltJapaneseWhisky.png?v=1721182827&width=1500",
+        "sourcePage": "https://www.mizunaratheshop.sg/collections/yoichi-single-malt-japanese-whisky",
+        "alt": "Butelka Nikka Yoichi Single Malt",
+        "recommendedLocalPath": "/assets/whisky/nikka-yoichi-single-malt.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 50,
+      "slug": "hibiki-japanese-harmony",
+      "name": "Hibiki Japanese Harmony",
+      "category": "Japonia",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 469.99,
+        "grossCostPerLiterPln": 671.41,
+        "costPer25mlPln": 16.79,
+        "costPer50mlPln": 33.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "na wyczerpaniu",
+        "sourceUrl": "https://grupagrabiec.pl/whisky-hibiki-japanese-harmony-43-07l/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn.shopify.com/s/files/1/0681/3348/6842/files/164761__26704.1701223066.1280.1280.jpg?v=1748453489",
+        "sourcePage": "https://www.wallywine.com/products/suntory-hibiki-harmony-blended-japanese-whisky-750ml",
+        "alt": "Butelka Hibiki Japanese Harmony",
+        "recommendedLocalPath": "/assets/whisky/hibiki-japanese-harmony.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 51,
+      "slug": "yamazaki-12",
+      "name": "Yamazaki 12",
+      "category": "Japonia",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 699.0,
+        "grossCostPerLiterPln": 998.57,
+        "costPer25mlPln": 24.96,
+        "costPer50mlPln": 49.93,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Premium Spirits",
+        "availability": "oferta promocyjna",
+        "sourceUrl": "https://premiumspirits.pl/product/whisky-yamazaki-12yo-07l-43/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://barrelshoppe.com/cdn/shop/files/yamazaki-single-malt-12year_grande.png?v=1717458853",
+        "sourcePage": "https://barrelshoppe.com/products/the-yamazaki-single-malt-japanese-whisky-12-yo",
+        "alt": "Butelka Yamazaki 12",
+        "recommendedLocalPath": "/assets/whisky/yamazaki-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 52,
+      "slug": "hakushu-12",
+      "name": "Hakushu 12",
+      "category": "Japonia",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 1299.99,
+        "grossCostPerLiterPln": 1857.13,
+        "costPer25mlPln": 46.43,
+        "costPer50mlPln": 92.86,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Grupa Grabiec",
+        "availability": "oferta online",
+        "sourceUrl": "https://grupagrabiec.pl/sklep/whisky/na-prezent/~~-sortuj_1s-strona_2s/",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://sipwhiskey.com/cdn/shop/products/DSC_0416.jpg?v=1569302562",
+        "sourcePage": "https://sipwhiskey.com/products/the-hakushu-12-years-old",
+        "alt": "Butelka Hakushu 12",
+        "recommendedLocalPath": "/assets/whisky/hakushu-12.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 53,
+      "slug": "kavalan-classic",
+      "name": "Kavalan Classic",
+      "category": "Reszta świata",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 299.0,
+        "grossCostPerLiterPln": 427.14,
+        "costPer25mlPln": 10.68,
+        "costPer50mlPln": 21.36,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Singlemalt.pl",
+        "availability": "oferta online",
+        "sourceUrl": "https://singlemalt.pl/wg-ceny/200-zl-300-zl?wh_destylernia%5B1%5D=Kavalan",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://zyn.ca/cdn/shop/files/8286102-Kavalan-Classic-Single-Malt_1024x1024.jpg?v=1735368838",
+        "sourcePage": "https://zyn.ca/products/kavalan-classic-single-malt",
+        "alt": "Butelka Kavalan Classic",
+        "recommendedLocalPath": "/assets/whisky/kavalan-classic.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 54,
+      "slug": "kavalan-solist-vinho-barrique",
+      "name": "Kavalan Solist Vinho Barrique",
+      "category": "Reszta świata",
+      "segment": "Prestige",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 699.0,
+        "grossCostPerLiterPln": 998.57,
+        "costPer25mlPln": 24.96,
+        "costPer50mlPln": 49.93,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Świat Whisky & Wina",
+        "availability": "bardzo mała ilość",
+        "sourceUrl": "https://www.whiskyiwina.pl/pl/products/whisky-kavalan-solist-vinho-barrique-cask-nr-w180124370-strength-0-7l-58-6-taiwan-private-selection-by-jarek-buss-son-2211.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://lucacollections.com.au/cdn/shop/products/solistvinhobarrique.png?v=1672468975",
+        "sourcePage": "https://lucacollections.com.au/ja-jp/products/kavalan-solist-vinho-barrique-taiwanese-whisky",
+        "alt": "Butelka Kavalan Solist Vinho Barrique",
+        "recommendedLocalPath": "/assets/whisky/kavalan-solist-vinho-barrique.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 55,
+      "slug": "amrut-fusion",
+      "name": "Amrut Fusion",
+      "category": "Reszta świata",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 259.99,
+        "grossCostPerLiterPln": 371.41,
+        "costPer25mlPln": 9.29,
+        "costPer50mlPln": 18.57,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Spirits Loft",
+        "availability": "Amrut Fusion 50% 700 ml widoczny w ofertach powiązanych",
+        "sourceUrl": "https://sklep.spiritsloft.pl/produkt/373%2Camrut-bagheera-sherry-cask-finish-46-700ml-szklanki",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena Amrut Fusion 50% 700 ml potwierdzona w aktualnej ofercie sklepowej; URL prowadzi do strony, na której produkt jest widoczny w sekcji powiązanej.",
+      "image": {
+        "remoteUrl": "https://images.gotoliquorstore.com/product/1000012192/020e368e-d45e-41e6-b29b-78b1c1fe8601_510_m.jpg",
+        "sourcePage": "https://www.armanettirm.com/p/amrut-fusion-indian-single-malt-whiskey/12198",
+        "alt": "Butelka Amrut Fusion",
+        "recommendedLocalPath": "/assets/whisky/amrut-fusion.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 56,
+      "slug": "paul-john-brilliance",
+      "name": "Paul John Brilliance",
+      "category": "Reszta świata",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 199.99,
+        "grossCostPerLiterPln": 285.7,
+        "costPer25mlPln": 7.14,
+        "costPer50mlPln": 14.29,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "AlkoOutlet",
+        "availability": "na wyczerpaniu",
+        "sourceUrl": "https://alkooutlet.pl/pl/p/Paul-John-Brilliance-46-0%2C7/12273",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.theliquorshop.com.sg/cdn/shop/files/67a56ab319c6c_1738894003_512x512.jpg?v=1738913343",
+        "sourcePage": "https://www.theliquorshop.com.sg/products/paul-john-brilliance-indian-single-malt-whisky-abv-46-700ml",
+        "alt": "Butelka Paul John Brilliance",
+        "recommendedLocalPath": "/assets/whisky/paul-john-brilliance.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 57,
+      "slug": "starward-two-fold",
+      "name": "Starward Two-Fold",
+      "category": "Reszta świata",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 750,
+        "grossPricePln": 225.0,
+        "grossCostPerLiterPln": 300.0,
+        "costPer25mlPln": 7.5,
+        "costPer50mlPln": 15.0,
+        "nominalServings25ml": 30,
+        "nominalServings50ml": 15,
+        "supplier": "CaskCartel (PL)",
+        "availability": "niedostępny; cena referencyjna",
+        "sourceUrl": "https://caskcartel.com/en-pl/products/starward-two-fold-double-grain-australian-whisky",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Brak aktywnej polskiej oferty znalezionej w wyszukiwaniu; użyta cena referencyjna sklepu prezentującego PLN.",
+      "image": {
+        "remoteUrl": "https://unwindbottleshop.com/cdn/shop/products/STARWARD_TWO_FOLD_2f53f5fb-46c0-4e4a-8328-ac4d99a08e04.jpg?v=1708544489&width=1946",
+        "sourcePage": "https://unwindbottleshop.com/products/starward-whiskey-two-fold-whisky-750ml",
+        "alt": "Butelka Starward Two-Fold",
+        "recommendedLocalPath": "/assets/whisky/starward-two-fold.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 58,
+      "slug": "penderyn-madeira-finish",
+      "name": "Penderyn Madeira Finish",
+      "category": "Reszta świata",
+      "segment": "Standard",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 229.0,
+        "grossCostPerLiterPln": 327.14,
+        "costPer25mlPln": 8.18,
+        "costPer50mlPln": 16.36,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Aleeks Alkohole",
+        "availability": "chwilowy brak towaru",
+        "sourceUrl": "https://aleeksalkohole.pl/pl/p/Whisky-Penderyn-Madeira-Finish-0%2C7L-46/1879",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://www.cdiscount.com/pdt2/e/i/r/2/550x550/penderynmadeir/rw/penderyn-madeira-finished-welsh-whisky.jpg",
+        "sourcePage": "https://www.cdiscount.com/vin-champagne/whisky-scotch-alcool-aperitif/penderyn-madeira-finished-welsh-whisky/f-1294133-penderynmadeir.html",
+        "alt": "Butelka Penderyn Madeira Finish",
+        "recommendedLocalPath": "/assets/whisky/penderyn-madeira-finish.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 59,
+      "slug": "lot-no-40-rye",
+      "name": "Lot No. 40 Rye",
+      "category": "Reszta świata",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 219.0,
+        "grossCostPerLiterPln": 312.86,
+        "costPer25mlPln": 7.82,
+        "costPer50mlPln": 15.64,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "Darwina",
+        "availability": "niedostępny",
+        "sourceUrl": "https://darwina.pl/lot-no-40-small-batch-crafted-rye-whisky-43-700ml%2Cid25320.html",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://spliquor.ca/cdn/shop/files/LotNo.40100_PotStillRyeWhisky750mL.jpg?v=1771738692",
+        "sourcePage": "https://spliquor.ca/products/lot-no-40-100-pot-still-rye-whisky-750-ml",
+        "alt": "Butelka Lot No. 40 Rye",
+        "recommendedLocalPath": "/assets/whisky/lot-no-40-rye.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    },
+    {
+      "id": 60,
+      "slug": "armorik-double-maturation",
+      "name": "Armorik Double Maturation",
+      "category": "Reszta świata",
+      "segment": "Premium",
+      "startingQuantity": 1,
+      "purchase": {
+        "bottleVolumeMl": 700,
+        "grossPricePln": 356.0,
+        "grossCostPerLiterPln": 508.57,
+        "costPer25mlPln": 12.71,
+        "costPer50mlPln": 25.43,
+        "nominalServings25ml": 28,
+        "nominalServings50ml": 14,
+        "supplier": "M&P / Wolt",
+        "availability": "oferta lokalna M&P",
+        "sourceUrl": "https://wolt.com/pl/pol/gdansk/venue/mp-alkohole-wina-cygara-rajska/items/whisky-4",
+        "checkedAt": "2026-08-30"
+      },
+      "notes": "Cena zweryfikowana online.",
+      "image": {
+        "remoteUrl": "https://cdn1.lesgrandsalambics.com/3647-zoom_default/armorik-double-maturation.jpg",
+        "sourcePage": "https://www.lesgrandsalambics.com/whisky/996-armorik-double-maturation.html",
+        "alt": "Butelka Armorik Double Maturation",
+        "recommendedLocalPath": "/assets/whisky/armorik-double-maturation.webp",
+        "usage": "download-and-host-locally",
+        "checkedAt": "2026-08-30"
+      }
+    }
+  ],
+  "imagePolicy": {
+    "currentMode": "remote source links",
+    "recommended": "Codex should download each remoteUrl and save it under recommendedLocalPath, then serve locally",
+    "warning": "External image URLs can change and may have usage/licensing restrictions. Verify rights before commercial publication.",
+    "checkedAt": "2026-08-30"
+  }
+}
