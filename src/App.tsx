@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, NavLink, Route, Routes, useLocation, useParams } from 'react-router-dom'
-import { ArrowRight, Check, ChevronDown, Clock3, Facebook, Instagram, MapPin, Menu as MenuIcon, Phone, Quote, Star, X } from 'lucide-react'
+import { ArrowRight, Check, ChevronDown, Clock3, Facebook, Instagram, MapPin, Menu as MenuIcon, Phone, Quote, X } from 'lucide-react'
 import { flights, whiskies } from './data'
 
 const nav = [['/menu', 'Menu'], ['/degustacje', 'Degustacje'], ['/o-nas', 'O nas'], ['/kontakt', 'Kontakt']]
@@ -56,9 +56,11 @@ function MenuPage() {
   const [query, setQuery] = useState('')
   const countries = ['Wszystkie', ...new Set(whiskies.map(w => w.country))]
   const shown = useMemo(() => whiskies.filter(w => (country === 'Wszystkie' || w.country === country) && w.name.toLowerCase().includes(query.toLowerCase())), [country, query])
-  return <PageHero eyebrow="Karta whisky" title={<>Znajdź swój <em>smak.</em></>} text="Klasyki, niezależne rozlewnie i butelki z mniej oczywistych zakątków świata." ><div className="filters"><label><span className="sr-only">Szukaj whisky</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Szukaj po nazwie…" /></label><div className="filter-buttons">{countries.map(c => <button className={country === c ? 'active' : ''} onClick={() => setCountry(c)} key={c}>{c}</button>)}</div></div></PageHero>
-  <section className="container menu-section"><p className="results">{shown.length} {shown.length === 1 ? 'pozycja' : 'pozycji'}</p><div className="whisky-grid">{shown.map((w, i) => <WhiskyCard whisky={w} number={String(i+1).padStart(2,'0')} key={w.slug} />)}</div></section>
-  }
+  return <>
+    <PageHero eyebrow="Karta whisky" title={<>Znajdź swój <em>smak.</em></>} text="Klasyki, niezależne rozlewnie i butelki z mniej oczywistych zakątków świata." ><div className="filters"><label><span className="sr-only">Szukaj whisky</span><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Szukaj po nazwie…" /></label><div className="filter-buttons">{countries.map(c => <button className={country === c ? 'active' : ''} onClick={() => setCountry(c)} key={c}>{c}</button>)}</div></div></PageHero>
+    <section className="container menu-section"><p className="results">{shown.length} {shown.length === 1 ? 'pozycja' : 'pozycji'}</p><div className="whisky-grid">{shown.map((w, i) => <WhiskyCard whisky={w} number={String(i+1).padStart(2,'0')} key={w.slug} />)}</div></section>
+  </>
+}
 
 function WhiskyDetail() {
   const { slug } = useParams(); const w = whiskies.find(item => item.slug === slug)
