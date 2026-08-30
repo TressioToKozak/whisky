@@ -3,3 +3,30 @@
 @media(max-width:900px){.navbar{height:72px}.navbar>a img{width:160px}.nav-toggle{display:block;z-index:3}.navbar nav{display:none;position:absolute;top:0;left:0;right:0;background:#0d0e0c;padding:100px 24px 35px;flex-direction:column;align-items:stretch}.navbar nav.open{display:flex}.navbar nav a{font-size:17px;padding:8px}.hero{min-height:720px}.hero-mark{width:420px;height:420px;right:-20%;top:25%}.split,.detail-grid,.event{grid-template-columns:1fr;gap:55px}.whisky-grid,.menu-section .whisky-grid{grid-template-columns:repeat(2,1fr)}.flight-promo>img{display:none}.promo-card{padding:55px}.flight-grid,.values-grid{grid-template-columns:1fr}.event-price{border-left:0;border-top:1px solid var(--line);padding:40px 0 0}.footer-grid,.contact-grid{grid-template-columns:1fr 1fr}.detail-grid{max-width:650px}.bottle-shape{height:400px}.page-emblem{right:-25%}}
 @media(max-width:600px){.container{width:min(100% - 32px,1180px)}.navbar{padding-inline:16px}h1{font-size:50px}h2{font-size:39px}.hero{height:auto;min-height:760px;padding-top:60px}.hero .lead{font-size:15px}.actions{align-items:flex-start;flex-direction:column}.intro,.visit,.story{padding:85px 0}.dark-section{padding:80px 0}.section-head{align-items:flex-start;flex-direction:column;gap:25px}.whisky-grid,.menu-section .whisky-grid{grid-template-columns:1fr}.flight-promo{padding:80px 0}.promo-card{padding:38px 27px}.quote{padding:90px 0}.visit-box{padding:35px 28px}.page-hero{padding:135px 0 70px}.page-hero h1{font-size:50px}.menu-section,.tasting-section{padding:55px 0 80px}.detail{padding:110px 0 80px}.detail h1{font-size:49px}.bottle-shape{height:330px}.specs{gap:10px}.form-card{padding:22px}.form-grid{grid-template-columns:1fr}.form-card form>small{display:block;margin:15px 0}.footer-grid,.contact-grid{grid-template-columns:1fr}.copyright{flex-direction:column;gap:12px}.age-card{padding:30px 22px}.age-card h2{font-size:35px}.age-card>div{flex-direction:column}.scroll-hint{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* Katalog whisky */
+.whisky-card{padding:28px;min-height:590px}
+.whisky-card:after{display:none}
+.whisky-card h3{font-size:25px;max-width:none;margin:10px 0 12px}
+.card-number{z-index:1;right:20px;top:15px;font-size:30px}
+.card-image{height:240px;margin:-8px -8px 24px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,#302519 0,transparent 68%)}
+.card-image img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 12px 12px rgba(0,0,0,.45))}
+.segment{align-self:flex-start;border:1px solid #4a4236;color:#aaa69d;padding:5px 9px;font-size:9px;text-transform:uppercase;letter-spacing:.12em}
+.serving-prices{display:grid;gap:9px;margin-top:auto;padding-top:22px;border-top:1px solid var(--line)}
+.serving-prices strong{color:var(--gold);font-size:17px}
+.serving-prices strong b,.serving-prices span b{color:var(--cream);font-weight:600}
+.serving-prices span{color:#999;font-size:14px}
+.card-link{display:flex;align-items:center;gap:8px;margin-top:20px;color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:.12em}
+.card-link svg{width:14px}
+.filter-group{margin-top:20px}
+.filter-group>span{display:block;color:#777;font-size:9px;text-transform:uppercase;letter-spacing:.16em}
+.filter-group .filter-buttons{margin-top:9px}
+.menu-section .whisky-card{min-height:590px}
+.bottle-shape img{width:85%;height:88%;object-fit:contain;opacity:1;filter:drop-shadow(0 18px 20px rgba(0,0,0,.55))}
+.detail-prices{display:grid;grid-template-columns:1.15fr 1fr;gap:14px;margin:32px 0}
+.detail-prices>div{display:flex;flex-direction:column;gap:9px;border:1px solid var(--line);padding:20px}
+.detail-prices>div:first-child{border-color:var(--gold);background:rgba(185,147,82,.08)}
+.detail-prices small{color:#777;font-size:8px;letter-spacing:.14em}
+.detail-prices strong{font-family:var(--serif);font-size:25px;color:var(--gold)}
+.detail-prices span{font-size:18px;color:#bbb}
+@media(max-width:600px){.detail-prices{grid-template-columns:1fr}.whisky-card,.menu-section .whisky-card{min-height:560px}}
