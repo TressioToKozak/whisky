@@ -343,3 +343,47 @@ h1 { display: flex; align-items: center; gap: 14px; font-size: 31px; line-height
 
 .detail-price summary { cursor: pointer; margin-top: 12px; font-size: 12px; color: var(--muted); }
 .detail-price details[open] summary { margin-bottom: 8px; }
+
+/* Brand selection stays separate from the bottle catalog. */
+.brand-picker { padding-bottom: 12px; }
+.brand-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 16px; }
+.brand-card { min-width: 0; padding: 0; text-align: left; border: 1px solid var(--line); border-radius: 7px; background: #1c1e1a; overflow: hidden; transition: border-color .15s, background .15s; }
+.brand-card:hover { border-color: #a18a63; background: #24251f; }
+.brand-logo { display: flex; align-items: center; justify-content: center; height: 150px; padding: 26px; background: #20221e; }
+.brand-logo img { width: 100%; height: 100%; max-width: 200px; object-fit: contain; }
+.brand-card-caption { display: flex; align-items: center; justify-content: space-between; gap: 5px; padding: 14px; font-size: 14px; }
+.brand-card-caption small { display: block; margin-top: 5px; font-size: 11px; font-weight: 400; color: var(--muted); }
+.brand-card-caption svg { color: var(--accent); }
+.brand-jim-beam .brand-logo, .brand-toki .brand-logo { background: #f0eee7; }
+.back-brands { display: flex; align-items: center; gap: 5px; padding: 0; min-height: 38px; color: var(--muted); font-size: 12px; margin: -14px 0 14px; }
+.back-brands > svg { transform: rotate(180deg); }
+.brand-empty > img { display: block; width: 180px; height: 90px; object-fit: contain; margin: 0 auto 25px; }
+.brand-empty h2 { font-size: 23px; font-weight: 500; }
+@media (max-width: 1150px) { .brand-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } }
+@media (max-width: 600px) {
+ .brand-grid { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+ .brand-logo { height: 108px; padding: 20px; }
+ .brand-card-caption { padding: 12px 10px; font-size: 13px; }
+ .brand-card-caption small { font-size: 10px; }
+ .back-brands { margin: -9px 0 14px; }
+}
+.brand-johnnie-walker .brand-logo, .brand-ardbeg .brand-logo, .brand-goldfinch .brand-logo { background: #f0eee7; }
+.brand-empty > img { background: #f0eee7; border-radius: 4px; padding: 12px; }
+/* The source file stays intact. CSS crops unused margins and extends the measured
+   studio-paper tone, including photographs whose background is not pure white. */
+.bottle-photo {
+ mask-image: linear-gradient(90deg,transparent 0%,#000 4%,#000 96%,transparent 100%),linear-gradient(0deg,transparent 0%,#000 3%,#000 97%,transparent 100%);
+ mask-composite: intersect;
+}
+.photo-open { padding: 12px 16px; }
+.detail-photo { overflow: hidden; }
+@media (max-width: 600px) { .photo-open { padding: 9px 7px; } }
+.brand-toki .brand-logo img, .brand-empty.brand-toki > img { object-view-box: inset(43.8% 44.5% 47.4% 30.6%); }
+.brand-empty > img { background: #20221e; }
+.brand-empty.brand-johnnie-walker > img, .brand-empty.brand-jim-beam > img, .brand-empty.brand-goldfinch > img, .brand-empty.brand-ardbeg > img, .brand-empty.brand-toki > img { background: #f0eee7; }
+.photo-open, .detail-photo { container-type: size; display: grid; place-items: center; }
+.bottle-photo { width: min(100cqw, calc(100cqh * var(--photo-ratio,1))); height: min(100cqh, calc(100cqw / var(--photo-ratio,1))); }
+@supports not (object-view-box: inset(1%)) { .bottle-photo { width: 100%; height: 100%; mask-image: none; } }
+@supports (object-view-box: inset(1%)) { .bottle-photo { clip-path: var(--photo-clip,none); } }
+.personal-catalog { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 48px; margin-top: 20px; padding: 12px 0; text-align: left; color: var(--muted); font-size: 13px; }
+.personal-catalog span { margin-left: auto; color: var(--accent); }

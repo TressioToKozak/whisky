@@ -6846,5 +6846,2929 @@
         "volumeMl": null
       }
     ]
+  },
+  "jd-213370286da9": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 18.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-honey-70cl",
+        "volumeMl": 700,
+        "name": "Tennessee Honey"
+      }
+    ]
+  },
+  "jd-51c20cabcae7": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 18.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-fire-70cl",
+        "volumeMl": 700,
+        "name": "Tennessee Fire"
+      }
+    ]
+  },
+  "jd-54b8c42456f8": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 18.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-apple-70cl",
+        "volumeMl": 700,
+        "name": "Tennessee Apple"
+      }
+    ]
+  },
+  "jd-718998175b4f": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 19.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniels-blackberry-0-70-liter",
+        "volumeMl": 700,
+        "name": "Tennessee Blackberry"
+      }
+    ]
+  },
+  "jd-faccf2cee6ba": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 79.5,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-american-single-malt-1ltr",
+        "volumeMl": 1000,
+        "name": "American Single Malt"
+      }
+    ]
+  },
+  "jd-78f2ff591d40": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 86.2,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniels-single-barrel-heritage-1-liter-l0022800",
+        "volumeMl": 1000,
+        "name": "Single Barrel Heritage Barrel · 1 L"
+      }
+    ]
+  },
+  "jd-3c0f56ada9a8": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 18.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/jack-daniels-70-cl.html",
+        "volumeMl": 700,
+        "name": "Old No. 7"
+      }
+    ]
+  },
+  "jd-aeb143dbf537": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 32.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniels-mclaren-x-jd-limited-edition-2025-gb-1-liter-l0197100",
+        "volumeMl": 1000,
+        "name": "McLaren x JD · 2025"
+      }
+    ]
+  },
+  "jd-ed6b6939efa5": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 104.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniels-10-years-batch-5-0-70-liter-l0135000",
+        "volumeMl": 700,
+        "name": "Jack Daniel's 10 Years Batch 5 0.70 liter"
+      }
+    ]
+  },
+  "jd-5ed7f1b2c069": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850499-jack-daniels-no27-gold-double-barreled/",
+        "priceGBP": 60.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/07b680c104104202c994617bba373f9c-large.jpg",
+        "lot": "Lot no 174-03426",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £60 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. One of the whiskey giants limited edition bottlings, which is twice charcoal mellowed in golden-hued maple barrels. 40% ABV / 70cl Please note minor wear to box Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842727-jack-daniels-no27-gold-double-barreled/",
+        "priceGBP": 65.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/aa22776f1c8144eb7209d1b7e8edc19e-large.jpg",
+        "lot": "Lot no 173-01667",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £65 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. One of the whiskey giants limited edition bottlings, which is twice charcoal mellowed in golden-hued maple barrels. 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/221-auction/837433-jack-daniels-no27-gold-double-barreled/",
+        "priceGBP": 60.0,
+        "soldMonth": "October 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/62f55a002b1b201855cfae88f23d0459-large.jpg",
+        "lot": "Lot no 172-02133",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "October 12, 2025",
+        "pageText": "Winning bid: £60 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. One of the whiskey giants limited edition bottlings, which is twice charcoal mellowed in golden-hued maple barrels. 40% ABV / 70cl Please note minor scuffing to box. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Gold No.27",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/220-auction/834504-jack-daniels-gold-no27/",
+        "priceGBP": 120.0,
+        "soldMonth": "September 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c291e193734d4c0dd6312456d11ca1e4-large.jpg",
+        "lot": "Lot no 171-04229",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "September 14, 2025",
+        "pageText": "Winning bid: £120 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. One of the whiskey giants limited edition bottlings, which is twice charcoal mellowed in golden-hued maple barrels. 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Gold No.27",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/220-auction/834503-jack-daniels-gold-no27/",
+        "priceGBP": 120.0,
+        "soldMonth": "September 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6849d7ca96b899f9f59183367d08dbfd-large.jpg",
+        "lot": "Lot no 171-04228",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "September 14, 2025",
+        "pageText": "Winning bid: £120 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. One of the whiskey giants limited edition bottlings, which is twice charcoal mellowed in golden-hued maple barrels. 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-3621a0258fc6": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 28.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-x-mclaren-formula-1-team-2026-edition-whiskey/?sku=147471",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-0cf88cfbdb38": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/846140-jack-daniels-single-barrel/",
+        "priceGBP": 55.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/00d79394549341b165fd28e4e9b597d9-large.jpg",
+        "lot": "Lot no 173-05007",
+        "abv": 45.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bottled: 05.08.2018 Barrel Number: 18-2741 45% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Single Barrel",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/217-auction/815932-jack-daniels-single-barrel/",
+        "priceGBP": 30.0,
+        "soldMonth": "June 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/61e9559985ffdb045dd3a4bb978f70b2-large.jpg",
+        "lot": "Lot no 168-01224",
+        "abv": 45.0,
+        "volume": 700,
+        "ended": "June 8, 2025",
+        "pageText": "Winning bid: £30 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bottled: 21.04.2021 Barrel Number: 21-03540 45% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-e7c7a55da65a": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 24.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-gentleman-jack-70cl",
+        "volumeMl": 700,
+        "name": "Jack Daniel's Gentleman Jack 70cl"
+      }
+    ]
+  },
+  "jd-d79908a562b7": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 125th Anniversary of the Red Dog Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898281-jack-daniels-125th-anniversary-of-the-red-dog-saloon/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/8f664b07d14e7da893818aed67d16613-large.jpg",
+        "lot": "Lot no 183-04479",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: RD 683510 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 125th Anniversary of the Red Dog Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898280-jack-daniels-125th-anniversary-of-the-red-dog-saloon/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/95ba1af1d8f6c847d189bfc5b0100d34-large.jpg",
+        "lot": "Lot no 183-04478",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: RD 750367 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 125th Anniversary of the Red Dog Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898279-jack-daniels-125th-anniversary-of-the-red-dog-saloon/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/729fcee913a6688b31c69ecb3af3d960-large.jpg",
+        "lot": "Lot no 183-04477",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: RD 683516 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 125th Anniversary of the Red Dog Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898278-jack-daniels-125th-anniversary-of-the-red-dog-saloon/",
+        "priceGBP": 40.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c7a8eb0ff6f4cea307a333755fc87104-large.jpg",
+        "lot": "Lot no 183-04476",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: RD 688588 Please note condition of carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 125th Anniversary of the Red Dog Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898277-jack-daniels-125th-anniversary-of-the-red-dog-saloon/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/936f96de43b06b463dee2770dba33fcd-large.jpg",
+        "lot": "Lot no 183-04475",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: RD 688554 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ac97bac69fc6": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Travelers Bold & Spicy 50cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812376-jack-daniels-tennessee-travelers-bold--spicy-50cl/",
+        "priceGBP": 25.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/d266af5c605f5b97693d35268a9dddf8-large.jpg",
+        "lot": "Lot no 167-02671",
+        "abv": 53.5,
+        "volume": 500,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bold & Spicy 53.5% ABV / 50cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Travelers Bold & Spicy 50cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812373-jack-daniels-tennessee-travelers-bold--spicy-50cl/",
+        "priceGBP": 20.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/222c125ec53788b6d107a9a869b1ba7a-large.jpg",
+        "lot": "Lot no 167-02668",
+        "abv": 53.5,
+        "volume": 500,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £20 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 53.5% ABV / 50cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Travelers Bold & Spicy 50cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/811425-jack-daniels-tennessee-travelers-bold--spicy-50cl/",
+        "priceGBP": 20.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/bf557615f732b139176f63d874f69d5d-large.jpg",
+        "lot": "Lot no 167-01728",
+        "abv": 53.5,
+        "volume": 500,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £20 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bold & Spicy 53.5% ABV / 50cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-8f09d491afa0": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Travelers Sweet & Oaky 50cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812498-jack-daniels-tennessee-travelers-sweet--oaky-50cl/",
+        "priceGBP": 25.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9c35be7bc8ce4b98f376c46f18709101-large.jpg",
+        "lot": "Lot no 167-02793",
+        "abv": 53.5,
+        "volume": 500,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Sweet & Oaky 53.5% ABV / 50cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Travelers Sweet & Oaky 50cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812389-jack-daniels-tennessee-travelers-sweet--oaky-50cl/",
+        "priceGBP": 25.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/238c1b8c5b764e05ecb9d12347d77976-large.jpg",
+        "lot": "Lot no 167-02684",
+        "abv": 53.5,
+        "volume": 500,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Sweet & Oaky 53.5% ABV / 50cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-07422fff191a": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 29.45,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-bonded-70cl",
+        "volumeMl": 700,
+        "name": "Jack Daniel's Bonded 70cl"
+      }
+    ]
+  },
+  "jd-d178e578149b": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel Rye",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/230-auction/885893-jack-daniels-single-barrel-rye/",
+        "priceGBP": 35.0,
+        "soldMonth": "July 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/145d2a167cc7b99b6824ab455f28449c-large.jpg",
+        "lot": "Lot no 181-02841",
+        "abv": 45.0,
+        "volume": 700,
+        "ended": "July 12, 2026",
+        "pageText": "Winning bid: £35 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bottled: 06.11.2018 Barrel Number: 18-8343 45% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-4c20bc914736": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 34.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniels-bonded-rye-0-70-liter",
+        "volumeMl": 700,
+        "name": "Jack Daniel's Bonded Rye 0.70 liter"
+      }
+    ]
+  },
+  "jd-8cac8f130e72": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 34.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-triple-mash-70cl",
+        "volumeMl": 700,
+        "name": "Jack Daniel's Triple Mash 70cl"
+      }
+    ]
+  },
+  "jd-b18f4be6f506": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-monogram-2004-whisky/?sku=52828",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-fa41d47584fc": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 499.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-bicentennial-tennessee-whiskey/?sku=80824",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-8514c3accba3": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s White Rabbit Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889375-jack-daniels-white-rabbit-saloon/",
+        "priceGBP": 55.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b1ffe1879aa7bc595e433dc4bfa5b478-large.jpg",
+        "lot": "Lot no 182-01074",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Released in honour of the 120th anniversary of the opening of the White Rabbit Saloon - owned by the man himself, Mr Jack Daniel. This special edition is bottled at a higher strength than the usual Old No.7 and comes in rather nice packaging too. 43% ABV / 70cl Bottle Number: FX 6389 Please note minor wear to labels and carton Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s White Rabbit Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/865279-jack-daniels-white-rabbit-saloon/",
+        "priceGBP": 35.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c5487c83eccc9290b9bf3c8ebb1fb01d-large.jpg",
+        "lot": "Lot no 177-03218",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £35 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Released in honour of the 120th anniversary of the opening of the White Rabbit Saloon - owned by the man himself, Mr Jack Daniel. This special edition is bottled at a higher strength than the usual Old No.7 and comes in rather nice packaging too. 43% ABV / 70cl Bottle Number: CC 4224 Please note minor wear to carton Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s White Rabbit Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850508-jack-daniels-white-rabbit-saloon/",
+        "priceGBP": 65.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/daf29551a996cd6b1c307f355ede35bb-large.jpg",
+        "lot": "Lot no 174-03435",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £65 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Released in honour of the 120th anniversary of the opening of the White Rabbit Saloon - owned by the man himself, Mr Jack Daniel. This special edition is bottled at a higher strength than the usual Old No.7 and comes in rather nice packaging too. 43% ABV / 70cl Bottle Number: 8806 Please note minor wear to label and carton Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s White Rabbit Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812515-jack-daniels-white-rabbit-saloon/",
+        "priceGBP": 50.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/3df1caedc096049ef3069993b4ce9163-large.jpg",
+        "lot": "Lot no 167-02810",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £50 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Released in honour of the 120th anniversary of the opening of the White Rabbit Saloon - owned by the man himself, Mr Jack Daniel. This special edition is bottled at a higher strength than the usual Old No.7 and comes in rather nice packaging too. 43% ABV / 70cl Bottle Number: CF 2353 Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s White Rabbit Saloon",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812514-jack-daniels-white-rabbit-saloon/",
+        "priceGBP": 40.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/42be728b3ac35e7fd7fa050dc6af42be-large.jpg",
+        "lot": "Lot no 167-02809",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Released in honour of the 120th anniversary of the opening of the White Rabbit Saloon - owned by the man himself, Mr Jack Daniel. This special edition is bottled at a higher strength than the usual Old No.7 and comes in rather nice packaging too. 43% ABV / 70cl Bottle Number: FA 4124 Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-5f8a90d11c03": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-rested-tennessee-rye-whiskey/?sku=133877",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-265c4d02d86c": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 150th Anniversary",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898275-jack-daniels-150th-anniversary/",
+        "priceGBP": 25.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/83ea49141140c836c2468209b37e53f4-large.jpg",
+        "lot": "Lot no 183-04473",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 150th Anniversary",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898274-jack-daniels-150th-anniversary/",
+        "priceGBP": 30.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/46aae72e40ab9d2264ca996813fe1ebc-large.jpg",
+        "lot": "Lot no 183-04472",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £30 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Please note wear to label. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 150th Anniversary",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898273-jack-daniels-150th-anniversary/",
+        "priceGBP": 30.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/53d511eb9df0a67da6200045c2ea8e54-large.jpg",
+        "lot": "Lot no 183-04471",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £30 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 150th Anniversary",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/880263-jack-daniels-150th-anniversary/",
+        "priceGBP": 100.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6bdba86cc01e856e3afcc2fc133c0dea-large.jpg",
+        "lot": "Lot no 180-02370",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £100 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: TN 50681 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-23f5ad5529dd": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-twice-barreled-rye-limited-edition-2023-whiskey/?sku=144736",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-d83a3bbcf6ab": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-angelo-lucchesi-90th-birthday-whiskey/?sku=148000",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-43a788606002": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899584-jack-daniels-master-distiller-series-no3/",
+        "priceGBP": 40.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/2aec0aed7797212d52dc5a914d48fda0-large.jpg",
+        "lot": "Lot no 184-01021",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 3 edition. 43% ABV / 70cl Bottle Number: 1636 Please note minor creasing on carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889369-jack-daniels-master-distiller-series-no3/",
+        "priceGBP": 60.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/84438fdefb64a28128ce8dc59beaf203-large.jpg",
+        "lot": "Lot no 182-01068",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £60 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 3 edition. 43% ABV / 70cl Bottle Number: XJ 1644 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/878607-jack-daniels-master-distiller-series-no3/",
+        "priceGBP": 45.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1eff807bce18b22fd80a143c395748bb-large.jpg",
+        "lot": "Lot no 180-00745",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 3 edition. 43% ABV / 70cl Bottle Number: WY 3234 Please note minor creasing to carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/878606-jack-daniels-master-distiller-series-no3/",
+        "priceGBP": 55.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/69b66de3590eff683c5f5a8a94f44b6d-large.jpg",
+        "lot": "Lot no 180-00744",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 3 edition. 43% ABV / 70cl Bottle Number: WY 3257 Please note minor creasing to carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842426-jack-daniels-master-distiller-series-no3/",
+        "priceGBP": 40.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/30a5e4a1bfc8cdd4819517b14ad5bfb3-large.jpg",
+        "lot": "Lot no 173-01367",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 3 edition. 43% ABV / 70cl Bottle Number: WS 9405 Please note creasing to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-644a7b4b7d52": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/893871-jack-daniels-10-year-old-batch-4/",
+        "priceGBP": 80.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/d60266f13ae1b0048e61b35f816bba01-large.jpg",
+        "lot": "Lot no 183-00677",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £80 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Age: 10 Years Old Batch Number: 04 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/890462-jack-daniels-10-year-old-batch-4/",
+        "priceGBP": 95.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/80477de73a9f62e4e39dfb4984c24cc2-large.jpg",
+        "lot": "Lot no 182-02129",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £95 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Age: 10 Years Old Batch Number: 04 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #4 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/881566-jack-daniels-10-year-old-batch-4-75cl/",
+        "priceGBP": 90.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/e02904a45c19511e449044214760b225-large.jpg",
+        "lot": "Lot no 180-03588",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £90 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Age: 10 Years Old Batch Number: 04 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/866260-jack-daniels-10-year-old-batch-4/",
+        "priceGBP": 95.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9a4adbe16ed5a0efcfa234d748ecede6-large.jpg",
+        "lot": "Lot no 177-04163",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £95 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Age: 10 Years Old Batch Number: 04 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #4 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864998-jack-daniels-10-year-old-batch-4-75cl/",
+        "priceGBP": 95.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7dcd604401c3cd6292412fb83428436f-large.jpg",
+        "lot": "Lot no 177-02944",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £95 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Age: 10 Years Old 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-561326c5947e": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-silver-select-whiskey/?sku=9495",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-02b5ec4dbdf9": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Mr Jack’s 160th Birthday",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812372-jack-daniels-mr-jacks-160th-birthday/",
+        "priceGBP": 65.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/80878ece9f1131804cf8f4d574ea9307-large.jpg",
+        "lot": "Lot no 167-02667",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £65 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. In celebration of Mr Jack’s 160th birthday. 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-5aa20338efc9": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Holiday Select 2014",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864162-jack-daniels-holiday-select-2014/",
+        "priceGBP": 95.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/cafcd2b670d1dc2911f21120bf3cbcb6-large.jpg",
+        "lot": "Lot no 177-02120",
+        "abv": 48.0,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £95 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2014 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 48% ABV / 70cl Bottle Number: 59636 Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Holiday Select 2014",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826224-jack-daniels-holiday-select-2014/",
+        "priceGBP": 170.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/699f94ac70efb284b84085e03014aba6-large.jpg",
+        "lot": "Lot no 170-00785",
+        "abv": 48.0,
+        "volume": 700,
+        "ended": "August 10, 2025",
+        "pageText": "Winning bid: £170 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2014 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 48% ABV / 70cl Bottle Number: 54909 Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Holiday Select 2014",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812367-jack-daniels-holiday-select-2014/",
+        "priceGBP": 120.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/f10de29ac273952d7f14adbe7ab180d8-large.jpg",
+        "lot": "Lot no 167-02662",
+        "abv": 48.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £120 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2014 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 48% ABV / 70cl Bottle Number: 21145 Please note adhesive has failed on internal packaging Please examine the images of the bottle, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-e807cc9bec00": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899583-jack-daniels-master-distiller-series-no2/",
+        "priceGBP": 30.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b2fee27f3cd1631f5bc9c90a81fdc1a6-large.jpg",
+        "lot": "Lot no 184-01020",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £30 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. This is the No 2 edition. 43% ABV / 70cl Bottle Number: 3313 Please note minor tear on carton lid and creasing. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889368-jack-daniels-master-distiller-series-no2/",
+        "priceGBP": 75.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/e05eb5a5e5c1b7bb17da522bba2cd72f-large.jpg",
+        "lot": "Lot no 182-01067",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £75 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 2 edition. 43% ABV / 70cl Bottle Number: PV 3315 Please note minor wear to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842421-jack-daniels-master-distiller-series-no2/",
+        "priceGBP": 80.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ef79ec61e63703b51872e82e768b361a-large.jpg",
+        "lot": "Lot no 173-01362",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £80 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 2 edition. 43% ABV / 70cl Bottle Number: RE 8895 Please note scuffing to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/811502-jack-daniels-master-distiller-series-no2/",
+        "priceGBP": 70.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/66372d6538efa62ee716f08f706dc969-large.jpg",
+        "lot": "Lot no 167-01805",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £70 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. A limited release from Jack Daniel’s displaying the master distiller series. this is the No 2 edition. 43% ABV / 70cl Bottle Number: PO 7524 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-dfb983da4e54": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 2011 Birthday Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/888826-jack-daniels-2011-birthday-edition/",
+        "priceGBP": 70.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/591c76011c3c40727442aa70530bbede-large.jpg",
+        "lot": "Lot no 182-00536",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £70 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is known for its square bottles and black label. It is produced in Lynchburg, Tennessee by the Jack Daniel Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county, although the distillery does sell commemorative bottles of whiskey. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. This is the 2011 commemorative bottling to celebrate Jack’s 161st birthday. 40% ABV / 70cl Please note minor wear to bottle skin Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s 2011 Birthday Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812377-jack-daniels-2011-birthday-edition/",
+        "priceGBP": 55.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/d4de49e90f87a5a863041e446b0bac19-large.jpg",
+        "lot": "Lot no 167-02672",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is known for its square bottles and black label. It is produced in Lynchburg, Tennessee by the Jack Daniel Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county, although the distillery does sell commemorative bottles of whiskey. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. This is the 2011 commemorative bottling to celebrate Jack’s 161st birthday. 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-fae4dbe7e04b": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Holiday Select 2013",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864158-jack-daniels-holiday-select-2013/",
+        "priceGBP": 110.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/8f092e9e1e37e8634760305bd60a96b1-large.jpg",
+        "lot": "Lot no 177-02116",
+        "abv": 49.0,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £110 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Bottled: 2013 49% ABV / 70cl Bottle Number: 5777 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Holiday Select 2013",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850490-jack-daniels-holiday-select-2013/",
+        "priceGBP": 120.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b6183f2b47a90264c3cb041c80257729-large.jpg",
+        "lot": "Lot no 174-03417",
+        "abv": 49.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £120 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2013 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 49% ABV / 70cl Bottle Number: 004370 Please note minor wear to box Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-acc098178a0d": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Holiday Select 2012",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864159-jack-daniels-holiday-select-2012/",
+        "priceGBP": 130.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/638a87657fbbbf0869490ee577bb9183-large.jpg",
+        "lot": "Lot no 177-02117",
+        "abv": 45.2,
+        "volume": 700,
+        "ended": "March 8, 2026",
+        "pageText": "Winning bid: £130 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2012 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 45.2% ABV / 70cl Bottle Number: 1308 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Holiday Select 2012",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812495-jack-daniels-holiday-select-2012/",
+        "priceGBP": 140.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/a01c9c99bd6e427e9bdbe6014c25be97-large.jpg",
+        "lot": "Lot no 167-02790",
+        "abv": 45.2,
+        "volume": 700,
+        "ended": "May 11, 2025",
+        "pageText": "Winning bid: £140 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. The 2012 edition of Jack Daniel’s Holiday Select, matured in the casks that go on to make the distillery’s Christmas Barrel Tree at the Jack Daniel’s distillery in Lynchburg. 45.2% ABV / 70cl Bottle Number: 5861 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-85dd890b546d": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899582-jack-daniels-master-distiller-series-no1/",
+        "priceGBP": 55.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b721132f9380e1b6326e260193caca1d-large.jpg",
+        "lot": "Lot no 184-01019",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°1 is the first edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. 43% ABV / 70cl Bottle Number: LA 3794 Please note minor creasing to carton and minor tearing to label. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889371-jack-daniels-master-distiller-series-no1/",
+        "priceGBP": 55.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/85659c049b3a2059c5cfff0ae3fe3e6e-large.jpg",
+        "lot": "Lot no 182-01070",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°1 is the first edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. 43% ABV / 70cl Bottle Number: CZ 4608 Please note minor wear to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel's Master Distiller Series No.1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/852891-jack-daniels-master-distiller-series-no1/",
+        "priceGBP": 70.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1206d4b288ed9ac8f447316ee03fe0db-large.jpg",
+        "lot": "Lot no 174-05790",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £70 Jack Daniel's is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel's Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel's home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°1 is the first edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. 43% ABV / 70cl Bottle Number: BY 6632 Please note minor wear to box. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842422-jack-daniels-master-distiller-series-no1/",
+        "priceGBP": 70.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/73ef28e7834ea586844012d0d24703af-large.jpg",
+        "lot": "Lot no 173-01363",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £70 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°1 is the first edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. 43% ABV / 70cl Bottle Number: GG 5705 Please note scuffing to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-4f43f5a97535": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-silver-select-1st-generation-whiskey/?sku=125193",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-4b86d0482339": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-1915-gold-medal-tennessee-whiskey/?sku=82196",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-d0310cee1059": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-1914-gold-medal-tennessee-whiskey/?sku=145279",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-194a3f40ec0b": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899585-jack-daniels-master-distiller-series-no4/",
+        "priceGBP": 40.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/a317f957df05b1944c1d1d307b637b20-large.jpg",
+        "lot": "Lot no 184-01022",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Jack Daniel’s Master Distiller No.4 features Jesse Cowan 43% ABV / 70cl Bottle Number: 2053 Please note minor creasing on carton, and peeling on bottle label. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889373-jack-daniels-master-distiller-series-no4/",
+        "priceGBP": 50.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/cc8e79afc0cee62de63a9e79bf8ad2c1-large.jpg",
+        "lot": "Lot no 182-01072",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £50 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Jack Daniel’s Master Distiller No.4 features Jesse Cowan 43% ABV / 70cl Bottle Number: ABB 0972 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/880107-jack-daniels-master-distiller-series-no4/",
+        "priceGBP": 55.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/363b3275fda141343ca168fd45062b5b-large.jpg",
+        "lot": "Lot no 180-02214",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Jack Daniel’s Master Distiller No.4 features Jesse Cowan 43% ABV / 70cl Bottle Number: ABK 1712 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/852436-jack-daniels-master-distiller-series-no4/",
+        "priceGBP": 40.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ccfc389df1cb0dd172c6b3adb2a2f054-large.jpg",
+        "lot": "Lot no 174-05339",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Jack Daniel’s Master Distiller No.4 features Jesse Cowan 43% ABV / 70cl Bottle Number: ABF 8349 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/852435-jack-daniels-master-distiller-series-no4/",
+        "priceGBP": 35.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/43b41b13cf43ca5eeb149e56325d5a67-large.jpg",
+        "lot": "Lot no 174-05338",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "December 7, 2025",
+        "pageText": "Winning bid: £35 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Jack Daniel’s Master Distiller No.4 features Jesse Cowan 43% ABV / 70cl Bottle Number: ABF 8357 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-447dd0721eeb": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "amount": 19.95,
+        "currency": "EUR",
+        "source": "https://www.topdrinks.nl/jack-daniel-s-straight-rye-70cl",
+        "volumeMl": 700,
+        "name": "Jack Daniel's Straight Rye 70cl"
+      }
+    ]
+  },
+  "jd-69cfdcf337ee": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 599.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-barrel-house-no-1-whiskey/?sku=145278",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-75f18c7a55f1": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 350.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-scenes-from-lynchburg-no-1-whiskey/?sku=146759",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-235fcc889f51": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 799.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-coy-hill-barrelhouse-2024-whiskey/?sku=145283",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-b9b8a934072c": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-1981-gold-medal-tennessee-whiskey/?sku=145280",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-32e12690b27a": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-holiday-select-2011-whiskey/?sku=141963",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-d8f66daee4db": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-scenes-from-lynchburg-no-3-whiskey/?sku=144733",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-22a25cc284df": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-scenes-from-lynchburg-no-2-whiskey/?sku=133882",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-dd371b8b67eb": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-11-anejo-tequila-barrels-whiskey/?sku=145288",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-060fc5cd51bc": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-54-gold-medal-tennessee-whiskey/?sku=141278",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-85f860ed9b67": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/902002-jack-daniels-old-no7-legacy-edition/",
+        "priceGBP": 25.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/0389a7ba707c8f2cd2dd1ef45ae8f48a-large.jpg",
+        "lot": "Lot no 184-03368",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 309492 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898284-jack-daniels-old-no7-legacy-edition/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6d8bbaa43187f8dedb82be89e977421e-large.jpg",
+        "lot": "Lot no 183-04482",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 136251 Please note condition of carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898283-jack-daniels-old-no7-legacy-edition/",
+        "priceGBP": 40.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c3c39b1216f18de569a2d0b41357776a-large.jpg",
+        "lot": "Lot no 183-04481",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 136246 Please note condition of carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898282-jack-daniels-old-no7-legacy-edition/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/e3b8016ac498aa05e61ac335609a23f4-large.jpg",
+        "lot": "Lot no 183-04480",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 056925 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/896040-jack-daniels-old-no7-legacy-edition/",
+        "priceGBP": 40.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b878ffdbcfd8c8a8539fd5ada3f0d9ba-large.jpg",
+        "lot": "Lot no 183-02270",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 051832 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-278bd4e6f7a6": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-9-oak-barrel-rye-whiskey/?sku=145287",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-f17d102cc755": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-12-oloroso-sherry-casks-whiskey/?sku=145289",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-e6bc308792d3": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-13-twice-barrelled-rye-whiskey/?sku=145290",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-bff4db71632b": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-8-maple-barrel-rye-whiskey/?sku=145286",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-b98d11bd68fe": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-distillery-series-10-pecan-wood-whiskey/?sku=145285",
+        "volumeMl": 350
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-20aae8594817": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-twice-barreled-limited-edition-2022-whisky/?sku=142509",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-966bc59d30e9": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-scenes-from-lynchburg-no-4-whiskey/?sku=144734",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-801e0d8ee760": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-1905-gold-medal-tennessee-whiskey/?sku=143408",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-946e6735d0a5": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 49.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07907-master-of-malt-exclusive-whiskey/?sku=114612",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-b64a78843098": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.6",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899587-jack-daniels-master-distiller-series-no6/",
+        "priceGBP": 25.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/cf24a63b84942df3aa95f26d43e70879-large.jpg",
+        "lot": "Lot no 184-01024",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°6 is the sixth edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men (as of 2017) have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. This edition celebrates Jimmy Bedford who was Master Distiller from 1988 until 2008. 43% ABV / 70cl Bottle Number: 7624 Please note minor scuffing and tear on carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.6",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889370-jack-daniels-master-distiller-series-no6/",
+        "priceGBP": 35.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/d1cddaed02e4689f4b4c3f16990d48b5-large.jpg",
+        "lot": "Lot no 182-01069",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "August 9, 2026",
+        "pageText": "Winning bid: £35 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°6 is the sixth edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men (as of 2017) have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. This edition celebrates Jimmy Bedford who was Master Distiller from 1988 until 2008. 43% ABV / 70cl Bottle Number: ALW 6812 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.6",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/228-auction/877857-jack-daniels-master-distiller-series-no6/",
+        "priceGBP": 35.0,
+        "soldMonth": "May 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/269c6e66305027d8dc0e3afb583f1526-large.jpg",
+        "lot": "Lot no 179-05333",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "May 10, 2026",
+        "pageText": "Winning bid: £35 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°6 is the sixth edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men (as of 2017) have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. This edition celebrates Jimmy Bedford who was Master Distiller from 1988 until 2008. 43% ABV / 70cl Bottle Number: AMR 1395 Please note condition of carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.6",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842419-jack-daniels-master-distiller-series-no6/",
+        "priceGBP": 25.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b0eaecb9ff4a6da4bc6f0ec0be2aedf5-large.jpg",
+        "lot": "Lot no 173-01360",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "November 9, 2025",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°6 is the sixth edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men (as of 2017) have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. This edition celebrates Jimmy Bedford who was Master Distiller from 1988 until 2008. 43% ABV / 70cl Bottle Number: AMC 7670 Please note scuffing to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.6",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/217-auction/818978-jack-daniels-master-distiller-series-no6/",
+        "priceGBP": 25.0,
+        "soldMonth": "June 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ee4c53b00b704c2d879c7d84cdff2f0a-large.jpg",
+        "lot": "Lot no 168-04208",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 8, 2025",
+        "pageText": "Winning bid: £25 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Jack Daniel’s Master Distiller N°6 is the sixth edition of a limited series on the Master Distillers of Jack Daniel’s Tennessee Whiskey. Only seven men (as of 2017) have overseen the production of this legendary Tennessee whiskey. This line goes right back to Mr Jack himself. This edition celebrates Jimmy Bedford who was Master Distiller from 1988 until 2008. 43% ABV / 70cl Bottle Number: AMG 7745 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-c0d4d3197e82": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition 3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/902004-jack-daniels-old-no7-legacy-edition-3/",
+        "priceGBP": 55.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/14eb0a20a3e552ab3711ba5a582734e5-large.jpg",
+        "lot": "Lot no 184-03370",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £55 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 1403307 Please note minor creasing to carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-e74f1e89fc13": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 49.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07905-master-of-malt-exclusive-whiskey/?sku=114614",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-5705f49461ea": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 49.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07906-master-of-malt-exclusive-whiskey/?sku=114613",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-292ab2c4f44c": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/gentleman-jack-2nd-generation-whiskey/?sku=116890",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-a98e056e071d": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition 2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/902003-jack-daniels-old-no7-legacy-edition-2/",
+        "priceGBP": 40.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/56e7ce75658a60a48f4c7bdc9b902b93-large.jpg",
+        "lot": "Lot no 184-03369",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "October 11, 2026",
+        "pageText": "Winning bid: £40 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 1327607 Please note minor creasing to carton. Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition 2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/896058-jack-daniels-old-no7-legacy-edition-2/",
+        "priceGBP": 45.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4d911dfd3a83900fb41192c0c058aad1-large.jpg",
+        "lot": "Lot no 183-02288",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "September 13, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 1317567 Please note minor wear to carton Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Legacy Edition 2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/880100-jack-daniels-old-no7-legacy-edition-2/",
+        "priceGBP": 45.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/0defa33d01d998de3d7d138cb3b68130-large.jpg",
+        "lot": "Lot no 180-02207",
+        "abv": 43.0,
+        "volume": 700,
+        "ended": "June 14, 2026",
+        "pageText": "Winning bid: £45 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. 43% ABV / 70cl Bottle Number: 1429049 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-8b6247b8013d": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-1990s-whiskey/?sku=127216",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-a31fdde395af": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/gentleman-jack-1988-1991-whiskey/?sku=44274",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-edeb2bf5920e": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/gentleman-jack-3rd-generation-whiskey/?sku=66353",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ee92ca038ca2": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 69.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-barrel-strength-64-5-whiskey/?sku=79863",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-78935408b198": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-monogram-2009-whiskey/?sku=97683",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-f60df8ce7642": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-scenes-from-lynchburg-no-5-whiskey/?sku=144735",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-393b004da22b": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 39.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-x-mclaren-limited-edition-2023-whisky/?sku=141850",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-9760c733b64b": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-green-label-whiskey/?sku=133878",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-79838cf5cd18": {
+    "method": "Median of same-release auction results with confirmed matching ABV and volume",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/210-auction/785988-jack-daniels-10-year-old-batch-2/",
+        "priceGBP": 320.0,
+        "soldMonth": "December 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/0324f7ab7c59242fac65830766d9de61-large.jpg",
+        "lot": "Lot no 162-03119",
+        "abv": 48.5,
+        "volume": 700,
+        "ended": "December 8, 2024",
+        "pageText": "Winning bid: £320 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Batch #2 Bottled: 2023 Age: 10 Years Old 48.5% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-7d2aee4f0c77": {
+    "method": "Exact-SKU international retail reference",
+    "observations": [
+      {
+        "amount": 39.3,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-mclaren-x-jd-edition-2024-whiskey/?sku=136753",
+        "volumeMl": 700
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-3ea7efe7ea15": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 12 Year Old Batch #4",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/902906-jack-daniels-12-year-old-batch-4/",
+        "priceGBP": 250.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/f463ebb24470454dc8c4170a79933ec9-med.jpg",
+        "lot": "Lot no 184-04236"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-66e7bd2b958c": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 1895 Replica 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/901927-jack-daniels-1895-replica-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/5ad118567f29a3fad8f91136150ef69f-med.jpg",
+        "lot": "Lot no 184-03293"
+      },
+      {
+        "name": "Jack Daniel’s 1895 Replica 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850495-jack-daniels-1895-replica-1l/",
+        "priceGBP": 110.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/a1f22e99a80f080438f5a14a52b55b2a-med.jpg",
+        "lot": "Lot no 174-03422"
+      },
+      {
+        "name": "Jack Daniel’s 1895 Replica 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812522-jack-daniels-1895-replica-1l/",
+        "priceGBP": 130.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/469ff712187d843fb7a728fd9cf49b2a-med.jpg",
+        "lot": "Lot no 167-02817"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-380ae4fe922a": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Sinatra Select 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/901434-jack-daniels-sinatra-select-1l/",
+        "priceGBP": 90.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4b9cefb5e9921fe77c375635106dcf8f-med.jpg",
+        "lot": "Lot no 184-02823"
+      },
+      {
+        "name": "Jack Daniel’s Sinatra Select 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899698-jack-daniels-sinatra-select-1l/",
+        "priceGBP": 95.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ddf397b6313981285225c5a3ba773631-med.jpg",
+        "lot": "Lot no 184-01135"
+      },
+      {
+        "name": "Jack Daniel’s Sinatra Select 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/229-auction/882082-jack-daniels-sinatra-select-1l/",
+        "priceGBP": 90.0,
+        "soldMonth": "June 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b259f590b0540f474d1af4296680414d-med.jpg",
+        "lot": "Lot no 180-04085"
+      },
+      {
+        "name": "Jack Daniel’s Sinatra Select 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/224-auction/857138-jack-daniels-sinatra-select-1l/",
+        "priceGBP": 95.0,
+        "soldMonth": "January 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b2223e922001e0fd0841de77f23fd849-med.jpg",
+        "lot": "Lot no 175-04149"
+      },
+      {
+        "name": "Jack Daniel’s Sinatra Select 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/843670-jack-daniels-sinatra-select-1l/",
+        "priceGBP": 85.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/371b3dbb8c4aa5b18ec0c93ca44fa8fb-med.jpg",
+        "lot": "Lot no 173-02589"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ecec5c8053aa": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.5",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/233-auction/899586-jack-daniels-master-distiller-series-no5/",
+        "priceGBP": 25.0,
+        "soldMonth": "October 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7aea3e8ad3c622e3cf5bce0e92634852-med.jpg",
+        "lot": "Lot no 184-01023"
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.5",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889374-jack-daniels-master-distiller-series-no5/",
+        "priceGBP": 35.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7384c958434335c160b63af641ff5181-med.jpg",
+        "lot": "Lot no 182-01073"
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.5",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/225-auction/859897-jack-daniels-master-distiller-series-no5/",
+        "priceGBP": 25.0,
+        "soldMonth": "February 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b13ab3c8dead6eeba2afc80295d80335-med.jpg",
+        "lot": "Lot no 176-02468"
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.5",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/222-auction/842420-jack-daniels-master-distiller-series-no5/",
+        "priceGBP": 25.0,
+        "soldMonth": "November 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/8b2a07a16b508afee0f0bb41d2dc3498-med.jpg",
+        "lot": "Lot no 173-01361"
+      },
+      {
+        "name": "Jack Daniel’s Master Distiller Series No.5",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/811549-jack-daniels-master-distiller-series-no5/",
+        "priceGBP": 35.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4ba0bfd79f0413df87e8e9c7b018d300-med.jpg",
+        "lot": "Lot no 167-01852"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-2ad547aeee5f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s McLaren Formula 1 Team HALO MK1 2026 Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/898385-jack-daniels-mclaren-formula-1-team-halo-mk1-2026-edition-1l/",
+        "priceGBP": 800.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/824e569a9830aa45cc313bc423c68832-med.jpg",
+        "lot": "Lot no 183-04583"
+      },
+      {
+        "name": "Jack Daniel’s McLaren Formula 1 Team HALO MK1 2026 Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/232-auction/897620-jack-daniels-mclaren-formula-1-team-halo-mk1-2026-edition-1l/",
+        "priceGBP": 750.0,
+        "soldMonth": "September 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/229251829ed3e4b438f4ba338df0438a-med.jpg",
+        "lot": "Lot no 183-03823"
+      },
+      {
+        "name": "Jack Daniel’s McLaren Formula 1 Team HALO MK1 2026 Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/890412-jack-daniels-mclaren-formula-1-team-halo-mk1-2026-edition-1l/",
+        "priceGBP": 1000.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/27836ce60863dc3b384cc81afe0ec42f-med.jpg",
+        "lot": "Lot no 182-02080"
+      },
+      {
+        "name": "Jack Daniel’s McLaren Formula 1 Team HALO MK1 2026 Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/888789-jack-daniels-mclaren-formula-1-team-halo-mk1-2026-edition-1l/",
+        "priceGBP": 900.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/8d7df478a68af14647d17a89b6ce5f0f-med.jpg",
+        "lot": "Lot no 182-00509"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ed4a3b09b5c5": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s No.27 Gold Maple Wood Finish Diwali Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/231-auction/889392-jack-daniels-no27-gold-maple-wood-finish-diwali-edition/",
+        "priceGBP": 60.0,
+        "soldMonth": "August 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/03b649322ad06139cc509ec7534a4fc6-med.jpg",
+        "lot": "Lot no 182-01091"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Maple Wood Finish Diwali Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826146-jack-daniels-no27-gold-maple-wood-finish-diwali-edition/",
+        "priceGBP": 110.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4be93391ed4f5477aed8a1a4df1a82e1-med.jpg",
+        "lot": "Lot no 170-00710"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Maple Wood Finish Diwali Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/218-auction/823504-jack-daniels-no27-gold-maple-wood-finish-diwali-edition/",
+        "priceGBP": 90.0,
+        "soldMonth": "July 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ef8784db14787527b0d546d8aa098cfd-med.jpg",
+        "lot": "Lot no 169-04420"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Maple Wood Finish Diwali Edition",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/813890-jack-daniels-no27-gold-maple-wood-finish-diwali-edition/",
+        "priceGBP": 80.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/341a26b2a13c7ec0fd20423d96ac1ad3-med.jpg",
+        "lot": "Lot no 167-04169"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-9ed32ca1f895": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 12 Year Old Batch #3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/867092-jack-daniels-12-year-old-batch-3/",
+        "priceGBP": 290.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/80e3b8a5efae45559607633a97253bb6-med.jpg",
+        "lot": "Lot no 177-04992"
+      },
+      {
+        "name": "Jack Daniel’s 12 Year Old Batch #3",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826226-jack-daniels-12-year-old-batch-3/",
+        "priceGBP": 270.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/80e3b8a5efae45559607633a97253bb6-med.jpg",
+        "lot": "Lot no 170-00787"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-98c2eb4e6e1b": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #1 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/866921-jack-daniels-10-year-old-batch-1-75cl/",
+        "priceGBP": 130.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/93f69018974508ed9516ed1f60ce7945-med.jpg",
+        "lot": "Lot no 177-04822"
+      },
+      {
+        "name": "Jack Daniel’s 10 Year Old Batch #1 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812382-jack-daniels-10-year-old-batch-1-75cl/",
+        "priceGBP": 210.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/f1773297e7c6adf00ce84d2be88c44a9-med.jpg",
+        "lot": "Lot no 167-02677"
+      },
+      {
+        "name": "Jack Daniel's 10 Year Old Batch #1 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/196-auction/713020-jack-daniels-10-year-old-batch-1-75cl/",
+        "priceGBP": 190.0,
+        "soldMonth": "January 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/455df7aeb385d4c31a6d68a7e18a4acc-med.jpg",
+        "lot": "Lot no 151-01016"
+      },
+      {
+        "name": "Jack Daniel's 10 Year Old Batch #1 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/193-auction/692939-jack-daniels-10-year-old-batch-1-75cl/",
+        "priceGBP": 210.0,
+        "soldMonth": "October 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9c4019452b32465a47a818378f46ca54-med.jpg",
+        "lot": "Lot no 148-05605"
+      },
+      {
+        "name": "Jack Daniel's 10 Year Old Batch #1 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/191-auction/673792-jack-daniels-10-year-old-batch-1-75cl/",
+        "priceGBP": 250.0,
+        "soldMonth": "August 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/dafd8e8165edad00d931e197614d366c-med.jpg",
+        "lot": "Lot no 146-01753"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-924720ec759f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Winter Jack Apple Whiskey Punch",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/865286-jack-daniels-winter-jack-apple-whiskey-punch/",
+        "priceGBP": 35.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/f0ad52d0c19a87b3f6ab4ed8ba6ea864-med.jpg",
+        "lot": "Lot no 177-03225"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-8b1ec2041790": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Hickory Smoked 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/865199-jack-daniels-tennessee-tasters-selection-hickory-smoked-375cl/",
+        "priceGBP": 35.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4e56d476dac8c3a201357a4152a556a5-med.jpg",
+        "lot": "Lot no 177-03143"
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Hickory Smoked 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864165-jack-daniels-tennessee-tasters-selection-hickory-smoked-375cl/",
+        "priceGBP": 35.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b0882bb175286ba7b9c69b19da47683f-med.jpg",
+        "lot": "Lot no 177-02123"
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Hickory Smoked 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812500-jack-daniels-tennessee-tasters-selection-hickory-smoked-375cl/",
+        "priceGBP": 70.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/a66e9bae9626ee869658d300661079a1-med.jpg",
+        "lot": "Lot no 167-02795"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-fb8c114d041a": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Barrel Reunion #1 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864167-jack-daniels-tennessee-tasters-selection-barrel-reunion-1-375cl/",
+        "priceGBP": 65.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/afbd8a341698b2344f1f8848cc2c6738-med.jpg",
+        "lot": "Lot no 177-02125"
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Barrel Reunion #1 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850526-jack-daniels-tennessee-tasters-selection-barrel-reunion-1-375cl/",
+        "priceGBP": 55.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/eb102690d0b05c4fc0d91e271d5c2e54-med.jpg",
+        "lot": "Lot no 174-03453"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-6174c54e6c2e": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Barrel Proof Rye 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/864166-jack-daniels-tennessee-tasters-selection-barrel-proof-rye-375cl/",
+        "priceGBP": 70.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/3c8dd696e519970c2b537d12415c809a-med.jpg",
+        "lot": "Lot no 177-02124"
+      },
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Barrel Proof Rye 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850527-jack-daniels-tennessee-tasters-selection-barrel-proof-rye-375cl/",
+        "priceGBP": 70.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9f7df9730fe63105b5f37cbc3d7ad41a-med.jpg",
+        "lot": "Lot no 174-03454"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-6802a9b162bb": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled Year Of The Rabbit",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/225-auction/858311-jack-daniels-no27-gold-double-barreled-year-of-the-rabbit/",
+        "priceGBP": 75.0,
+        "soldMonth": "February 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/49fc0ec047689d3925aa6930da4fbcc0-med.jpg",
+        "lot": "Lot no 176-00892"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled Year Of The Rabbit",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/218-auction/819881-jack-daniels-no27-gold-double-barreled-year-of-the-rabbit/",
+        "priceGBP": 95.0,
+        "soldMonth": "July 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1489d88ad69bc4909244bb5b0251c925-med.jpg",
+        "lot": "Lot no 169-00844"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled Year Of The Rabbit",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/217-auction/817792-jack-daniels-no27-gold-double-barreled-year-of-the-rabbit/",
+        "priceGBP": 80.0,
+        "soldMonth": "June 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4bcec028419dae3a26ea24f9082dff1f-med.jpg",
+        "lot": "Lot no 168-03043"
+      },
+      {
+        "name": "Jack Daniel’s No.27 Gold Double Barreled Year Of The Rabbit",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/811226-jack-daniels-no27-gold-double-barreled-year-of-the-rabbit/",
+        "priceGBP": 65.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/47428180076ce54b2855c648b25e3935-med.jpg",
+        "lot": "Lot no 167-01529"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-3d548b1d956f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel Rye Members Only Batch 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/225-auction/857653-jack-daniels-single-barrel-rye-members-only-batch-75cl/",
+        "priceGBP": 110.0,
+        "soldMonth": "February 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/cfca97edbbbded677a26e581224ab35e-med.jpg",
+        "lot": "Lot no 176-00282"
+      },
+      {
+        "name": "Jack Daniel’s Single Barrel Rye Members Only Batch 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/857652-jack-daniels-single-barrel-rye-members-only-batch-75cl/",
+        "priceGBP": 120.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1adfd3d1ada4382b7ae6ec9dde0f2f39-med.jpg",
+        "lot": "Lot no 177-00033"
+      },
+      {
+        "name": "Jack Daniel’s Single Barrel Rye Members Only Batch 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/212-auction/790852-jack-daniels-single-barrel-rye-members-only-batch-75cl/",
+        "priceGBP": 180.0,
+        "soldMonth": "January 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c124f54ed8389ac1d8e7d4b0cd40a8ea-med.jpg",
+        "lot": "Lot no 163-01237"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-1e7d3f18e616": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Sinatra Century 100 Proof Limited Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/224-auction/856604-jack-daniels-sinatra-century-100-proof-limited-edition-1l/",
+        "priceGBP": 950.0,
+        "soldMonth": "January 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/63980247f7dd7bccf1dd61dd8842f092-med.jpg",
+        "lot": "Lot no 175-03618"
+      },
+      {
+        "name": "Jack Daniel's Sinatra Century 100 Proof Limited Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/214-auction/800302-jack-daniels-sinatra-century-100-proof-limited-edition-1l/",
+        "priceGBP": 1150.0,
+        "soldMonth": "March 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b60445a8123120eeffe5de4c2fb8d790-med.jpg",
+        "lot": "Lot no 165-02026"
+      },
+      {
+        "name": "Jack Daniel's Sinatra Century 100 Proof Limited Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/193-auction/693296-jack-daniels-sinatra-century-100-proof-limited-edition-1l/",
+        "priceGBP": 1200.0,
+        "soldMonth": "October 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/283dbcbd0d24f49e8805c922c3a9b055-med.jpg",
+        "lot": "Lot no 148-05955"
+      },
+      {
+        "name": "Jack Daniel's Sinatra Century 100 Proof Limited Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/174-auction/550928-jack-daniels-sinatra-century-100-proof-limited-edition-1l/",
+        "priceGBP": 1100.0,
+        "soldMonth": "April 2022",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/2a1fdbf5af1cdf943f7468a3527d6b78-med.jpg",
+        "lot": "Lot no 130-06811"
+      },
+      {
+        "name": "Jack Daniel's Sinatra Century 100 Proof Limited Edition 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/164-auction/486168-jack-daniels-sinatra-century-100-proof-limited-edition-1l/",
+        "priceGBP": 1300.0,
+        "soldMonth": "August 2021",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ec3ca11ebc0ce88408bec8217cad2b1e-med.jpg",
+        "lot": "Lot no 122-04101"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-e9af3f9b6536": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Gold No.27 Year Of The Tiger",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/224-auction/854616-jack-daniels-gold-no27-year-of-the-tiger/",
+        "priceGBP": 80.0,
+        "soldMonth": "January 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/77f29c2db498de38f40f38e3d9fa5596-med.jpg",
+        "lot": "Lot no 175-01658"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-25e45575482e": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel 100 Proof 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850588-jack-daniels-single-barrel-100-proof-75cl/",
+        "priceGBP": 55.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/de57f75c55a32fa66bda9b45437e2b25-med.jpg",
+        "lot": "Lot no 174-03515"
+      },
+      {
+        "name": "Jack Daniel’s Single Barrel 100 Proof 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812369-jack-daniels-single-barrel-100-proof-75cl/",
+        "priceGBP": 35.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/fbea42378aa238c0a11b45eea38de0df-med.jpg",
+        "lot": "Lot no 167-02664"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-d5e9035e8484": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 1904 St. Louis World’s Fair Gold Medal 1.5L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850524-jack-daniels-1904-st-louis-worlds-fair-gold-medal-15l/",
+        "priceGBP": 220.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/729a62ebc8934dd238736bfef539e5b6-med.jpg",
+        "lot": "Lot no 174-03451"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-7cd4480b67e8": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Maxwell House 1.5L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850522-jack-daniels-maxwell-house-15l/",
+        "priceGBP": 280.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/90cec70ba02b482228b89ad8614ba3b9-med.jpg",
+        "lot": "Lot no 174-03449"
+      },
+      {
+        "name": "Jack Daniel’s Maxwell House 1.5L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812533-jack-daniels-maxwell-house-15l/",
+        "priceGBP": 320.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b8e0a0844e965994afdfa4d7f09ef764-med.jpg",
+        "lot": "Lot no 167-02828"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-36292d9fff77": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection Barrel Reunion #2 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850518-jack-daniels-tennessee-tasters-selection-barrel-reunion-2-375cl/",
+        "priceGBP": 65.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1919a5e4a6be3e9af166f19074c6ed59-med.jpg",
+        "lot": "Lot no 174-03445"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ded42cb7733f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Bottled In Bond 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850506-jack-daniels-bottled-in-bond-1l/",
+        "priceGBP": 40.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c77e0e567dea375223f6cfe935915589-med.jpg",
+        "lot": "Lot no 174-03433"
+      },
+      {
+        "name": "Jack Daniel’s Bottled In Bond 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812388-jack-daniels-bottled-in-bond-1l/",
+        "priceGBP": 40.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6e6413df3db514cf15b7069658e521b7-med.jpg",
+        "lot": "Lot no 167-02683"
+      },
+      {
+        "name": "Jack Daniel’s Bottled In Bond 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812384-jack-daniels-bottled-in-bond-1l/",
+        "priceGBP": 35.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/977652c040821f16a91060b4d81c4838-med.jpg",
+        "lot": "Lot no 167-02679"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ba567a35c132": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 1913 Ghent Gold Medal 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/223-auction/850494-jack-daniels-1913-ghent-gold-medal-1l/",
+        "priceGBP": 170.0,
+        "soldMonth": "December 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b3164b34b64fa1af1a8661662599f20d-med.jpg",
+        "lot": "Lot no 174-03421"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-55814efaa143": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's 14 Year Old Batch #1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826227-jack-daniels-14-year-old-batch-1/",
+        "priceGBP": 560.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/e9b614fb18da135bc9cc6569498fecef-med.jpg",
+        "lot": "Lot no 170-00788"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-436255d40cdb": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Rye Single Barrel Special Release Heritage Barrel 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826205-jack-daniels-rye-single-barrel-special-release-heritage-barrel-75cl/",
+        "priceGBP": 190.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/63a4afc7e3abb8c48b278446db0e92ae-med.jpg",
+        "lot": "Lot no 170-00766"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-bc64254e8e5d": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel Select Eric Church 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826204-jack-daniels-single-barrel-select-eric-church-75cl/",
+        "priceGBP": 180.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/0d4615f7cbd853d6aef5943553118358-med.jpg",
+        "lot": "Lot no 170-00765"
+      },
+      {
+        "name": "Jack Daniel’s Single Barrel Select Eric Church 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/215-auction/809412-jack-daniels-single-barrel-select-eric-church-75cl/",
+        "priceGBP": 140.0,
+        "soldMonth": "April 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/63bf9e4b7ee8adc481316d8e028544de-med.jpg",
+        "lot": "Lot no 166-05800"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-59d0d209a36e": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s American Forests Limited Edition 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/219-auction/826203-jack-daniels-american-forests-limited-edition-75cl/",
+        "priceGBP": 240.0,
+        "soldMonth": "August 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/5f6eb76e3c36a89862393cebdbcf0152-med.jpg",
+        "lot": "Lot no 170-00764"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-8dd9edc3060f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old Time 1907 Brand",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/218-auction/822413-jack-daniels-old-time-1907-brand/",
+        "priceGBP": 130.0,
+        "soldMonth": "July 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/b4137ec041e5d9738fa1767ac83eb9b7-med.jpg",
+        "lot": "Lot no 169-03348"
+      },
+      {
+        "name": "Jack Daniel’s Old Time 1907 Brand",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/217-auction/815935-jack-daniels-old-time-1907-brand/",
+        "priceGBP": 90.0,
+        "soldMonth": "June 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1dc7a1caf3bac329a0afd204357f5be0-med.jpg",
+        "lot": "Lot no 168-01227"
+      },
+      {
+        "name": "Jack Daniel’s Old Time 1907 Brand",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812385-jack-daniels-old-time-1907-brand/",
+        "priceGBP": 95.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/e139fb7fcceea1983e4851d9c3f14b60-med.jpg",
+        "lot": "Lot no 167-02680"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-4e223d4934fc": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.2 1.5L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812531-jack-daniels-old-no2-15l/",
+        "priceGBP": 85.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/dd85f9cbbd17d9f65280bfd69ad42f9a-med.jpg",
+        "lot": "Lot no 167-02826"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-0c8a2a84b151": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.7 Fire Brigade 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812505-jack-daniels-old-no7-fire-brigade-1l/",
+        "priceGBP": 85.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/abb7057b2c728a10c5b131f288e86966-med.jpg",
+        "lot": "Lot no 167-02800"
+      },
+      {
+        "name": "Jack Daniel’s Old No.7 Fire Brigade 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812493-jack-daniels-old-no7-fire-brigade-1l/",
+        "priceGBP": 90.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7b82ef2da5e3ef5b36f0098d2465bb01-med.jpg",
+        "lot": "Lot no 167-02788"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-fb675fbe2162": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection 14E19 Twin Blend 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812501-jack-daniels-tennessee-tasters-selection-14e19-twin-blend-375cl/",
+        "priceGBP": 55.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6f633115dc5be01c735cd2eccd0b679f-med.jpg",
+        "lot": "Lot no 167-02796"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-4519bc44aa92": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Tennessee Tasters’ Selection High Angel’s Share Barrels 37.5cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812499-jack-daniels-tennessee-tasters-selection-high-angels-share-barrels-375cl/",
+        "priceGBP": 90.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9f124fb1ab3856649bc30d6926de9c2b-med.jpg",
+        "lot": "Lot no 167-02794"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-af8cff567847": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.6 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724261-jack-daniels-scenes-from-lynchburg-no6-1l/",
+        "priceGBP": 320.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/a412e7bc18423e908ac2ec4caf92cc5e-med.jpg",
+        "lot": "Lot no 152-04882"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.6 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/178-auction/579408-jack-daniels-scenes-from-lynchburg-no6-1l/",
+        "priceGBP": 200.0,
+        "soldMonth": "August 2022",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/561dcd815a76ace1dac6f5f03c101f0c-med.jpg",
+        "lot": "Lot no 134-01562"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.6 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/153-auction/410275-jack-daniels-scenes-from-lynchburg-no6-1l/",
+        "priceGBP": 160.0,
+        "soldMonth": "October 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1178408-med.jpg",
+        "lot": "Lot no 112-03504"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.6 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/149-auction/383055-jack-daniels-scenes-from-lynchburg-no6-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "June 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1095445-med.jpg",
+        "lot": "Lot no 108-05719"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.6 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/138-auction/298155-jack-daniels-scenes-from-lynchburg-no6-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "May 2019",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/836819-med.jpg",
+        "lot": "Lot no 097-00817"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-017d54d4b2c5": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.7 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/195-auction/707574-jack-daniels-scenes-from-lynchburg-no7-1l/",
+        "priceGBP": 140.0,
+        "soldMonth": "December 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/f86e86485d6065ba05e82d72feb26e04-med.jpg",
+        "lot": "Lot no 150-05004"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.7 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/190-auction/671027-jack-daniels-scenes-from-lynchburg-no7-1l/",
+        "priceGBP": 130.0,
+        "soldMonth": "July 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/47fcc28e9f52a505b92462659ae82cc3-med.jpg",
+        "lot": "Lot no 145-06929"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.7 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/190-auction/671026-jack-daniels-scenes-from-lynchburg-no7-1l/",
+        "priceGBP": 130.0,
+        "soldMonth": "July 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/dfcdccf5610bb22a7a6604e3748c4772-med.jpg",
+        "lot": "Lot no 145-06928"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.7 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/191-auction/671025-jack-daniels-scenes-from-lynchburg-no7-1l/",
+        "priceGBP": 110.0,
+        "soldMonth": "August 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4f1161b7fa92cf6d6a0295d2b446877d-med.jpg",
+        "lot": "Lot no 146-00170"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.7 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/191-auction/671024-jack-daniels-scenes-from-lynchburg-no7-1l/",
+        "priceGBP": 110.0,
+        "soldMonth": "August 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9d3cf000fef4f73fb22fa51289d437ac-med.jpg",
+        "lot": "Lot no 146-00169"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-512707e4bed4": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.8 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724259-jack-daniels-scenes-from-lynchburg-no8-1l/",
+        "priceGBP": 320.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/2523fac101a2a5e0b9e299ad2ef1de94-med.jpg",
+        "lot": "Lot no 152-04880"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.8 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/153-auction/410277-jack-daniels-scenes-from-lynchburg-no8-1l/",
+        "priceGBP": 160.0,
+        "soldMonth": "October 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1178413-med.jpg",
+        "lot": "Lot no 112-03506"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.8 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/151-auction/397549-jack-daniels-scenes-from-lynchburg-no8-1l/",
+        "priceGBP": 160.0,
+        "soldMonth": "August 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1139442-med.jpg",
+        "lot": "Lot no 110-05225"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.8 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/145-auction/354570-jack-daniels-scenes-from-lynchburg-no8-1l/",
+        "priceGBP": 160.0,
+        "soldMonth": "December 2019",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1007380-med.jpg",
+        "lot": "Lot no 104-06208"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.8 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/131-auction/271504-jack-daniels-scenes-from-lynchburg-no8-1l/",
+        "priceGBP": 220.0,
+        "soldMonth": "January 2019",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/751783-med.jpg",
+        "lot": "Lot no 093-4936"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-6b1d4f6a2f0f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.9 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/207-auction/762550-jack-daniels-scenes-from-lynchburg-no9-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "September 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/677b9c4fffaca3a6fce9e78faa77c0a9-med.jpg",
+        "lot": "Lot no 159-00505"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.9 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724260-jack-daniels-scenes-from-lynchburg-no9-1l/",
+        "priceGBP": 190.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/2ac80a4d100075af16c186ba9af9a19f-med.jpg",
+        "lot": "Lot no 152-04881"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.9 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/153-auction/410278-jack-daniels-scenes-from-lynchburg-no9-1l/",
+        "priceGBP": 95.0,
+        "soldMonth": "October 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1178415-med.jpg",
+        "lot": "Lot no 112-03507"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.9 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/151-auction/397541-jack-daniels-scenes-from-lynchburg-no9-1l/",
+        "priceGBP": 110.0,
+        "soldMonth": "August 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1139414-med.jpg",
+        "lot": "Lot no 110-05217"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.9 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/130-auction/264515-jack-daniels-scenes-from-lynchburg-no9-1l/",
+        "priceGBP": 95.0,
+        "soldMonth": "December 2018",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/729614-med.jpg",
+        "lot": "Lot no 092-7575"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-450c8c95a91e": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.10 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724262-jack-daniels-scenes-from-lynchburg-no10-1l/",
+        "priceGBP": 200.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/ca7d577f3b82a96d1bbb42c038d3db1d-med.jpg",
+        "lot": "Lot no 152-04883"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.10 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/193-auction/692203-jack-daniels-scenes-from-lynchburg-no10-1l/",
+        "priceGBP": 110.0,
+        "soldMonth": "October 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/4f368aca848f956f7f391fa2bc531d50-med.jpg",
+        "lot": "Lot no 148-04905"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.10 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/153-auction/410279-jack-daniels-scenes-from-lynchburg-no10-1l/",
+        "priceGBP": 85.0,
+        "soldMonth": "October 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1178417-med.jpg",
+        "lot": "Lot no 112-03508"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.10 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/151-auction/397548-jack-daniels-scenes-from-lynchburg-no10-1l/",
+        "priceGBP": 80.0,
+        "soldMonth": "August 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1139440-med.jpg",
+        "lot": "Lot no 110-05224"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.10 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/148-auction/371357-jack-daniels-scenes-from-lynchburg-no10-1l/",
+        "priceGBP": 120.0,
+        "soldMonth": "March 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1061127-med.jpg",
+        "lot": "Lot no 107-01721"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-fded0e5eebd2": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.11 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/207-auction/762552-jack-daniels-scenes-from-lynchburg-no11-1l/",
+        "priceGBP": 120.0,
+        "soldMonth": "September 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/715640a4b40fa99492763b52dbf69a01-med.jpg",
+        "lot": "Lot no 159-00507"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.11 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724258-jack-daniels-scenes-from-lynchburg-no11-1l/",
+        "priceGBP": 180.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/210472068976ab27b5ce23e53aa44376-med.jpg",
+        "lot": "Lot no 152-04879"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.11 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/153-auction/410280-jack-daniels-scenes-from-lynchburg-no11-1l/",
+        "priceGBP": 90.0,
+        "soldMonth": "October 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1178419-med.jpg",
+        "lot": "Lot no 112-03509"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.11 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/151-auction/394264-jack-daniels-scenes-from-lynchburg-no11-1l/",
+        "priceGBP": 75.0,
+        "soldMonth": "August 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1130953-med.jpg",
+        "lot": "Lot no 110-02201"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.11 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/149-auction/383054-jack-daniels-scenes-from-lynchburg-no11-1l/",
+        "priceGBP": 90.0,
+        "soldMonth": "June 2020",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/products/1095443-med.jpg",
+        "lot": "Lot no 108-05718"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-b97402d7848c": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.12 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/207-auction/762551-jack-daniels-scenes-from-lynchburg-no12-1l/",
+        "priceGBP": 70.0,
+        "soldMonth": "September 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c5e0d0b6d2fdd8d56dc84e7f3c97d475-med.jpg",
+        "lot": "Lot no 159-00506"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.12 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/206-auction/757838-jack-daniels-scenes-from-lynchburg-no12-1l/",
+        "priceGBP": 95.0,
+        "soldMonth": "August 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/94843b3dc4eb98e1c68d2d4899d33b97-med.jpg",
+        "lot": "Lot no 158-01530"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.12 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/197-auction/724263-jack-daniels-scenes-from-lynchburg-no12-1l/",
+        "priceGBP": 160.0,
+        "soldMonth": "February 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/027cd2e0f06f8eb6a752b6c20dcafc9e-med.jpg",
+        "lot": "Lot no 152-04884"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.12 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/176-auction/567595-jack-daniels-scenes-from-lynchburg-no12-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "June 2022",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7095ecfd0b33a66e94bcb5b40685a971-med.jpg",
+        "lot": "Lot no 132-07184"
+      },
+      {
+        "name": "Jack Daniel's Scenes From Lynchburg No.12 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/172-auction/527693-jack-daniels-scenes-from-lynchburg-no12-1l/",
+        "priceGBP": 100.0,
+        "soldMonth": "February 2022",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/81c12ba3137042ada349dcf2374c2a5b-med.jpg",
+        "lot": "Lot no 128-01319"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-5a0f2f454c5b": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 12 Year Old Batch #2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/210-auction/785989-jack-daniels-12-year-old-batch-2/",
+        "priceGBP": 320.0,
+        "soldMonth": "December 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/c7d20dc1e4d6f45ac7c3ab0be11e5d63-med.jpg",
+        "lot": "Lot no 162-03120"
+      },
+      {
+        "name": "Jack Daniel's 12 Year Old Batch #2",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/205-auction/751074-jack-daniels-12-year-old-batch-2/",
+        "priceGBP": 340.0,
+        "soldMonth": "July 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/7ea24bf23bfc2e7364ad3a4b7d171653-med.jpg",
+        "lot": "Lot no 157-00134"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-f2c78cd25c3a": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel Special Release Coy Hill 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/210-auction/785991-jack-daniels-single-barrel-special-release-coy-hill-75cl/",
+        "priceGBP": 700.0,
+        "soldMonth": "December 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/77c1e11eb7d3cdae5d0bd65e03a21227-med.jpg",
+        "lot": "Lot no 162-03122"
+      },
+      {
+        "name": "Jack Daniel's Single Barrel Special Release Coy Hill 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/205-auction/752506-jack-daniels-single-barrel-special-release-coy-hill-75cl/",
+        "priceGBP": 2100.0,
+        "soldMonth": "July 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/da5984b9e4c672964ea3ddcdd0bf2103-med.jpg",
+        "lot": "Lot no 157-01347"
+      },
+      {
+        "name": "Jack Daniel's Single Barrel Special Release Coy Hill 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/175-auction/554949-jack-daniels-single-barrel-special-release-coy-hill-75cl/",
+        "priceGBP": 500.0,
+        "soldMonth": "May 2022",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/9c73a57c9c952274ed2b6205ec3bc788-med.jpg",
+        "lot": "Lot no 131-02997"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-33f12718b100": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Single Barrel Special Release Barrel Proof Rye 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/210-auction/785992-jack-daniels-single-barrel-special-release-barrel-proof-rye-75cl/",
+        "priceGBP": 320.0,
+        "soldMonth": "December 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/20b5158db738205f7bec4a1cc17e344b-med.jpg",
+        "lot": "Lot no 162-03123"
+      },
+      {
+        "name": "Jack Daniel's Single Barrel Special Release Barrel Proof Rye 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/205-auction/752507-jack-daniels-single-barrel-special-release-barrel-proof-rye-75cl/",
+        "priceGBP": 360.0,
+        "soldMonth": "July 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/703d3a831fd0e8d636171e4f5e11a631-med.jpg",
+        "lot": "Lot no 157-01348"
+      },
+      {
+        "name": "Jack Daniel's Single Barrel Special Release Barrel Proof Rye 75cl",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/188-auction/652750-jack-daniels-single-barrel-special-release-barrel-proof-rye-75cl/",
+        "priceGBP": 320.0,
+        "soldMonth": "May 2023",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/93463ed9b9ecbf0952a11828a3e9cd57-med.jpg",
+        "lot": "Lot no 143-05402"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-6c09ca941af4": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s 12 Year Old Batch #1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/216-auction/812507-jack-daniels-12-year-old-batch-1/",
+        "priceGBP": 320.0,
+        "soldMonth": "May 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/6f937755f177a1c99529bd874b228b8e-med.jpg",
+        "lot": "Lot no 167-02802"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-ff43055f5a94": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Unaged Tennessee Rye Batch #1",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/210-auction/786623-jack-daniels-unaged-tennessee-rye-batch-1-75cl/",
+        "priceGBP": 160.0,
+        "soldMonth": "December 2024",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1d31fb6a66b1fd25fd39fc97fad71105-large.jpg",
+        "lot": "Lot no 162-03743",
+        "abv": 40.0,
+        "volume": 750,
+        "ended": "December 8, 2024",
+        "pageText": "Winning bid: £160 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. White whiskey or perhaps moonshine, I’m sure Jack would still approve! 40% ABV / 75cl Bottle Number: 5429 Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-7a2e7e433e0f": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "Jack Daniel’s Old No.7 150th Birthday 1L",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/226-auction/865282-jack-daniels-old-no7-150th-birthday-1l/",
+        "priceGBP": 150.0,
+        "soldMonth": "March 2026",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/1c9c2bb2a6dd68c0c57691ca2a490fa4-med.jpg",
+        "lot": "Lot no 177-03221"
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
+  },
+  "jd-b571386a3c40": {
+    "method": "Median of exact-name sold auction lots, up to 5",
+    "observations": [
+      {
+        "name": "No.27 Gold Maple Wood Finish Year Of The Ox",
+        "source": "https://www.scotchwhiskyauctions.com/auctions/213-auction/794843-jack-daniels-no27-gold-maple-wood-finish-year-of-the-ox/",
+        "priceGBP": 100.0,
+        "soldMonth": "February 2025",
+        "image": "https://d3suvtcq00dftb.cloudfront.net/images/bf4192fc645ea180bce8cfffab718765-large.jpg",
+        "lot": "Lot no 164-00680",
+        "abv": 40.0,
+        "volume": 700,
+        "ended": "February 9, 2025",
+        "pageText": "Winning bid: £100 Jack Daniel’s is a brand of sour mash Tennessee whiskey that is the highest selling American whiskey in the world. It is produced in Lynchburg, Tennessee by the Jack Daniel’s Distillery, which has been owned by the Brown-Forman Corporation since 1956. Despite being the location of a major operational distillery, Jack Daniel’s home county of Moore is a dry county, so the product is not available for consumption at stores or restaurants within the county. Although the product generally meets the regulatory criteria for classification as a straight bourbon, the company disavows this classification and markets it simply as Tennessee whiskey rather than as Tennessee bourbon. Year of the Ox Cask Type: Maple Wood Finish 40% ABV / 70cl Please examine all images of the lot, any packaging and labels carefully and satisfy yourself as to their condition before making a bid. "
+      }
+    ],
+    "exchangeRateDate": "2026-10-16"
   }
 }

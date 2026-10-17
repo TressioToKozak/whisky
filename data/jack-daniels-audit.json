@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-17",
+  "entries": 122,
+  "retailListingsReviewed": 77,
+  "auctionLotsReviewed": 806,
+  "scope": "Verified named releases, label variants and specified single-barrel selections; excludes size-only duplicates, gift accessories, mixed lots and ready-to-drink cans. This is not a claim that every historical barrel or regional label has been documented.",
+  "exclusions": [
+    {
+      "name": "Single Barrel Heritage Barrel 2025",
+      "reason": "Size-only duplicate of Heritage Barrel 2025"
+    },
+    {
+      "name": "Single Barrel Special Release Heritage Barrel",
+      "reason": "Size-only duplicate of Heritage Barrel 2025"
+    },
+    {
+      "name": "Distillery Series DSP-TN-1",
+      "reason": "DSP-TN-1 is a distillery identifier, not enough to establish a unique release."
+    }
+  ],
+  "photoFixes": "Seven promotional shirt photographs replaced with actual bottle photographs from NL retailers and verified auction lots.",
+  "factCorrection": "Sinatra Century bottle label states 100 US proof (50% ABV); auction text says 45%, inconsistent with photographed label.",
+  "additionalChecks": [
+    "Unaged Tennessee Rye Batch #1",
+    "Old No.7 150th Birthday",
+    "No.27 Gold Year Of The Ox"
+  ],
+  "auctionPriceRefinements": 23,
+  "priceBreakdown": {
+    "NL": 14,
+    "auction": 68,
+    "international": 40
+  }
+}

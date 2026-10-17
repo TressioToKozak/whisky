@@ -1,0 +1,69 @@
+[
+  {
+    "id": "johnnie-walker",
+    "sourcePage": "https://www.johnniewalker.com/en/our-whisky",
+    "imageUrl": "https://www.johnniewalker.com/_next/static/media/jw-logo.37eae781.svg",
+    "file": "/brands/johnnie-walker.svg",
+    "sha256": "1cda5a6e0790278dae5396994f3446e8c827cdd74ae41bf3c8463d09c10d0e82",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "jim-beam",
+    "sourcePage": "https://www.jimbeam.com/en-us",
+    "imageUrl": "https://www.jimbeam.com/themes/custom/bsi_tokens_theme/bsi_tokens_subtheme/logo.svg",
+    "file": "/brands/jim-beam.svg",
+    "sha256": "280f5182f376129fe5af9dfff126d651fad8630adf31bd1752884c909bd10f90",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "ardbeg",
+    "sourcePage": "https://www.ardbeg.com/en-gb",
+    "imageUrl": "https://www.ardbeg.com/cdn/shop/files/Ardbeg_logo_type.svg?v=1751473559&width=250",
+    "file": "/brands/ardbeg.svg",
+    "sha256": "548c614fddcb19731d8cc8a1b3ef6384256f6130755ebde5bef24c4d2b4f948e",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "bushmills",
+    "sourcePage": "https://bushmills.com/",
+    "imageUrl": "https://bushmills.com/cdn/shop/files/Bushmills-Irish-Whiskey-Logo-white.svg?v=1740426106&width=600",
+    "file": "/brands/bushmills.svg",
+    "sha256": "5cec4a5767c46b173192e1b560699d33029ea23bec1f98d1b455b32b5af9631f",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "jack-daniels",
+    "sourcePage": "https://www.jackdaniels.com/en-us/our-products",
+    "imageUrl": "https://www.jackdaniels.com/en-us/our-products#header",
+    "file": "/brands/jack-daniels.svg",
+    "sha256": "373ad3c79486266d766d0b2193da9289719e0189bfdee5c07e22c47e9d33be22",
+    "checkedAt": "2026-10-17"
+  },
+  {
+    "id": "goldfinch",
+    "sourcePage": "https://www.goldfinchwhisky.com/",
+    "imageUrl": "https://www.goldfinchwhisky.com/wp-content/uploads/2021/04/gwm_web_logo-1-300x70.png",
+    "file": "/brands/goldfinch.png",
+    "sha256": "6adaa9be050b9d82b15766500d119e3ad792d4121534f5f0da827bdb2e68ab84",
+    "checkedAt": "2026-10-17",
+    "note": "Official brand logo"
+  },
+  {
+    "id": "ballantines",
+    "sourcePage": "https://www.ballantines.com/en/",
+    "imageUrl": "https://www.ballantines.com/wp-content/themes/global-theme/static-v2/images/site-logos/ballantines/footer-logo.svg",
+    "file": "/brands/ballantines.svg",
+    "sha256": "d3ec1bec6d7d081b2d8bdd684bff86b530f9beea0f6acb3f17cc3993b7d6ec41",
+    "checkedAt": "2026-10-17",
+    "note": "Official brand logo"
+  },
+  {
+    "id": "toki",
+    "sourcePage": "https://house.suntory.com/toki-whisky",
+    "imageUrl": "https://house.suntory.com/sites/default/files/styles/original/public/2025-01/toki.png.webp?itok=NsSGiSi_",
+    "file": "/brands/toki.webp",
+    "sha256": "9a68b764deeefc62527aa9197093d2d5f92b35a696eabe9f5bac68c22970fe9f",
+    "checkedAt": "2026-10-17",
+    "note": "Official manufacturer photograph, displayed with a CSS crop around the TOKI / Suntory Whisky wordmark on the label. Original image bytes are unchanged."
+  }
+]
