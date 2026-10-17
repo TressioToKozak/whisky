@@ -42,6 +42,14 @@ with sync_playwright() as p:
     photo=page.locator('.whisky-card img').first
     expect(photo).to_be_visible()
     assert photo.evaluate('(img)=>img.complete && img.naturalWidth>0')
+    expect(page.locator('.whisky-card').first).to_contain_text('Red Soul')
+    for term in ['Sabrina Carpenter', 'A Song of Ice', 'A Song of Fire']:
+        page.get_by_role('searchbox',name='Szukaj whisky').fill(term)
+        expect(page.locator('.whisky-card')).to_have_count(1)
+        expect(page.locator('.card-price')).to_contain_text('€')
+        photo=page.locator('.whisky-card img')
+        expect(photo).to_be_visible()
+        page.wait_for_function("document.querySelector('.whisky-card img').naturalWidth > 0")
     page.get_by_role('searchbox',name='Szukaj whisky').fill('Honour')
     expect(page.locator('.whisky-card')).to_have_count(1)
     page.get_by_role('button',name='Dodaj do życzeń: Honour',exact=True).click()
