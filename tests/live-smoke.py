@@ -5,6 +5,7 @@ through Python's verified TLS/proxy transport; no certificate checks are disable
 import gzip
 import os
 import urllib.request
+import urllib.error
 from urllib.parse import urlsplit
 from playwright.sync_api import sync_playwright, expect
 BASE=os.environ.get('DRAM_URL','https://tressiotokozak.github.io/whisky/')
@@ -16,7 +17,11 @@ with sync_playwright() as p:
     def verified_get(route):
         assert route.request.method=='GET'
         assert urlsplit(route.request.url).hostname==origin.hostname
-        with urllib.request.urlopen(route.request.url,timeout=30) as response:
+        try:
+            response=urllib.request.urlopen(route.request.url,timeout=30)
+        except urllib.error.HTTPError as error:
+            response=error
+        with response:
             body=response.read()
             headers={k.lower():v for k,v in response.headers.items()}
             if headers.get('content-encoding')=='gzip':body=gzip.decompress(body)
