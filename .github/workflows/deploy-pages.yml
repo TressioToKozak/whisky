@@ -22,6 +22,17 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - name: Use the built application as the Pages source
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: site } = await github.rest.repos.getPages(context.repo);
+            if (site.build_type !== 'workflow') {
+              await github.request('PUT /repos/{owner}/{repo}/pages', {
+                ...context.repo,
+                build_type: 'workflow'
+              });
+            }
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -36,3 +47,9 @@ jobs:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify the public application bundles
+        run: node scripts/check-deployment.mjs "${{ steps.deployment.outputs.page_url }}"
