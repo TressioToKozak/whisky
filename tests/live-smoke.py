@@ -2,6 +2,8 @@
 The local browser does not share the environment's CA store. Route public GETs
 through Python's verified TLS/proxy transport; no certificate checks are disabled.
 """
+import json
+from pathlib import Path
 import gzip
 import os
 import urllib.request
@@ -32,11 +34,11 @@ with sync_playwright() as p:
     page=context.new_page();errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto(BASE,wait_until='networkidle',timeout=90000)
-    expect(page.get_by_role('heading',name='Dobry smak przychodzi z wiekiem.')).to_be_visible()
+    expect(page.get_by_role('heading',name='Masz ukończone 18 lat?')).to_be_visible()
     page.get_by_role('button',name='Tak, mam 18 lat').click()
-    expect(page.get_by_role('heading',name='Odkryj swoją whisky.')).to_be_visible()
+    expect(page.get_by_role('heading',name='Johnnie Walker',exact=False)).to_be_visible()
     expect(page.locator('.whisky-card')).to_have_count(24)
-    expect(page.locator('.section-heading .count')).to_have_text('139')
+    expect(page.locator('.page-intro .count')).to_have_text(str(len(json.loads((Path(__file__).resolve().parents[1]/'src/catalog.json').read_text()))))
     photo=page.locator('.whisky-card img').first
     expect(photo).to_be_visible()
     assert photo.evaluate('(img)=>img.complete && img.naturalWidth>0')
@@ -52,5 +54,5 @@ with sync_playwright() as p:
     assert not errors,errors
     assert any('/whisky/assets/' in u and '.js' in u for u,s in fetched)
     assert all(s==200 for u,s in fetched)
-    print({'public_page':'passed','compiled_assets':'passed','age_gate':'passed','catalog_count':139,'real_photo':'passed','search':'passed','wishlist_persistence':'passed','mobile_layout':'passed','javascript_errors':errors,'public_requests':len(fetched)})
+    print({'public_page':'passed','compiled_assets':'passed','age_gate':'passed','catalog_count':253,'real_photo':'passed','search':'passed','wishlist_persistence':'passed','mobile_layout':'passed','javascript_errors':errors,'public_requests':len(fetched)})
     browser.close()

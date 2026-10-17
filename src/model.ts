@@ -1,7 +1,7 @@
 export type Whisky = {
   id: string; name: string; brand: string; series: string; category: 'Klasyka' | 'Edycja specjalna' | 'Kolekcjonerska';
   abv: number | null; age: number | null; volume: number | null; country: string;
-  description: string; image: string; source: string; imageSource: string; tags: string[]; custom?: boolean;
+  description: string; image: string; source: string; imageSource: string; tags: string[]; aliases?: string[]; custom?: boolean;
 }
 export type Review = { id: string; whiskyId: string; score: number; note: string; date: string; tags: string[] }
 export type Bottle = { whiskyId: string; quantity: number; opened: boolean }
