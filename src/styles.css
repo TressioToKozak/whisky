@@ -398,3 +398,37 @@ h1 { display: flex; align-items: center; gap: 14px; font-size: 31px; line-height
 .cellar-value span, .cellar-value small { display: block; color: var(--muted); font-size: 11px; line-height: 1.6; }
 .cellar-value > div:last-child { text-align: right; }
 .brand-glenfiddich .brand-logo { background: #f0eee7; }
+
+.scan-top { color: var(--accent); width: 42px; min-height: 44px; }
+.scan-cellar { margin: -4px 0 20px; }
+.barcode-modal { max-width: 520px; }
+.barcode-scanner > h2 { margin: 4px 0 12px; font-family: Manrope, sans-serif; font-size: 26px; }
+.barcode-scanner > .muted { font-size: 13px; line-height: 1.6; margin-bottom: 22px; }
+.barcode-camera { position: relative; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #070807; margin: 16px 0 12px; }
+.barcode-camera video { display: block; width: 100%; min-height: 200px; max-height: 300px; object-fit: cover; }
+.barcode-guide { position: absolute; inset: 26% 9% 30%; border: 2px solid var(--accent); border-radius: 5px; pointer-events: none; }
+.barcode-camera > span { position: absolute; bottom: 0; padding: 10px; width: 100%; text-align: center; background: #000b; font-size: 11px; }
+.barcode-upload { position: relative; cursor: pointer; margin: 12px 0 0; }
+.barcode-upload input { position: absolute; inset: 0; opacity: 0; width: 100%; cursor: pointer; }
+.barcode-upload:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
+.barcode-upload.busy { opacity: .6; }
+.barcode-manual { margin: 24px 0 0; padding: 22px 0 0; border-top: 1px solid var(--line); }
+.barcode-read { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; font-size: 12px; color: var(--muted); border-bottom: 1px solid var(--line); padding: 6px 0 18px; margin-bottom: 20px; }
+.barcode-read b { color: var(--text); font-weight: 400; font-variant-numeric: tabular-nums; }
+.barcode-match { display: flex; gap: 18px; align-items: center; margin-bottom: 18px; }
+.barcode-match img { width: 96px; height: 156px; padding: 6px; object-fit: contain; border-radius: 5px; background: #fff; flex-shrink: 0; }
+.barcode-match p { color: var(--muted); font-size: 11px; margin: 0 0 6px; }
+.barcode-match h3 { font-size: 19px; line-height: 1.35; margin: 0 0 8px; }
+.barcode-match span, .barcode-match small { display: block; color: #aebd98; font-size: 12px; margin-top: 6px; }
+.barcode-note { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 16px 0; }
+.barcode-option { display: flex; align-items: center; justify-content: space-between; width: 100%; padding: 14px 0; border-bottom: 1px solid var(--line); text-align: left; gap: 12px; }
+.barcode-option > span { color: var(--muted); font-size: 11px; }
+.barcode-option strong { display: block; color: var(--text); font-size: 14px; margin: 5px 0; }
+.barcode-option small { color: #aebd98; font-size: 11px; }
+.barcode-scanner .search { margin: 18px 0 8px; }
+.barcode-scanner .barcode-option + .button { margin-top: 20px; }
+.barcode-scanner .form-error { margin-top: 18px; }
+
+.barcode-photo { width: 96px; height: 156px; padding: 8px; display: grid; place-items: center; container-type: size; overflow: hidden; border-radius: 5px; flex-shrink: 0; }
+.barcode-match .barcode-photo .bottle-photo { padding: 0; width: min(100cqw, calc(100cqh * var(--photo-ratio,1))); height: min(100cqh, calc(100cqw / var(--photo-ratio,1))); background: none; }
+@supports not (object-view-box: inset(1%)) { .barcode-match .barcode-photo .bottle-photo { width: 100%; height: 100%; } }

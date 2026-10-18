@@ -1,3 +1,6 @@
+import { normalizeBarcode } from './barcode.ts'
+import type { BarcodeLink } from './barcode.ts'
+
 export type Whisky = {
   id: string; name: string; brand: string; series: string; category: 'Klasyka' | 'Edycja specjalna' | 'Kolekcjonerska';
   abv: number | null; age: number | null; volume: number | null; country: string;
@@ -5,7 +8,7 @@ export type Whisky = {
 }
 export type Review = { id: string; whiskyId: string; score: number; note: string; date: string; tags: string[] }
 export type Bottle = { whiskyId: string; quantity: number; opened: boolean }
-export type Journal = { version: 1; custom: Whisky[]; reviews: Review[]; bottles: Bottle[]; wishlist: string[] }
+export type Journal = { version: 1; custom: Whisky[]; reviews: Review[]; bottles: Bottle[]; wishlist: string[]; barcodeLinks?: BarcodeLink[] }
 export const STORAGE_KEY = 'dram.journal.v1'
 export const emptyJournal = (): Journal => ({ version: 1, custom: [], reviews: [], bottles: [], wishlist: [] })
 export const safeUrl = (value: unknown): value is string => typeof value === 'string' && (value === '' || /^https:\/\/[^\s]+$/.test(value))
@@ -25,8 +28,9 @@ export function validateJournal(value: unknown, catalogIds: string[]): Journal {
   for (const r of d.reviews) if (!r || !string(r.id, 100) || !ids.has(r.whiskyId) || !number(r.score, 1, 10) || r.score * 2 % 1 !== 0 || !string(r.note, 3000) || !/^\d{4}-\d{2}-\d{2}$/.test(r.date) || (!Number.isFinite(Date.parse(r.date)) || new Date(r.date).toISOString().slice(0,10) !== r.date) || !Array.isArray(r.tags) || r.tags.length > 10 || r.tags.some(t => !string(t, 50))) throw Error('Kopia zawiera nieprawidłową degustację.')
   for (const b of d.bottles) if (!b || !ids.has(b.whiskyId) || !number(b.quantity, 1, 999) || !Number.isInteger(b.quantity) || typeof b.opened !== 'boolean') throw Error('Kopia zawiera nieprawidłowy wpis w barku.')
   for (const id of d.wishlist) if (!ids.has(id)) throw Error('Kopia zawiera nieznaną whisky na liście życzeń.')
+  if (d.barcodeLinks !== undefined && (!Array.isArray(d.barcodeLinks) || d.barcodeLinks.length > 4000 || d.barcodeLinks.some(link => !link || typeof link.code !== 'string' || normalizeBarcode(link.code) !== link.code || !ids.has(link.whiskyId)) || new Set(d.barcodeLinks.map(link => link.code)).size !== d.barcodeLinks.length)) throw Error('Zapis zawiera nieprawidłowe dopasowania kodów kreskowych.')
   // Keep only the supported fields. Never import a user's arbitrary object properties.
-  return { version: 1, custom: d.custom.map(w => ({ id:w.id,name:w.name,brand:w.brand,series:w.series,category:w.category,abv:w.abv,age:w.age,volume:w.volume,country:w.country,description:w.description,image:w.image,source:w.source,imageSource:w.imageSource,tags:w.tags,custom:true })), reviews: d.reviews.map(r => ({id:r.id,whiskyId:r.whiskyId,score:r.score,note:r.note,date:r.date,tags:r.tags})), bottles:d.bottles.map(b => ({whiskyId:b.whiskyId,quantity:b.quantity,opened:b.opened})), wishlist:[...d.wishlist] }
+  return { version: 1, custom: d.custom.map(w => ({ id:w.id,name:w.name,brand:w.brand,series:w.series,category:w.category,abv:w.abv,age:w.age,volume:w.volume,country:w.country,description:w.description,image:w.image,source:w.source,imageSource:w.imageSource,tags:w.tags,custom:true })), reviews: d.reviews.map(r => ({id:r.id,whiskyId:r.whiskyId,score:r.score,note:r.note,date:r.date,tags:r.tags})), bottles:d.bottles.map(b => ({whiskyId:b.whiskyId,quantity:b.quantity,opened:b.opened})), wishlist:[...d.wishlist], ...(d.barcodeLinks !== undefined ? {barcodeLinks:d.barcodeLinks.map(link => ({code:link.code,whiskyId:link.whiskyId}))} : {}) }
 }
 export const average = (reviews: Review[]): number | null => reviews.length ? reviews.reduce((sum, r) => sum + r.score, 0) / reviews.length : null
 export const formatScore = (value: number) => value.toLocaleString('pl-PL', { maximumFractionDigits: 1, minimumFractionDigits: 1 })

@@ -1,0 +1,1638 @@
+{
+  "checkedAt": "2026-10-18",
+  "method": "EAN/GTIN explicitly published in retailer product specifications or Product JSON-LD, never inferred from SKU or name. Digit length and GS1 check digit validated. Source volume checked where published; source URL is the catalog page or a same-volume existing price quotation. Camera reads are confirmed before adding.",
+  "products": 107,
+  "uniqueCodes": 108,
+  "byBrand": {
+    "Johnnie Walker": 16,
+    "Jack Daniel's": 1,
+    "Ardbeg": 18,
+    "Ballantine’s": 8,
+    "Bushmills": 19,
+    "Chivas Regal": 13,
+    "Jim Beam": 12,
+    "Toki": 2,
+    "Glenfiddich": 19
+  },
+  "observations": [
+    {
+      "id": "jw-001",
+      "source": "https://www.drankgigant.nl/johnnie-walker-black-label.html",
+      "codeCandidates": [
+        "4003922041836"
+      ],
+      "codes": [
+        "4003922041836"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-002",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-gb-0-70-liter-l6283900",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-003",
+      "source": "https://www.drankgigant.nl/johnnie-walker-gold-reserve.html",
+      "codeCandidates": [
+        "5000267117560",
+        "5000267197609"
+      ],
+      "codes": [
+        "5000267117560",
+        "5000267197609"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-004",
+      "source": "https://www.topdrinks.nl/johnnie-walker-red-label-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-005",
+      "source": "https://www.drankgigant.nl/johnnie-walker-double-black-70-cl.html",
+      "codeCandidates": [
+        "5000267116426"
+      ],
+      "codes": [
+        "5000267116426"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-006",
+      "source": "https://www.drankgigant.nl/johnnie-walker-green-label-15-year.html",
+      "codeCandidates": [
+        "5000267134710"
+      ],
+      "codes": [
+        "5000267134710"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-007",
+      "source": "https://www.topdrinks.nl/johnnie-walker-the-ultimate-blended-scotch-whisky-aged-18-years-giftbox-l0657800",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-008",
+      "source": "https://www.topdrinks.nl/johnnie-walker-swing-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-47e4e8d86fe5",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-festive-blend.html",
+      "codeCandidates": [
+        "5000267202341"
+      ],
+      "codes": [
+        "5000267202341"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-5a762327e7ef",
+      "source": "https://www.drankgigant.nl/johnnie-walker-black-ruby.html",
+      "codeCandidates": [
+        "5000267198576"
+      ],
+      "codes": [
+        "5000267198576"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-9b43a737ba02",
+      "source": "https://www.topdrinks.nl/johnnie-walker-black-triple-cask-1-liter",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-a60fbea30b02",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-cities-of-the-future-berlin-2220.html",
+      "codeCandidates": [
+        "5000267188751"
+      ],
+      "codes": [
+        "5000267188751"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-c0f785d2d466",
+      "source": "https://www.topdrinks.nl/johnnie-walker-island-green-1ltr",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-2e092d2b628a",
+      "source": "https://www.drankgigant.nl/johnnie-walker-red-soul.html",
+      "codeCandidates": [
+        "5000267202471"
+      ],
+      "codes": [
+        "5000267202471"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-7a04a98bd323",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-years-of-the-horse-2026.html",
+      "codeCandidates": [
+        "5000267199672"
+      ],
+      "codes": [
+        "5000267199672"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-5ef181260c15",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-cities-of-the-future-mars.html",
+      "codeCandidates": [
+        "5000267188768"
+      ],
+      "codes": [
+        "5000267188768"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-eb3d1a6bf88b",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-rahul-mishra-diwali-edition-gb-0-70-liter",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-ee270eafcf8e",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-king-george-v-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-441d427d3fdf",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-ice-chalet.html",
+      "codeCandidates": [
+        "5000267196077"
+      ],
+      "codes": [
+        "5000267196077"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-175665b312c4",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-cny-2025-year-of-the-snake-gb-0-70-liter",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-bb99fc9b02f7",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-elusive-umami-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-694e368c9a7d",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-cities-of-the-future-london-2220.html",
+      "codeCandidates": [
+        "5000267188836"
+      ],
+      "codes": [
+        "5000267188836"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-c0a1fbfbde2d",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-cny-year-of-the-wood-dragon-gb-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-nl-azure",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-azure.html",
+      "codeCandidates": [
+        "5000267201429"
+      ],
+      "codes": [
+        "5000267201429"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-nl-gold-icons",
+      "source": "https://www.drankgigant.nl/johnnie-walker-gold-label-reserve.html",
+      "codeCandidates": [
+        "5000267190860"
+      ],
+      "codes": [
+        "5000267190860"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-nl-goat",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label-years-of-the-goat.html",
+      "codeCandidates": [
+        "5000267202679"
+      ],
+      "codes": [
+        "5000267202679"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-nl-goat",
+      "source": "https://www.topdrinks.nl/johnnie-walker-blue-label-year-of-the-goat-gb-0-70-liter-l0147300",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-213370286da9",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-honey-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-51c20cabcae7",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-fire-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-54b8c42456f8",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-apple-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-718998175b4f",
+      "source": "https://www.topdrinks.nl/jack-daniels-blackberry-0-70-liter",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-faccf2cee6ba",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-american-single-malt-1ltr",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-78f2ff591d40",
+      "source": "https://www.topdrinks.nl/jack-daniels-single-barrel-heritage-1-liter-l0022800",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-3c0f56ada9a8",
+      "source": "https://www.drankgigant.nl/jack-daniels-70-cl.html",
+      "codeCandidates": [
+        "3099873045864"
+      ],
+      "codes": [
+        "3099873045864"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-aeb143dbf537",
+      "source": "https://www.topdrinks.nl/jack-daniels-mclaren-x-jd-limited-edition-2025-gb-1-liter-l0197100",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-ed6b6939efa5",
+      "source": "https://www.topdrinks.nl/jack-daniels-10-years-batch-5-0-70-liter-l0135000",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-e7c7a55da65a",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-gentleman-jack-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-07422fff191a",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-bonded-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-4c20bc914736",
+      "source": "https://www.topdrinks.nl/jack-daniels-bonded-rye-0-70-liter",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-8cac8f130e72",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-triple-mash-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jd-447dd0721eeb",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-straight-rye-70cl",
+      "codeCandidates": [],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-5684e8914c8c",
+      "source": "https://www.drankgigant.nl/ardbeg-scorch-limited-edition-fiercely-charred-casks.html",
+      "codeCandidates": [
+        "5010494969719"
+      ],
+      "codes": [
+        "5010494969719"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-e842a16ab06d",
+      "source": "https://www.drankgigant.nl/ardbeg-traigh-bhan-19-years-batch-4.html",
+      "codeCandidates": [
+        "5010494975574"
+      ],
+      "codes": [
+        "5010494975574"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-5180cd853dcf",
+      "source": "https://www.drankgigant.nl/ardbeg-traigh-bhan-19-years-batch-5.html",
+      "codeCandidates": [
+        "5010494980943"
+      ],
+      "codes": [
+        "5010494980943"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-fec238c710cb",
+      "source": "https://www.drankgigant.nl/ardbeg-19-years-traigh-bhan-batch-6.html",
+      "codeCandidates": [
+        "5010494991697"
+      ],
+      "codes": [
+        "5010494991697"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-7d7b1b690457",
+      "source": "https://www.drankgigant.nl/ardbeg-corryvreckan.html",
+      "codeCandidates": [
+        "5010494296280"
+      ],
+      "codes": [
+        "5010494296280"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-95da515fb6d9",
+      "source": "https://www.drankgigant.nl/ardbeg-uigeadail.html",
+      "codeCandidates": [
+        "5010494220278"
+      ],
+      "codes": [
+        "5010494220278"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-a38d19e47a5e",
+      "source": "https://www.drankgigant.nl/ardbeg-grooves.html",
+      "codeCandidates": [
+        "5010494942682"
+      ],
+      "codes": [
+        "5010494942682"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-c496f089d280",
+      "source": "https://www.drankgigant.nl/ardbeg-spectacular.html",
+      "codeCandidates": [
+        "5010494988703"
+      ],
+      "codes": [
+        "5010494988703"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-038ca6f74838",
+      "source": "https://www.drankgigant.nl/ardbeg-anamorphic.html",
+      "codeCandidates": [
+        "5010494983517"
+      ],
+      "codes": [
+        "5010494983517"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-614bbda2ea6d",
+      "source": "https://www.drankgigant.nl/ardbeg-an-oa.html",
+      "codeCandidates": [
+        "5010494938326"
+      ],
+      "codes": [
+        "5010494938326"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-236eaaf24cb0",
+      "source": "https://www.drankgigant.nl/ardbeg-10-year.html",
+      "codeCandidates": [
+        "5010494195286"
+      ],
+      "codes": [
+        "5010494195286"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-73c8d72ad731",
+      "source": "https://www.drankgigant.nl/ardbeg-smokiverse-limited-edition.html",
+      "codeCandidates": [
+        "5010494995305"
+      ],
+      "codes": [
+        "5010494995305"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-a56dff8b6045",
+      "source": "https://www.drankgigant.nl/ardbeg-wee-beastie-5-years.html",
+      "codeCandidates": [
+        "5010494961577"
+      ],
+      "codes": [
+        "5010494961577"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-fab4825a96f2",
+      "source": "https://www.drankgigant.nl/ardbeg-8-years-for-discussion.html",
+      "codeCandidates": [
+        "5010494971040"
+      ],
+      "codes": [
+        "5010494971040"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-9b1e89e29e4c",
+      "source": "https://www.drankgigant.nl/ardbeg-pirates-of-the-herbridean.html",
+      "codeCandidates": [
+        "5010494967104"
+      ],
+      "codes": [
+        "5010494967104"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-771a30686ef5",
+      "source": "https://www.drankgigant.nl/ardbeg-smoketrails-napa-valley-edition.html",
+      "codeCandidates": [
+        "5010494991598"
+      ],
+      "codes": [
+        "5010494991598"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-2b2488fa4aa6",
+      "source": "https://www.drankgigant.nl/ardbeg-23-years-vintage-y2k.html",
+      "codeCandidates": [
+        "5010494989786"
+      ],
+      "codes": [
+        "5010494989786"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ardbeg-6945ef7688c9",
+      "source": "https://www.drankgigant.nl/ardbeg-17-years-the-legend-returns.html",
+      "codeCandidates": [
+        "5010494987515"
+      ],
+      "codes": [
+        "5010494987515"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-07ba608b18f6",
+      "source": "https://www.drankgigant.nl/ballantines.html",
+      "codeCandidates": [
+        "5010106113127"
+      ],
+      "codes": [
+        "5010106113127"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-5d45c26add75",
+      "source": "https://www.drankgigant.nl/ballantines-12-year.html",
+      "codeCandidates": [
+        "5010106110225"
+      ],
+      "codes": [
+        "5010106110225"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-ce2bbbff7057",
+      "source": "https://www.drankgigant.nl/ballantines-21-year.html",
+      "codeCandidates": [
+        "5010106110393"
+      ],
+      "codes": [
+        "5010106110393"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-bb6f35f4dc5f",
+      "source": "https://www.drankgigant.nl/ballantines-10-year.html",
+      "codeCandidates": [
+        "5000299628713"
+      ],
+      "codes": [
+        "5000299628713"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-80ec5901ec08",
+      "source": "https://www.drankgigant.nl/ballantines-barrel-smooth-blended.html",
+      "codeCandidates": [
+        "5000299610770"
+      ],
+      "codes": [
+        "5000299610770"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-d08e3d4e62f5",
+      "source": "https://www.drankgigant.nl/ballantines%20the%20glenburgie%20aged%2015%20years.html",
+      "codeCandidates": [
+        "5000299613238"
+      ],
+      "codes": [
+        "5000299613238"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-86debaacb6ba",
+      "source": "https://www.drankgigant.nl/ballantine-s-elton-john.html",
+      "codeCandidates": [
+        "5000299629543"
+      ],
+      "codes": [
+        "5000299629543"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "ballantines-bb01435087b5",
+      "source": "https://www.drankgigant.nl/ballantine-s-john-lennon.html",
+      "codeCandidates": [
+        "5000299629574"
+      ],
+      "codes": [
+        "5000299629574"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-b9bc67ed47bb",
+      "source": "https://www.drankgigant.nl/bushmills-18-years-three-wood.html",
+      "codeCandidates": [
+        "5055966820310"
+      ],
+      "codes": [
+        "5055966820310"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-6802a226f822",
+      "source": "https://www.drankgigant.nl/bushmills-10-years-sherry-cask-finish.html",
+      "codeCandidates": [
+        "5055966830050"
+      ],
+      "codes": [
+        "5055966830050"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-ea6c77c11286",
+      "source": "https://www.drankgigant.nl/bushmills-14-year-malaga-cask-finish.html",
+      "codeCandidates": [
+        "5055966820211"
+      ],
+      "codes": [
+        "5055966820211"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-27410c6a6124",
+      "source": "https://www.drankgigant.nl/bushmills-10-years-vino-dulce-reserve.html",
+      "codeCandidates": [
+        "5055966820266"
+      ],
+      "codes": [
+        "5055966820266"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-788c3a811aeb",
+      "source": "https://www.drankgigant.nl/bushmills-black-bush-80-20-px-sherry.html",
+      "codeCandidates": [
+        "5055966810243"
+      ],
+      "codes": [
+        "5055966810243"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-7fbab2c163ad",
+      "source": "https://www.drankgigant.nl/bushmills-black-bush.html",
+      "codeCandidates": [
+        "5055966810120"
+      ],
+      "codes": [
+        "5055966810120"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-1f0ef4bc40eb",
+      "source": "https://www.drankgigant.nl/bushmills-original-red.html",
+      "codeCandidates": [
+        "5055966800022"
+      ],
+      "codes": [
+        "5055966800022"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-07edd289caee",
+      "source": "https://www.drankgigant.nl/bushmills-american-oak.html",
+      "codeCandidates": [
+        "5055966830159"
+      ],
+      "codes": [
+        "5055966830159"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-d61915e75a7d",
+      "source": "https://www.drankgigant.nl/bushmills-21-years.html",
+      "codeCandidates": [
+        "5055966830036"
+      ],
+      "codes": [
+        "5055966830036"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-c58ccf34f821",
+      "source": "https://www.drankgigant.nl/bushmills%2016%20year%20single%20malt.html",
+      "codeCandidates": [
+        "5055966825025"
+      ],
+      "codes": [
+        "5055966825025"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-38b56c97ed0b",
+      "source": "https://www.drankgigant.nl/bushmills-12-years-irish-whiskey.html",
+      "codeCandidates": [
+        "5055966800190"
+      ],
+      "codes": [
+        "5055966800190"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-093d9ca47f92",
+      "source": "https://www.drankgigant.nl/bushmills-25-years.html",
+      "codeCandidates": [
+        "5055966820150"
+      ],
+      "codes": [
+        "5055966820150"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-1cba975b34df",
+      "source": "https://www.drankgigant.nl/bushmills-steamship-collection-sherry-cask.html",
+      "codeCandidates": [
+        "5055966820105"
+      ],
+      "codes": [
+        "5055966820105"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-8ecfc842802c",
+      "source": "https://www.drankgigant.nl/bushmills-steamship-collection-port-cask.html",
+      "codeCandidates": [
+        "5055966820112"
+      ],
+      "codes": [
+        "5055966820112"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-47c507ed1824",
+      "source": "https://www.drankgigant.nl/bushmills-steamship-collection-char-bourbon-cask.html",
+      "codeCandidates": [
+        "5055966820129"
+      ],
+      "codes": [
+        "5055966820129"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-0a63cfe85c85",
+      "source": "https://www.drankgigant.nl/bushmills-caribbean-rum-cask-finish.html",
+      "codeCandidates": [
+        "5055966830142"
+      ],
+      "codes": [
+        "5055966830142"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-515112f414ee",
+      "source": "https://www.drankgigant.nl/bushmills-black-bush-caviste-edition.html",
+      "codeCandidates": [
+        "5055966810236"
+      ],
+      "codes": [
+        "5055966810236"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-87e924a59f06",
+      "source": "https://www.drankgigant.nl/bushmills-10-year-single-malt.html",
+      "codeCandidates": [
+        "5055966820037"
+      ],
+      "codes": [
+        "5055966820037"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "bushmills-fa4a658dcb47",
+      "source": "https://www.drankgigant.nl/bushmills-15-year-bourbon-cask.html",
+      "codeCandidates": [
+        "5055966820174"
+      ],
+      "codes": [
+        "5055966820174"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-7d82ecd33570",
+      "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-oloroso-sherry-cask.html",
+      "codeCandidates": [
+        "5000299611104"
+      ],
+      "codes": [
+        "5000299611104"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-1b580936b6ca",
+      "source": "https://www.drankgigant.nl/chivas-regal-13-years-rum-cask-edition.html",
+      "codeCandidates": [
+        "5000299626191"
+      ],
+      "codes": [
+        "5000299626191"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-d1f30518067d",
+      "source": "https://www.drankgigant.nl/chivas-regal-13-years-extra-tequila-cask.html",
+      "codeCandidates": [
+        "5000299626214"
+      ],
+      "codes": [
+        "5000299626214"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-7c1e99c38f63",
+      "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-american-rye-casks.html",
+      "codeCandidates": [
+        "5000299626276"
+      ],
+      "codes": [
+        "5000299626276"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-63c03c272955",
+      "source": "https://www.drankgigant.nl/chivas-regal-18-years-margaux-wine-cask-finish.html",
+      "codeCandidates": [
+        "5000299255216"
+      ],
+      "codes": [
+        "5000299255216"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-a8096e52f595",
+      "source": "https://www.drankgigant.nl/chivas-regal-extra-13-years-irish-whiskey-cask.html",
+      "codeCandidates": [
+        "5000299635438"
+      ],
+      "codes": [
+        "5000299635438"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-6304333b1e84",
+      "source": "https://www.drankgigant.nl/chivas-regal-16-years-charles-leclerc-limited-edition.html",
+      "codeCandidates": [
+        "5000299643167"
+      ],
+      "codes": [
+        "5000299643167"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-f2fe5ae0c3d9",
+      "source": "https://www.drankgigant.nl/chivas-regal-mizunara.html",
+      "codeCandidates": [
+        "5000299601693"
+      ],
+      "codes": [
+        "5000299601693"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-5d1fd127da81",
+      "source": "https://www.drankgigant.nl/chivas-regal-12-year-70-cl.html",
+      "codeCandidates": [
+        "080432402931"
+      ],
+      "codes": [
+        "080432402931"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-1e8c3f5221ec",
+      "source": "https://www.drankgigant.nl/chivas-regal-18-year.html",
+      "codeCandidates": [
+        "5000299225004"
+      ],
+      "codes": [
+        "5000299225004"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-ac4ed1ad1ffd",
+      "source": "https://www.drankgigant.nl/chivas-regal-25-year.html",
+      "codeCandidates": [
+        "5000299284926"
+      ],
+      "codes": [
+        "5000299284926"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-2bb752264313",
+      "source": "https://www.drankgigant.nl/chivas-regal-20-year-ultis.html",
+      "codeCandidates": [
+        "5000299611524"
+      ],
+      "codes": [
+        "5000299611524"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "chivas-d1ca12afd81a",
+      "source": "https://www.drankgigant.nl/chivas-regal-xv-15-year-70cl.html",
+      "codeCandidates": [
+        "5000299622162"
+      ],
+      "codes": [
+        "5000299622162"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-ce0383739df1",
+      "source": "https://www.drankgigant.nl/jim-beam-honey-70-cl.html",
+      "codeCandidates": [
+        "080686021902"
+      ],
+      "codes": [
+        "080686021902"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-919b7ad0e448",
+      "source": "https://www.drankgigant.nl/jim-beam-apple.html",
+      "codeCandidates": [
+        "080686021919"
+      ],
+      "codes": [
+        "080686021919"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-2f7ba13aa2c2",
+      "source": "https://www.drankgigant.nl/jim-beam-peach.html",
+      "codeCandidates": [
+        "080686043171"
+      ],
+      "codes": [
+        "080686043171"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-757955520bff",
+      "source": "https://www.drankgigant.nl/jim-beam-pineapple.html",
+      "codeCandidates": [
+        "8410854000149"
+      ],
+      "codes": [
+        "8410854000149"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-4c8b791f3b54",
+      "source": "https://www.drankgigant.nl/jim-beam-white-label-70-cl.html",
+      "codeCandidates": [
+        "080686000389",
+        "08068600021"
+      ],
+      "codes": [
+        "080686000389"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-126de4a3f392",
+      "source": "https://www.drankgigant.nl/jim-beam-devil-s-cut.html",
+      "codeCandidates": [
+        "5060045582669"
+      ],
+      "codes": [
+        "5060045582669"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-2f86c829e87f",
+      "source": "https://www.drankgigant.nl/jim-beam-rye-green-label.html",
+      "codeCandidates": [
+        "5060045582263"
+      ],
+      "codes": [
+        "5060045582263"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-45e20d1071da",
+      "source": "https://www.drankgigant.nl/jim-beam-double-oak.html",
+      "codeCandidates": [
+        "5060045585912"
+      ],
+      "codes": [
+        "5060045585912"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-e17ca6a02cc8",
+      "source": "https://www.drankgigant.nl/jim-beam-sunshine-blend.html",
+      "codeCandidates": [
+        "5010278103209"
+      ],
+      "codes": [
+        "5010278103209"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-8b24b672975b",
+      "source": "https://www.drankgigant.nl/jim-beam-black-cherry.html",
+      "codeCandidates": [
+        "080686043492"
+      ],
+      "codes": [
+        "080686043492"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-c5f708575387",
+      "source": "https://www.drankgigant.nl/jim-beam-7-years-black.html",
+      "codeCandidates": [
+        "5010278104572"
+      ],
+      "codes": [
+        "5010278104572"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jim-beam-62541216b3b1",
+      "source": "https://www.drankgigant.nl/jim-beam-black-extra-aged.html",
+      "codeCandidates": [
+        "5060045586810"
+      ],
+      "codes": [
+        "5060045586810"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "toki-f4832cf8c916",
+      "source": "https://www.drankgigant.nl/suntory-toki.html",
+      "codeCandidates": [
+        "4901777303553"
+      ],
+      "codes": [
+        "4901777303553"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "toki-769a58a24728",
+      "source": "https://www.drankgigant.nl/suntory-toki-black.html",
+      "codeCandidates": [
+        "080686010838"
+      ],
+      "codes": [
+        "080686010838"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-bdb7d1818d93",
+      "source": "https://www.drankgigant.nl/glenfiddich-14-year-bourbon-barrel-reserve.html",
+      "codeCandidates": [
+        "5010327324333"
+      ],
+      "codes": [
+        "5010327324333"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-50b1c11b6e0f",
+      "source": "https://www.drankgigant.nl/glenfiddich-18-year-old-oloroso-sherry-bourbon.html",
+      "codeCandidates": [
+        "5010327325323"
+      ],
+      "codes": [
+        "5010327325323"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-7c81a49dba18",
+      "source": "https://www.drankgigant.nl/glenfiddich-perpetual-vat-02-rich-dark.html",
+      "codeCandidates": [
+        "5010327323510"
+      ],
+      "codes": [
+        "5010327323510"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-7795e9edd9d9",
+      "source": "https://www.drankgigant.nl/glenfiddich-19-years-f1-aston-martin.html",
+      "codeCandidates": [
+        "5010327324258"
+      ],
+      "codes": [
+        "5010327324258"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-92989ca67260",
+      "source": "https://www.drankgigant.nl/glenfiddich-12-years-rum-cask-finish.html",
+      "codeCandidates": [
+        "5010327039039"
+      ],
+      "codes": [
+        "5010327039039"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-d5ecb4108fd3",
+      "source": "https://www.drankgigant.nl/glenfiddich-perpetual-collection-vat-01-smooth-yellow.html",
+      "codeCandidates": [
+        "5010327323534"
+      ],
+      "codes": [
+        "5010327323534"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-59d92eacc846",
+      "source": "https://www.drankgigant.nl/glenfiddich-15-years-perpetual-collection-vat-03.html",
+      "codeCandidates": [
+        "5010327325781"
+      ],
+      "codes": [
+        "5010327325781"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-bc9247c486fe",
+      "source": "https://www.drankgigant.nl/glenfiddich-16-years-aston-martin-formula-one-team.html",
+      "codeCandidates": [
+        "5010327324210"
+      ],
+      "codes": [
+        "5010327324210"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-adeb4545b1a4",
+      "source": "https://www.drankgigant.nl/glenfiddich-project-xx.html",
+      "codeCandidates": [
+        "5010327325330"
+      ],
+      "codes": [
+        "5010327325330"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-0eab037cea0f",
+      "source": "https://www.drankgigant.nl/glenfiddich-fire-cane-70-cl.html",
+      "codeCandidates": [
+        "5010327325712"
+      ],
+      "codes": [
+        "5010327325712"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-d49b43469be1",
+      "source": "https://www.drankgigant.nl/glenfiddich-12-year-70cl.html",
+      "codeCandidates": [
+        "5010327000176"
+      ],
+      "codes": [
+        "5010327000176"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-8d80c99195f8",
+      "source": "https://www.drankgigant.nl/glenfiddich-15-year.html",
+      "codeCandidates": [
+        "5010327325125"
+      ],
+      "codes": [
+        "5010327325125"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-42bc72f7783e",
+      "source": "https://www.drankgigant.nl/glenfiddich-our-malt-master-s-edition.html",
+      "codeCandidates": [
+        "5010327325545"
+      ],
+      "codes": [
+        "5010327325545"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-547ee86728f6",
+      "source": "https://www.drankgigant.nl/glenfiddich-12-years-our-triple-oak.html",
+      "codeCandidates": [
+        "5010327025155"
+      ],
+      "codes": [
+        "5010327025155"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-daf549271775",
+      "source": "https://www.drankgigant.nl/glenfiddich-26-years-grande-couronne.html",
+      "codeCandidates": [
+        "5010327015897"
+      ],
+      "codes": [
+        "5010327015897"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-99b19afb714a",
+      "source": "https://www.drankgigant.nl/glenfiddich-37-years-rare-collection.html",
+      "codeCandidates": [
+        "5010327045139"
+      ],
+      "codes": [
+        "5010327045139"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-266e7cbb7598",
+      "source": "https://www.drankgigant.nl/glenfiddich-21-years-gran-reserva.html",
+      "codeCandidates": [
+        "5010327324081"
+      ],
+      "codes": [
+        "5010327324081"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-a88131f4da8d",
+      "source": "https://www.drankgigant.nl/glenfiddich-orchard-experiment-series-05.html",
+      "codeCandidates": [
+        "5010327325828"
+      ],
+      "codes": [
+        "5010327325828"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "glenfiddich-9e91958b7000",
+      "source": "https://www.drankgigant.nl/glenfiddich-23-years-grand-cru.html",
+      "codeCandidates": [
+        "5010327015859"
+      ],
+      "codes": [
+        "5010327015859"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-18"
+    }
+  ]
+}

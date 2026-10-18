@@ -84,3 +84,9 @@ Wyszukiwarka na ekranie wyboru marki przeszukuje cały katalog i własne wpisy b
 Dodano Glenfiddich (30 wydań) i 46 pozycji w pozostałych markach. Audyt: `data/catalog-expansion-glenfiddich-2026-10-18.json`. Cena Sweet Blend pochodzi ze zgłoszenia użytkownika; producent potwierdza 30% i klasyfikację spirit drink. Źródłowe zdjęcie producenta ma niebieskie linie techniczne, wykluczone wyłącznie maską CSS w `data/photo-framing.json`. Logotyp Glenfiddich został wyizolowany edytorem obrazu z autentycznego zdjęcia butelki; nie jest oryginalnym plikiem wektorowym. Wszystkie zdjęcia butelek pozostają oryginalne.
 
 `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/discovery-cellar-e2e.py` sprawdza wyszukiwanie między markami, paginację, Sweet Blend, ilości, wartość barku niezależną od filtrów, brakujące wyceny, trwałość i szerokości 320–1440 px.
+
+## Skanowanie butelek
+
+Barek obsługuje skan aparatem, zdjęcie kodu oraz wpisanie EAN/UPC-A. Po potwierdzeniu nazwy i pojemności dodawana jest jedna butelka; kolejne skany zwiększają ilość. Początkowo 108 sprawdzonych kodów obejmuje 107 pozycji. Nieznane kody można powiązać z katalogiem lub własnym wpisem. Aparat uruchamia się na żądanie i zatrzymuje po odczycie lub zamknięciu; obraz jest dekodowany lokalnie. Nie wymaga konta ani dodatkowego serwera.
+
+Analiza ograniczeń, pochodzenie kodów, zgodność zapisów i zakres testów: [docs/barcode-scanning.md](docs/barcode-scanning.md). Nowe zależności ZXing są przypięte w lockfile i instalowane przez `npm ci`. Aparat na publicznej stronie wymaga HTTPS oraz zgody przeglądarki. Test przeglądarkowy: `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/barcode-e2e.py`.
