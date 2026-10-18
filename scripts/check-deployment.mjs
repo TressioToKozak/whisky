@@ -6,7 +6,7 @@ async function verify() {
   const response = await fetch(base, { signal: AbortSignal.timeout(20000), cache: 'no-store' })
   assert.equal(response.status, 200, 'The deployed page must respond with HTTP 200')
   const html = await response.text()
-  assert.match(html, /Dram — Twój świat whisky/, 'The deployment must contain Dram')
+  assert.match(html, /<title>Dram — dziennik whisky<\/title>/, 'The deployment must contain Dram')
   assert.doesNotMatch(html, /(?:src|href)=["'][^"']*\/(?:src\/|@vite\/)/, 'Pages is serving source files instead of the production build')
   const scripts = [...html.matchAll(/<script\b[^>]*\bsrc=["']([^"']+)["']/g)].map(m => m[1])
   assert.ok(scripts.length, 'No JavaScript bundle found')
