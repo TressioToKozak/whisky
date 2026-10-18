@@ -34,6 +34,7 @@ for w in json.loads((ROOT/'src/catalog.json').read_text()):
  gradient='linear-gradient(105deg,'+color(L)+','+color(R)+')'
  inset=f'inset({top/height*100:.2f}% {(width-right)/width*100:.2f}% {(height-bottom)/height*100:.2f}% {left/width*100:.2f}%)'
  result[w['id']]={'inset':inset,'background':gradient,'ratio':round((right-left)/(bottom-top),5)}
+ if 'rotationDeg' in custom:result[w['id']]['rotationDeg']=custom['rotationDeg']
  if 'polygon' in custom:
   result[w['id']]['clipPath']='polygon('+','.join(f'{(x/original_width*width-left)/(right-left)*100:.3f}% {(y/original_height*height-top)/(bottom-top)*100:.3f}%' for x,y in custom['polygon'])+')'
   result[w['id']]['background']='#fff'

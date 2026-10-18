@@ -329,5 +329,137 @@
       ]
     ],
     "note": "Display-only bottle silhouette excludes blue production guide lines in the producer packshot. Original image and bottle pixels unchanged."
+  },
+  "ardbeg-1b8b9bd1e427": {
+    "sourceSize": [
+      1024,
+      692
+    ],
+    "rect": [
+      0,
+      0,
+      412,
+      670
+    ],
+    "reason": "Focus the authentic bottle and its box; exclude the unrelated promotional apron on the right."
+  },
+  "jd-ff43055f5a94": {
+    "sourceSize": [
+      400,
+      400
+    ],
+    "rect": [
+      118,
+      34,
+      285,
+      378
+    ],
+    "polygon": [
+      [
+        170,
+        43
+      ],
+      [
+        232,
+        43
+      ],
+      [
+        241,
+        50
+      ],
+      [
+        242,
+        73
+      ],
+      [
+        224,
+        86
+      ],
+      [
+        224,
+        158
+      ],
+      [
+        228,
+        173
+      ],
+      [
+        272,
+        208
+      ],
+      [
+        279,
+        233
+      ],
+      [
+        278,
+        350
+      ],
+      [
+        268,
+        366
+      ],
+      [
+        257,
+        373
+      ],
+      [
+        141,
+        373
+      ],
+      [
+        129,
+        364
+      ],
+      [
+        123,
+        347
+      ],
+      [
+        122,
+        231
+      ],
+      [
+        129,
+        211
+      ],
+      [
+        173,
+        174
+      ],
+      [
+        178,
+        157
+      ],
+      [
+        178,
+        87
+      ],
+      [
+        166,
+        73
+      ],
+      [
+        165,
+        52
+      ]
+    ],
+    "reason": "Non-destructive outline removes the distinctly grey studio paper outside the clear Unaged Rye bottle. Preserve original glass and label pixels."
+  },
+  "jw-ed-397acaddfdd6": {
+    "sourceSize": [
+      400,
+      400
+    ],
+    "rotationDeg": 1.4,
+    "reason": "Correct a small photographic camera roll; the printed diagonal label remains diagonal."
+  },
+  "jw-ed-807028923029": {
+    "sourceSize": [
+      400,
+      400
+    ],
+    "rotationDeg": 1.4,
+    "reason": "Correct a small photographic camera roll; the printed diagonal label remains diagonal."
   }
 }

@@ -1,0 +1,109 @@
+{
+  "checkedAt": "2026-10-19",
+  "addedIds": [
+    "jameson-41334cc7c37a",
+    "jameson-94510a185f6f",
+    "jameson-e0d491e62f8c",
+    "jameson-1c96a4c5399b",
+    "jameson-6aa2530dd5fb",
+    "jameson-2e7953f86482",
+    "jameson-1ec8e4e0f3dd",
+    "jameson-81eb0397c5ee",
+    "jameson-58550bf18df1",
+    "jim-beam-b58073026f21",
+    "ardbeg-b18894debf09",
+    "bushmills-c494c808f1fb",
+    "bushmills-ee3153a65da9",
+    "bushmills-7e3df585348a",
+    "bushmills-1deed20f1126",
+    "glenfiddich-7ab3cf2cd1e7",
+    "glenfiddich-f3435c9c436f",
+    "chivas-8e42fafc0344",
+    "chivas-55c75f3b0699",
+    "ardbeg-1b8b9bd1e427",
+    "jameson-f2dd066b692a",
+    "chivas-7daa102940ec",
+    "chivas-f79e229677da",
+    "chivas-d40dfb90d86c",
+    "chivas-e8b6f623c5fa",
+    "chivas-e5d72ae714db",
+    "jameson-a120f6fa38a0",
+    "jameson-57adbd5746c1",
+    "jameson-6627e75cc3f6",
+    "jameson-10a4390eb740",
+    "jameson-a6c11dec52bb",
+    "jameson-fa31c8f9e946",
+    "jameson-7675d26f6081",
+    "jameson-51e45105982e",
+    "ballantines-b76d70f790e3",
+    "ballantines-8863d7533fe5",
+    "ballantines-67358429f213",
+    "ballantines-e80a61866da6"
+  ],
+  "addedByBrand": {
+    "Jameson": 18,
+    "Jim Beam": 1,
+    "Ardbeg": 2,
+    "Bushmills": 4,
+    "Glenfiddich": 2,
+    "Chivas Regal": 7,
+    "Ballantine’s": 4
+  },
+  "reviewedBrands": [
+    "Jameson",
+    "Johnnie Walker",
+    "Jack Daniel's",
+    "Jim Beam",
+    "Goldfinch",
+    "Ardbeg",
+    "Bushmills",
+    "Ballantine’s",
+    "Toki",
+    "Glenfiddich",
+    "Chivas Regal"
+  ],
+  "reviewedWithoutVerifiedAddition": {
+    "Johnnie Walker": "253 existing releases; current documented offers inspected, capacity-only and packaging duplicates omitted.",
+    "Jack Daniel's": "122 existing releases; current offers inspected, no distinct missing release proven by the reviewed listings. Added newly verified codes to existing releases.",
+    "Goldfinch": "Current shop reviewed. Its unlisted Macallan 26 page returned 404; brandy is outside scope. No invented addition.",
+    "Toki": "Two existing documented releases. Search results for similarly spelled rum, beer and mixers excluded."
+  },
+  "excluded": [
+    {
+      "name": "Jameson",
+      "source": "https://www.drankgigant.nl/jameson.html",
+      "reason": "Capacity-only Original or already catalogued Malaga/12-year release."
+    },
+    {
+      "name": "Bushmills 14 Year Old",
+      "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-14-year-old-whiskey/?sku=136770",
+      "reason": "Capacity-only Original or already catalogued Malaga/12-year release."
+    },
+    {
+      "name": "Bushmills 12 Year Old",
+      "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-12-year-old-whiskey/?sku=144366",
+      "reason": "Capacity-only Original or already catalogued Malaga/12-year release."
+    },
+    {
+      "name": "Jameson Irish Whiskey Bot.1980s",
+      "source": "https://www.thewhiskyexchange.com/p/79772/jameson-irish-whiskey-bot1980s",
+      "reason": "Same 1980s 43% litre release already selected; no distinct edition proven."
+    },
+    {
+      "name": "Ballantine's 17 Year Old Bot.1980s",
+      "source": "https://www.thewhiskyexchange.com/p/68163/ballantines-17-year-old-bot1980s",
+      "reason": "Same release/era/strength/volume already selected"
+    },
+    {
+      "name": "Ballantine's 17 Year Old Bot.1970s",
+      "source": "https://www.thewhiskyexchange.com/p/31379/ballantines-17-year-old-bot1970s",
+      "reason": "Same release/era/strength/volume already selected"
+    }
+  ],
+  "limitations": [
+    "No claim of exhaustive historical completeness.",
+    "Retail asking prices and sold auction medians are different references; neither is a current market appraisal.",
+    "Two user-reported prices remain independently unconfirmed.",
+    "Historical photographs retain source resolution, natural shadows and perspective; no bottle or label regenerated."
+  ]
+}

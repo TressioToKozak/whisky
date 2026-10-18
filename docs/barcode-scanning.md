@@ -6,11 +6,13 @@ W barku wybierz **Skanuj butelkę**, albo ikonę kodu w górnym pasku. Włącz a
 
 GTIN identyfikuje produkt handlowy. Nie koduje nazwy, wieku, ceny ani zawartości whisky. Rynki, pojemności, zestawy i opakowania mogą mieć osobne kody; zmiana etykiety lub partii nie zawsze oznacza nowy GTIN. Dlatego nie przypisujemy whisky na podstawie prefiksu producenta, SKU sklepu, podobnej nazwy ani samej marki. Różna pojemność nie jest automatycznie zamieniana na butelkę katalogową.
 
-Indeks zawiera **113 kodów dla 112 pozycji** (poprzednio 108 / 107), potwierdzonych w specyfikacjach produktów Drankgigant i Topdrinks. Nie oznacza to automatycznego rozpoznawania wszystkich 541 pozycji ani wszystkich wariantów ich opakowań. `src/barcodes.json` zawiera identyfikator whisky, pojemność, źródło i datę; `data/barcode-audit.json` zachowuje odczytane wartości źródłowe. Kody z inną publikowaną pojemnością są odrzucane. Wszystkie kody mają poprawną długość i cyfrę kontrolną.
+Indeks zawiera **178 kodów dla 182 pozycji** (poprzednio 113 / 112), potwierdzonych w specyfikacjach produktów Drankgigant i Topdrinks. Nie oznacza to automatycznego rozpoznawania wszystkich 579 pozycji ani wszystkich wariantów ich opakowań. `src/barcodes.json` zawiera identyfikator whisky, pojemność, źródło i datę; `data/barcode-audit.json` zachowuje odczytane wartości źródłowe. Kody z inną publikowaną pojemnością są odrzucane. Wszystkie kody mają poprawną długość i cyfrę kontrolną.
 
 Nieznany kod można dopasować do konkretnej whisky i pojemności z katalogu albo powiązać z nowym własnym wpisem. Potwierdzone dopasowanie można zapamiętać. Jeśli indeks kiedyś będzie zawierał kilka wydań tego samego kodu, aplikacja pokaże wybór, zamiast brać pierwszy wynik. Przycisk „To inna whisky” pozwala poprawić dopasowanie. Zapamiętany wybór ma pierwszeństwo przy kolejnych skanach.
 
-Raport pokrycia każdego z 541 identyfikatorów: `data/barcode-coverage.json`. Nowe dowody i ograniczenia opisano w [ui-simplification.md](ui-simplification.md).
+Raport pokrycia każdego z 579 identyfikatorów: `data/barcode-coverage.json`. Nowe dowody i ograniczenia opisano w [ui-simplification.md](ui-simplification.md).
+
+Najnowszy pełny audyt, korekty pojemności i wycen oraz inspekcja wszystkich fotografii: [catalog-audit-2026-10-19.md](catalog-audit-2026-10-19.md).
 
 ## Aparat i zdjęcia
 

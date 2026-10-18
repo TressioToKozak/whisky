@@ -83,5 +83,14 @@
     "checkedAt": "2026-10-18",
     "sha256": "2195a9cda7c33eeb658ef38cfaf15f1be9d9c8c69b4e21ac795db1b8f44eb4c2",
     "note": "Derived transparent stag and wordmark, isolated with image editor from the authentic Gran Reserva bottle photograph. Not an original vector logo. Reference is the original catalog imageSource for this release."
+  },
+  {
+    "id": "jameson",
+    "sourcePage": "https://www.drankgigant.nl/jameson-irish.html",
+    "imageUrl": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_irish_1.jpg?store=default&image-type=image",
+    "file": "/brands/jameson.png",
+    "sha256": "b7ec9f7c4973059efdfa92fe4d8186b3ec6b14364bd3ab2a068e68f090af1ca2",
+    "checkedAt": "2026-10-19",
+    "note": "Photographic wordmark extracted with an image editor from the authentic bottle label, transparent background; not an official downloadable vector."
   }
 ]

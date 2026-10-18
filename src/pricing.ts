@@ -1,5 +1,6 @@
 export type PriceQuote = {
   amount: number;
+  referenceOnly?: boolean;
   currency: 'EUR';
   market: 'NL' | 'auction' | 'international';
   kind: 'retail' | 'auction-result' | 'auction-estimate' | 'user-report';
@@ -16,7 +17,7 @@ export type PriceQuote = {
   note: string;
 }
 export const euro = (amount: number) => new Intl.NumberFormat('nl-NL', {style:'currency',currency:'EUR',maximumFractionDigits:0}).format(amount)
-export const priceLabel = (quote?: PriceQuote) => quote ? `ok. ${euro(quote.amount)}` : 'Brak wyceny'
+export const priceLabel = (quote?: PriceQuote) => quote ? quote.referenceOnly ? `ref. ${euro(quote.amount)}${quote.volumeMl ? ` · ${quote.volumeMl} ml` : ''}` : `ok. ${euro(quote.amount)}` : 'Brak wyceny'
 export const marketLabel = (quote: PriceQuote) => quote.kind === 'user-report' ? 'Zgłoszona cena' : quote.market === 'NL' ? 'Sklep w NL' : quote.market === 'auction' ? (quote.kind === 'auction-result' ? 'Wynik aukcji' : 'Szacunek aukcyjny') : 'Sklep poza NL'
 export function comparePrices(a: PriceQuote | undefined, b: PriceQuote | undefined, descending = false) {
   // Unpriced custom bottles stay last in both directions.
@@ -31,7 +32,7 @@ export function cellarValue(bottles: { whiskyId: string; quantity: number }[], q
   let cents = 0, missing = 0
   for (const bottle of bottles) {
     const quote = quotes[bottle.whiskyId]
-    if (quote) cents += Math.round(quote.amount * 100) * bottle.quantity
+    if (quote && !quote.referenceOnly) cents += Math.round(quote.amount * 100) * bottle.quantity
     else missing += bottle.quantity
   }
   return { amount: cents / 100, missing }

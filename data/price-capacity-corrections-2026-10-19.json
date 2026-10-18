@@ -1,0 +1,644 @@
+{
+  "checkedAt": "2026-10-19",
+  "amountCorrections": [
+    {
+      "id": "jw-b796e19b1d48",
+      "name": "Blue Label · Ghost & Rare Brora",
+      "previousEUR": 497.19,
+      "currentEUR": 520.87,
+      "matchingLots": 4
+    },
+    {
+      "id": "jw-1c2e6e20fd1d",
+      "name": "Black Label 12 Year Old Anniversary Edition · 100 Years of the Striding Man",
+      "previousEUR": 59.19,
+      "currentEUR": 65.11,
+      "matchingLots": 3
+    },
+    {
+      "id": "jw-1ebfabd9e648",
+      "name": "Black Label 12 Year Old · Air Ink Seoul Edition",
+      "previousEUR": 130.22,
+      "currentEUR": 159.81,
+      "matchingLots": 4
+    },
+    {
+      "id": "jw-016f69b62c9a",
+      "name": "Blue Label Year of The Ox Limited Edition",
+      "previousEUR": 153.89,
+      "currentEUR": 165.73,
+      "matchingLots": 3
+    },
+    {
+      "id": "jw-4a0088b9a00b",
+      "name": "XR 21 Year Old",
+      "previousEUR": 82.87,
+      "currentEUR": 112.46,
+      "matchingLots": 1
+    },
+    {
+      "id": "jw-aff7b0d6c8d9",
+      "name": "Blue Label · Ghost & Rare Port Dundas",
+      "previousEUR": 213.08,
+      "currentEUR": 195.33,
+      "matchingLots": 4
+    },
+    {
+      "id": "jw-c951b6171bf2",
+      "name": "Private Collection (2015 Edition)",
+      "previousEUR": 449.84,
+      "currentEUR": 426.16,
+      "matchingLots": 3
+    },
+    {
+      "id": "jw-9bacdee4cd97",
+      "name": "King George V · Royal Warrant 80th Anniversary",
+      "previousEUR": 343.3,
+      "currentEUR": 396.57,
+      "matchingLots": 4
+    },
+    {
+      "id": "jw-cbb4b343f4ad",
+      "name": "Blue Label · Year of the Rat 2020",
+      "previousEUR": 177.57,
+      "currentEUR": 213.08,
+      "matchingLots": 1
+    },
+    {
+      "id": "jw-9f42a012842a",
+      "name": "Blue Label · London Limited Edition Design",
+      "previousEUR": 313.7,
+      "currentEUR": 248.6,
+      "matchingLots": 1
+    },
+    {
+      "id": "jw-e792a95c8df5",
+      "name": "Blue Label · Year of the Dog 2018",
+      "previousEUR": 248.6,
+      "currentEUR": 171.65,
+      "matchingLots": 2
+    },
+    {
+      "id": "jw-ed-3dd3c92b6e7f",
+      "name": "Select Casks 10 Year Old Rye Cask Finish",
+      "previousEUR": 35.51,
+      "currentEUR": 29.59,
+      "matchingLots": 1
+    },
+    {
+      "id": "jw-ed-bf15f03a070b",
+      "name": "Blenders’ Batch #6 Wine Cask Blend",
+      "previousEUR": 44.39,
+      "currentEUR": 29.59,
+      "matchingLots": 1
+    },
+    {
+      "id": "jw-ed-fbf25d6b8f3a",
+      "name": "Blue Label California Edition",
+      "previousEUR": 272.27,
+      "currentEUR": 248.6,
+      "matchingLots": 2
+    },
+    {
+      "id": "jw-ed-cd32210b7a72",
+      "name": "XR 21 Year Old James Jean Limited Edition",
+      "previousEUR": 94.7,
+      "currentEUR": 91.74,
+      "matchingLots": 2
+    },
+    {
+      "id": "jd-3d548b1d956f",
+      "name": "Single Barrel Rye Members Only Batch",
+      "previousEUR": 142.05,
+      "currentEUR": 136.14,
+      "matchingLots": 2
+    },
+    {
+      "id": "jd-1e7d3f18e616",
+      "name": "Sinatra Century 100 Proof Limited Edition",
+      "previousEUR": 1361.36,
+      "currentEUR": 1390.95,
+      "matchingLots": 4
+    },
+    {
+      "id": "jd-33f12718b100",
+      "name": "Single Barrel Special Release Barrel Proof Rye",
+      "previousEUR": 378.81,
+      "currentEUR": 402.49,
+      "matchingLots": 2
+    }
+  ],
+  "recoveredMissingVolumes": [
+    "jw-009",
+    "jw-011",
+    "jw-e7c49fa1b187",
+    "jw-b796e19b1d48",
+    "jw-9a45cb7d7c4d",
+    "jw-7da43f40c801",
+    "jw-016f69b62c9a",
+    "jw-1ebdff5da351",
+    "jw-aff7b0d6c8d9",
+    "jw-eb3052ed96dd",
+    "jw-979c80353fb3",
+    "jw-b63422b26df8",
+    "jw-820f3c73334f",
+    "jw-8370a1d25807",
+    "jw-eba949cc6f7d",
+    "jw-9ceeb29bb014",
+    "jw-e4eca438718b",
+    "jw-7cddc601e0b9",
+    "jw-c946140a0264",
+    "jw-77559b2d6b2e",
+    "jw-9903f9761093",
+    "jw-ddd68c676d51",
+    "jw-78eeff2bd83f",
+    "jw-117a095fa553",
+    "jw-d06af9adc2c2",
+    "jw-f15e71b88e23",
+    "jw-afe44fb06445",
+    "jw-fa813843cbf7",
+    "jw-5ed1edb81632",
+    "jw-851ef6c0baad",
+    "jw-0a8bc18fde80",
+    "jw-9bacdee4cd97",
+    "jw-a57b272146a1",
+    "jw-9f42a012842a",
+    "jw-724bb55a7fc2",
+    "jw-395ccd57d0b8",
+    "jw-d5bc9fc033ff",
+    "jw-4aee0f9720e8",
+    "jw-ed-397acaddfdd6",
+    "jw-ed-807028923029",
+    "jw-ed-70f3284aa554",
+    "jw-ed-cd2de237accd",
+    "jw-ed-ba04d2d86051",
+    "jw-ed-55c0ebc6d1db",
+    "jw-ed-5a3219370fea",
+    "jw-ed-e0ac23a87637",
+    "jw-ed-064511080a1c",
+    "jw-ed-b2ca0d84af53",
+    "jw-ed-f69bf0b55a2d",
+    "jw-ed-e932eee30748",
+    "jw-ed-3fb8c9ebf7e3",
+    "jw-ed-eebd1a5ff423",
+    "jw-ed-9897139d4977",
+    "jw-ed-c78bf9b9c4db",
+    "jw-ed-5f2745b0a0f9",
+    "jw-ed-631549c6efa6",
+    "jw-ed-3b642c9a03a4",
+    "jw-ed-b1b76e744adb",
+    "jw-ed-87d1fe10dea2",
+    "jw-ed-a3809dede391",
+    "jw-ed-3b24242f7aed",
+    "jw-ed-369f9692b8ae",
+    "jw-ed-938dc1baf3c1",
+    "jw-ed-961c9685e430",
+    "jw-ed-6c232f807453",
+    "jw-ed-4cc607b7c099",
+    "jw-ed-410ac80ed645",
+    "jw-ed-70aaa22b4fae",
+    "jw-ed-15ae6294d56f",
+    "jw-ed-67719954ca8d",
+    "jw-ed-4a63366488f9",
+    "jw-ed-79e6703b3050",
+    "jw-ed-43852bd7ca94",
+    "jw-ed-887763b40b27",
+    "jw-ed-06ff91e1c7b2"
+  ],
+  "referenceOnly": [
+    {
+      "id": "jw-cfa84236a438",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 43.8,
+      "sourceSpecifications": [
+        {
+          "abv": 43.8,
+          "volumeMl": 750,
+          "printedSpecification": "43.8% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-58b260e125f8",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-e1285edb7c05",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-221fdd1b660b",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-77ef31a78842",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-245bbc0beb34",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-f29545856b67",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-c475507a8719",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 43.0,
+      "sourceSpecifications": [
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        },
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        },
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        },
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        },
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-854643fbf2c1",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-fc1e75f76a49",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": null,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": null,
+          "volumeMl": null,
+          "printedSpecification": ""
+        },
+        {
+          "abv": null,
+          "volumeMl": null,
+          "printedSpecification": ""
+        }
+      ]
+    },
+    {
+      "id": "jw-5cfdf92717ae",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 46.0,
+      "sourceSpecifications": [
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-bd2e064343bd",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 43.0,
+      "sourceSpecifications": [
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        },
+        {
+          "abv": 43.0,
+          "volumeMl": 750,
+          "printedSpecification": "43% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-646b1be0353c",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 55.8,
+      "sourceSpecifications": [
+        {
+          "abv": 55.8,
+          "volumeMl": 750,
+          "printedSpecification": "55.8 % ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-93d2e18af694",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-12afe20d7c31",
+      "catalogVolumeMl": 760,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-b6674b6c0e1b",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        },
+        {
+          "abv": 40.0,
+          "volumeMl": 750,
+          "printedSpecification": "40% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-72d5dfbab647",
+      "catalogVolumeMl": 700,
+      "referenceVolumeMl": 750,
+      "catalogAbv": 40.0,
+      "sourceSpecifications": [
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        },
+        {
+          "abv": 46.0,
+          "volumeMl": 750,
+          "printedSpecification": "46% ABV / 75cl"
+        }
+      ]
+    },
+    {
+      "id": "jw-ed-827e6170c814",
+      "catalogVolumeMl": null,
+      "referenceVolumeMl": 200,
+      "catalogAbv": null,
+      "sourceSpecifications": [
+        {
+          "abv": null,
+          "volumeMl": 200,
+          "printedSpecification": "20cl"
+        }
+      ]
+    }
+  ]
+}

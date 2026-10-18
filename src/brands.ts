@@ -1,5 +1,6 @@
 import type { Whisky } from './model'
 export const brands = [
+  { id: 'jameson', name: 'Jameson', logo: 'jameson.png' },
   { id: 'johnnie-walker', name: 'Johnnie Walker', logo: 'johnnie-walker.svg' },
   { id: 'jack-daniels', name: 'Jack Daniel’s', logo: 'jack-daniels.svg' },
   { id: 'jim-beam', name: 'Jim Beam', logo: 'jim-beam.svg' },

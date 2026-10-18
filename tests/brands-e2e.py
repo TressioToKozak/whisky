@@ -8,10 +8,10 @@ prices=json.loads((Path(__file__).resolve().parents[1]/'src/prices.json').read_t
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);page=b.new_page(viewport={'width':390,'height':844});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click()
- expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible();expect(page.locator('.brand-card')).to_have_count(10)
+ expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible();expect(page.locator('.brand-card')).to_have_count(11)
  assert page.locator('footer, .settings-panel').count()==0
  assert page.locator('.brand-logo img').evaluate_all('(xs)=>xs.every(x=>x.complete&&x.naturalWidth>0)')
- for name in ['Jim Beam','Goldfinch','Ardbeg','Bushmills','Ballantine’s','Toki','Chivas Regal','Glenfiddich']:
+ for name in ['Jameson','Jim Beam','Goldfinch','Ardbeg','Bushmills','Ballantine’s','Toki','Chivas Regal','Glenfiddich']:
   page.get_by_role('button',name='Otwórz '+name,exact=False).click()
   while page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).count():page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).click()
   expected_brand=[w for w in catalog if w['brand']==name]

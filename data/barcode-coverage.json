@@ -1,41 +1,41 @@
 {
-  "checkedAt": "2026-10-18",
-  "totalProducts": 541,
-  "coveredProducts": 112,
-  "uniqueCodes": 113,
-  "coveragePercent": 20.7,
+  "checkedAt": "2026-10-19",
+  "totalProducts": 579,
+  "coveredProducts": 182,
+  "uniqueCodes": 178,
+  "coveragePercent": 31.43,
   "byBrand": {
     "Johnnie Walker": {
       "total": 232,
-      "covered": 17
+      "covered": 46
     },
     "John Walker & Sons": {
       "total": 21,
-      "covered": 0
+      "covered": 8
     },
     "Jack Daniel's": {
       "total": 122,
-      "covered": 4
+      "covered": 16
     },
     "Ardbeg": {
-      "total": 34,
+      "total": 36,
       "covered": 18
     },
     "Ballantine’s": {
-      "total": 15,
+      "total": 19,
       "covered": 8
     },
     "Bushmills": {
-      "total": 29,
-      "covered": 19
+      "total": 33,
+      "covered": 22
     },
     "Chivas Regal": {
-      "total": 18,
-      "covered": 13
+      "total": 25,
+      "covered": 17
     },
     "Jim Beam": {
-      "total": 15,
-      "covered": 12
+      "total": 16,
+      "covered": 15
     },
     "Toki": {
       "total": 2,
@@ -46,8 +46,12 @@
       "covered": 0
     },
     "Glenfiddich": {
-      "total": 30,
+      "total": 32,
       "covered": 19
+    },
+    "Jameson": {
+      "total": 18,
+      "covered": 11
     }
   },
   "products": [
@@ -132,8 +136,10 @@
       "brand": "Johnnie Walker",
       "name": "Swing",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267054063"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-swing-whisky/?sku=9383"
     },
     {
@@ -141,8 +147,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 · 200 Years",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267024233"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-200-years-limited-edition-whisky/?sku=102716"
     },
     {
@@ -150,8 +158,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Ghost and Rare Port Ellen",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267171852"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-ghost-and-rare-port-ellen-1l-whisky/?sku=140736"
     },
     {
@@ -168,8 +178,10 @@
       "brand": "Johnnie Walker",
       "name": "Sweet Peat",
       "volumeMl": 500,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267173429"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-sweet-peat-whisky/?sku=83408"
     },
     {
@@ -246,8 +258,10 @@
       "brand": "Johnnie Walker",
       "name": "Island Green",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267163413"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-island-green-whisky/?sku=64251"
     },
     {
@@ -668,8 +682,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Elusive Umami",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267192864"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-elusive-umami-whisky/?sku=129446"
     },
     {
@@ -677,8 +693,10 @@
       "brand": "John Walker & Sons",
       "name": "Celebratory Blend",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267182902"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-and-sons-celebratory-blend-whisky/?sku=106500"
     },
     {
@@ -731,8 +749,10 @@
       "brand": "John Walker & Sons",
       "name": "28 Year Old · Bicentenary Blend",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267182308"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-sons-bicentenary-blend-whisky/?sku=103840"
     },
     {
@@ -740,8 +760,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Singapore Limited Edition Design",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267174860"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-singapore-limited-edition-design-1l-whisky/?sku=142949"
     },
     {
@@ -749,8 +771,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Icons 2.0",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267187204"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-icons-2-0-whisky/?sku=113071"
     },
     {
@@ -794,8 +818,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · 200th Anniversary Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267182018"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-200th-anniversary-edition-whisky/?sku=103839"
     },
     {
@@ -803,8 +829,10 @@
       "brand": "John Walker & Sons",
       "name": "King George V · Chinese New Year Edition 2021",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267183060"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-king-george-v-chinese-new-year-edition-2021-whisky/?sku=105876"
     },
     {
@@ -812,8 +840,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Legendary Eight",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267180564"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-legendary-eight-whisky/?sku=106845"
     },
     {
@@ -830,8 +860,10 @@
       "brand": "Johnnie Walker",
       "name": "Johnnie Blonde",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267183596"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-johnnie-blonde-whisky/?sku=110834"
     },
     {
@@ -839,8 +871,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old · Icons 2.0",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267024233"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-icons-2-0-whisky/?sku=113073"
     },
     {
@@ -857,8 +891,10 @@
       "brand": "John Walker & Sons",
       "name": "King George V · Chinese New Year Edition 2022",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267186955"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-sons-king-george-v-chinese-new-year-edition-2022-whisky/?sku=115164"
     },
     {
@@ -886,8 +922,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old Sherry Finish",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267187136"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-sherry-finish-whisky/?sku=119346"
     },
     {
@@ -895,8 +933,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old Islay Origin",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267185750"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-islay-origin-whisky/?sku=121724"
     },
     {
@@ -904,8 +944,10 @@
       "brand": "Johnnie Walker",
       "name": "Icon Gold · 200 Years Keep Walking Limited Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267117560"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-icon-gold-200-years-keep-walking-limited-edition-whisky/?sku=128445"
     },
     {
@@ -958,8 +1000,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old 100th Anniversary Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267110127"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker-black-label-12-year-old-100th-anniversary-edition-whisky/?sku=2429"
     },
     {
@@ -967,8 +1011,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old · 1980s",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267024004"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-1980s-whisky/?sku=26457"
     },
     {
@@ -976,8 +1022,10 @@
       "brand": "Johnnie Walker",
       "name": "Gold Label Reserve · Limited Edition Bottle",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267163710"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-gold-label-reserve-limited-edition-bottle-whisky/?sku=27786"
     },
     {
@@ -994,8 +1042,10 @@
       "brand": "John Walker & Sons",
       "name": "Private Collection (2015 Edition)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267127903"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-and-sons-private-collection-2015-edition-whisky/?sku=39171"
     },
     {
@@ -1021,8 +1071,10 @@
       "brand": "John Walker & Sons",
       "name": "Private Collection (2016 Edition)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267131313"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-private-collection-2016-edition-whisky/?sku=54326"
     },
     {
@@ -1039,8 +1091,10 @@
       "brand": "Johnnie Walker",
       "name": "Blenders' Batch · Red Rye Finish",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267163987"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blenders-batch-red-rye-finish-whisky/?sku=58791"
     },
     {
@@ -1048,8 +1102,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label (Old Bottling)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267090320"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-old-bottling-whisky/?sku=60104"
     },
     {
@@ -1057,8 +1113,10 @@
       "brand": "John Walker & Sons",
       "name": "Private Collection (2017 Edition)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267165462"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-and-sons-private-collection-2017-edition-whisky/?sku=61999"
     },
     {
@@ -1066,8 +1124,10 @@
       "brand": "John Walker & Sons",
       "name": "King George V · Royal Warrant 80th Anniversary",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267128078"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/john-walker-and-sons-king-george-v-royal-warrant-80th-anniversary-whisky/?sku=64248"
     },
     {
@@ -1084,8 +1144,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Rare Side of Scotland Limited Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267176499"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-rare-side-of-scotland-limited-edition-whisky/?sku=97496"
     },
     {
@@ -1120,8 +1182,10 @@
       "brand": "Johnnie Walker",
       "name": "XR 21 Year Old · New Year 2022 Limited Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267129150"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-xr-21-year-old-new-year-2022-limited-edition-whisky/?sku=142764"
     },
     {
@@ -1147,8 +1211,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old Speyside Origin",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267175775"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-speyside-origin-whisky/?sku=98820"
     },
     {
@@ -1156,8 +1222,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old Lowlands Origin",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267175874"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-lowlands-origin-whisky/?sku=98819"
     },
     {
@@ -1165,8 +1233,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label 12 Year Old Highlands Origin",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267175829"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-12-year-old-highlands-origin-whisky/?sku=98817"
     },
     {
@@ -1174,8 +1244,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · 1990s",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267096117"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-1l-1990s-whisky/?sku=132260"
     },
     {
@@ -1201,8 +1273,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Bu Gwi Yeong Hwa The Casks Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "08801027881144"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-bu-gwi-yeong-hwa-the-casks-edition-whisky/?sku=134304"
     },
     {
@@ -1210,8 +1284,10 @@
       "brand": "Johnnie Walker",
       "name": "Master’s Cut",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267196138"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-masters-cut-whisky/?sku=135339"
     },
     {
@@ -1219,8 +1295,10 @@
       "brand": "Johnnie Walker",
       "name": "18 Year Old · 2010s",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267165783"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-18-year-old-2010s-whisky/?sku=138122"
     },
     {
@@ -2835,8 +2913,10 @@
       "brand": "Jack Daniel's",
       "name": "Tennessee Whiskey Legacy Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873012963"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-tennessee-whiskey-legacy-edition-whiskey/?sku=83758"
     },
     {
@@ -2916,8 +2996,10 @@
       "brand": "Jack Daniel's",
       "name": "Single Barrel (cask 21-07907) (Master of Malt Exclusive)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873388655"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07907-master-of-malt-exclusive-whiskey/?sku=114612"
     },
     {
@@ -2934,8 +3016,10 @@
       "brand": "Jack Daniel's",
       "name": "Tennessee Whiskey Legacy Edition 3",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873018583"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-tennessee-whiskey-legacy-edition-3-whiskey/?sku=105706"
     },
     {
@@ -2943,8 +3027,10 @@
       "brand": "Jack Daniel's",
       "name": "Single Barrel (cask 21-07905) (Master of Malt Exclusive)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873088654"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07905-master-of-malt-exclusive-whiskey/?sku=114614"
     },
     {
@@ -2952,8 +3038,10 @@
       "brand": "Jack Daniel's",
       "name": "Single Barrel (cask 21-07906) (Master of Malt Exclusive)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873388655"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-cask-21-07906-master-of-malt-exclusive-whiskey/?sku=114613"
     },
     {
@@ -2970,8 +3058,10 @@
       "brand": "Jack Daniel's",
       "name": "Tennessee Whiskey Legacy Edition 2",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873014790"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-tennessee-whiskey-legacy-edition-2-whiskey/?sku=91705"
     },
     {
@@ -2979,8 +3069,10 @@
       "brand": "Jack Daniel's",
       "name": "Single Barrel - 1990s",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873088654"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-1990s-whiskey/?sku=127216"
     },
     {
@@ -3006,8 +3098,10 @@
       "brand": "Jack Daniel's",
       "name": "Single Barrel - Barrel Strength (64.5%)",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873011829"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-single-barrel-barrel-strength-64-5-whiskey/?sku=79863"
     },
     {
@@ -3033,8 +3127,10 @@
       "brand": "Jack Daniel's",
       "name": "X Mclaren Limited Edition 2023",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873026045"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-x-mclaren-limited-edition-2023-whisky/?sku=141850"
     },
     {
@@ -3042,8 +3138,10 @@
       "brand": "Jack Daniel's",
       "name": "Green Label",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "00082184090084"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-green-label-whiskey/?sku=133878"
     },
     {
@@ -3051,8 +3149,10 @@
       "brand": "Jack Daniel's",
       "name": "10 Year Old Batch #2",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "00082184006375"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-10-year-old-batch-2-whiskey/?sku=135628"
     },
     {
@@ -3060,8 +3160,10 @@
       "brand": "Jack Daniel's",
       "name": "McLaren X JD Edition 2024",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05099873026045"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-mclaren-x-jd-edition-2024-whiskey/?sku=136753"
     },
     {
@@ -4835,8 +4937,10 @@
       "brand": "Jim Beam",
       "name": "Signature Craft 12 Year Old",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05060045583659"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-signature-craft-12-year-old-whiskey/?sku=31065"
     },
     {
@@ -4844,8 +4948,10 @@
       "brand": "Jim Beam",
       "name": "Lineage 15 Year Old Batch #1",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "00080686004059"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-lineage-15-year-old-batch-1-whiskey/?sku=125644"
     },
     {
@@ -4862,8 +4968,10 @@
       "brand": "Bushmills",
       "name": "1997 (bottled 2022) Rum Cask - The Causeway Collection",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05055966830500"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-rum-cask-1997-2022-edition-the-causeway-collection-whiskey/?sku=121482"
     },
     {
@@ -4934,8 +5042,10 @@
       "brand": "Bushmills",
       "name": "11 Year Old 2010 Cognac Cask",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05055966830524"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-2010-cognac-cask-whiskey/?sku=138633"
     },
     {
@@ -5144,6 +5254,382 @@
       "codes": [],
       "status": "no-verified-code",
       "catalogSource": "https://www.ballantines.com/en/range/ballantines-sweet-blend/"
+    },
+    {
+      "id": "jameson-41334cc7c37a",
+      "brand": "Jameson",
+      "name": "Crested",
+      "volumeMl": 700,
+      "codes": [
+        "05011007003548"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-crested.html"
+    },
+    {
+      "id": "jameson-94510a185f6f",
+      "brand": "Jameson",
+      "name": "Caskmates Stout",
+      "volumeMl": 700,
+      "codes": [
+        "05011007025410"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-caskmates-stout-pairing-70-cl.html"
+    },
+    {
+      "id": "jameson-e0d491e62f8c",
+      "brand": "Jameson",
+      "name": "Black Barrel",
+      "volumeMl": 700,
+      "codes": [
+        "05011007024000"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-black-barrel.html"
+    },
+    {
+      "id": "jameson-1c96a4c5399b",
+      "brand": "Jameson",
+      "name": "Caskmates IPA",
+      "volumeMl": 700,
+      "codes": [
+        "05011007025960"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-caskmates-ipa.html"
+    },
+    {
+      "id": "jameson-6aa2530dd5fb",
+      "brand": "Jameson",
+      "name": "Cold Brew",
+      "volumeMl": 700,
+      "codes": [
+        "05011007020569"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-cold-brew.html"
+    },
+    {
+      "id": "jameson-2e7953f86482",
+      "brand": "Jameson",
+      "name": "Orange Spirit",
+      "volumeMl": 700,
+      "codes": [
+        "05011007020620"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-orange-spirit.html"
+    },
+    {
+      "id": "jameson-1ec8e4e0f3dd",
+      "brand": "Jameson",
+      "name": "Triple Triple Cask",
+      "volumeMl": 1000,
+      "codes": [
+        "05011007022778"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-triple-triple.html"
+    },
+    {
+      "id": "jameson-81eb0397c5ee",
+      "brand": "Jameson",
+      "name": "Triple Triple Marsala Cask",
+      "volumeMl": 1000,
+      "codes": [
+        "05011007028336"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-triple-triple-marsala-cask.html"
+    },
+    {
+      "id": "jameson-58550bf18df1",
+      "brand": "Jameson",
+      "name": "18 Year Limited Reserve",
+      "volumeMl": 700,
+      "codes": [
+        "05011007022891"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-18-year-limited-reserve.html"
+    },
+    {
+      "id": "jim-beam-b58073026f21",
+      "brand": "Jim Beam",
+      "name": "Kentucky Dram",
+      "volumeMl": 1000,
+      "codes": [
+        "05060045585356"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-kentucky-dram-1l-whiskey/?sku=47551"
+    },
+    {
+      "id": "ardbeg-b18894debf09",
+      "brand": "Ardbeg",
+      "name": "24 Year Old - Forgotten Gems",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-24-year-old-forgotten-gems-whisky/?sku=129023"
+    },
+    {
+      "id": "bushmills-c494c808f1fb",
+      "brand": "Bushmills",
+      "name": "22 Year Old (That Boutique-y Whisky Company)",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-22-year-old-that-boutique-y-whisky-company-whisky/?sku=143252"
+    },
+    {
+      "id": "bushmills-ee3153a65da9",
+      "brand": "Bushmills",
+      "name": "10 Year Old - 1990s",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-10-year-old-1990s-whiskey/?sku=39849"
+    },
+    {
+      "id": "bushmills-7e3df585348a",
+      "brand": "Bushmills",
+      "name": "10 Year Old - 1980s (1L)",
+      "volumeMl": 1000,
+      "codes": [
+        "05011007006198"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-10-year-old-1980s-1l-whiskey/?sku=87890"
+    },
+    {
+      "id": "bushmills-1deed20f1126",
+      "brand": "Bushmills",
+      "name": "10 Year Old 2010 Cognac Cask - The Causeway Collection",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-10-year-old-the-causeway-collection-whiskey/?sku=110820"
+    },
+    {
+      "id": "glenfiddich-7ab3cf2cd1e7",
+      "brand": "Glenfiddich",
+      "name": "40 Year Old - Rare Collection (Release Number 17)",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-40-year-old-rare-collection-release-number-17-whisky/?sku=114526"
+    },
+    {
+      "id": "glenfiddich-f3435c9c436f",
+      "brand": "Glenfiddich",
+      "name": "40 Year Old · 40%",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.drankgigant.nl/glenfiddich-40-years-old.html"
+    },
+    {
+      "id": "chivas-8e42fafc0344",
+      "brand": "Chivas Regal",
+      "name": "Crystalgold",
+      "volumeMl": 700,
+      "codes": [
+        "05000299643105"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/chivas-regal-crystalgold.html"
+    },
+    {
+      "id": "chivas-55c75f3b0699",
+      "brand": "Chivas Regal",
+      "name": "The Icon",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.drankgigant.nl/chivas-regal-the-icon.html"
+    },
+    {
+      "id": "ardbeg-1b8b9bd1e427",
+      "brand": "Ardbeg",
+      "name": "25 Year Old",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-25-year-old-whisky/?sku=106601"
+    },
+    {
+      "id": "jameson-f2dd066b692a",
+      "brand": "Jameson",
+      "name": "Original",
+      "volumeMl": 700,
+      "codes": [
+        "05011007003005"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-irish.html"
+    },
+    {
+      "id": "chivas-7daa102940ec",
+      "brand": "Chivas Regal",
+      "name": "18 Year Old - Pauillac Wine Cask Finish",
+      "volumeMl": 1000,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-18-year-old-pauillac-wine-cask-finish-whisky/?sku=142552"
+    },
+    {
+      "id": "chivas-f79e229677da",
+      "brand": "Chivas Regal",
+      "name": "12 Year Old - 1970s",
+      "volumeMl": 700,
+      "codes": [
+        "05052598337100"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-12-year-old-1970s-blended-whisky/?sku=26517"
+    },
+    {
+      "id": "chivas-d40dfb90d86c",
+      "brand": "Chivas Regal",
+      "name": "12 Year Old - 1980s",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/chivas/chivas-regal-12-year-old-1980s-whisky/?sku=23432"
+    },
+    {
+      "id": "chivas-e8b6f623c5fa",
+      "brand": "Chivas Regal",
+      "name": "13 Year Old Extra - Bourbon Casks",
+      "volumeMl": 700,
+      "codes": [
+        "05000299626993"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-extra-13-year-old-bourbon-cask-whisky/?sku=112931"
+    },
+    {
+      "id": "chivas-e5d72ae714db",
+      "brand": "Chivas Regal",
+      "name": "XV Balmain Limited Edition",
+      "volumeMl": 700,
+      "codes": [
+        "05000299626900"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-xv-balmain-limited-edition-whisky/?sku=114634"
+    },
+    {
+      "id": "jameson-a120f6fa38a0",
+      "brand": "Jameson",
+      "name": "Single Pot Still Five Oak Cask Release",
+      "volumeMl": 700,
+      "codes": [
+        "05011007017965"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/jameson-five-oak-cask-release.html"
+    },
+    {
+      "id": "jameson-57adbd5746c1",
+      "brand": "Jameson",
+      "name": "Original · Bot.1980s · 43%",
+      "volumeMl": 1000,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/60364/jameson-bot1980s-litre"
+    },
+    {
+      "id": "jameson-6627e75cc3f6",
+      "brand": "Jameson",
+      "name": "Original · Bot.1980s · 40%",
+      "volumeMl": 1000,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/37903/jameson-bot1980s"
+    },
+    {
+      "id": "jameson-10a4390eb740",
+      "brand": "Jameson",
+      "name": "23 Year Old Small Batch Exclusive to The Whisky Exchange",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/82107/jameson-23-year-old-small-batch-exclusive-to-the-whisky-exchange"
+    },
+    {
+      "id": "jameson-a6c11dec52bb",
+      "brand": "Jameson",
+      "name": "22 Year Old Small Batch Exclusive to The Whisky Exchange",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/71141/jameson-22-year-old-small-batch-exclusive-to-the-whisky-exchange"
+    },
+    {
+      "id": "jameson-fa31c8f9e946",
+      "brand": "Jameson",
+      "name": "12 Year Old Distillery Reserve Bot.1990s",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/31057/jameson-12-year-old-distillery-reserve-bot1990s"
+    },
+    {
+      "id": "jameson-7675d26f6081",
+      "brand": "Jameson",
+      "name": "Rarest Vintage Reserve Bot.2009",
+      "volumeMl": 750,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/61219/jameson-rarest-vintage-reserve-bot2009"
+    },
+    {
+      "id": "jameson-51e45105982e",
+      "brand": "Jameson",
+      "name": "2007 Rarest Vintage Reserve",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/8025/jameson-2007-rarest-vintage-reserve"
+    },
+    {
+      "id": "ballantines-b76d70f790e3",
+      "brand": "Ballantine’s",
+      "name": "17 Year Old Bot.1980s",
+      "volumeMl": 750,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/82484/ballantines-17-year-old-bot1980s"
+    },
+    {
+      "id": "ballantines-8863d7533fe5",
+      "brand": "Ballantine’s",
+      "name": "30 Year Old Bot.1980s",
+      "volumeMl": 750,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/43152/ballantines-30-year-old-bot1980s"
+    },
+    {
+      "id": "ballantines-67358429f213",
+      "brand": "Ballantine’s",
+      "name": "17 Year Old Bot.1970s",
+      "volumeMl": 750,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/39769/ballantines-17-year-old-bot1970s"
+    },
+    {
+      "id": "ballantines-e80a61866da6",
+      "brand": "Ballantine’s",
+      "name": "30 Year Old Bot.1970s",
+      "volumeMl": 750,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.thewhiskyexchange.com/p/37111/ballantines-30-year-old-bot1970s"
     }
   ]
 }

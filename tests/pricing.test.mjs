@@ -28,3 +28,11 @@ test('wishlist values one bottle per saved position and keeps missing prices exp
  assert.deepEqual(wishlistValue(['a','b','unpriced'],{a:{amount:19.95},b:{amount:25.5}}),{amount:45.45,missing:1})
  assert.deepEqual(wishlistValue([],{}),{amount:0,missing:0})
 })
+
+test('other-size or unconfirmed auction references stay visible but do not inflate collections',async()=>{
+ const {cellarValue,wishlistValue,priceLabel}=await import('../src/pricing.ts')
+ const quotes={a:{amount:30,volumeMl:700},otherSize:{amount:4000,volumeMl:750,referenceOnly:true},unknown:{amount:50,volumeMl:null,referenceOnly:true}}
+ assert.deepEqual(cellarValue([{whiskyId:'a',quantity:2},{whiskyId:'otherSize',quantity:1},{whiskyId:'unknown',quantity:3}],quotes),{amount:60,missing:4})
+ assert.deepEqual(wishlistValue(['a','otherSize'],quotes),{amount:30,missing:1})
+ assert.match(priceLabel(quotes.otherSize),/^ref\..*750 ml$/)
+})
