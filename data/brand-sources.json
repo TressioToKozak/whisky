@@ -61,9 +61,18 @@
     "id": "toki",
     "sourcePage": "https://house.suntory.com/toki-whisky",
     "imageUrl": "https://house.suntory.com/sites/default/files/styles/original/public/2025-01/toki.png.webp?itok=NsSGiSi_",
-    "file": "/brands/toki.webp",
-    "sha256": "9a68b764deeefc62527aa9197093d2d5f92b35a696eabe9f5bac68c22970fe9f",
-    "checkedAt": "2026-10-17",
-    "note": "Official manufacturer photograph, displayed with a CSS crop around the TOKI / Suntory Whisky wordmark on the label. Original image bytes are unchanged."
+    "file": "/brands/toki.png",
+    "sha256": "f81f96b070470d3b1047e6a9808f798a1934669e9b167190b42f689ea40988bb",
+    "checkedAt": "2026-10-18",
+    "note": "Derived transparent TOKI wordmark, isolated with the image editor from the official producer label reference; no label paper or bottle included."
+  },
+  {
+    "id": "chivas",
+    "file": "/brands/chivas.svg",
+    "imageUrl": "https://www.chivas.com/en/#brand-logo",
+    "sourcePage": "https://www.chivas.com/en/",
+    "sha256": "863a1f7b6ba5d762cd1f80be152a72e547fe06970871b6ddecedfe3a4fee0732",
+    "checkedAt": "2026-10-18",
+    "note": "Original inline SVG wordmark from official brand website."
   }
 ]

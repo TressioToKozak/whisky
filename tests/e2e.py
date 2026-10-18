@@ -69,15 +69,9 @@ with sync_playwright() as p:
     page.get_by_role('dialog').get_by_role('button',name='Dodaj whisky',exact=True).click()
     page.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click()
     expect(page.locator('.whisky-card')).to_have_count(2)
-    page.get_by_role('button',name='Ustawienia i kopia danych',exact=True).filter(visible=True).click()
-    with page.expect_download() as dl:
-        page.get_by_role('button',name='Pobierz kopię danych').click()
-    backup=Path(tempfile.gettempdir())/'dram-e2e-backup.json'
-    dl.value.save_as(backup)
-    exported=json.loads(backup.read_text())
+    exported=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v1'))")
     assert len(exported['bottles'])==2 and exported['reviews'][0]['score']==9
     assert exported['custom'][0]['image'].startswith('data:image/jpeg;')
-    page.get_by_role('button',name='Zamknij',exact=True).click()
     page.get_by_role('button',name='Własne wydanie testowe',exact=True).click()
     page.get_by_role('button',name='Usuń własny wpis').click()
     page.get_by_role('button',name='Anuluj',exact=True).click()
@@ -85,15 +79,6 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Usuń własny wpis').click()
     page.get_by_role('button',name='Potwierdź',exact=True).click()
     expect(page.locator('.whisky-card')).to_have_count(1)
-    page.locator('.mobile-settings').click()
-    page.get_by_label('Przywróć kopię danych',exact=True).set_input_files(str(backup))
-    page.get_by_role('button',name='Potwierdź',exact=True).click()
-    expect(page.locator('.whisky-card')).to_have_count(2)
-    page.locator('.mobile-settings').click()
-    bad=Path(tempfile.gettempdir())/'dram-invalid.json';bad.write_text('{"version":99}')
-    page.get_by_label('Przywróć kopię danych',exact=True).set_input_files(str(bad))
-    expect(page.get_by_role('status')).to_contain_text('Nieobsługiwany format')
-    page.get_by_role('button',name='Zamknij',exact=True).click()
     # Remove cellar stock without losing the tasting history.
     page.get_by_role('button',name='Black Label 12',exact=True).click()
     page.get_by_role('button',name='Zmniejsz liczbę butelek').click()
@@ -118,5 +103,5 @@ with sync_playwright() as p:
     expect(page.get_by_role('alert')).to_contain_text('Dotychczasowy zapis nie zostanie nadpisany')
     assert page.evaluate("localStorage.getItem('dram.journal.v1')")=='BROKEN-BACKUP'
     assert not errors, errors
-    print(json.dumps({'passed':['age gate','search and filters','wishlist to cellar','stock and opened status','tasting create/edit','persistence','custom whisky and photo','deletion confirmation','backup export/import','invalid backup rejection','cellar removal preserves reviews','responsive 320–1440px','local photo responses','corruption protection'],'page_errors':errors},ensure_ascii=False))
+    print(json.dumps({'passed':['age gate','search and filters','wishlist to cellar','stock and opened status','tasting create/edit','persistence','custom whisky and photo','deletion confirmation','cellar removal preserves reviews','responsive 320–1440px','local photo responses','corruption protection'],'page_errors':errors},ensure_ascii=False))
     b.close()

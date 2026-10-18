@@ -1,4 +1,5 @@
 import test from 'node:test'
+import {brandOf} from '../src/brands.ts'
 import assert from 'node:assert/strict'
 import { readFileSync, existsSync } from 'node:fs'
 import { average, emptyJournal, safeUrl, validateJournal } from '../src/model.ts'
@@ -25,7 +26,7 @@ test('ratings are calculated from real user entries and start empty',()=>{
 test('catalog IDs and names are unique and photographed files exist',()=>{
  assert.equal(new Set(ids).size,catalog.length)
  assert.equal(new Set(catalog.map(w=>w.brand+w.name)).size,catalog.length)
- for(const w of catalog){assert.ok(['Johnnie Walker','John Walker & Sons',"Jack Daniel's"].includes(w.brand));if(w.image){assert.ok(existsSync(new URL('../public'+w.image,import.meta.url)));assert.match(w.imageSource,/^https:\/\//)}}
+ for(const w of catalog){assert.ok(brandOf(w),w.brand);if(w.image){assert.ok(existsSync(new URL('../public'+w.image,import.meta.url)));assert.match(w.imageSource,/^https:\/\//)}}
 })
 test('catalog exceeds 82 editions, with an original, unique and checksum-verified photo for every entry',async()=>{
  const {createHash}=await import('node:crypto')

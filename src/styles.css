@@ -378,7 +378,7 @@ h1 { display: flex; align-items: center; gap: 14px; font-size: 31px; line-height
 .photo-open { padding: 12px 16px; }
 .detail-photo { overflow: hidden; }
 @media (max-width: 600px) { .photo-open { padding: 9px 7px; } }
-.brand-toki .brand-logo img, .brand-empty.brand-toki > img { object-view-box: inset(43.8% 44.5% 47.4% 30.6%); }
+.brand-toki .brand-logo img, .brand-empty.brand-toki > img { object-view-box: inset(24% 16% 23% 16%); }
 .brand-empty > img { background: #20221e; }
 .brand-empty.brand-johnnie-walker > img, .brand-empty.brand-jim-beam > img, .brand-empty.brand-goldfinch > img, .brand-empty.brand-ardbeg > img, .brand-empty.brand-toki > img { background: #f0eee7; }
 .photo-open, .detail-photo { container-type: size; display: grid; place-items: center; }
@@ -387,3 +387,5 @@ h1 { display: flex; align-items: center; gap: 14px; font-size: 31px; line-height
 @supports (object-view-box: inset(1%)) { .bottle-photo { clip-path: var(--photo-clip,none); } }
 .personal-catalog { display: flex; align-items: center; gap: 10px; width: 100%; min-height: 48px; margin-top: 20px; padding: 12px 0; text-align: left; color: var(--muted); font-size: 13px; }
 .personal-catalog span { margin-left: auto; color: var(--accent); }
+
+.brand-chivas .brand-logo { background: #f0eee7; }

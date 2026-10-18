@@ -37,7 +37,7 @@ with sync_playwright() as p:
     expect(page.get_by_role('heading',name='Masz ukończone 18 lat?')).to_be_visible()
     page.get_by_role('button',name='Tak, mam 18 lat').click()
     expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible()
-    expect(page.locator('.brand-card')).to_have_count(8)
+    expect(page.locator('.brand-card')).to_have_count(9)
     page.get_by_role('button',name='Otwórz Johnnie Walker',exact=True).click()
     expect(page.get_by_role('heading',name='Johnnie Walker',exact=False)).to_be_visible()
     expect(page.locator('.whisky-card')).to_have_count(24)
@@ -61,9 +61,12 @@ with sync_playwright() as p:
     expect(page.locator('.whisky-card')).to_have_count(1)
     expect(page.locator('.card-price')).to_contain_text('€')
     page.get_by_role('button',name='Wszystkie marki',exact=True).click()
-    page.get_by_role('button',name='Otwórz Ardbeg',exact=True).click()
-    expect(page.get_by_role('heading',name='Katalog w przygotowaniu')).to_be_visible()
-    page.get_by_role('button',name='Wszystkie marki',exact=True).click()
+    for name in ['Ardbeg','Jim Beam','Goldfinch','Bushmills','Ballantine’s','Toki','Chivas Regal']:
+        page.get_by_role('button',name='Otwórz '+name,exact=True).click()
+        assert page.locator('.whisky-card').count()>0
+        page.wait_for_function("document.querySelector('.whisky-card img')?.naturalWidth>0")
+        expect(page.locator('.card-price').first).to_contain_text('€')
+        page.get_by_role('button',name='Wszystkie marki',exact=True).click()
     page.get_by_role('button',name='Otwórz Johnnie Walker',exact=True).click()
     page.get_by_role('searchbox',name='Szukaj whisky').fill('Honour')
     expect(page.locator('.whisky-card')).to_have_count(1)
@@ -77,5 +80,5 @@ with sync_playwright() as p:
     assert not errors,errors
     assert any('/whisky/assets/' in u and '.js' in u for u,s in fetched)
     assert all(s==200 for u,s in fetched)
-    print({'public_page':'passed','compiled_assets':'passed','age_gate':'passed','johnnie_walker_releases':253,'jack_daniels_releases':122,'brand_choices':8,'real_photo':'passed','search':'passed','wishlist_persistence':'passed','mobile_layout':'passed','javascript_errors':errors,'public_requests':len(fetched)})
+    print({'public_page':'passed','compiled_assets':'passed','age_gate':'passed','johnnie_walker_releases':253,'jack_daniels_releases':122,'brand_choices':9,'real_photo':'passed','search':'passed','wishlist_persistence':'passed','mobile_layout':'passed','javascript_errors':errors,'public_requests':len(fetched)})
     browser.close()

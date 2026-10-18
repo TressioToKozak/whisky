@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-18",
+  "added": 90,
+  "brands": {
+    "Ardbeg": 18,
+    "Ballantine’s": 8,
+    "Bushmills": 19,
+    "Chivas Regal": 13,
+    "Jim Beam": 12,
+    "Toki": 2,
+    "Goldfinch": 18
+  },
+  "scope": "Selected documented releases, not an exhaustive historical catalog. Original producer/retailer photographs, NL retailer prices; Goldfinch UK manufacturer reference prices converted to EUR.",
+  "excluded": "Accessories, minis, duplicate sizes, unrelated search results and The Icon pending strength verification."
+}

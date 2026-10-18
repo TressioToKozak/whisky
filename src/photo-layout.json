@@ -1875,5 +1875,455 @@
     "inset": "inset(0.00% 19.53% 0.00% 18.75%)",
     "background": "linear-gradient(105deg,rgb(254,254,254),rgb(254,252,252))",
     "ratio": 0.61719
+  },
+  "ardbeg-5684e8914c8c": {
+    "inset": "inset(0.00% 31.25% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.38281
+  },
+  "ardbeg-e842a16ab06d": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-5180cd853dcf": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-fec238c710cb": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-7d7b1b690457": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-95da515fb6d9": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-a38d19e47a5e": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-c496f089d280": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-038ca6f74838": {
+    "inset": "inset(0.00% 30.47% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.38281
+  },
+  "ardbeg-614bbda2ea6d": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-236eaaf24cb0": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-73c8d72ad731": {
+    "inset": "inset(0.00% 31.25% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-a56dff8b6045": {
+    "inset": "inset(0.00% 31.25% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-fab4825a96f2": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-9b1e89e29e4c": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-771a30686ef5": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ardbeg-2b2488fa4aa6": {
+    "inset": "inset(0.00% 31.25% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ardbeg-6945ef7688c9": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ballantines-07ba608b18f6": {
+    "inset": "inset(0.00% 20.59% 0.00% 21.57%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46094
+  },
+  "ballantines-5d45c26add75": {
+    "inset": "inset(0.00% 23.53% 0.00% 23.53%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42188
+  },
+  "ballantines-ce2bbbff7057": {
+    "inset": "inset(0.00% 31.25% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "ballantines-bb6f35f4dc5f": {
+    "inset": "inset(0.00% 21.57% 0.00% 21.57%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.45312
+  },
+  "ballantines-80ec5901ec08": {
+    "inset": "inset(0.00% 20.59% 0.00% 20.59%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "ballantines-d08e3d4e62f5": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "ballantines-86debaacb6ba": {
+    "inset": "inset(0.00% 26.56% 0.00% 26.56%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "ballantines-bb01435087b5": {
+    "inset": "inset(0.00% 26.56% 0.00% 26.56%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "bushmills-b9bc67ed47bb": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-6802a226f822": {
+    "inset": "inset(0.00% 32.03% 0.00% 32.81%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35156
+  },
+  "bushmills-ea6c77c11286": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-27410c6a6124": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-788c3a811aeb": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-7fbab2c163ad": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-1f0ef4bc40eb": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-07edd289caee": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-d61915e75a7d": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-c58ccf34f821": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-38b56c97ed0b": {
+    "inset": "inset(0.00% 29.69% 0.00% 31.25%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-093d9ca47f92": {
+    "inset": "inset(0.00% 29.69% 0.00% 28.91%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.41406
+  },
+  "bushmills-1cba975b34df": {
+    "inset": "inset(0.00% 32.81% 0.00% 32.81%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-8ecfc842802c": {
+    "inset": "inset(0.00% 32.81% 0.00% 32.81%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-47c507ed1824": {
+    "inset": "inset(0.00% 32.81% 0.00% 32.03%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35156
+  },
+  "bushmills-0a63cfe85c85": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-515112f414ee": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "bushmills-87e924a59f06": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "bushmills-fa4a658dcb47": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "chivas-7d82ecd33570": {
+    "inset": "inset(0.00% 20.59% 0.00% 20.59%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "chivas-1b580936b6ca": {
+    "inset": "inset(0.00% 24.51% 0.00% 24.51%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.40625
+  },
+  "chivas-d1f30518067d": {
+    "inset": "inset(0.00% 26.56% 0.00% 26.56%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "chivas-7c1e99c38f63": {
+    "inset": "inset(0.00% 20.59% 0.00% 20.59%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "chivas-63c03c272955": {
+    "inset": "inset(0.00% 25.78% 0.00% 25.78%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48438
+  },
+  "chivas-a8096e52f595": {
+    "inset": "inset(0.00% 29.69% 0.00% 29.69%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.40625
+  },
+  "chivas-6304333b1e84": {
+    "inset": "inset(0.00% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "chivas-f2fe5ae0c3d9": {
+    "inset": "inset(0.00% 20.59% 0.00% 20.59%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "chivas-5d1fd127da81": {
+    "inset": "inset(0.00% 24.51% 0.00% 24.51%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.40625
+  },
+  "chivas-1e8c3f5221ec": {
+    "inset": "inset(0.00% 21.57% 0.00% 21.57%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.45312
+  },
+  "chivas-ac4ed1ad1ffd": {
+    "inset": "inset(0.00% 21.57% 0.00% 21.57%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.45312
+  },
+  "chivas-2bb752264313": {
+    "inset": "inset(0.00% 29.69% 0.00% 29.69%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.40625
+  },
+  "chivas-d1ca12afd81a": {
+    "inset": "inset(0.00% 24.51% 0.00% 24.51%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.40625
+  },
+  "jim-beam-ce0383739df1": {
+    "inset": "inset(13.28% 31.25% 0.00% 32.03%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42342
+  },
+  "jim-beam-919b7ad0e448": {
+    "inset": "inset(7.81% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42373
+  },
+  "jim-beam-2f7ba13aa2c2": {
+    "inset": "inset(7.81% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42373
+  },
+  "jim-beam-757955520bff": {
+    "inset": "inset(7.81% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42373
+  },
+  "jim-beam-4c8b791f3b54": {
+    "inset": "inset(7.81% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42373
+  },
+  "jim-beam-126de4a3f392": {
+    "inset": "inset(0.00% 25.00% 0.00% 25.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.5
+  },
+  "jim-beam-2f86c829e87f": {
+    "inset": "inset(0.00% 25.00% 0.00% 25.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.5
+  },
+  "jim-beam-45e20d1071da": {
+    "inset": "inset(0.00% 25.00% 0.00% 25.78%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.49219
+  },
+  "jim-beam-e17ca6a02cc8": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "jim-beam-8b24b672975b": {
+    "inset": "inset(7.81% 30.47% 0.00% 30.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.42373
+  },
+  "jim-beam-c5f708575387": {
+    "inset": "inset(0.00% 25.78% 0.00% 25.78%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48438
+  },
+  "jim-beam-62541216b3b1": {
+    "inset": "inset(0.00% 25.00% 0.00% 25.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.5
+  },
+  "toki-f4832cf8c916": {
+    "inset": "inset(0.00% 26.56% 0.00% 26.56%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "toki-769a58a24728": {
+    "inset": "inset(0.00% 26.56% 0.00% 26.56%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.46875
+  },
+  "goldfinch-cee14d301151": {
+    "inset": "inset(0.00% 23.26% 3.12% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.53226
+  },
+  "goldfinch-482cb1140817": {
+    "inset": "inset(6.25% 19.28% 3.91% 19.28%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.44348
+  },
+  "goldfinch-b9491d3ee93a": {
+    "inset": "inset(0.78% 17.65% 1.56% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.56
+  },
+  "goldfinch-8965879484a1": {
+    "inset": "inset(6.25% 19.28% 3.91% 19.28%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.44348
+  },
+  "goldfinch-49dd510caa35": {
+    "inset": "inset(6.25% 19.28% 3.91% 19.28%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.44348
+  },
+  "goldfinch-4e2aa393f04e": {
+    "inset": "inset(6.25% 19.28% 3.91% 19.28%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.44348
+  },
+  "goldfinch-0601d13dc786": {
+    "inset": "inset(3.91% 22.35% 2.34% 22.35%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39167
+  },
+  "goldfinch-b5515e44dfe8": {
+    "inset": "inset(0.00% 22.35% 2.34% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(254,254,254))",
+    "ratio": 0.528
+  },
+  "goldfinch-e6cc22ce7fd8": {
+    "inset": "inset(0.00% 22.09% 3.12% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(254,254,254),rgb(254,254,254))",
+    "ratio": 0.54032
+  },
+  "goldfinch-d1936cfe098b": {
+    "inset": "inset(3.91% 22.35% 3.12% 22.35%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39496
+  },
+  "goldfinch-aafbcfea6932": {
+    "inset": "inset(7.03% 18.82% 7.03% 18.82%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48182
+  },
+  "goldfinch-0931805b8ac7": {
+    "inset": "inset(0.00% 18.82% 7.03% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.57983
+  },
+  "goldfinch-31384f06bd88": {
+    "inset": "inset(7.03% 18.82% 7.03% 18.82%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48182
+  },
+  "goldfinch-3af3ebc99cd8": {
+    "inset": "inset(0.00% 18.82% 7.03% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.57983
+  },
+  "goldfinch-9194e30dfd71": {
+    "inset": "inset(3.12% 22.35% 2.34% 22.35%)",
+    "background": "linear-gradient(105deg,rgb(254,254,254),rgb(254,254,254))",
+    "ratio": 0.38843
+  },
+  "goldfinch-faf88ae2bc19": {
+    "inset": "inset(0.00% 22.35% 2.34% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.528
+  },
+  "goldfinch-ca4640571549": {
+    "inset": "inset(4.69% 23.53% 4.69% 23.53%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.38793
+  },
+  "goldfinch-9e34d4993a2f": {
+    "inset": "inset(0.00% 22.35% 2.34% 0.00%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.528
   }
 }
