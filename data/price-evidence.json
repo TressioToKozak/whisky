@@ -10976,5 +10976,1104 @@
     ],
     "exchangeRateDate": "2026-10-17",
     "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-bdb7d1818d93": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 14 Year Bourbon Barrel Reserve",
+        "amount": 43.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-14-year-bourbon-barrel-reserve.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-50b1c11b6e0f": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 18 Year Oloroso Sherry / Bourbon",
+        "amount": 89.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-18-year-old-oloroso-sherry-bourbon.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-7c81a49dba18": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Perpetual Vat 02 Rich & Dark",
+        "amount": 79.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-perpetual-vat-02-rich-dark.html",
+        "volumeMl": 1000,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-7795e9edd9d9": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 19 Years F1 Aston Martin",
+        "amount": 129.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-19-years-f1-aston-martin.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-92989ca67260": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 12 Years Rum Cask Finish",
+        "amount": 69.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-12-years-rum-cask-finish.html",
+        "volumeMl": 1000,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-d5ecb4108fd3": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Perpetual Collection Vat 01 Smooth & Yellow",
+        "amount": 69.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-perpetual-collection-vat-01-smooth-yellow.html",
+        "volumeMl": 1000,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-59d92eacc846": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 15 Years Perpetual Collection Vat 03",
+        "amount": 89.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-15-years-perpetual-collection-vat-03.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-bc9247c486fe": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 16 Years Aston Martin Formula One Team",
+        "amount": 89.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-16-years-aston-martin-formula-one-team.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-adeb4545b1a4": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Project XX",
+        "amount": 46.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-project-xx.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-0eab037cea0f": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Fire & Cane ",
+        "amount": 46.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-fire-cane-70-cl.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-d49b43469be1": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 12 Year",
+        "amount": 29.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-12-year-70cl.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-8d80c99195f8": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 15 Years",
+        "amount": 49.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-15-year.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-42bc72f7783e": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Our Malt Master's Edition",
+        "amount": 39.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-our-malt-master-s-edition.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-547ee86728f6": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 12 Years Triple Oak",
+        "amount": 37.95,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-12-years-our-triple-oak.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-daf549271775": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 26 Years Grande Couronne",
+        "amount": 595.0,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-26-years-grande-couronne.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-99b19afb714a": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 37 years Rare Collection",
+        "amount": 3750.0,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-37-years-rare-collection.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-266e7cbb7598": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 21 Years Gran Reserva",
+        "amount": 219.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-21-years-gran-reserva.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-a88131f4da8d": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich Orchard Experiment Series #05",
+        "amount": 47.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-orchard-experiment-series-05.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "glenfiddich-9e91958b7000": {
+    "method": "NL retail offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 23 Years Grand Cru",
+        "amount": 299.5,
+        "currency": "EUR",
+        "source": "https://www.drankgigant.nl/glenfiddich-23-years-grand-cru.html",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ]
+  },
+  "goldfinch-db7f1708b0ae": {
+    "method": "UK manufacturer catalog price",
+    "observations": [
+      {
+        "name": "Mey Selections Rare Cask Series – Glen Ord Release No 1",
+        "amount": 100.0,
+        "currency": "GBP",
+        "source": "https://www.goldfinchwhisky.com/product/mey-selections-rare-cask-series-release-001/",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "goldfinch-fe9382c234b2": {
+    "method": "UK manufacturer catalog price",
+    "observations": [
+      {
+        "name": "Mey Selections Rare Cask Series – Teaninich Release No 2",
+        "amount": 92.0,
+        "currency": "GBP",
+        "source": "https://www.goldfinchwhisky.com/product/mey-selections-rare-cask-series-release-002/",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "goldfinch-7ec57c279b2a": {
+    "method": "UK manufacturer catalog price",
+    "observations": [
+      {
+        "name": "Mey Selections Rare Cask Series – Clynelish Release No 3",
+        "amount": 155.0,
+        "currency": "GBP",
+        "source": "https://www.goldfinchwhisky.com/product/mey-selections-rare-cask-series-release-003/",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "goldfinch-5070c6647420": {
+    "method": "UK manufacturer catalog price",
+    "observations": [
+      {
+        "name": "Mey Selections Rare Cask Series – Orkney Release No 4",
+        "amount": 90.0,
+        "currency": "GBP",
+        "source": "https://www.goldfinchwhisky.com/product/mey-selections-rare-cask-series-release-004/",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "goldfinch-875b37e1b7ef": {
+    "method": "UK manufacturer catalog price",
+    "observations": [
+      {
+        "name": "Mey Selections Rare Cask Series – Blair Athol Release No 5",
+        "amount": 88.0,
+        "currency": "GBP",
+        "source": "https://www.goldfinchwhisky.com/product/mey-selections-rare-cask-series-release-005/",
+        "volumeMl": 700,
+        "availability": "out-of-stock"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-b20ff0ecd1a0": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Dolce",
+        "amount": 83.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-dolce-whisky/?sku=146092",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-75ad6111c060": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg 25 Year Old Vintage Y2K",
+        "amount": 699.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-y2k-25-year-old-whisky/?sku=149011",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-655f6dc36a36": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Ardcore",
+        "amount": 99.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-ardcore-whisky/?sku=117917",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-c0da1560bc28": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg 13 Year Old Anthology - The Harpy’s Tale",
+        "amount": 130.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-13-year-old-anthology-the-harpys-tale-whisky/?sku=128933",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-0aa680b066e3": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg BizarreBQ",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-bizarrebq-whisky/?sku=127212",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-fb3ac237fed5": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Fermutation 13 Year Old - Committee Edition",
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-fermutation-13-year-old-committee-edition-whisky/?sku=120882",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-0897e0db849f": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Arrrrrrrdbeg! - Committee Release",
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-arrrrrrrdbeg-committee-release-whisky/?sku=111444",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-ffd42d9cdc62": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Heavy Vapours - Committee Release",
+        "amount": 120.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-heavy-vapours-committee-release-whisky/?sku=133124",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-d7d0f76bb943": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Scorch - Committee Release",
+        "amount": 169.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-scorch-committee-release-whisky/?sku=111442",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-526ed83ea4c4": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Ardcore - Committee Release",
+        "amount": 120.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-ardcore-committee-release-2022-whisky/?sku=120883",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-5d9619425fcd": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Kelpie",
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-kelpie-whisky/?sku=64017",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-687896e393da": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg 24 Year Old Vintage Y2K",
+        "amount": 639.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-y2k-24-year-old-2025-whisky/?sku=142675",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-64195bcfaeb2": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Heavy Vapours",
+        "amount": 108.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-heavy-vapours-whisky/?sku=126936",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-845b9c41eb5d": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Blaaack",
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-blaaack-whisky/?sku=100835",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-6b7129a89500": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Supernova 2019 (SN2019) - Committee Release",
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-supernova-2015-sn2019-committee-release-whisky/?sku=98309",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ardbeg-a2f037493464": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ardbeg Perpetuum",
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/ardbeg/ardbeg-perpetuum-whisky/?sku=42359",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "jim-beam-4f1078f0996b": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Jim Beam Single Barrel",
+        "amount": 34.13,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-single-barrel-whiskey/?sku=100616",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "jim-beam-92d7a6a75387": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Jim Beam Signature Craft 12 Year Old",
+        "amount": 120.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-signature-craft-12-year-old-whiskey/?sku=31065",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "jim-beam-05498087937d": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Jim Beam Lineage 15 Year Old Batch #1",
+        "amount": 399.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-lineage-15-year-old-batch-1-whiskey/?sku=125644",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-19185df42822": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 2000 (bottled 2021) Port Cask Finish - The Causeway Collection",
+        "amount": 246.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-causeway-collection-2000-port-cask-finish-whiskey/?sku=112498",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-4caf58833940": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 1997 (bottled 2022) Rum Cask - The Causeway Collection",
+        "amount": 346.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-rum-cask-1997-2022-edition-the-causeway-collection-whiskey/?sku=121482",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-6c8dc603443f": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills Rum Cask Reserve - Steamship Collection",
+        "amount": 69.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-rum-cask-reserve-steamship-collection-whiskey/?sku=95578",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-8a0a0c1682f6": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 1608 400th Anniversary",
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-1608-400th-anniversary-whiskey/?sku=2682",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-f3fb116f8bd8": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 2002 (bottled 2022) Vermouth Cask Finish - The Causeway Collection",
+        "amount": 299.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-causeway-collection-2002-vermouth-cask-finish-whiskey/?sku=126641",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-237f333e6d09": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 2012 (bottled 2022) Pomerol Cask Finish - The Causeway Collection",
+        "amount": 120.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-causeway-collection-2012-pomerol-cask-finish-whiskey/?sku=126642",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-f150b83ad518": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 2008 Acacia Wood - Distillery Exclusive",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-2008-acacia-wood-distillery-exclusive-whisky/?sku=144537",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-800d8d2f4bba": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 12 Year Old Distillery Reserve",
+        "amount": 59.99,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-12-year-old-distillery-reserve-whisky/?sku=144538",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-e978267077b2": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 2011 (bottled 2020) Banyuls Cask - The Causeway Collection",
+        "amount": 79.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-causeway-collection-2011-banyuls-cask-whiskey/?sku=142550",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "bushmills-c3578aae1788": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Bushmills 11 Year Old 2010 Cognac Cask",
+        "amount": 94.54,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/bushmills/bushmills-2010-cognac-cask-whiskey/?sku=138633",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-a22d6d567514": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich x Aston Martin Formula One™ Team 16 Year Old (Second Release)",
+        "amount": 73.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-16-year-old-aston-martin-formula-one-team-second-release-whisky/?sku=147624",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-c9b540bb3f0a": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 12 Year Old American Oak",
+        "amount": 39.9,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-12-year-old-american-oak-whisky/?sku=133972",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-c7759ddb367c": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 30 Year Old Suspended Time - Time Reimagined",
+        "amount": 874.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-30-year-old-suspended-time-time-reimagined-whisky/?sku=118134",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-535209d3814b": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 29 Year Old - Grand Yozakura",
+        "amount": 1377.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-grand-yozakura-29-year-old-whiskies/?sku=126218",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-5392f21b6769": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 31 Year Old - Grand Château",
+        "amount": 1426.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-grand-chateau-31-year-old-whisky/?sku=136430",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-7b0b701e49b8": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 21 Year Old - Experimental Series Winter Storm (Batch 2)",
+        "amount": 499.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-21-year-old-experimental-series-winter-storm-batch-2-whisky/?sku=77459",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-5ba6cc7f336e": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 18 Year Old Perpetual Collection - Vat 04",
+        "amount": 111.95,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-18-year-old-perpetual-collection-vat-04-whisky/?sku=128864",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-9eae78e09772": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 21 Year Old - Havana Reserve",
+        "amount": 499.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-21-year-old-havana-reserve-whisky/?sku=56685",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-22c660fabd44": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 14 Year Old - Rich Oak",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-14-year-old-rich-oak-whisky/?sku=79167",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-a32c6965baea": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 50 Year Old Simultaneous Time - Time Reimagined",
+        "amount": 35028.5,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-50-year-old-time-reimagined-whisky/?sku=118137",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "glenfiddich-af63a17424ad": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Glenfiddich 12 Year Old - Caoran Reserve (Light Tin) - Pre 2007",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.masterofmalt.com/whiskies/glenfiddich/glenfiddich-12-year-old-caoran-pre-2007-whisky/?sku=125017",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-374695dae905": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine's Vitality",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/11809/ballantines-vitality",
+        "volumeMl": 500,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-b3c453183018": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine's 23 Year Old",
+        "amount": 234.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/60013/ballantines-23-year-old",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-855983d3cf50": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine's 21 Year Old Blue Ceramic Decanter",
+        "amount": 250.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/416/ballantines-21-year-old-blue-ceramic-decanter",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-50517570c981": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine's Finest True Music Icons Queen Edition",
+        "amount": 24.95,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/72610/ballantines-finest-true-music-icons-queen-edition",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-1dd7977c9709": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine's 19 Year Old Signature Bot.1980s",
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/82285/ballantines-19-year-old-signature-bot1980s",
+        "volumeMl": 750,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-1909a5508b74": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Ballantine’s 7 Year Old American Barrel x RZA Limited Edition",
+        "amount": 37.95,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/72732/ballantines-7-year-old-american-barrel-x-rza-limited-edition",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "chivas-22609181cf9e": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Chivas Regal Ultis Blended Malt Litre",
+        "amount": 225.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/80406/chivas-regal-ultis-blended-malt-litre",
+        "volumeMl": 1000,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "chivas-d4e4db17448a": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Chivas Regal Bot.1910s",
+        "amount": 2500.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/62390/chivas-regal-bot1910s",
+        "volumeMl": 750,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "chivas-a5247918aabe": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Chivas Regal 12 Year Old Bot.1990s",
+        "amount": 34.95,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/32007/chivas-regal-12-year-old-bot1990s",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "chivas-f2c41995af2b": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Chivas Regal 12 Year Old Chivas Employees Bot.1997",
+        "amount": 150.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/8401/chivas-regal-12-year-old-chivas-employees-bot1997",
+        "volumeMl": 700,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "chivas-26a455d1217f": {
+    "method": "UK retailer offer",
+    "observations": [
+      {
+        "name": "Chivas Regal 12 Year Old Silver Jubilee Bot.1970s",
+        "amount": 199.0,
+        "currency": "GBP",
+        "source": "https://www.thewhiskyexchange.com/p/8157/chivas-regal-12-year-old-silver-jubilee-bot1970s",
+        "volumeMl": 750,
+        "availability": "not-independently-confirmed"
+      }
+    ],
+    "exchangeRateDate": "2026-10-17",
+    "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "ballantines-c4ea0929f476": {
+    "method": "User-reported approximate purchase price, Poland; not independently verified",
+    "observations": [
+      {
+        "name": "Ballantine’s Sweet Blend",
+        "amount": 19,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "source": "User report in conversation, 2026-10-18; Al Capone, Poland"
+      }
+    ]
   }
 }

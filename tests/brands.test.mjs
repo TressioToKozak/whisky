@@ -5,8 +5,8 @@ import {createHash} from 'node:crypto'
 import {brands,brandOf} from '../src/brands.ts'
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'))
 const catalog=read('../src/catalog.json'),sources=read('../data/brand-sources.json'),layout=read('../src/photo-layout.json')
-test('brand catalog separates Johnnie Walker and Jack Daniel’s, with all nine populated brand catalogs',()=>{
- assert.equal(brands.length,9)
+test('brand catalog separates Johnnie Walker and Jack Daniel’s, with all ten populated brand catalogs',()=>{
+ assert.equal(brands.length,10)
  assert.equal(catalog.filter(w=>brandOf(w)==='johnnie-walker').length,253)
  assert.ok(catalog.filter(w=>brandOf(w)==='jack-daniels').length>100)
  for(const b of brands)assert.ok(catalog.some(w=>brandOf(w)===b.id),b.name)

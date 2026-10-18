@@ -8,6 +8,7 @@ export const brands = [
   { id: 'bushmills', name: 'Bushmills', logo: 'bushmills.svg' },
   { id: 'ballantines', name: 'Ballantine’s', logo: 'ballantines.svg' },
   { id: 'toki', name: 'Toki', logo: 'toki.png' },
+  { id: 'glenfiddich', name: 'Glenfiddich', logo: 'glenfiddich.png' },
   { id: 'chivas', name: 'Chivas Regal', logo: 'chivas.svg' },
 ] as const
 export type BrandId = typeof brands[number]['id']

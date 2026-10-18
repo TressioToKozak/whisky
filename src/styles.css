@@ -389,3 +389,12 @@ h1 { display: flex; align-items: center; gap: 14px; font-size: 31px; line-height
 .personal-catalog span { margin-left: auto; color: var(--accent); }
 
 .brand-chivas .brand-logo { background: #f0eee7; }
+
+.discovery-search { margin: -5px 0 24px; width: 100%; }
+.global-results-count { color: var(--muted); font-size: 12px; margin: 0 0 18px; }
+.cellar-value { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 20px; margin: 0 0 24px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+.cellar-value p { font-size: 12px; margin: 0 0 7px; color: var(--muted); }
+.cellar-value strong { font-family: Manrope, sans-serif; font-size: 28px; color: var(--accent); }
+.cellar-value span, .cellar-value small { display: block; color: var(--muted); font-size: 11px; line-height: 1.6; }
+.cellar-value > div:last-child { text-align: right; }
+.brand-glenfiddich .brand-logo { background: #f0eee7; }

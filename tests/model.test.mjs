@@ -2,7 +2,7 @@ import test from 'node:test'
 import {brandOf} from '../src/brands.ts'
 import assert from 'node:assert/strict'
 import { readFileSync, existsSync } from 'node:fs'
-import { average, emptyJournal, safeUrl, validateJournal } from '../src/model.ts'
+import { matchesWhisky, average, emptyJournal, safeUrl, validateJournal } from '../src/model.ts'
 const catalog=JSON.parse(readFileSync(new URL('../src/catalog.json',import.meta.url),'utf8'))
 const ids=catalog.map(w=>w.id)
 const review={id:'review-1',whiskyId:ids[0],score:8.5,note:'Miód, długi finisz',date:'2026-01-12',tags:['Miód']}
@@ -41,4 +41,12 @@ test('catalog exceeds 82 editions, with an original, unique and checksum-verifie
   assert.equal(record.sourcePage,w.source)
   assert.ok(record.width>=100&&record.height>=100)
  }
+})
+
+test('global search ignores apostrophes, accents and word order while matching all requested terms',()=>{
+ const w={...catalog[0],brand:'Ballantine’s',name:'Sweet Blend',series:'Ballantine’s',aliases:['Słodki blend']}
+ assert.equal(matchesWhisky(w,'ballantines sweet'),true)
+ assert.equal(matchesWhisky(w,'blend ballantine'),true)
+ assert.equal(matchesWhisky(w,'slodki'),true)
+ assert.equal(matchesWhisky(w,'sweet bourbon'),false)
 })

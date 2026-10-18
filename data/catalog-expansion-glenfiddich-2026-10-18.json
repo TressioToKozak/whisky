@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-18",
+  "added": 76,
+  "brands": {
+    "Glenfiddich": 30,
+    "Goldfinch": 5,
+    "Ardbeg": 16,
+    "Jim Beam": 3,
+    "Bushmills": 10,
+    "Ballantine’s": 7,
+    "Chivas Regal": 5
+  },
+  "scope": "Documented additional releases, not exhaustive historical completeness. Toki reviewed; both documented releases already present. Existing JW and JD catalogs reviewed for duplicates. Sweet Blend price is an approximate user report from Poland, not independently verified. Mey Selections rare casks are Goldfinch independent bottlings. UK offers are foreign references, not Dutch quotations.",
+  "excluded": "Duplicate photographs, wrapping-only versions, unverified strength and unrelated accessories. Accessory-only Ardbeg 25 photo excluded after visual audit."
+}

@@ -31,3 +31,9 @@ export function validateJournal(value: unknown, catalogIds: string[]): Journal {
 export const average = (reviews: Review[]): number | null => reviews.length ? reviews.reduce((sum, r) => sum + r.score, 0) / reviews.length : null
 export const formatScore = (value: number) => value.toLocaleString('pl-PL', { maximumFractionDigits: 1, minimumFractionDigits: 1 })
 export const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}` }
+
+export function matchesWhisky(w: Whisky, query: string) {
+  const normalize = (text: string) => text.toLocaleLowerCase('pl').replace(/ł/g, 'l').normalize('NFD').replace(/\p{M}/gu, '').replace(/[’'™]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
+  const haystack = normalize([w.brand, w.name, w.series, ...w.tags, ...(w.aliases ?? [])].join(' '))
+  return normalize(query).split(/\s+/).every(term => haystack.includes(term))
+}

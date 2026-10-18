@@ -74,5 +74,14 @@
     "sha256": "863a1f7b6ba5d762cd1f80be152a72e547fe06970871b6ddecedfe3a4fee0732",
     "checkedAt": "2026-10-18",
     "note": "Original inline SVG wordmark from official brand website."
+  },
+  {
+    "id": "glenfiddich",
+    "file": "/brands/glenfiddich.png",
+    "sourcePage": "https://www.drankgigant.nl/glenfiddich-21-years-gran-reserva.html",
+    "imageUrl": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_21_years_gran_reserva_1_1.png?store=default&image-type=image",
+    "checkedAt": "2026-10-18",
+    "sha256": "2195a9cda7c33eeb658ef38cfaf15f1be9d9c8c69b4e21ac795db1b8f44eb4c2",
+    "note": "Derived transparent stag and wordmark, isolated with image editor from the authentic Gran Reserva bottle photograph. Not an original vector logo. Reference is the original catalog imageSource for this release."
   }
 ]
