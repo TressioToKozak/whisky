@@ -20,7 +20,7 @@ with sync_playwright() as p:
  page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).evaluate('button=>{button.click();button.click()}');expect(page.get_by_role('dialog')).to_have_count(0);assert journal()['bottles'][0]['quantity']==1
  open_scan();enter(code);page.get_by_role('button',name='Dodaj kolejną butelkę',exact=True).click();assert journal()['bottles'][0]['quantity']==2
  # Unknown codes require explicit matching; personal associations survive reload.
- open_scan();enter(unknown);expect(page.get_by_text('Nie znamy jeszcze tej butelki.',exact=False)).to_be_visible();assert journal()['bottles'][0]['quantity']==2
+ open_scan();enter(unknown);expect(page.get_by_text('Kod odczytany. Nie mamy jeszcze jego przypisania',exact=False)).to_be_visible();assert journal()['bottles'][0]['quantity']==2
  page.get_by_role('searchbox',name='Dopasuj whisky do kodu').fill('ballantines sweet');expect(page.locator('.barcode-option')).to_have_count(1);page.locator('.barcode-option').click();page.get_by_role('button',name='Dodaj butelkę do barku').click();assert any(link['code']=='0'+unknown for link in journal()['barcodeLinks'])
  page.reload(wait_until='networkidle');open_scan();enter(unknown);expect(page.locator('.barcode-match')).to_contain_text('Sweet Blend');close()
  # Unknown code can become a new personal entry and is removed with that entry.

@@ -46,3 +46,23 @@ test('confirmed scans increment quantities once, preserve opened status and revi
  assert.throws(()=>addBarcodeBottle(original,w,'bad',true))
  for(const links of [[{code:'bad',whiskyId:w.id}],[{code:entry.code,whiskyId:'unknown'}],[{code:entry.code,whiskyId:w.id},{code:entry.code,whiskyId:w.id}]])assert.throws(()=>validateJournal({...original,barcodeLinks:links},ids))
 })
+
+test('verified Red Label EAN resolves exactly to the 700 ml catalog entry',()=>{
+ const red=all.find(w=>w.id==='jw-004')
+ assert.equal(red.name,'Red Label');assert.equal(red.volume,700)
+ assert.equal(normalizeBarcode('5000267014203'),'05000267014203')
+ assert.deepEqual(barcodeMatches('5000267014203',all,entries).map(w=>w.id),['jw-004'])
+ let journal=addBarcodeBottle(emptyJournal(),red,'5000267014203',false)
+ journal=addBarcodeBottle(journal,red,'5000267014203',false)
+ assert.deepEqual(journal.bottles,[{whiskyId:'jw-004',quantity:2,opened:false}])
+})
+
+test('coverage report accounts for every catalog ID without claiming unknown codes',()=>{
+ const coverage=read('../data/barcode-coverage.json')
+ assert.equal(coverage.totalProducts,all.length)
+ assert.deepEqual(coverage.products.map(w=>w.id),all.map(w=>w.id))
+ assert.equal(coverage.coveredProducts,new Set(entries.map(e=>e.whiskyId)).size)
+ assert.equal(coverage.uniqueCodes,new Set(entries.map(e=>e.code)).size)
+ assert.ok(!entries.some(e=>e.code==='02000250820104'),'restricted-circulation retailer code must not be presented as a global Honey bottle code')
+ for(const row of coverage.products)assert.deepEqual(row.codes,entries.filter(e=>e.whiskyId===row.id).map(e=>e.code))
+})

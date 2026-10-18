@@ -39,5 +39,6 @@ export const today = () => { const d = new Date(); return `${d.getFullYear()}-${
 export function matchesWhisky(w: Whisky, query: string) {
   const normalize = (text: string) => text.toLocaleLowerCase('pl').replace(/ł/g, 'l').normalize('NFD').replace(/\p{M}/gu, '').replace(/[’'™]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
   const haystack = normalize([w.brand, w.name, w.series, ...w.tags, ...(w.aliases ?? [])].join(' '))
-  return normalize(query).split(/\s+/).every(term => haystack.includes(term))
+  const compact = haystack.replace(/\s/g, '')
+  return normalize(query).split(/\s+/).every(term => haystack.includes(term) || compact.includes(term))
 }

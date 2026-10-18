@@ -1,5 +1,7 @@
 # Dram: przebudowa interfejsu, 18.10.2026
 
+Opis wcześniejszego etapu projektu. Aktualne uproszczenie ekranu startowego, kart i szczegółów opisuje [ui-simplification.md](ui-simplification.md).
+
 ## Zmiany
 
 - Typograficzny znak `dram.`, ciepłe tło i miedziany akcent. Lokalnie dostarczane Fraunces i DM Sans; bez zewnętrznego serwisu fontów.

@@ -22,3 +22,9 @@ test('cellar value multiplies quantities, sums cents and reports unpriced bottle
  assert.deepEqual(cellarValue([{whiskyId:'a',quantity:3},{whiskyId:'b',quantity:2},{whiskyId:'custom',quantity:4}],quotes),{amount:110.85,missing:4})
  assert.deepEqual(cellarValue([],quotes),{amount:0,missing:0})
 })
+
+test('wishlist values one bottle per saved position and keeps missing prices explicit',async()=>{
+ const {wishlistValue}=await import('../src/pricing.ts')
+ assert.deepEqual(wishlistValue(['a','b','unpriced'],{a:{amount:19.95},b:{amount:25.5}}),{amount:45.45,missing:1})
+ assert.deepEqual(wishlistValue([],{}),{amount:0,missing:0})
+})

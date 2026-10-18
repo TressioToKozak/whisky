@@ -87,12 +87,18 @@ Dodano Glenfiddich (30 wydań) i 46 pozycji w pozostałych markach. Audyt: `data
 
 ## Skanowanie butelek
 
-Barek obsługuje skan aparatem, zdjęcie kodu oraz wpisanie EAN/UPC-A. Po potwierdzeniu nazwy i pojemności dodawana jest jedna butelka; kolejne skany zwiększają ilość. Początkowo 108 sprawdzonych kodów obejmuje 107 pozycji. Nieznane kody można powiązać z katalogiem lub własnym wpisem. Aparat uruchamia się na żądanie i zatrzymuje po odczycie lub zamknięciu; obraz jest dekodowany lokalnie. Nie wymaga konta ani dodatkowego serwera.
+Barek obsługuje skan aparatem, zdjęcie kodu oraz wpisanie EAN/UPC-A. Po potwierdzeniu nazwy i pojemności dodawana jest jedna butelka; kolejne skany zwiększają ilość. Indeks zawiera 113 sprawdzonych kodów dla 112 pozycji (wcześniej 108 / 107). Nieznane kody można powiązać z katalogiem lub własnym wpisem. Aparat uruchamia się na żądanie i zatrzymuje po odczycie lub zamknięciu; obraz jest dekodowany lokalnie. Nie wymaga konta ani dodatkowego serwera.
 
 Analiza ograniczeń, pochodzenie kodów, zgodność zapisów i zakres testów: [docs/barcode-scanning.md](docs/barcode-scanning.md). Nowe zależności ZXing są przypięte w lockfile i instalowane przez `npm ci`. Aparat na publicznej stronie wymaga HTTPS oraz zgody przeglądarki. Test przeglądarkowy: `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/barcode-e2e.py`.
 
 ## System interfejsu
 
-Ciepła paleta drewna i papieru, Fraunces w nagłówkach i DM Sans w treściach. Ekran startowy pokazuje rzeczywiste podsumowanie dziennika; katalog, barek i historia degustacji mają osobne układy. Tokeny i reguły responsywności są w `src/styles.css`, a komponenty widoków w `src/components/`.
+Ciepła paleta drewna i papieru, Fraunces w nagłówkach i DM Sans w treściach. Ekran startowy skupia się na wyszukiwaniu i kompaktowym wyborze marki; katalog, barek i historia degustacji mają osobne układy. Tokeny i reguły responsywności są w `src/styles.css`, a komponenty widoków w `src/components/`.
 
 Zakres zmian i kontrola jakości: [docs/redesign.md](docs/redesign.md). Licencje dołączonych krojów: [public/font-notices.txt](public/font-notices.txt).
+
+## Uproszczenie interfejsu i kody
+
+Ekran startowy ogranicza się do wyszukiwarki, marek i skrótu do barku. Na karcie jest jedna akcja zmiany kolekcji; życzenia i degustacje obsługuje się w szczegółach. Własny wpis jest dostępny przez dyskretny link pod markami i przy nieznanym kodzie. Usunięto sekcję odnośników „Źródła”, zachowując metadane katalogu i rozwijane pochodzenie ceny.
+
+Życzenia pokazują wartość całej listy: jedną butelkę każdej pozycji, niezależnie od wyszukiwania. Brakujące wyceny są liczone osobno. Raport wszystkich 541 pozycji: `data/barcode-coverage.json`. Szczegóły zmian, potwierdzone kody i ograniczenia: [docs/ui-simplification.md](docs/ui-simplification.md).

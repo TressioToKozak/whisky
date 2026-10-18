@@ -36,3 +36,8 @@ export function cellarValue(bottles: { whiskyId: string; quantity: number }[], q
   }
   return { amount: cents / 100, missing }
 }
+
+/** Each wishlist position represents one bottle, independent of current list filters. */
+export function wishlistValue(ids: string[], quotes: Record<string, PriceQuote>) {
+  return cellarValue(ids.map(whiskyId => ({ whiskyId, quantity: 1 })), quotes)
+}

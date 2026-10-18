@@ -754,5 +754,40 @@
     "volumeMl": 700,
     "sourceUrl": "https://www.drankgigant.nl/glenfiddich-23-years-grand-cru.html",
     "checkedAt": "2026-10-18"
+  },
+  {
+    "code": "05000267014203",
+    "whiskyId": "jw-004",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/johnnie-walker-red-label.html",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "code": "05000267195612",
+    "whiskyId": "jw-002",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/johnnie-walker-blue-label.html",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "code": "05099873038758",
+    "whiskyId": "jd-e7c7a55da65a",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/jack-daniels-gentleman-jack.html",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "code": "05099873017623",
+    "whiskyId": "jd-54b8c42456f8",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/jack-daniels-apple.html",
+    "checkedAt": "2026-10-18"
+  },
+  {
+    "code": "00082184088654",
+    "whiskyId": "jd-0cf88cfbdb38",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/jack-daniels-single-barrel.html",
+    "checkedAt": "2026-10-18"
   }
 ]

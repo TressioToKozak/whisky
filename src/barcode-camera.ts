@@ -18,6 +18,16 @@ export async function startBarcodeCamera(video: HTMLVideoElement, signal: AbortS
   const stopStream = () => { stream.getTracks().forEach(track => track.stop()); video.srcObject = null }
   if (signal.aborted) { stopStream(); throw new DOMException('Cancelled', 'AbortError') }
   signal.addEventListener('abort', stopStream, { once: true })
+  // Safari and older Android cameras may omit focus capabilities. Never make them required.
+  const track = stream.getVideoTracks()[0]
+  try {
+    const capabilities = track?.getCapabilities?.() as (MediaTrackCapabilities & { focusMode?: string[] }) | undefined
+    if (capabilities?.focusMode?.includes('continuous')) {
+      await track.applyConstraints({ advanced: [{ focusMode: 'continuous' } as MediaTrackConstraintSet] })
+    }
+  } catch { /* Keep the camera's default focus when the browser rejects this optional hint. */ }
+  if (signal.aborted) { stopStream(); throw new DOMException('Cancelled', 'AbortError') }
+
   let previous = '', previousTime = 0, finished = false
   try {
     const controls = await createReader().decodeFromStream(stream, video, (result, _error, controls) => {

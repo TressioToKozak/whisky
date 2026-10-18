@@ -50,3 +50,12 @@ test('global search ignores apostrophes, accents and word order while matching a
  assert.equal(matchesWhisky(w,'slodki'),true)
  assert.equal(matchesWhisky(w,'sweet bourbon'),false)
 })
+
+test('search accepts joined whisky names and brand words in either order',async()=>{
+ const {matchesWhisky}=await import('../src/model.ts')
+ const whisky={brand:'Johnnie Walker',name:'Red Label',series:'Klasyka',tags:[]}
+ for(const query of ['Red Label','RedLabel','red label','Johnnie Walker Red Label','johnniewalker redlabel','redlabel johnniewalker'])assert.ok(matchesWhisky(whisky,query),query)
+ assert.equal(matchesWhisky(whisky,'blue label'),false)
+ const polish={...whisky,brand:'Ballantine’s',name:'Łagodna próba'}
+ assert.ok(matchesWhisky(polish,"ballantine's lagodnaproba"))
+})

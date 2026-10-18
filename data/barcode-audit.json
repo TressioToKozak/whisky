@@ -1,18 +1,18 @@
 {
   "checkedAt": "2026-10-18",
   "method": "EAN/GTIN explicitly published in retailer product specifications or Product JSON-LD, never inferred from SKU or name. Digit length and GS1 check digit validated. Source volume checked where published; source URL is the catalog page or a same-volume existing price quotation. Camera reads are confirmed before adding.",
-  "products": 107,
-  "uniqueCodes": 108,
+  "products": 112,
+  "uniqueCodes": 113,
   "byBrand": {
-    "Johnnie Walker": 16,
-    "Jack Daniel's": 1,
-    "Ardbeg": 18,
-    "Ballantine’s": 8,
-    "Bushmills": 19,
     "Chivas Regal": 13,
+    "Bushmills": 19,
+    "Glenfiddich": 19,
+    "Ardbeg": 18,
+    "Johnnie Walker": 17,
     "Jim Beam": 12,
-    "Toki": 2,
-    "Glenfiddich": 19
+    "Ballantine’s": 8,
+    "Jack Daniel's": 4,
+    "Toki": 2
   },
   "observations": [
     {
@@ -1633,6 +1633,102 @@
       "volumeMl": 700,
       "sourceVolumeMl": 700,
       "checkedAt": "2026-10-18"
+    },
+    {
+      "id": "jw-004",
+      "source": "https://www.drankgigant.nl/johnnie-walker-red-label.html",
+      "codeCandidates": [
+        "5000267014203"
+      ],
+      "codes": [
+        "5000267014203"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Johnnie Walker Red Label online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "57ff81f1963f7d456a1efa6cd393b95ee04edee68060cd8116cf7771df822339"
+    },
+    {
+      "id": "jw-002",
+      "source": "https://www.drankgigant.nl/johnnie-walker-blue-label.html",
+      "codeCandidates": [
+        "5000267195612"
+      ],
+      "codes": [
+        "5000267195612"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Johnnie Walker Blue Label online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "11f26ed3008550fe02bde6f26ebd7e01a3d46674c1756b6f4c5d7b479e0524de"
+    },
+    {
+      "id": "jd-e7c7a55da65a",
+      "source": "https://www.drankgigant.nl/jack-daniels-gentleman-jack.html",
+      "codeCandidates": [
+        "5099873038758"
+      ],
+      "codes": [
+        "5099873038758"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Jack Daniels Gentleman Jack online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "1d76f6d84d5c49a2d2e2aa80eb217266ac949a79c093624d643057f1e035930b"
+    },
+    {
+      "id": "jd-213370286da9",
+      "source": "https://www.drankgigant.nl/jack-daniels-honey-70-cl.html",
+      "codeCandidates": [
+        "2000250820104"
+      ],
+      "codes": [],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Jack Daniels Honey online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "11c652f3b104bece565e778ed835ad19728c861dc6130d8a52504a283da7a387",
+      "exclusion": "EAN-13 starts with 20 (restricted circulation); retailer specification alone does not confirm a globally assigned bottle code. Not added to the scanner database."
+    },
+    {
+      "id": "jd-54b8c42456f8",
+      "source": "https://www.drankgigant.nl/jack-daniels-apple.html",
+      "codeCandidates": [
+        "5099873017623"
+      ],
+      "codes": [
+        "5099873017623"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Jack Daniels Apple online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "def30abbae5e56bc42ff370ccb71817a45842319625c45fbd582fff97e548239"
+    },
+    {
+      "id": "jd-0cf88cfbdb38",
+      "source": "https://www.drankgigant.nl/jack-daniels-single-barrel.html",
+      "codeCandidates": [
+        "082184088654"
+      ],
+      "codes": [
+        "082184088654"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceTitle": "Jack Daniels Single Barrel online kopen? | Drankgigant.nl",
+      "checkedAt": "2026-10-18",
+      "sourceSha256": "d0ee4d56411e69e2efe81f7fb2a0c7f6351ce78ffe41e7b8742b7ddee5b82315"
     }
-  ]
+  ],
+  "expansion": {
+    "previousProducts": 107,
+    "previousUniqueCodes": 108,
+    "addedProducts": 5,
+    "addedCodes": 5,
+    "note": "Supplementary retailer pages checked for exact names, 700 ml volumes and published EAN/UPC. Never map a standard bottle code to a special label solely by brand. Topdrinks returned 403; some Drankgigant requests returned 429 or 404. These failures are not evidence of a code or its absence. No undocumented code added. Tennessee Fire remains unconfirmed. Honey candidate 2000250820104 was excluded after restricted-circulation review; no verified global bottle code added."
+  }
 }
