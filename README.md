@@ -1,4 +1,4 @@
-# Dram — Twój świat whisky
+# Dram — dziennik whisky
 
 Mobilny dziennik whisky: własny barek, lista życzeń i oceny degustacji. React + TypeScript + Vite. Interfejs po polsku, dolna nawigacja na telefonie, panel boczny na komputerze.
 
@@ -90,3 +90,9 @@ Dodano Glenfiddich (30 wydań) i 46 pozycji w pozostałych markach. Audyt: `data
 Barek obsługuje skan aparatem, zdjęcie kodu oraz wpisanie EAN/UPC-A. Po potwierdzeniu nazwy i pojemności dodawana jest jedna butelka; kolejne skany zwiększają ilość. Początkowo 108 sprawdzonych kodów obejmuje 107 pozycji. Nieznane kody można powiązać z katalogiem lub własnym wpisem. Aparat uruchamia się na żądanie i zatrzymuje po odczycie lub zamknięciu; obraz jest dekodowany lokalnie. Nie wymaga konta ani dodatkowego serwera.
 
 Analiza ograniczeń, pochodzenie kodów, zgodność zapisów i zakres testów: [docs/barcode-scanning.md](docs/barcode-scanning.md). Nowe zależności ZXing są przypięte w lockfile i instalowane przez `npm ci`. Aparat na publicznej stronie wymaga HTTPS oraz zgody przeglądarki. Test przeglądarkowy: `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/barcode-e2e.py`.
+
+## System interfejsu
+
+Ciepła paleta drewna i papieru, Fraunces w nagłówkach i DM Sans w treściach. Ekran startowy pokazuje rzeczywiste podsumowanie dziennika; katalog, barek i historia degustacji mają osobne układy. Tokeny i reguły responsywności są w `src/styles.css`, a komponenty widoków w `src/components/`.
+
+Zakres zmian i kontrola jakości: [docs/redesign.md](docs/redesign.md). Licencje dołączonych krojów: [public/font-notices.txt](public/font-notices.txt).

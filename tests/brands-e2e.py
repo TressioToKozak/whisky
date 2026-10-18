@@ -12,7 +12,7 @@ with sync_playwright() as p:
  assert page.locator('footer, .settings-panel').count()==0
  assert page.locator('.brand-logo img').evaluate_all('(xs)=>xs.every(x=>x.complete&&x.naturalWidth>0)')
  for name in ['Jim Beam','Goldfinch','Ardbeg','Bushmills','Ballantine’s','Toki','Chivas Regal','Glenfiddich']:
-  page.get_by_role('button',name='Otwórz '+name,exact=True).click()
+  page.get_by_role('button',name='Otwórz '+name,exact=False).click()
   while page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).count():page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).click()
   expected_brand=[w for w in catalog if w['brand']==name]
   expect(page.locator('.whisky-card')).to_have_count(len(expected_brand))
@@ -20,13 +20,13 @@ with sync_playwright() as p:
   page.wait_for_function("Array.from(document.querySelectorAll('.whisky-card img')).every(x=>x.complete&&x.naturalWidth>0)")
   ids=page.locator('.whisky-card').evaluate_all('(xs)=>xs.map(x=>x.dataset.whiskyId)');values=[prices[x]['amount'] for x in ids];assert values==sorted(values) and min(values)>0
   page.get_by_role('button',name='Wszystkie marki',exact=True).click()
- page.get_by_role('button',name='Otwórz Jack Daniel’s',exact=True).click()
+ page.get_by_role('button',name='Otwórz Jack Daniel’s',exact=False).click()
  while page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).count():page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).click()
  expected=[w for w in catalog if w['brand']=="Jack Daniel's"]
  expect(page.locator('.whisky-card')).to_have_count(len(expected));ids=page.locator('.whisky-card').evaluate_all('(xs)=>xs.map(x=>x.dataset.whiskyId)');values=[prices[x]['amount'] for x in ids];assert values==sorted(values)
  page.get_by_role('combobox',name='Sortuj whisky').select_option('price-desc');first=page.locator('.whisky-card').first.get_attribute('data-whisky-id');assert prices[first]['amount']==max(values)
  page.get_by_role('searchbox').fill('Blackberry');expect(page.locator('.whisky-card')).to_have_count(1);page.get_by_role('button',name='Tennessee Blackberry',exact=True).click();expect(page.get_by_role('dialog')).to_contain_text('35%');page.get_by_text('Źródło ceny i szczegóły',exact=True).click();expect(page.get_by_role('dialog')).to_contain_text('Topdrinks');page.get_by_role('button',name='Zamknij',exact=True).click()
- page.get_by_role('button',name='Dodaj do życzeń: Tennessee Blackberry',exact=True).click();page.get_by_role('button',name='Wszystkie marki',exact=True).click();page.get_by_role('button',name='Otwórz Johnnie Walker',exact=True).click();page.get_by_role('searchbox').fill('Seasonal Blends 16 · Winter');expect(page.locator('.whisky-card')).to_have_count(1);photo=page.locator('.whisky-card img');assert 'inset(' in photo.get_attribute('style');page.get_by_role('button',name='Dodaj do życzeń:',exact=False).click()
+ page.get_by_role('button',name='Dodaj do życzeń: Tennessee Blackberry',exact=True).click();page.get_by_role('button',name='Wszystkie marki',exact=True).click();page.get_by_role('button',name='Otwórz Johnnie Walker',exact=False).click();page.get_by_role('searchbox').fill('Seasonal Blends 16 · Winter');expect(page.locator('.whisky-card')).to_have_count(1);photo=page.locator('.whisky-card img');assert 'inset(' in photo.get_attribute('style');page.get_by_role('button',name='Dodaj do życzeń:',exact=False).click()
  page.locator('.bottom-nav').get_by_role('button',name='Życzenia',exact=True).click();expect(page.locator('.whisky-card')).to_have_count(2)
  page.reload(wait_until='networkidle');page.locator('.bottom-nav').get_by_role('button',name='Życzenia',exact=True).click();expect(page.locator('.whisky-card')).to_have_count(2)
  for width in [320,390,768,1440]:
