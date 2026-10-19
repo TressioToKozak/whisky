@@ -108,7 +108,7 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
     return queue
   }
   return {
-    reportFailure: (error:string,draft:T|null=null) => fail({error,draft}),
+    reportFailure: (error:string,draft:T|null=null,blocked?:boolean) => fail({error,draft,...(blocked===undefined?{}:{blocked})}),
     getSnapshot: () => snapshot,
     subscribe: (listener: () => void) => { listeners.add(listener); return () => {listeners.delete(listener)} },
     getToken: () => baseline,
