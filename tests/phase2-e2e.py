@@ -1,17 +1,23 @@
 """Phase 2: real IDB, mapped CSV, portable exports, themes, keyboard/axe and offline cold start."""
-import os,json,csv,io,zipfile,xml.etree.ElementTree as ET
+import os,json,csv,io,zipfile,tempfile,xml.etree.ElementTree as ET
 from pathlib import Path
 from playwright.sync_api import sync_playwright,expect
 from source_images import install_source_images
 from indexed_helpers import install_indexed_helpers
-BASE=os.environ.get('DRAM_URL','http://127.0.0.1:4173/whisky/');OUT=Path('/tmp/dram-phase2');OUT.mkdir(exist_ok=True)
+from offline_origin import OfflineOrigin
+origin=OfflineOrigin(Path(__file__).resolve().parents[1]/'dist');BASE=origin.url;OUT=Path('/tmp/dram-phase2');OUT.mkdir(exist_ok=True)
 AXE=Path(os.environ.get('AXE_PATH',str(Path(__file__).resolve().parents[1]/'node_modules/axe-core/axe.min.js')))
 assert AXE.is_file(), 'Install npm dependencies: axe-core is a mandatory accessibility check'
 with sync_playwright()as p:
  engine=os.environ.get('DRAM_BROWSER','chromium');browser_type=getattr(p,engine)
  launch={'headless':True}
  if engine=='chromium':launch.update(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox'])
- browser=browser_type.launch(**launch);context=browser.new_context(viewport={'width':390,'height':900},accept_downloads=True);install_source_images(context);install_indexed_helpers(context);page=context.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.get_by_role('heading',name='Twoja kolekcja whisky.')).to_be_visible();expect(page.get_by_role('heading',name='Zacznij od swojej pierwszej butelki')).to_be_visible()
+ profile=tempfile.TemporaryDirectory(prefix='dram-offline-profile-')
+ def start_browser():
+  ctx=browser_type.launch_persistent_context(profile.name,viewport={'width':390,'height':900},accept_downloads=True,**launch)
+  install_source_images(ctx);install_indexed_helpers(ctx)
+  return ctx,ctx.pages[0]if ctx.pages else ctx.new_page()
+ context,page=start_browser();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.get_by_role('heading',name='Twoja kolekcja whisky.')).to_be_visible();expect(page.get_by_role('heading',name='Zacznij od swojej pierwszej butelki')).to_be_visible()
  def journal():return page.evaluate('async()=>await readDramJournal()')
  def settings():page.get_by_role('button',name='Ustawienia',exact=True).click()
  def close():page.get_by_role('dialog').get_by_role('button',name='Zamknij',exact=True).click()
@@ -45,6 +51,18 @@ with sync_playwright()as p:
    violations=page.evaluate('async()=> (await axe.run(document,{runOnly:{type:"tag",values:["wcag2a","wcag2aa","wcag21aa"]}})).violations');assert not violations,[(v['id'],[(n['target'],n['failureSummary'])for n in v['nodes']])for v in violations];accessibility.append(theme)
  page.set_viewport_size({'width':390,'height':900});page.locator('.bottom-nav').get_by_role('button',name='Discover',exact=True).click();page.get_by_role('searchbox').fill('4003922041836');expect(page.locator('.whisky-card')).to_have_count(1);expect(page.locator('.card-title')).to_contain_text('Black Label');page.get_by_role('searchbox').fill('johnie walker black');expect(page.locator('[data-whisky-id="jw-001"]')).to_be_visible()
  # Wait for complete, atomic shell installation. Then destroy all pages and load with network cut.
- page.wait_for_function('async()=>!!(await navigator.serviceWorker.getRegistration())?.active');page.wait_for_function('async()=> (await caches.keys()).some(k=>k.startsWith("dram-shell-"))');saved=journal();page.close();context.set_offline(True);page=context.new_page();page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');expect(page.get_by_role('heading',name='Your whisky collection.',exact=True)).to_be_visible();assert journal()==saved;expect(page.locator('.offline-status')).to_contain_text('Offline');page.locator('.bottom-nav').get_by_role('button',name='Cabinet',exact=True).click();page.get_by_role('button',name='Manage individual bottles',exact=True).click();page.locator('.instance-open').first.click();page.get_by_label('Private bottle notes',exact=True).fill('Saved fully offline');page.get_by_role('button',name='Save individual bottle',exact=True).click();expect(page.get_by_role('dialog',name='Individual bottle details',exact=True)).to_have_count(0);page.close();page=context.new_page();page.goto(BASE,wait_until='networkidle');assert any(b['notes']=='Saved fully offline'for b in journal()['ownedBottles']);page.locator('.bottom-nav').get_by_role('button',name='Discover',exact=True).click();page.get_by_role('searchbox').fill('Jameson');assert page.locator('.whisky-card').count()>0
+ page.wait_for_function('async()=> (await navigator.serviceWorker.getRegistration())?.active?.state==="activated" && !!navigator.serviceWorker.controller')
+ saved=journal();context.close();origin.stop()
+ # A stopped origin proves a cold navigation cannot fall back to a running dev server.
+ import urllib.request,urllib.error
+ try:
+  urllib.request.urlopen(BASE,timeout=2)
+  raise AssertionError('Offline test origin is still reachable')
+ except urllib.error.URLError:pass
+ context,page=start_browser();page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');expect(page.get_by_role('heading',name='Your whisky collection.',exact=True)).to_be_visible();assert journal()==saved
+ # Independently verify the browser offline indicator and a local commit in the loaded app.
+ page.locator('.bottom-nav').get_by_role('button',name='Cabinet',exact=True).click();page.get_by_role('button',name='Manage individual bottles',exact=True).click();page.locator('.instance-open').first.click();context.set_offline(True);expect(page.locator('.offline-status')).to_contain_text('Offline');page.get_by_label('Private bottle notes',exact=True).fill('Saved fully offline');page.get_by_role('button',name='Save individual bottle',exact=True).click();expect(page.get_by_role('dialog',name='Individual bottle details',exact=True)).to_have_count(0)
+ context.close();context,page=start_browser();page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');assert any(b['notes']=='Saved fully offline'for b in journal()['ownedBottles']);page.locator('.bottom-nav').get_by_role('button',name='Discover',exact=True).click();page.get_by_role('searchbox').fill('Jameson');assert page.locator('.whisky-card').count()>0
+
  assert not errors,errors
- print({'browser':engine,'real_idb_and_immutable_migration_copy':True,'csv_mapping_validation_duplicates_backup':True,'xlsx_valid_zip_xml_no_formulas':True,'light_dark_six_widths':True,'axe_palettes':accessibility,'barcode_and_typo_search':True,'cold_restart_without_network':True,'offline_edit_and_second_restart':True,'javascript_errors':errors});browser.close()
+ print({'browser':engine,'real_idb_and_immutable_migration_copy':True,'csv_mapping_validation_duplicates_backup':True,'xlsx_valid_zip_xml_no_formulas':True,'light_dark_six_widths':True,'axe_palettes':accessibility,'barcode_and_typo_search':True,'full_browser_restart_with_origin_stopped':True,'offline_edit_and_second_restart':True,'javascript_errors':errors});context.close();profile.cleanup()

@@ -58,3 +58,11 @@ DRAM_BROWSER=webkit DRAM_OFFLINE_IMAGES=1 python tests/phase2-e2e.py
 ```
 
 Lokalne pobieranie dodatkowych silników blokował serwer proxy (403); próba zgody na pobranie została przerwana. To nie jest zaliczony test Safari/Firefox. Ich rzeczywiste wyniki należy odczytać z obowiązkowych jobów CI dla wdrażanego commitu. WebKit na Linuxie także nie zastępuje testu prawdziwego Safari/iOS, aparatu i instalacji PWA na telefonie.
+
+## Korekta startu offline i publikacji Pages
+
+Scenariusz fazy 2 korzysta z izolowanego origin HTTP z `offline_origin.py`. Po pełnej aktywacji service workera i przejęciu klienta zamyka cały proces przeglądarki z trwałym profilem, wyłącza serwer (oraz sprawdza odmowę połączenia) i dopiero uruchamia ponownie przeglądarkę z tym samym profilem. Sprawdza również ładowanie leniwego edytora przy wyłączonym serwerze. Osobno w załadowanej aplikacji bada sygnał offline przeglądarki i zapis IDB, a potem drugi zimny start przy nadal niedostępnym origin. Dzięki temu test restartu nie zależy wyłącznie od różnej implementacji `set_offline` w silnikach Playwright. Nie pomija żadnego z trzech silników.
+
+Aplikacja przy starcie korzysta z istniejącej aktywnej rejestracji SW; nie wymaga ponownego sieciowego zarejestrowania skryptu, aby rozpoznać gotowość offline. Testy CI zapisują diagnozę w adnotacjach check-run; `set -euo pipefail` zachowuje kod błędu mimo `tee`.
+
+Źródłem GitHub Pages jest teraz **GitHub Actions**, ustawione przez właściciela repozytorium. Publikacja gałęzi `main` jako surowych plików jest wyłączona. Podczas naprawy przywrócono sprawdzony artefakt `60060dd` i potwierdzono publiczny render w Chromium; następne wdrożenia używają zbudowanego `dist`.
