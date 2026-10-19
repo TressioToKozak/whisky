@@ -2899,5 +2899,100 @@
     "inset": "inset(6.25% 4.17% 0.00% 3.12%)",
     "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
     "ratio": 0.74167
+  },
+  "other-722af468f64a": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "other-1eb8ee16a9b0": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "other-9b95a315376c": {
+    "inset": "inset(0.00% 27.45% 0.00% 27.45%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35938
+  },
+  "other-818f3c3b74bc": {
+    "inset": "inset(0.00% 25.49% 0.00% 25.49%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.39062
+  },
+  "other-8db2396baea4": {
+    "inset": "inset(0.00% 27.45% 0.00% 27.45%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35938
+  },
+  "other-3fe069aa8de2": {
+    "inset": "inset(0.00% 22.55% 0.00% 22.55%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.4375
+  },
+  "other-eebe36df5be5": {
+    "inset": "inset(0.00% 27.45% 0.00% 27.45%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35938
+  },
+  "other-8c1fc5574504": {
+    "inset": "inset(0.00% 26.47% 0.00% 26.47%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "other-fdcd977fcf87": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "other-06da966d7dc7": {
+    "inset": "inset(0.00% 28.43% 0.00% 28.43%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.34375
+  },
+  "other-8c3011829c0f": {
+    "inset": "inset(0.00% 32.03% 0.00% 32.03%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.35938
+  },
+  "other-5bf6d84baf0d": {
+    "inset": "inset(0.00% 19.61% 0.00% 19.61%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48438
+  },
+  "other-753bf62a563d": {
+    "inset": "inset(0.00% 19.61% 0.00% 19.61%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.48438
+  },
+  "other-wb-56794": {
+    "inset": "inset(0.00% 18.75% 0.00% 18.75%)",
+    "background": "linear-gradient(105deg,rgb(254,254,254),rgb(254,254,254))",
+    "ratio": 0.3125
+  },
+  "other-wb-177609": {
+    "inset": "inset(0.00% 17.19% 0.00% 15.62%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.33594
+  },
+  "other-wb-191402": {
+    "inset": "inset(0.00% 12.50% 0.00% 12.50%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.375
+  },
+  "other-wb-292138": {
+    "inset": "inset(0.00% 17.19% 0.00% 17.19%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.32812
+  },
+  "other-wb-258977": {
+    "inset": "inset(0.00% 12.50% 0.00% 10.94%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.38281
+  },
+  "other-wb-260740": {
+    "inset": "inset(0.00% 17.19% 0.00% 17.19%)",
+    "background": "linear-gradient(105deg,rgb(255,255,255),rgb(255,255,255))",
+    "ratio": 0.32812
   }
 }

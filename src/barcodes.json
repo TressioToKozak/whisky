@@ -1279,5 +1279,187 @@
     "volumeMl": 700,
     "sourceUrl": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-10-year-old-batch-2-whiskey/?sku=135628",
     "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010327250007",
+    "whiskyId": "other-722af468f64a",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000387905634",
+    "whiskyId": "other-1eb8ee16a9b0",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/bell-s-blended.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000265001335",
+    "whiskyId": "other-9b95a315376c",
+    "volumeMl": 1000,
+    "sourceUrl": "https://www.drankgigant.nl/white-horse-blended-liter.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010093259006",
+    "whiskyId": "other-818f3c3b74bc",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/teachers-blended-whisky.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000277001200",
+    "whiskyId": "other-8db2396baea4",
+    "volumeMl": 1000,
+    "sourceUrl": "https://www.drankgigant.nl/dewar-s-white-label.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05011026108033",
+    "whiskyId": "other-3fe069aa8de2",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/tullamore-dew.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000299101100",
+    "whiskyId": "other-eebe36df5be5",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/four-roses-bourbon.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "08000040500012",
+    "whiskyId": "other-8c1fc5574504",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/wild-turkey-81.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010314700003",
+    "whiskyId": "other-fdcd977fcf87",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/famous-grouse.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010752000307",
+    "whiskyId": "other-06da966d7dc7",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/william-lawsons.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05013967001206",
+    "whiskyId": "other-8c3011829c0f",
+    "volumeMl": 1000,
+    "sourceUrl": "https://www.drankgigant.nl/whyte-mackay.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "00085246342978",
+    "whiskyId": "other-5bf6d84baf0d",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/makers-mark.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010327105215",
+    "whiskyId": "other-753bf62a563d",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.drankgigant.nl/monkey-shoulder.html",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05603720901623",
+    "whiskyId": "other-wb-56794",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/56794/golden-loch-nas-gmcl",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05010327928210",
+    "whiskyId": "other-wb-177609",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/177609/golden-loch-05-year-old-gmcl",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "00000020005009",
+    "whiskyId": "other-wb-191402",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/191402/queen-margot-03-year-old-cd",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "04335619175877",
+    "whiskyId": "other-wb-292138",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/292138/queen-margot-08-year-old-wy",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "00000020005016",
+    "whiskyId": "other-wb-258977",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/258977/western-gold-03-year-old",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "00000020062606",
+    "whiskyId": "other-wb-260740",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/260740/dundalgan-blended-irish-whiskey",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267173092",
+    "whiskyId": "jw-011",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/119352/johnnie-walker-white-walker",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267197999",
+    "whiskyId": "jw-e7c49fa1b187",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/293402/johnnie-walker-black-label",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267169293",
+    "whiskyId": "jw-b796e19b1d48",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/104819/johnnie-walker-blue-label",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267170251",
+    "whiskyId": "jw-9b43a737ba02",
+    "volumeMl": 1000,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/113994/johnnie-walker-black-label",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267098401",
+    "whiskyId": "jw-9813b914457e",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/51020/johnnie-walker-gold-label",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267096773",
+    "whiskyId": "jw-9813b914457e",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/66299/johnnie-walker-gold-label",
+    "checkedAt": "2026-10-19"
+  },
+  {
+    "code": "05000267181127",
+    "whiskyId": "jw-016f69b62c9a",
+    "volumeMl": 700,
+    "sourceUrl": "https://www.whiskybase.com/whiskies/whisky/167917/johnnie-walker-blue-label",
+    "checkedAt": "2026-10-19"
   }
 ]

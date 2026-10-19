@@ -11,6 +11,7 @@ export const brands = [
   { id: 'toki', name: 'Toki', logo: 'toki.png' },
   { id: 'glenfiddich', name: 'Glenfiddich', logo: 'glenfiddich.png' },
   { id: 'chivas', name: 'Chivas Regal', logo: 'chivas.svg' },
+  { id: 'other', name: 'Inne', logo: 'other.svg' },
 ] as const
 export type BrandId = typeof brands[number]['id']
 export const brandOf = (w: Whisky): BrandId | undefined => {
@@ -18,5 +19,5 @@ export const brandOf = (w: Whisky): BrandId | undefined => {
   if (name === 'johnniewalker' || name === 'johnwalkersons') return 'johnnie-walker'
   if (name === 'chivas' || name === 'chivasregal') return 'chivas'
   if (name === 'jackdaniels') return 'jack-daniels'
-  return brands.find(b => b.id.replace(/-/g, '') === name)?.id
+  return brands.find(b => b.id.replace(/-/g, '') === name)?.id ?? (w.custom ? undefined : 'other')
 }

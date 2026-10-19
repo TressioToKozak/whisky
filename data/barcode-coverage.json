@@ -1,13 +1,13 @@
 {
   "checkedAt": "2026-10-19",
-  "totalProducts": 579,
-  "coveredProducts": 182,
-  "uniqueCodes": 178,
-  "coveragePercent": 31.43,
+  "totalProducts": 598,
+  "coveredProducts": 207,
+  "uniqueCodes": 204,
+  "coveragePercent": 34.62,
   "byBrand": {
     "Johnnie Walker": {
       "total": 232,
-      "covered": 46
+      "covered": 52
     },
     "John Walker & Sons": {
       "total": 21,
@@ -52,6 +52,74 @@
     "Jameson": {
       "total": 18,
       "covered": 11
+    },
+    "Grant's": {
+      "total": 1,
+      "covered": 1
+    },
+    "Bell's": {
+      "total": 1,
+      "covered": 1
+    },
+    "White Horse": {
+      "total": 1,
+      "covered": 1
+    },
+    "Teacher’s": {
+      "total": 1,
+      "covered": 1
+    },
+    "Dewar’s": {
+      "total": 1,
+      "covered": 1
+    },
+    "Tullamore D.E.W.": {
+      "total": 1,
+      "covered": 1
+    },
+    "Four Roses": {
+      "total": 1,
+      "covered": 1
+    },
+    "Wild Turkey": {
+      "total": 1,
+      "covered": 1
+    },
+    "The Famous Grouse": {
+      "total": 1,
+      "covered": 1
+    },
+    "William Lawson’s": {
+      "total": 1,
+      "covered": 1
+    },
+    "Whyte & Mackay": {
+      "total": 1,
+      "covered": 1
+    },
+    "Makers Mark": {
+      "total": 1,
+      "covered": 1
+    },
+    "Monkey Shoulder": {
+      "total": 1,
+      "covered": 1
+    },
+    "Golden Loch": {
+      "total": 2,
+      "covered": 2
+    },
+    "Queen Margot": {
+      "total": 2,
+      "covered": 2
+    },
+    "Western Gold": {
+      "total": 1,
+      "covered": 1
+    },
+    "Dundalgan": {
+      "total": 1,
+      "covered": 1
     }
   },
   "products": [
@@ -169,8 +237,10 @@
       "brand": "Johnnie Walker",
       "name": "White Walker · Game of Thrones",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267173092"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/white-walker-by-johnnie-walker-whisky/?sku=83044"
     },
     {
@@ -211,8 +281,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Label Squid Game Limited Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267197999"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-label-squid-game-limited-edition-whisky/?sku=138049"
     },
     {
@@ -229,8 +301,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label · Ghost & Rare Brora",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267169293"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-brora-and-rare-ghost-and-rare-whisky/?sku=70144"
     },
     {
@@ -238,8 +312,10 @@
       "brand": "Johnnie Walker",
       "name": "Black Triple Cask",
       "volumeMl": 1000,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267170251"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-black-triple-cask-whisky/?sku=97636"
     },
     {
@@ -437,8 +513,10 @@
       "brand": "Johnnie Walker",
       "name": "Blue Label Year of The Ox Limited Edition",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267181127"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-whisky/?sku=105875"
     },
     {
@@ -619,8 +697,11 @@
       "brand": "Johnnie Walker",
       "name": "Gold Label 18 Year Old · The Centenary Blend",
       "volumeMl": 700,
-      "codes": [],
-      "status": "no-verified-code",
+      "codes": [
+        "05000267098401",
+        "05000267096773"
+      ],
+      "status": "verified-code",
       "catalogSource": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-gold-label-18-year-old-the-centenary-blend-whisky/?sku=2424"
     },
     {
@@ -5630,6 +5711,215 @@
       "codes": [],
       "status": "no-verified-code",
       "catalogSource": "https://www.thewhiskyexchange.com/p/37111/ballantines-30-year-old-bot1970s"
+    },
+    {
+      "id": "other-722af468f64a",
+      "name": "Triple Wood",
+      "brand": "Grant's",
+      "volumeMl": 700,
+      "codes": [
+        "05010327250007"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html"
+    },
+    {
+      "id": "other-1eb8ee16a9b0",
+      "name": "Original",
+      "brand": "Bell's",
+      "volumeMl": 700,
+      "codes": [
+        "05000387905634"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/bell-s-blended.html"
+    },
+    {
+      "id": "other-9b95a315376c",
+      "name": "Blended Scotch Whisky",
+      "brand": "White Horse",
+      "volumeMl": 1000,
+      "codes": [
+        "05000265001335"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/white-horse-blended-liter.html"
+    },
+    {
+      "id": "other-818f3c3b74bc",
+      "name": "Highland Cream",
+      "brand": "Teacher’s",
+      "volumeMl": 700,
+      "codes": [
+        "05010093259006"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/teachers-blended-whisky.html"
+    },
+    {
+      "id": "other-8db2396baea4",
+      "name": "White Label",
+      "brand": "Dewar’s",
+      "volumeMl": 1000,
+      "codes": [
+        "05000277001200"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/dewar-s-white-label.html"
+    },
+    {
+      "id": "other-3fe069aa8de2",
+      "name": "Original",
+      "brand": "Tullamore D.E.W.",
+      "volumeMl": 700,
+      "codes": [
+        "05011026108033"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/tullamore-dew.html"
+    },
+    {
+      "id": "other-eebe36df5be5",
+      "name": "Bourbon",
+      "brand": "Four Roses",
+      "volumeMl": 700,
+      "codes": [
+        "05000299101100"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/four-roses-bourbon.html"
+    },
+    {
+      "id": "other-8c1fc5574504",
+      "name": "81",
+      "brand": "Wild Turkey",
+      "volumeMl": 700,
+      "codes": [
+        "08000040500012"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/wild-turkey-81.html"
+    },
+    {
+      "id": "other-fdcd977fcf87",
+      "name": "Finest Blended Scotch Whisky",
+      "brand": "The Famous Grouse",
+      "volumeMl": 700,
+      "codes": [
+        "05010314700003"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/famous-grouse.html"
+    },
+    {
+      "id": "other-06da966d7dc7",
+      "name": "Blended Scotch Whisky",
+      "brand": "William Lawson’s",
+      "volumeMl": 700,
+      "codes": [
+        "05010752000307"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/william-lawsons.html"
+    },
+    {
+      "id": "other-8c3011829c0f",
+      "name": "Special Blended Scotch Whisky",
+      "brand": "Whyte & Mackay",
+      "volumeMl": 1000,
+      "codes": [
+        "05013967001206"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/whyte-mackay.html"
+    },
+    {
+      "id": "other-5bf6d84baf0d",
+      "name": "Original",
+      "brand": "Makers Mark",
+      "volumeMl": 700,
+      "codes": [
+        "00085246342978"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/makers-mark.html"
+    },
+    {
+      "id": "other-753bf62a563d",
+      "name": "The Original",
+      "brand": "Monkey Shoulder",
+      "volumeMl": 700,
+      "codes": [
+        "05010327105215"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/monkey-shoulder.html"
+    },
+    {
+      "id": "other-wb-56794",
+      "name": "Blended Scotch Whisky",
+      "brand": "Golden Loch",
+      "volumeMl": 700,
+      "codes": [
+        "05603720901623"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/56794/golden-loch-nas-gmcl"
+    },
+    {
+      "id": "other-wb-177609",
+      "name": "5 Year Old · Blended Malt",
+      "brand": "Golden Loch",
+      "volumeMl": 700,
+      "codes": [
+        "05010327928210"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/177609/golden-loch-05-year-old-gmcl"
+    },
+    {
+      "id": "other-wb-191402",
+      "name": "3 Year Old · Fine Scotch Whisky",
+      "brand": "Queen Margot",
+      "volumeMl": 700,
+      "codes": [
+        "00000020005009"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/191402/queen-margot-03-year-old-cd"
+    },
+    {
+      "id": "other-wb-292138",
+      "name": "8 Year Old · Blended Scotch Whisky",
+      "brand": "Queen Margot",
+      "volumeMl": 700,
+      "codes": [
+        "04335619175877"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/292138/queen-margot-08-year-old-wy"
+    },
+    {
+      "id": "other-wb-258977",
+      "name": "3 Year Old · Straight Kentucky Bourbon",
+      "brand": "Western Gold",
+      "volumeMl": 700,
+      "codes": [
+        "00000020005016"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/258977/western-gold-03-year-old"
+    },
+    {
+      "id": "other-wb-260740",
+      "name": "Blended Irish Whiskey · 2023",
+      "brand": "Dundalgan",
+      "volumeMl": 700,
+      "codes": [
+        "00000020062606"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.whiskybase.com/whiskies/whisky/260740/dundalgan-blended-irish-whiskey"
     }
   ]
 }

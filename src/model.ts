@@ -33,7 +33,7 @@ export function validateJournal(value: unknown, catalogIds: string[]): Journal {
   return { version: 1, custom: d.custom.map(w => ({ id:w.id,name:w.name,brand:w.brand,series:w.series,category:w.category,abv:w.abv,age:w.age,volume:w.volume,country:w.country,description:w.description,image:w.image,source:w.source,imageSource:w.imageSource,tags:w.tags,custom:true })), reviews: d.reviews.map(r => ({id:r.id,whiskyId:r.whiskyId,score:r.score,note:r.note,date:r.date,tags:r.tags})), bottles:d.bottles.map(b => ({whiskyId:b.whiskyId,quantity:b.quantity,opened:b.opened})), wishlist:[...d.wishlist], ...(d.barcodeLinks !== undefined ? {barcodeLinks:d.barcodeLinks.map(link => ({code:link.code,whiskyId:link.whiskyId}))} : {}) }
 }
 export const average = (reviews: Review[]): number | null => reviews.length ? reviews.reduce((sum, r) => sum + r.score, 0) / reviews.length : null
-export const formatScore = (value: number) => value.toLocaleString('pl-PL', { maximumFractionDigits: 1, minimumFractionDigits: 1 })
+export const formatScore = (value: number, language = 'pl-PL') => value.toLocaleString(language, { maximumFractionDigits: 1, minimumFractionDigits: 1 })
 export const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}` }
 
 export function matchesWhisky(w: Whisky, query: string) {

@@ -4,8 +4,8 @@ import {readFileSync} from 'node:fs'
 import {comparePrices,marketLabel} from '../src/pricing.ts'
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'))
 const prices=read('../src/prices.json'),catalog=read('../src/catalog.json'),evidence=read('../data/price-evidence.json')
-test('all catalog prices have evidence and honest market attribution',()=>{
- for(const w of catalog){const p=prices[w.id];assert.ok(p,w.name);assert.ok(p.amount>0);assert.equal(p.currency,'EUR');assert.ok(evidence[w.id]);assert.match(p.sourceUrl,/^https:\/\//);if(p.originalCurrency!=='EUR'){assert.ok(p.exchangeRate>0);assert.ok(p.exchangeRateSource)}}
+test('all available catalog prices have evidence; unpriced bottles are explicit and honest market attribution',()=>{
+ for(const w of catalog){const p=prices[w.id];if(!p){const audit=read('../data/other-category-audit-2026-10-19.json');assert.ok(audit.products.some(row=>row.id===w.id&&row.priceStatus==='unverified-price-not-in-valuation'),w.name);continue}assert.ok(p.amount>0);assert.equal(p.currency,'EUR');assert.ok(evidence[w.id]);assert.match(p.sourceUrl,/^https:\/\//);if(p.originalCurrency!=='EUR'){assert.ok(p.exchangeRate>0);assert.ok(p.exchangeRateSource)}}
  const s=prices['jw-black-sabrina-carpenter'];assert.equal(s.amount,25);assert.equal(s.kind,'user-report');assert.match(marketLabel(s),/zgłoszona/i)
 })
 test('price sort starts cheap and keeps unpriced personal entries last in both directions',()=>{

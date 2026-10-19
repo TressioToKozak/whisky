@@ -1,0 +1,141 @@
+{
+  "checkedAt": "2026-10-19",
+  "existingProductsReviewed": 579,
+  "newProducts": 19,
+  "existingAdditionalMappings": [
+    {
+      "id": "jw-011",
+      "source": "https://www.whiskybase.com/whiskies/whisky/119352/johnnie-walker-white-walker",
+      "codeCandidates": [
+        "5000267173092"
+      ],
+      "codes": [
+        "5000267173092"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 41.7,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "b660f9fd83a875262a07612858612795d13bd7b402fe162cc25eb151b1269038",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-e7c49fa1b187",
+      "source": "https://www.whiskybase.com/whiskies/whisky/293402/johnnie-walker-black-label",
+      "codeCandidates": [
+        "5000267197999"
+      ],
+      "codes": [
+        "5000267197999"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5983519c5eeb7dd0d8c034e006ca4066bbf6ba38ef7a980230248e4f97e1450b",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-b796e19b1d48",
+      "source": "https://www.whiskybase.com/whiskies/whisky/104819/johnnie-walker-blue-label",
+      "codeCandidates": [
+        "5000267169293"
+      ],
+      "codes": [
+        "5000267169293"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 46.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "c330c57b38d498bbcad12e312f80a80493edf04ea390f0b800cb7e175f25cc48",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9b43a737ba02",
+      "source": "https://www.whiskybase.com/whiskies/whisky/113994/johnnie-walker-black-label",
+      "codeCandidates": [
+        "5000267170251"
+      ],
+      "codes": [
+        "5000267170251"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "59e51ecd6e2cc1a68dd62873c33542e57f44a944a25ffe0b80eb2acff27e04ec",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9813b914457e",
+      "source": "https://www.whiskybase.com/whiskies/whisky/51020/johnnie-walker-gold-label",
+      "codeCandidates": [
+        "5000267098401"
+      ],
+      "codes": [
+        "5000267098401"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "d07b44ab8c4e6b341b549cffac45818fef847d6c8c96b60afe10e442c88cfa0f",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9813b914457e",
+      "source": "https://www.whiskybase.com/whiskies/whisky/66299/johnnie-walker-gold-label",
+      "codeCandidates": [
+        "5000267096773"
+      ],
+      "codes": [
+        "5000267096773"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "81451cef0cc20b35aa1ea2ee2d717cf63ce4aa7edfe9599dfa5f327bc130b5dd",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-016f69b62c9a",
+      "source": "https://www.whiskybase.com/whiskies/whisky/167917/johnnie-walker-blue-label",
+      "codeCandidates": [
+        "5000267181127"
+      ],
+      "codes": [
+        "5000267181127"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "2ce0186021014434378005d801258d6b8eafe22f1e3fb17d757a3c5fbd79160d",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    }
+  ],
+  "additionalSourceCandidates": 125,
+  "sourceResponses": {
+    "success": 12,
+    "HTTP Error 429: Too Many Requests": 113
+  },
+  "totalProducts": 598,
+  "coveredProducts": 207,
+  "uniqueCodes": 204,
+  "missingProducts": 391,
+  "limitations": [
+    "Only codes explicitly published for the same bottle volume and strength are mapped. All existing mappings checked by validation; 125 additional candidate pages researched.",
+    "Unverified historical editions remain without an invented barcode; user-confirmed personal matches remain supported.",
+    "Several supermarkets use EAN-8 restricted circulation identifiers that can vary by country. A scanned code never adds stock without confirmation.",
+    "113 additional Whiskybase source pages returned HTTP 403; no bypass or fabricated evidence used."
+  ]
+}

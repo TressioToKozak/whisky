@@ -1,20 +1,37 @@
 {
   "checkedAt": "2026-10-19",
-  "method": "EAN/GTIN explicitly published in retailer product specifications or Product JSON-LD, never inferred from SKU or name. Digit length and GS1 check digit validated. Source volume checked where published; source URL is the catalog page or a same-volume existing price quotation. Camera reads are confirmed before adding.",
-  "products": 182,
-  "uniqueCodes": 178,
+  "method": "EAN/GTIN explicitly published in retailer product specifications or Product JSON-LD, never inferred from SKU or name. Digit length and GS1 check digit validated. Source volume checked where published; source URL is the catalog page or a same-volume existing price quotation. Camera reads are confirmed before adding. Private-label bottle records may use EAN-8 codes specific to a retailer/market; these are backed by explicit bottle-record evidence and require label confirmation after scanning.",
+  "products": 207,
+  "uniqueCodes": 204,
   "byBrand": {
-    "Jim Beam": 15,
-    "Ballantine’s": 8,
-    "Glenfiddich": 19,
-    "Chivas Regal": 17,
+    "Johnnie Walker": 52,
     "John Walker & Sons": 8,
     "Jack Daniel's": 16,
-    "Bushmills": 22,
-    "Johnnie Walker": 46,
     "Ardbeg": 18,
+    "Ballantine’s": 8,
+    "Bushmills": 22,
+    "Chivas Regal": 17,
+    "Jim Beam": 15,
     "Toki": 2,
-    "Jameson": 11
+    "Glenfiddich": 19,
+    "Jameson": 11,
+    "Grant's": 1,
+    "Bell's": 1,
+    "White Horse": 1,
+    "Teacher’s": 1,
+    "Dewar’s": 1,
+    "Tullamore D.E.W.": 1,
+    "Four Roses": 1,
+    "Wild Turkey": 1,
+    "The Famous Grouse": 1,
+    "William Lawson’s": 1,
+    "Whyte & Mackay": 1,
+    "Makers Mark": 1,
+    "Monkey Shoulder": 1,
+    "Golden Loch": 2,
+    "Queen Margot": 2,
+    "Western Gold": 1,
+    "Dundalgan": 1
   },
   "observations": [
     {
@@ -6839,6 +6856,422 @@
       "sourceTitle": "Jameson Single Pot Still Five Oak Cask Release",
       "sourceSha256": "b1129857be6dc650f79ce4d15c5a22562ec11a0731b5a159e3c8f269ef84c033",
       "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "other-722af468f64a",
+      "source": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html",
+      "codeCandidates": [
+        "5010327250007"
+      ],
+      "codes": [
+        "5010327250007"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "01c4dbff0b8cb94c7ca21831113420e92f9e3d617a699f706c9dc29631845434",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-1eb8ee16a9b0",
+      "source": "https://www.drankgigant.nl/bell-s-blended.html",
+      "codeCandidates": [
+        "5000387905634"
+      ],
+      "codes": [
+        "5000387905634"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "c5d1989b6539bb7d86bfa8a1148e27a95b4be792129be47381fc247f914f8355",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-9b95a315376c",
+      "source": "https://www.drankgigant.nl/white-horse-blended-liter.html",
+      "codeCandidates": [
+        "5000265001335"
+      ],
+      "codes": [
+        "5000265001335"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "116318116e65ce2fc75ef0972d5ab4da6b4c2870111a0904930da38ef203aee4",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-818f3c3b74bc",
+      "source": "https://www.drankgigant.nl/teachers-blended-whisky.html",
+      "codeCandidates": [
+        "5010093259006"
+      ],
+      "codes": [
+        "5010093259006"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "9e5b86a52305d498ba18da290b76ee164c9f381d8efe34e7d81b710cae920913",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-8db2396baea4",
+      "source": "https://www.drankgigant.nl/dewar-s-white-label.html",
+      "codeCandidates": [
+        "5000277001200"
+      ],
+      "codes": [
+        "5000277001200"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "91cc93ea270d9cb07332402ae27a13d070f6c6019f4030e4be04f02a2df86d44",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-3fe069aa8de2",
+      "source": "https://www.drankgigant.nl/tullamore-dew.html",
+      "codeCandidates": [
+        "5011026108033"
+      ],
+      "codes": [
+        "5011026108033"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "dbb79a26b5390c9fff7e2a71566f51e7d1d64d5a6198746d1750e85601e8ae1b",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-eebe36df5be5",
+      "source": "https://www.drankgigant.nl/four-roses-bourbon.html",
+      "codeCandidates": [
+        "5000299101100"
+      ],
+      "codes": [
+        "5000299101100"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "484ca3c027d3d00dbe37c82ecaf54e0db726166e170d82addabcdc9adc8e9b48",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-8c1fc5574504",
+      "source": "https://www.drankgigant.nl/wild-turkey-81.html",
+      "codeCandidates": [
+        "8000040500012"
+      ],
+      "codes": [
+        "8000040500012"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "374be296bfa33c7db5854ce55ef934d31c0198b73368fb36292149a9f8af017f",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-fdcd977fcf87",
+      "source": "https://www.drankgigant.nl/famous-grouse.html",
+      "codeCandidates": [
+        "5010314700003"
+      ],
+      "codes": [
+        "5010314700003"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "e7928d77d21d9caaf977a5bf82cfc941de98e1b74d1724e687eb7154086bf317",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-06da966d7dc7",
+      "source": "https://www.drankgigant.nl/william-lawsons.html",
+      "codeCandidates": [
+        "5010752000307"
+      ],
+      "codes": [
+        "5010752000307"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "393109ff758f972619563c9db6c4d986b05754075ea8038b6abb0a7e50c0f638",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-8c3011829c0f",
+      "source": "https://www.drankgigant.nl/whyte-mackay.html",
+      "codeCandidates": [
+        "5013967001206"
+      ],
+      "codes": [
+        "5013967001206"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "d243bfbb26a3c142b03b4c5c993141fb88fd47c788cc0803a7e5abbb0f4653b4",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-5bf6d84baf0d",
+      "source": "https://www.drankgigant.nl/makers-mark.html",
+      "codeCandidates": [
+        "085246342978"
+      ],
+      "codes": [
+        "085246342978"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5c81c77179fbaf035a0972d298cd4560e84a4b18dc2c878b41b7714f3a071bb7",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-753bf62a563d",
+      "source": "https://www.drankgigant.nl/monkey-shoulder.html",
+      "codeCandidates": [
+        "5010327105215"
+      ],
+      "codes": [
+        "5010327105215"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "b6344eedceb1e6d91edfdd39516e61dcef3f262e154adfc9d1056deb23619969",
+      "provider": "Drankgigant"
+    },
+    {
+      "id": "other-wb-56794",
+      "source": "https://www.whiskybase.com/whiskies/whisky/56794/golden-loch-nas-gmcl",
+      "codeCandidates": [
+        "5603720901623"
+      ],
+      "codes": [
+        "5603720901623"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "acf52cd0dc2fdf09e63298e729de2f47e4cb55718147d064c8c252590f542408",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "PL",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "other-wb-177609",
+      "source": "https://www.whiskybase.com/whiskies/whisky/177609/golden-loch-05-year-old-gmcl",
+      "codeCandidates": [
+        "5010327928210"
+      ],
+      "codes": [
+        "5010327928210"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "722aed77c29c755c311be9b3f800a332fe94adc9176625a619d273199e9b4826",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "PL",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "other-wb-191402",
+      "source": "https://www.whiskybase.com/whiskies/whisky/191402/queen-margot-03-year-old-cd",
+      "codeCandidates": [
+        "20005009"
+      ],
+      "codes": [
+        "20005009"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "1401623008d1317d65954c48bc81fdf27ee8e8cd91949a5f4adc0495b4da1ca3",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "unspecified",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "other-wb-292138",
+      "source": "https://www.whiskybase.com/whiskies/whisky/292138/queen-margot-08-year-old-wy",
+      "codeCandidates": [
+        "4335619175877"
+      ],
+      "codes": [
+        "4335619175877"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "cdf02d9cdcd29a8bd2d328604da50c84363624165a60cac13baeefda13effe40",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "DE",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "other-wb-258977",
+      "source": "https://www.whiskybase.com/whiskies/whisky/258977/western-gold-03-year-old",
+      "codeCandidates": [
+        "20005016"
+      ],
+      "codes": [
+        "20005016"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "e66fc804cffccc93f40ff55e729ee8269cd98a532ec2656457e12a11698d7401",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "unspecified",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "other-wb-260740",
+      "source": "https://www.whiskybase.com/whiskies/whisky/260740/dundalgan-blended-irish-whiskey",
+      "codeCandidates": [
+        "20062606"
+      ],
+      "codes": [
+        "20062606"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "4f4b3af2051b05df25c55296726d9feb6acfb85e83016be3ea1790f3e8231272",
+      "provider": "Whiskybase · community bottle record",
+      "marketScope": "unspecified",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+    },
+    {
+      "id": "jw-011",
+      "source": "https://www.whiskybase.com/whiskies/whisky/119352/johnnie-walker-white-walker",
+      "codeCandidates": [
+        "5000267173092"
+      ],
+      "codes": [
+        "5000267173092"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 41.7,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "b660f9fd83a875262a07612858612795d13bd7b402fe162cc25eb151b1269038",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-e7c49fa1b187",
+      "source": "https://www.whiskybase.com/whiskies/whisky/293402/johnnie-walker-black-label",
+      "codeCandidates": [
+        "5000267197999"
+      ],
+      "codes": [
+        "5000267197999"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5983519c5eeb7dd0d8c034e006ca4066bbf6ba38ef7a980230248e4f97e1450b",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-b796e19b1d48",
+      "source": "https://www.whiskybase.com/whiskies/whisky/104819/johnnie-walker-blue-label",
+      "codeCandidates": [
+        "5000267169293"
+      ],
+      "codes": [
+        "5000267169293"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 46.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "c330c57b38d498bbcad12e312f80a80493edf04ea390f0b800cb7e175f25cc48",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9b43a737ba02",
+      "source": "https://www.whiskybase.com/whiskies/whisky/113994/johnnie-walker-black-label",
+      "codeCandidates": [
+        "5000267170251"
+      ],
+      "codes": [
+        "5000267170251"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "59e51ecd6e2cc1a68dd62873c33542e57f44a944a25ffe0b80eb2acff27e04ec",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9813b914457e",
+      "source": "https://www.whiskybase.com/whiskies/whisky/51020/johnnie-walker-gold-label",
+      "codeCandidates": [
+        "5000267098401"
+      ],
+      "codes": [
+        "5000267098401"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "d07b44ab8c4e6b341b549cffac45818fef847d6c8c96b60afe10e442c88cfa0f",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-9813b914457e",
+      "source": "https://www.whiskybase.com/whiskies/whisky/66299/johnnie-walker-gold-label",
+      "codeCandidates": [
+        "5000267096773"
+      ],
+      "codes": [
+        "5000267096773"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "81451cef0cc20b35aa1ea2ee2d717cf63ce4aa7edfe9599dfa5f327bc130b5dd",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "jw-016f69b62c9a",
+      "source": "https://www.whiskybase.com/whiskies/whisky/167917/johnnie-walker-blue-label",
+      "codeCandidates": [
+        "5000267181127"
+      ],
+      "codes": [
+        "5000267181127"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "2ce0186021014434378005d801258d6b8eafe22f1e3fb17d757a3c5fbd79160d",
+      "provider": "Whiskybase · community bottle record",
+      "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
     }
   ],
   "expansion": {

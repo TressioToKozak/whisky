@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {readFileSync} from 'node:fs'
-import {normalizeBarcode,expandUpce,barcodeMatches,addBarcodeBottle} from '../src/barcode.ts'
+import {displayBarcode,normalizeBarcode,expandUpce,barcodeMatches,addBarcodeBottle} from '../src/barcode.ts'
 import {emptyJournal,validateJournal} from '../src/model.ts'
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'))
 const all=read('../src/catalog.json'),entries=read('../src/barcodes.json'),audit=read('../data/barcode-audit.json')
@@ -65,4 +65,8 @@ test('coverage report accounts for every catalog ID without claiming unknown cod
  assert.equal(coverage.uniqueCodes,new Set(entries.map(e=>e.code)).size)
  assert.ok(!entries.some(e=>e.code==='02000250820104'),'restricted-circulation retailer code must not be presented as a global Honey bottle code')
  for(const row of coverage.products)assert.deepEqual(row.codes,entries.filter(e=>e.whiskyId===row.id).map(e=>e.code))
+})
+
+test('readable barcode formatting preserves supermarket EAN-8 and UPC significant zeros',()=>{
+ for(const code of ['20005009','20005016','20062606','085246342978','5000267014203']){const display=displayBarcode(normalizeBarcode(code));assert.equal(display,code);assert.equal(normalizeBarcode(display),normalizeBarcode(code))}
 })

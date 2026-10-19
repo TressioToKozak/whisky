@@ -92,5 +92,13 @@
     "sha256": "b7ec9f7c4973059efdfa92fe4d8186b3ec6b14364bd3ab2a068e68f090af1ca2",
     "checkedAt": "2026-10-19",
     "note": "Photographic wordmark extracted with an image editor from the authentic bottle label, transparent background; not an official downloadable vector."
+  },
+  {
+    "id": "other",
+    "name": "Inne",
+    "sourcePage": "https://github.com/TressioToKozak/whisky",
+    "sha256": "faad4074127c7233b0b21a74e21e2f4ce2f14b4a57123e2aca22c7f8dbab1769",
+    "checkedAt": "2026-10-19",
+    "note": "Original editorial category icon, authored for Dram. This category contains multiple manufacturers and is not a producer logo."
   }
 ]

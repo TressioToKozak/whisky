@@ -12,7 +12,7 @@ axe_path=Path(os.environ.get('AXE_SCRIPT','/tmp/dram-redesign/a11y-tools/node_mo
 violations=[];checks=[]
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},reduced_motion='reduce');page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
- page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.locator('.brand-card')).to_have_count(11);expect(page.locator('.home-collection, .last-tasting, .add-top, .sidebar-note')).to_have_count(0)
+ page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.locator('.brand-card')).to_have_count(12);expect(page.locator('.home-collection, .last-tasting, .add-top, .sidebar-note')).to_have_count(0)
  page.evaluate("j=>localStorage.setItem('dram.journal.v1',JSON.stringify(j))",seed);page.reload(wait_until='networkidle')
  def nav(index):
   selector='.sidebar nav button' if page.viewport_size['width']>=1024 else '.bottom-nav button'

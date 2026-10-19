@@ -433,3 +433,11 @@ input[type=date] { color-scheme: dark; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 
 .reference-price-note { margin-top: var(--s3); font-size: 13px; line-height: 1.6; color: var(--muted); }
+
+.preferences-modal { max-width: 460px; }
+.preferences-modal .field { margin-top: 24px; }
+.preferences-modal select { width: 100%; min-height: 48px; padding: 12px; border: 1px solid var(--border, #615340); border-radius: 5px; color: inherit; background: #272018; font: inherit; }
+.brand-other .brand-logo { background: var(--paper); }
+.price-conversion { display: block; margin-top: 10px; color: var(--muted, #baaa97); font-size: 12px; line-height: 1.6; }
+.barcode-status { border-top: 1px solid #493c2f; padding-top: 16px; margin-top: 20px; font-size: 12px; line-height: 1.7; }
+.barcode-status code { font: inherit; font-variant-numeric: tabular-nums; }

@@ -21,7 +21,7 @@ with sync_playwright() as p:
  page.reload(wait_until='networkidle');page.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click();expect(page.locator('.cellar-value')).to_contain_text('Bez wyceny: 2 butelki');expect(page.locator('.cellar-value strong')).to_contain_text('57');page.screenshot(path='/tmp/dram-cellar-value.png')
  page.locator('.bottom-nav').get_by_role('button',name='Odkrywaj',exact=True).click();search=page.get_by_role('searchbox',name='Szukaj we wszystkich markach');search.fill('Dolce');expect(page.locator('.whisky-card')).to_have_count(1);expect(page.locator('.card-brand')).to_have_text('Ardbeg')
  search.fill('glenfiddich');expect(page.locator('.whisky-card')).to_have_count(24);page.get_by_role('button',name='Pokaż kolejne whisky').click();expect(page.locator('.whisky-card')).to_have_count(len([w for w in catalog if w['brand']=='Glenfiddich']))
- search.fill('xyznotawhisky');expect(page.get_by_role('heading',name='Nie znaleźliśmy takiej whisky')).to_be_visible();page.get_by_role('button',name='Wyczyść wyszukiwanie').click();expect(page.locator('.brand-card')).to_have_count(11)
+ search.fill('xyznotawhisky');expect(page.get_by_role('heading',name='Nie znaleźliśmy takiej whisky')).to_be_visible();page.get_by_role('button',name='Wyczyść wyszukiwanie').click();expect(page.locator('.brand-card')).to_have_count(12)
  page.locator('.brand-glenfiddich').scroll_into_view_if_needed();page.screenshot(path='/tmp/dram-glen-logo.png')
  for width in [320,390,768,1440]:
   page.set_viewport_size({'width':width,'height':900});assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')

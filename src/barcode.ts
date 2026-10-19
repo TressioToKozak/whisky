@@ -46,3 +46,10 @@ export function addBarcodeBottle(journal: Journal, whisky: Whisky, input: string
     ...(remember ? { barcodeLinks: [...links.filter(link => link.code !== code), { code, whiskyId: whisky.id }] } : {}),
   }
 }
+
+/** Readable EAN-8 / UPC-A / EAN-13, retaining significant zeros and GTIN equivalence. */
+export function displayBarcode(input: string): string {
+  const code = normalizeBarcode(input)
+  if (!code) return input
+  return code.startsWith('000000') ? code.slice(6) : code.startsWith('00') ? code.slice(2) : code.startsWith('0') ? code.slice(1) : code
+}

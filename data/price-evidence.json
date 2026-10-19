@@ -17384,5 +17384,200 @@
     ],
     "exchangeRateDate": "2026-10-16",
     "exchangeRateSource": "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json"
+  },
+  "other-722af468f64a": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Grant's Triple Wood",
+        "amount": 13.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "01c4dbff0b8cb94c7ca21831113420e92f9e3d617a699f706c9dc29631845434"
+      }
+    ]
+  },
+  "other-1eb8ee16a9b0": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Bell's Original",
+        "amount": 10.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/bell-s-blended.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "c5d1989b6539bb7d86bfa8a1148e27a95b4be792129be47381fc247f914f8355"
+      }
+    ]
+  },
+  "other-9b95a315376c": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "White Horse Blended Scotch Whisky",
+        "amount": 21.95,
+        "currency": "EUR",
+        "volumeMl": 1000,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/white-horse-blended-liter.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "116318116e65ce2fc75ef0972d5ab4da6b4c2870111a0904930da38ef203aee4"
+      }
+    ]
+  },
+  "other-818f3c3b74bc": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Teacher’s Highland Cream",
+        "amount": 13.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/teachers-blended-whisky.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "9e5b86a52305d498ba18da290b76ee164c9f381d8efe34e7d81b710cae920913"
+      }
+    ]
+  },
+  "other-8db2396baea4": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Dewar’s White Label",
+        "amount": 21.95,
+        "currency": "EUR",
+        "volumeMl": 1000,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/dewar-s-white-label.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "91cc93ea270d9cb07332402ae27a13d070f6c6019f4030e4be04f02a2df86d44"
+      }
+    ]
+  },
+  "other-3fe069aa8de2": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Tullamore D.E.W. Original",
+        "amount": 16.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/tullamore-dew.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "dbb79a26b5390c9fff7e2a71566f51e7d1d64d5a6198746d1750e85601e8ae1b"
+      }
+    ]
+  },
+  "other-eebe36df5be5": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Four Roses Bourbon",
+        "amount": 18.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/four-roses-bourbon.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "484ca3c027d3d00dbe37c82ecaf54e0db726166e170d82addabcdc9adc8e9b48"
+      }
+    ]
+  },
+  "other-8c1fc5574504": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Wild Turkey 81",
+        "amount": 20.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.5,
+        "source": "https://www.drankgigant.nl/wild-turkey-81.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "374be296bfa33c7db5854ce55ef934d31c0198b73368fb36292149a9f8af017f"
+      }
+    ]
+  },
+  "other-fdcd977fcf87": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "The Famous Grouse Finest Blended Scotch Whisky",
+        "amount": 14.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/famous-grouse.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "e7928d77d21d9caaf977a5bf82cfc941de98e1b74d1724e687eb7154086bf317"
+      }
+    ]
+  },
+  "other-06da966d7dc7": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "William Lawson’s Blended Scotch Whisky",
+        "amount": 13.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/william-lawsons.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "393109ff758f972619563c9db6c4d986b05754075ea8038b6abb0a7e50c0f638"
+      }
+    ]
+  },
+  "other-8c3011829c0f": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Whyte & Mackay Special Blended Scotch Whisky",
+        "amount": 19.95,
+        "currency": "EUR",
+        "volumeMl": 1000,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/whyte-mackay.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "d243bfbb26a3c142b03b4c5c993141fb88fd47c788cc0803a7e5abbb0f4653b4"
+      }
+    ]
+  },
+  "other-5bf6d84baf0d": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Makers Mark Original",
+        "amount": 19.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 45.0,
+        "source": "https://www.drankgigant.nl/makers-mark.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "5c81c77179fbaf035a0972d298cd4560e84a4b18dc2c878b41b7714f3a071bb7"
+      }
+    ]
+  },
+  "other-753bf62a563d": {
+    "method": "Same-volume retailer offer with published EAN, ABV and original photo",
+    "observations": [
+      {
+        "name": "Monkey Shoulder The Original",
+        "amount": 21.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/monkey-shoulder.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "b6344eedceb1e6d91edfdd39516e61dcef3f262e154adfc9d1056deb23619969"
+      }
+    ]
   }
 }

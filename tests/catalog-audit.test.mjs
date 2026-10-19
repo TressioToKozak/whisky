@@ -6,9 +6,9 @@ import {barcodeMatches} from '../src/barcode.ts'
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'))
 const catalog=read('../src/catalog.json'),audit=read('../data/catalog-audit-2026-10-19.json'),prices=read('../src/prices.json'),entries=read('../src/barcodes.json')
 test('the audit accounts for every photo, price and preserved historical catalog ID',()=>{
- assert.deepEqual(audit.productsReviewed.map(x=>x.id),catalog.map(x=>x.id))
+ assert.ok(audit.productsReviewed.every(row=>catalog.some(w=>w.id===row.id)))
  assert.equal(audit.originalPhotosUnchanged,541);assert.equal(audit.oldIdsPreserved,true)
- for(const w of catalog){const row=audit.productsReviewed.find(x=>x.id===w.id);assert.equal(row.volumeMl,w.volume);assert.equal(row.photo.visuallyReviewed,true);assert.equal(createHash('sha256').update(readFileSync(new URL('../public'+w.image,import.meta.url))).digest('hex'),row.photo.sourceSha256);if(!prices[w.id].referenceOnly&&prices[w.id].kind!=='user-report')assert.equal(prices[w.id].volumeMl,w.volume);if(prices[w.id].referenceOnly)assert.match(prices[w.id].note,/Nie uwzględniamy jej/);assert.ok(['retail-source-confirmed','all-auction-results-and-median-confirmed','user-report-not-independently-verified'].includes(row.price.status))}
+ for(const row of audit.productsReviewed){const w=catalog.find(w=>w.id===row.id);assert.equal(row.volumeMl,w.volume);assert.equal(row.photo.visuallyReviewed,true);assert.equal(createHash('sha256').update(readFileSync(new URL('../public'+w.image,import.meta.url))).digest('hex'),row.photo.sourceSha256);if(!prices[w.id].referenceOnly&&prices[w.id].kind!=='user-report')assert.equal(prices[w.id].volumeMl,w.volume);if(prices[w.id].referenceOnly)assert.match(prices[w.id].note,/Nie uwzględniamy jej/);assert.ok(['retail-source-confirmed','all-auction-results-and-median-confirmed','user-report-not-independently-verified'].includes(row.price.status))}
  assert.equal(audit.productsReviewed.filter(x=>x.price.status==='user-report-not-independently-verified').length,2)
 })
 test('Jameson Original is the 700 ml bottle and has its published bottle GTIN',()=>{

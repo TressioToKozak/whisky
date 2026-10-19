@@ -1,3 +1,4 @@
+import { t } from './i18n'
 import { useEffect, useRef, useState } from 'react'
 import type { ReactNode } from 'react'
 import { Camera, ChevronRight, ImagePlus, RotateCcw, Search, X } from 'lucide-react'
@@ -88,32 +89,32 @@ export default function BarcodeScanner({ all, entries, links, bottles, onAdd, on
   }
   function choose(w: Whisky) { setSelected(w); setPicking(false); setError('') }
   return <div className="barcode-scanner">
-    <h2>{code ? 'Sprawdź butelkę' : 'Zeskanuj butelkę'}</h2>
+    <h2>{code ? t("Sprawdź butelkę") : t("Zeskanuj butelkę")}</h2>
     {!code ? <>
-      <p className="muted">Skieruj aparat na kod kreskowy EAN lub UPC.</p>
-      {camera ? <><div className="barcode-camera"><video ref={video} muted autoPlay playsInline aria-label="Podgląd aparatu"/><div className="barcode-guide" aria-hidden="true"/><span>{cameraReady ? 'Ustaw cały kod w kadrze i przytrzymaj telefon' : 'Uruchamianie aparatu…'}</span></div>{slowRead && <p role="status" className="barcode-note">Nie udało się jeszcze odczytać kodu. Odsuń butelkę, unikaj odblasków lub wybierz zdjęcie albo wpisz numer.</p>}<button className="text-button" onClick={stopCamera}><X size={16}/> Wyłącz aparat</button></>
-        : <button className="button dark full" disabled={busy} onClick={() => { setError(''); setCamera(true) }}><Camera size={19}/> Włącz aparat</button>}
-      <label className={`button outline full barcode-upload ${busy ? 'busy' : ''}`}><ImagePlus size={18}/>{busy ? 'Odczytuję zdjęcie…' : 'Wybierz zdjęcie kodu'}<input type="file" accept="image/jpeg,image/png,image/webp" aria-label="Zdjęcie kodu kreskowego" disabled={busy} onChange={e => { const file = e.target.files?.[0]; e.target.value = ''; if (file) void photo(file) }}/></label>
-      <form className="barcode-manual" onSubmit={e => { e.preventDefault(); accept(input) }}><label className="field">Numer EAN / UPC-A<input type="text" inputMode="numeric" autoComplete="off" aria-label="Numer kodu kreskowego" maxLength={32} value={input} onChange={e => setInput(e.target.value)} placeholder="np. 13 cyfr EAN"/></label><button className="button outline full" disabled={busy || !input.trim()} type="submit">Znajdź butelkę <ChevronRight size={16}/></button></form>
+      <p className="muted">{t("Skieruj aparat na kod kreskowy EAN lub UPC.")}</p>
+      {camera ? <><div className="barcode-camera"><video ref={video} muted autoPlay playsInline aria-label={t("Podgląd aparatu")}/><div className="barcode-guide" aria-hidden="true"/><span>{cameraReady ? t("Ustaw cały kod w kadrze i przytrzymaj telefon") : t("Uruchamianie aparatu…")}</span></div>{slowRead && <p role="status" className="barcode-note">{t("Nie udało się jeszcze odczytać kodu. Odsuń butelkę, unikaj odblasków lub wybierz zdjęcie albo wpisz numer.")}</p>}<button className="text-button" onClick={stopCamera}><X size={16}/>  {t("Wyłącz aparat")}</button></>
+        : <button className="button dark full" disabled={busy} onClick={() => { setError(''); setCamera(true) }}><Camera size={19}/>  {t("Włącz aparat")}</button>}
+      <label className={`button outline full barcode-upload ${busy ? 'busy' : ''}`}><ImagePlus size={18}/>{busy ? t("Odczytuję zdjęcie…") : t("Wybierz zdjęcie kodu")}<input type="file" accept="image/jpeg,image/png,image/webp" aria-label={t("Zdjęcie kodu kreskowego")} disabled={busy} onChange={e => { const file = e.target.files?.[0]; e.target.value = ''; if (file) void photo(file) }}/></label>
+      <form className="barcode-manual" onSubmit={e => { e.preventDefault(); accept(input) }}><label className="field">{t("Numer EAN / UPC-A")}<input type="text" inputMode="numeric" autoComplete="off" aria-label={t("Numer kodu kreskowego")} maxLength={32} value={input} onChange={e => setInput(e.target.value)} placeholder={t("np. 13 cyfr EAN")}/></label><button className="button outline full" disabled={busy || !input.trim()} type="submit">{t("Znajdź butelkę")} <ChevronRight size={16}/></button></form>
     </> : <>
-      <div className="barcode-read"><span>Kod: <b>{input}</b></span><button className="text-button" onClick={reset}><RotateCcw size={14}/> Inny kod</button></div>
+      <div className="barcode-read"><span>{t("Kod:")} <b>{input}</b></span><button className="text-button" onClick={reset}><RotateCcw size={14}/>  {t("Inny kod")}</button></div>
       {selected && !picking ? <>
-        <div className="barcode-match">{renderPhoto(selected)}<div><p>{selected.brand}</p><h3>{selected.name}</h3><span>{selected.volume ? `${selected.volume} ml` : 'Pojemność niepodana'} · {selected.abv ? `${selected.abv}%` : 'Moc niepodana'}</span>{owned > 0 && <small>W barku: {owned} szt.</small>}</div></div>
-        <p className="barcode-note">Sprawdź nazwę i pojemność. Jeden kod może występować przy różnych etykietach.</p>
-        <button className="text-button" onClick={() => { setPicking(true); setQuery(''); setError('') }}>To inna whisky — wybierz z katalogu</button>
-        <label className="checkbox-field"><input type="checkbox" checked={remember} onChange={e => setRemember(e.target.checked)}/> Zapamiętaj dopasowanie kodu</label>
-        {owned >= 999 && <p className="form-error">Osiągnięto limit 999 butelek tej whisky.</p>}
-        <button className="button dark full" disabled={adding || owned >= 999} onClick={confirm}>{adding ? 'Dodawanie…' : owned ? 'Dodaj kolejną butelkę' : 'Dodaj butelkę do barku'}</button>
+        <div className="barcode-match">{renderPhoto(selected)}<div><p>{selected.brand}</p><h3>{selected.name}</h3><span>{selected.volume ? `${selected.volume} ml` : t("Pojemność niepodana")} · {selected.abv ? `${selected.abv}%` : t("Moc niepodana")}</span>{owned > 0 && <small>{t("W barku:")} {owned}  {t("szt.")}</small>}</div></div>
+        <p className="barcode-note">{t("Sprawdź nazwę i pojemność. Jeden kod może występować przy różnych etykietach.")}</p>
+        <button className="text-button" onClick={() => { setPicking(true); setQuery(''); setError('') }}>{t("To inna whisky — wybierz z katalogu")}</button>
+        <label className="checkbox-field"><input type="checkbox" checked={remember} onChange={e => setRemember(e.target.checked)}/>  {t("Zapamiętaj dopasowanie kodu")}</label>
+        {owned >= 999 && <p className="form-error">{t("Osiągnięto limit 999 butelek tej whisky.")}</p>}
+        <button className="button dark full" disabled={adding || owned >= 999} onClick={confirm}>{adding ? t("Dodawanie…") : owned ? t("Dodaj kolejną butelkę") : t("Dodaj butelkę do barku")}</button>
       </> : <>
-        <p className="muted">{picking ? 'Wybierz whisky i pojemność zgodną z butelką.' : matches.length > 1 ? 'Ten kod pasuje do kilku wydań. Wybierz swoją butelkę.' : 'Kod odczytany. Nie mamy jeszcze jego przypisania — znajdź whisky w katalogu.'}</p>
-        {!picking && matches.map(w => <button key={w.id} className="barcode-option" onClick={() => choose(w)}><span>{w.brand}<strong>{w.name}</strong><small>{w.volume ? `${w.volume} ml` : 'Pojemność niepodana'}</small></span><ChevronRight size={17}/></button>)}
-        <div className="search"><Search size={17}/><input type="search" aria-label="Dopasuj whisky do kodu" placeholder="Marka, nazwa lub edycja" value={query} onChange={e => setQuery(e.target.value)}/></div>
-        {options.map(w => <button key={w.id} className="barcode-option" onClick={() => choose(w)}><span>{w.brand}<strong>{w.name}</strong><small>{w.volume ? `${w.volume} ml` : 'Pojemność niepodana'} · {w.abv ? `${w.abv}%` : 'Moc niepodana'}</small></span><ChevronRight size={17}/></button>)}
-        {query.trim() && !options.length && <p className="muted">Nie ma takiej whisky w katalogu.</p>}
-        {options.length === 20 && <p className="barcode-note">Pokazano 20 dopasowań. Dopisz nazwę edycji, żeby zawęzić wyniki.</p>}
-        <button className="button outline full" onClick={() => onCreate(code)}>Dodaj własną whisky</button>
+        <p className="muted">{picking ? t("Wybierz whisky i pojemność zgodną z butelką.") : matches.length > 1 ? t("Ten kod pasuje do kilku wydań. Wybierz swoją butelkę.") : t("Kod odczytany. Nie mamy jeszcze jego przypisania — znajdź whisky w katalogu.")}</p>
+        {!picking && matches.map(w => <button key={w.id} className="barcode-option" onClick={() => choose(w)}><span>{w.brand}<strong>{w.name}</strong><small>{w.volume ? `${w.volume} ml` : t("Pojemność niepodana")}</small></span><ChevronRight size={17}/></button>)}
+        <div className="search"><Search size={17}/><input type="search" aria-label={t("Dopasuj whisky do kodu")} placeholder={t("Marka, nazwa lub edycja")} value={query} onChange={e => setQuery(e.target.value)}/></div>
+        {options.map(w => <button key={w.id} className="barcode-option" onClick={() => choose(w)}><span>{w.brand}<strong>{w.name}</strong><small>{w.volume ? `${w.volume} ml` : t("Pojemność niepodana")} · {w.abv ? `${w.abv}%` : t("Moc niepodana")}</small></span><ChevronRight size={17}/></button>)}
+        {query.trim() && !options.length && <p className="muted">{t("Nie ma takiej whisky w katalogu.")}</p>}
+        {options.length === 20 && <p className="barcode-note">{t("Pokazano 20 dopasowań. Dopisz nazwę edycji, żeby zawęzić wyniki.")}</p>}
+        <button className="button outline full" onClick={() => onCreate(code)}>{t("Dodaj własną whisky")}</button>
       </>}
     </>}
-    {error && <p role="alert" className="form-error">{error}</p>}
+    {error && <p role="alert" className="form-error">{t(error)}</p>}
   </div>
 }
