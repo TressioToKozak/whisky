@@ -41,11 +41,22 @@ jobs:
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/wait-for-app.py
-          python tests/quality-e2e.py
-          python tests/journal-e2e.py
-          python tests/collection-e2e.py
-          python tests/phase2-e2e.py
-          python tests/offline-update-e2e.py
+          python tests/quality-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+          python tests/journal-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+          python tests/collection-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+          python tests/phase2-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+          python tests/offline-update-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+      - name: Report browser diagnostics
+        if: failure()
+        run: |
+          python - <<'PYLOG'
+          from pathlib import Path
+          path=Path('/tmp/dram-test.log')
+          if path.exists():
+              message=path.read_text(errors='replace')[-14000:]
+              message=message.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+              print('::error title=Dram browser test::'+message)
+          PYLOG
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3
@@ -81,7 +92,18 @@ jobs:
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/wait-for-app.py
-          python tests/phase2-e2e.py
+          python tests/phase2-e2e.py 2>&1 | tee -a /tmp/dram-test.log
+      - name: Report browser diagnostics
+        if: failure()
+        run: |
+          python - <<'PYLOG'
+          from pathlib import Path
+          path=Path('/tmp/dram-test.log')
+          if path.exists():
+              message=path.read_text(errors='replace')[-14000:]
+              message=message.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
+              print('::error title=Dram browser test::'+message)
+          PYLOG
   deploy:
     environment:
       name: github-pages
