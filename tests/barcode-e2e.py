@@ -1,3 +1,4 @@
+from source_images import install_source_images
 """Real ZXing pixel decoding from photo/video; no decoder stubs or external lookup API."""
 import base64,json,os
 from pathlib import Path
@@ -7,8 +8,8 @@ root=Path(__file__).resolve().parents[1];fixture=root/'tests/fixtures/barcode-ea
 entries=json.loads((root/'src/barcodes.json').read_text());target=next(e['whiskyId'] for e in entries if e['code']=='0'+code)
 cat=json.loads((root/'src/catalog.json').read_text());whisky=next(w for w in cat if w['id']==target)
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':844});page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
- def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v1'))")
+ b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':844});page=ctx.new_page();install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))")
  def open_scan():page.get_by_role('button',name='Skanuj kod kreskowy',exact=True).click();expect(page.get_by_role('dialog',name='Skaner kodów kreskowych')).to_be_visible()
  def enter(c):page.get_by_role('textbox',name='Numer kodu kreskowego').fill(c);page.get_by_role('button',name='Znajdź butelkę').click()
  def close():page.get_by_role('button',name='Zamknij',exact=True).click()
@@ -18,13 +19,13 @@ with sync_playwright() as p:
  # Actual image decoding, preserving old journal fields and adding only on confirmation.
  open_scan();page.get_by_label('Zdjęcie kodu kreskowego').set_input_files({'name':'broken.png','mimeType':'image/png','buffer':b'not an image'});expect(page.get_by_role('alert')).to_contain_text('Nie odczytano kodu');page.get_by_label('Zdjęcie kodu kreskowego').set_input_files(str(fixture));expect(page.locator('.barcode-match')).to_contain_text(whisky['name'],timeout=20000);page.screenshot(path='/tmp/dram-barcode-match.png')
  page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).evaluate('button=>{button.click();button.click()}');expect(page.get_by_role('dialog')).to_have_count(0);assert journal()['bottles'][0]['quantity']==1
- open_scan();enter(code);page.get_by_role('button',name='Dodaj kolejną butelkę',exact=True).click();assert journal()['bottles'][0]['quantity']==2
+ open_scan();enter(code);page.get_by_role('button',name='Dodaj kolejną butelkę',exact=True).click();expect(page.get_by_role('dialog')).to_have_count(0);assert journal()['bottles'][0]['quantity']==2
  # Unknown codes require explicit matching; personal associations survive reload.
  open_scan();enter(unknown);expect(page.get_by_text('Kod odczytany. Nie mamy jeszcze jego przypisania',exact=False)).to_be_visible();assert journal()['bottles'][0]['quantity']==2
- page.get_by_role('searchbox',name='Dopasuj whisky do kodu').fill('ballantines sweet');expect(page.locator('.barcode-option')).to_have_count(1);page.locator('.barcode-option').click();page.get_by_role('button',name='Dodaj butelkę do barku').click();assert any(link['code']=='0'+unknown for link in journal()['barcodeLinks'])
+ page.get_by_role('searchbox',name='Dopasuj whisky do kodu').fill('ballantines sweet');expect(page.locator('.barcode-option')).to_have_count(1);page.locator('.barcode-option').click();page.get_by_role('button',name='Dodaj butelkę do barku').click();expect(page.get_by_role('dialog')).to_have_count(0);assert any(link['code']=='0'+unknown for link in journal()['barcodeLinks'])
  page.reload(wait_until='networkidle');open_scan();enter(unknown);expect(page.locator('.barcode-match')).to_contain_text('Sweet Blend');close()
  # Unknown code can become a new personal entry and is removed with that entry.
- customcode='5901234123457';open_scan();enter(customcode);page.get_by_role('dialog',name='Skaner kodów kreskowych').get_by_role('button',name='Dodaj własną whisky').click();expect(page.get_by_role('dialog',name='Dodaj własną whisky')).to_be_visible();page.get_by_role('textbox',name='Marka',exact=True).fill('Moja marka');page.get_by_role('textbox',name='Nazwa / edycja').fill('Test kodu');page.get_by_role('dialog',name='Dodaj własną whisky').get_by_role('button',name='Dodaj whisky',exact=True).click();custom=journal()['custom'][-1];assert any(link['whiskyId']==custom['id'] for link in journal()['barcodeLinks'])
+ customcode='5901234123457';open_scan();enter(customcode);page.get_by_role('dialog',name='Skaner kodów kreskowych').get_by_role('button',name='Dodaj własną whisky').click();expect(page.get_by_role('dialog',name='Dodaj własną whisky')).to_be_visible();page.get_by_role('textbox',name='Marka',exact=True).fill('Moja marka');page.get_by_role('textbox',name='Nazwa / edycja').fill('Test kodu');page.get_by_role('dialog',name='Dodaj własną whisky').get_by_role('button',name='Dodaj whisky',exact=True).click();expect(page.get_by_role('dialog')).to_have_count(0);custom=journal()['custom'][-1];assert any(link['whiskyId']==custom['id'] for link in journal()['barcodeLinks'])
  page.reload(wait_until='networkidle');open_scan();enter(customcode);expect(page.locator('.barcode-match')).to_contain_text('Test kodu');close()
  page.get_by_role('searchbox',name='Szukaj we wszystkich markach').fill('Test kodu');page.get_by_role('button',name='Test kodu',exact=True).click();page.get_by_role('button',name='Usuń własny wpis',exact=False).click();page.get_by_role('button',name='Potwierdź',exact=True).click();assert not any(link['whiskyId']==custom['id'] for link in journal()['barcodeLinks'])
  # A denied camera never blocks manual entry.

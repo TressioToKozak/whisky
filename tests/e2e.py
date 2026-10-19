@@ -1,3 +1,4 @@
+from source_images import install_source_images
 """Functional browser checks. Run against a running Vite server or preview.
 DRAM_URL=http://127.0.0.1:5173/whisky/ python tests/e2e.py
 Requires Python playwright and Chromium (CHROMIUM_PATH can override its path).
@@ -12,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 with sync_playwright() as p:
     b = p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'), headless=True, args=['--no-sandbox'])
     ctx = b.new_context(viewport={'width':390,'height':844}, is_mobile=True, has_touch=True)
-    page = ctx.new_page()
+    page = ctx.new_page();install_source_images(page)
     errors = []
     page.on('pageerror', lambda e: errors.append(str(e)))
     page.goto(BASE, wait_until='networkidle')
@@ -44,12 +45,13 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Black Label 12',exact=True).click()
     page.get_by_role('button',name='Zwiększ liczbę butelek').click()
     expect(page.get_by_label('Liczba butelek',exact=True)).to_have_text('2')
-    page.get_by_role('checkbox',name='Mam otwartą butelkę').check()
+    page.get_by_role('button',name='Zwiększ liczbę otwartych butelek',exact=True).click()
     page.get_by_role('button',name='Zapisz degustację').click()
     page.get_by_role('slider',name='Twoja ocena').fill('8.5')
     page.get_by_role('button',name='Miód',exact=True).click()
     page.get_by_role('textbox',name='Twoje wrażenia').fill('Miód, łagodny dym. Długi finisz.')
     page.get_by_role('button',name='Zapisz degustację',exact=True).click()
+    expect(page.get_by_role('dialog')).to_have_count(0)
     page.reload(wait_until='networkidle')
     expect(page.get_by_role('dialog',name='Witaj w Dram')).not_to_be_visible()
     page.locator('.bottom-nav').get_by_role('button',name='Oceny',exact=True).click()
@@ -58,11 +60,12 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Black Label 12',exact=True).click()
     page.locator('.review-section > summary').click()
     expect(page.get_by_role('dialog',name='Poznaj whisky').get_by_text('Miód, łagodny dym. Długi finisz.',exact=True)).to_be_visible()
-    expect(page.get_by_role('checkbox',name='Mam otwartą butelkę')).to_be_checked()
+    expect(page.get_by_label('Liczba otwartych butelek',exact=True)).to_have_text('1')
     expect(page.get_by_label('Liczba butelek',exact=True)).to_have_text('2')
     page.get_by_role('button',name='Edytuj',exact=True).click()
     page.get_by_role('slider',name='Twoja ocena').fill('9')
     page.get_by_role('button',name='Zapisz degustację',exact=True).click()
+    expect(page.get_by_role('dialog')).to_have_count(0)
     expect(page.locator('.card-rating')).to_contain_text('9,0')
     page.locator('.bottom-nav').get_by_role('button',name='Odkrywaj',exact=True).click()
     page.get_by_role('button',name='Brakuje whisky w katalogu?',exact=True).click()
@@ -71,9 +74,10 @@ with sync_playwright() as p:
     page.get_by_label('Dodaj zdjęcie whisky').set_input_files(str(ROOT/'public'/json.loads((ROOT/'src/catalog.json').read_text())[0]['image'].lstrip('/')))
     expect(page.get_by_alt_text('Wybrane zdjęcie whisky')).to_be_visible()
     page.get_by_role('dialog').get_by_role('button',name='Dodaj whisky',exact=True).click()
+    expect(page.get_by_role('dialog')).to_have_count(0)
     page.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click()
     expect(page.locator('.whisky-card')).to_have_count(2)
-    exported=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v1'))")
+    exported=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))")
     assert len(exported['bottles'])==2 and exported['reviews'][0]['score']==9
     assert exported['custom'][0]['image'].startswith('data:image/jpeg;')
     page.get_by_role('button',name='Własne wydanie testowe',exact=True).click()
@@ -99,15 +103,15 @@ with sync_playwright() as p:
         page.set_viewport_size({'width':width,'height':900})
         assert not page.evaluate('document.documentElement.scrollWidth > innerWidth'), f'Overflow at {width}'
     for w in json.loads((ROOT/'src/catalog.json').read_text()):
-        if w['image']:
+        if w['image'] and not w['image'].startswith('https://'):
             response=page.request.get(BASE+w['image'].lstrip('/'))
             assert response.status==200
             assert response.headers['content-type'].startswith('image/')
     # Corrupt local data must never be silently overwritten.
-    page.evaluate("localStorage.setItem('dram.journal.v1','BROKEN-BACKUP')")
+    page.evaluate("localStorage.setItem('dram.journal.v2','BROKEN-BACKUP')")
     page.reload(wait_until='networkidle')
     expect(page.get_by_role('alert')).to_contain_text('Dotychczasowy zapis nie zostanie nadpisany')
-    assert page.evaluate("localStorage.getItem('dram.journal.v1')")=='BROKEN-BACKUP'
+    assert page.evaluate("localStorage.getItem('dram.journal.v2')")=='BROKEN-BACKUP'
     assert not errors, errors
     print(json.dumps({'passed':['age gate','search and filters','wishlist to cellar','stock and opened status','tasting create/edit','persistence','custom whisky and photo','deletion confirmation','cellar removal preserves reviews','responsive 320–1440px','local photo responses','corruption protection'],'page_errors':errors},ensure_ascii=False))
     b.close()

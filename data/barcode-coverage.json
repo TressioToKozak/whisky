@@ -1,9 +1,9 @@
 {
   "checkedAt": "2026-10-19",
-  "totalProducts": 598,
-  "coveredProducts": 207,
-  "uniqueCodes": 204,
-  "coveragePercent": 34.62,
+  "totalProducts": 638,
+  "coveredProducts": 244,
+  "uniqueCodes": 241,
+  "coveragePercent": 38.24,
   "byBrand": {
     "Johnnie Walker": {
       "total": 232,
@@ -37,9 +37,9 @@
       "total": 16,
       "covered": 15
     },
-    "Toki": {
-      "total": 2,
-      "covered": 2
+    "Suntory": {
+      "total": 5,
+      "covered": 5
     },
     "Goldfinch": {
       "total": 23,
@@ -74,16 +74,16 @@
       "covered": 1
     },
     "Tullamore D.E.W.": {
-      "total": 1,
-      "covered": 1
+      "total": 2,
+      "covered": 2
     },
     "Four Roses": {
-      "total": 1,
-      "covered": 1
+      "total": 2,
+      "covered": 2
     },
     "Wild Turkey": {
-      "total": 1,
-      "covered": 1
+      "total": 2,
+      "covered": 2
     },
     "The Famous Grouse": {
       "total": 1,
@@ -97,8 +97,8 @@
       "total": 1,
       "covered": 1
     },
-    "Makers Mark": {
-      "total": 1,
+    "Maker’s Mark": {
+      "total": 2,
       "covered": 1
     },
     "Monkey Shoulder": {
@@ -118,6 +118,134 @@
       "covered": 1
     },
     "Dundalgan": {
+      "total": 1,
+      "covered": 1
+    },
+    "The Macallan": {
+      "total": 1,
+      "covered": 1
+    },
+    "The Glenlivet": {
+      "total": 1,
+      "covered": 1
+    },
+    "Laphroaig": {
+      "total": 1,
+      "covered": 1
+    },
+    "Lagavulin": {
+      "total": 1,
+      "covered": 1
+    },
+    "Talisker": {
+      "total": 1,
+      "covered": 1
+    },
+    "Glenmorangie": {
+      "total": 1,
+      "covered": 1
+    },
+    "The Balvenie": {
+      "total": 1,
+      "covered": 1
+    },
+    "Highland Park": {
+      "total": 1,
+      "covered": 1
+    },
+    "Aberlour": {
+      "total": 1,
+      "covered": 0
+    },
+    "The Dalmore": {
+      "total": 1,
+      "covered": 1
+    },
+    "The GlenDronach": {
+      "total": 1,
+      "covered": 1
+    },
+    "Bowmore": {
+      "total": 1,
+      "covered": 1
+    },
+    "Oban": {
+      "total": 1,
+      "covered": 1
+    },
+    "Caol Ila": {
+      "total": 1,
+      "covered": 1
+    },
+    "Bunnahabhain": {
+      "total": 1,
+      "covered": 1
+    },
+    "Buffalo Trace": {
+      "total": 1,
+      "covered": 1
+    },
+    "Woodford Reserve": {
+      "total": 1,
+      "covered": 1
+    },
+    "Bulleit": {
+      "total": 1,
+      "covered": 1
+    },
+    "Knob Creek": {
+      "total": 1,
+      "covered": 1
+    },
+    "Eagle Rare": {
+      "total": 1,
+      "covered": 1
+    },
+    "Elijah Craig": {
+      "total": 1,
+      "covered": 0
+    },
+    "Michter’s": {
+      "total": 1,
+      "covered": 1
+    },
+    "Redbreast": {
+      "total": 1,
+      "covered": 1
+    },
+    "Teeling": {
+      "total": 1,
+      "covered": 1
+    },
+    "Mitchell & Son": {
+      "total": 1,
+      "covered": 1
+    },
+    "Connemara": {
+      "total": 1,
+      "covered": 1
+    },
+    "Writers’ Tears": {
+      "total": 1,
+      "covered": 1
+    },
+    "Nikka": {
+      "total": 2,
+      "covered": 2
+    },
+    "Kavalan": {
+      "total": 1,
+      "covered": 1
+    },
+    "Amrut": {
+      "total": 1,
+      "covered": 1
+    },
+    "Starward": {
+      "total": 1,
+      "covered": 1
+    },
+    "Canadian Club": {
       "total": 1,
       "covered": 1
     }
@@ -4424,8 +4552,8 @@
     },
     {
       "id": "toki-f4832cf8c916",
-      "brand": "Toki",
-      "name": "Suntory Toki",
+      "brand": "Suntory",
+      "name": "Toki",
       "volumeMl": 700,
       "codes": [
         "04901777303553"
@@ -4435,8 +4563,8 @@
     },
     {
       "id": "toki-769a58a24728",
-      "brand": "Toki",
-      "name": "Black",
+      "brand": "Suntory",
+      "name": "Toki Black",
       "volumeMl": 700,
       "codes": [
         "00080686010838"
@@ -5836,7 +5964,7 @@
     {
       "id": "other-5bf6d84baf0d",
       "name": "Original",
-      "brand": "Makers Mark",
+      "brand": "Maker’s Mark",
       "volumeMl": 700,
       "codes": [
         "00085246342978"
@@ -5920,6 +6048,440 @@
       ],
       "status": "verified-code",
       "catalogSource": "https://www.whiskybase.com/whiskies/whisky/260740/dundalgan-blended-irish-whiskey"
+    },
+    {
+      "id": "popular-ad08bbea4e4c",
+      "name": "12 Double Cask",
+      "brand": "The Macallan",
+      "volumeMl": 700,
+      "codes": [
+        "05010314302863"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/macallan-12-years-double-cask.html"
+    },
+    {
+      "id": "popular-85b4b40fd306",
+      "name": "12 Double Oak",
+      "brand": "The Glenlivet",
+      "volumeMl": 700,
+      "codes": [
+        "04005971767156"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/the-glenlivet-12-years-double-oak-html.html"
+    },
+    {
+      "id": "popular-0c74bedf783e",
+      "name": "10",
+      "brand": "Laphroaig",
+      "volumeMl": 700,
+      "codes": [
+        "05010019000163"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/laphroaig-10-year.html"
+    },
+    {
+      "id": "popular-27f3b31c9fef",
+      "name": "16",
+      "brand": "Lagavulin",
+      "volumeMl": 700,
+      "codes": [
+        "05000281005409"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/lagavulin-16-year.html"
+    },
+    {
+      "id": "popular-9054108d9b82",
+      "name": "10",
+      "brand": "Talisker",
+      "volumeMl": 700,
+      "codes": [
+        "05000281005416"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/talisker-10-year.html"
+    },
+    {
+      "id": "popular-ef7dfb98a93f",
+      "name": "The Original 12",
+      "brand": "Glenmorangie",
+      "volumeMl": 700,
+      "codes": [
+        "05010494990393"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/glenmorangie-12-years-the-original.html"
+    },
+    {
+      "id": "popular-d10a05715bbf",
+      "name": "12 DoubleWood",
+      "brand": "The Balvenie",
+      "volumeMl": 700,
+      "codes": [
+        "05010327505138"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/balvenie-12-years-double-wood.html"
+    },
+    {
+      "id": "popular-1b911a609d26",
+      "name": "12",
+      "brand": "Highland Park",
+      "volumeMl": 700,
+      "codes": [
+        "05010314570101"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/highland-park-12-years-2.html"
+    },
+    {
+      "id": "popular-af6f87aebd61",
+      "name": "12 Double Cask Matured",
+      "brand": "Aberlour",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/aberlour/aberlour-12-year-old-double-cask-matured-whisky/"
+    },
+    {
+      "id": "popular-34b59784b4f9",
+      "name": "12",
+      "brand": "The Dalmore",
+      "volumeMl": 700,
+      "codes": [
+        "05010196111010"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/dalmore-12-year.html"
+    },
+    {
+      "id": "popular-399e6303795a",
+      "name": "12",
+      "brand": "The GlenDronach",
+      "volumeMl": 700,
+      "codes": [
+        "05060716145384"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/glendronach-12-year-70-cl.html"
+    },
+    {
+      "id": "popular-d7b4febaae23",
+      "name": "12",
+      "brand": "Bowmore",
+      "volumeMl": 700,
+      "codes": [
+        "05010496001233"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/bowmore-12-year.html"
+    },
+    {
+      "id": "popular-064a03ec3e3f",
+      "name": "14",
+      "brand": "Oban",
+      "volumeMl": 700,
+      "codes": [
+        "05000281005447"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/oban-14-year.html"
+    },
+    {
+      "id": "popular-bfb9574eddd8",
+      "name": "12",
+      "brand": "Caol Ila",
+      "volumeMl": 700,
+      "codes": [
+        "05000281016290"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/caol-ila-12-year.html"
+    },
+    {
+      "id": "popular-d07a9d3b252d",
+      "name": "12",
+      "brand": "Bunnahabhain",
+      "volumeMl": 700,
+      "codes": [
+        "05029704217366"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/bunnahabhain-12-year.html"
+    },
+    {
+      "id": "popular-d014f311e6ca",
+      "name": "Kentucky Straight Bourbon",
+      "brand": "Buffalo Trace",
+      "volumeMl": 700,
+      "codes": [
+        "00080244009984"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/buffalo-trace-bourbon.html"
+    },
+    {
+      "id": "popular-88d9b7f8ed7d",
+      "name": "Distiller’s Select",
+      "brand": "Woodford Reserve",
+      "volumeMl": 700,
+      "codes": [
+        "05099873025871"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/woodford-reserve.html"
+    },
+    {
+      "id": "popular-7df0c0ad605a",
+      "name": "Bourbon",
+      "brand": "Bulleit",
+      "volumeMl": 1000,
+      "codes": [
+        "00087000005549"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/bulleit-bourbon.html"
+    },
+    {
+      "id": "popular-ae829b1b5632",
+      "name": "101",
+      "brand": "Wild Turkey",
+      "volumeMl": 700,
+      "codes": [
+        "08000040500036"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/wild-turkey-101.html"
+    },
+    {
+      "id": "popular-568016f6e9c8",
+      "name": "Single Barrel",
+      "brand": "Four Roses",
+      "volumeMl": 700,
+      "codes": [
+        "05000299603017"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/four-roses-single-barrel-100-proof.html"
+    },
+    {
+      "id": "popular-ef0d3753822c",
+      "name": "46",
+      "brand": "Maker’s Mark",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.drankgigant.nl/makers-46.html"
+    },
+    {
+      "id": "popular-3f2cf7bf942b",
+      "name": "9",
+      "brand": "Knob Creek",
+      "volumeMl": 700,
+      "codes": [
+        "05060045589620"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/knob-creek-9-year-old-100-proof.html"
+    },
+    {
+      "id": "popular-14107b53bf66",
+      "name": "10",
+      "brand": "Eagle Rare",
+      "volumeMl": 700,
+      "codes": [
+        "00088004005764"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/eagle-rare-10-years-single-barrel.html"
+    },
+    {
+      "id": "popular-64d08b9864cc",
+      "name": "Small Batch",
+      "brand": "Elijah Craig",
+      "volumeMl": 700,
+      "codes": [],
+      "status": "no-verified-code",
+      "catalogSource": "https://www.drankgigant.nl/elijah-craig-12-year.html"
+    },
+    {
+      "id": "popular-694019cf40d3",
+      "name": "US*1 Bourbon",
+      "brand": "Michter’s",
+      "volumeMl": 700,
+      "codes": [
+        "04002547107606"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/michter-s-small-batch-bourbon.html"
+    },
+    {
+      "id": "popular-a83475b4084a",
+      "name": "12",
+      "brand": "Redbreast",
+      "volumeMl": 700,
+      "codes": [
+        "05011007008345"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/redbreast-12-year.html"
+    },
+    {
+      "id": "popular-b6edaac097ae",
+      "name": "Small Batch",
+      "brand": "Teeling",
+      "volumeMl": 700,
+      "codes": [
+        "05391523270021"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/teeling-whiskey-small-batch.html"
+    },
+    {
+      "id": "popular-0bc4fd437564",
+      "name": "Green Spot",
+      "brand": "Mitchell & Son",
+      "volumeMl": 700,
+      "codes": [
+        "05011007008482"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/green-spot.html"
+    },
+    {
+      "id": "popular-20d6f15d28a5",
+      "name": "Original",
+      "brand": "Connemara",
+      "volumeMl": 700,
+      "codes": [
+        "05099357002305"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/connemara-irish-malt.html"
+    },
+    {
+      "id": "popular-5f0f802ab52e",
+      "name": "12",
+      "brand": "Tullamore D.E.W.",
+      "volumeMl": 700,
+      "codes": [
+        "05391516892469"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/tullamore-dew-12-year.html"
+    },
+    {
+      "id": "popular-12c64b3cd3ec",
+      "name": "Copper Pot",
+      "brand": "Writers’ Tears",
+      "volumeMl": 700,
+      "codes": [
+        "05099811905739"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/writers-tears-copper-pot.html"
+    },
+    {
+      "id": "popular-63c78729ae8c",
+      "name": "From the Barrel",
+      "brand": "Nikka",
+      "volumeMl": 500,
+      "codes": [
+        "04904230100683"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/nikka-from-the-barrel.html"
+    },
+    {
+      "id": "popular-c35b23d84835",
+      "name": "Days",
+      "brand": "Nikka",
+      "volumeMl": 700,
+      "codes": [
+        "03700597306383"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/nikka-days.html"
+    },
+    {
+      "id": "popular-87d0c3fd578e",
+      "name": "Hibiki Japanese Harmony",
+      "brand": "Suntory",
+      "volumeMl": 700,
+      "codes": [
+        "00080686007913"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/hibiki-harmony.html"
+    },
+    {
+      "id": "popular-04d8a0217769",
+      "name": "Yamazaki Distiller’s Reserve",
+      "brand": "Suntory",
+      "volumeMl": 700,
+      "codes": [
+        "04901777254800"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/yamazaki-distillers-reserve-70cl.html"
+    },
+    {
+      "id": "popular-d962bc339eff",
+      "name": "Hakushu Distiller’s Reserve",
+      "brand": "Suntory",
+      "volumeMl": 700,
+      "codes": [
+        "04901777254695"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/suntory-hakushu-distillers-edition.html"
+    },
+    {
+      "id": "popular-75c6f793b59d",
+      "name": "Classic",
+      "brand": "Kavalan",
+      "volumeMl": 700,
+      "codes": [
+        "04710085206711"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/kavalan-single-malt.html"
+    },
+    {
+      "id": "popular-39d5e2c073b8",
+      "name": "Fusion",
+      "brand": "Amrut",
+      "volumeMl": 700,
+      "codes": [
+        "08901193004122"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/amrut-fusion.html"
+    },
+    {
+      "id": "popular-64986651ac73",
+      "name": "Two-Fold",
+      "brand": "Starward",
+      "volumeMl": 700,
+      "codes": [
+        "09346943000259"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.masterofmalt.com/whiskies/starward/starward-two-fold-whisky/"
+    },
+    {
+      "id": "popular-3917de65350c",
+      "name": "Original",
+      "brand": "Canadian Club",
+      "volumeMl": 700,
+      "codes": [
+        "00080686816072"
+      ],
+      "status": "verified-code",
+      "catalogSource": "https://www.drankgigant.nl/canadian-club.html"
     }
   ]
 }

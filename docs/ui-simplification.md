@@ -1,3 +1,5 @@
+> Historyczna migawka interfejsu. Aktualny model danych, kopie i synchronizację opisuje [niezawodność dziennika](reliability-and-catalog.md).
+
 # Skaner i uproszczenie Dram — 18.10.2026
 
 ## Przyczyna i naprawa

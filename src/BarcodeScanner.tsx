@@ -9,7 +9,7 @@ import type { Bottle, Whisky } from './model'
 
 type Props = {
   all: Whisky[]; entries: BarcodeEntry[]; links: BarcodeLink[]; bottles: Bottle[];
-  onAdd: (whisky: Whisky, code: string, remember: boolean) => void;
+  onAdd: (whisky: Whisky, code: string, remember: boolean) => void | Promise<void>;
   onCreate: (code: string) => void;
   renderPhoto: (whisky: Whisky) => ReactNode;
 }
@@ -81,10 +81,10 @@ export default function BarcodeScanner({ all, entries, links, bottles, onAdd, on
     } finally { if (mounted.current && task === photoTask.current) setBusy(false) }
   }
   function reset() { stopCamera(); photoTask.current++; setBusy(false); setCode(''); setSelected(null); setInput(''); setQuery(''); setError(''); setPicking(false); setAdding(false); confirming.current = false }
-  function confirm() {
+  async function confirm() {
     if (!selected || !code || confirming.current || owned >= 999) return
     confirming.current = true; setAdding(true)
-    try { onAdd(selected, code, remember) }
+    try { await onAdd(selected, code, remember) }
     catch (e) { setError(e instanceof Error ? e.message : 'Nie udało się dodać butelki.'); confirming.current = false; setAdding(false) }
   }
   function choose(w: Whisky) { setSelected(w); setPicking(false); setError('') }

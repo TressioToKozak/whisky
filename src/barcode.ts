@@ -41,7 +41,7 @@ export function addBarcodeBottle(journal: Journal, whisky: Whisky, input: string
   return {
     ...journal,
     bottles: bottle ? journal.bottles.map(b => b.whiskyId === whisky.id ? { ...b, quantity: b.quantity + 1 } : b)
-      : [...journal.bottles, { whiskyId: whisky.id, quantity: 1, opened: false }],
+      : [...journal.bottles, { whiskyId: whisky.id, quantity: 1, openedCount: 0 }],
     wishlist: journal.wishlist.filter(id => id !== whisky.id),
     ...(remember ? { barcodeLinks: [...links.filter(link => link.code !== code), { code, whiskyId: whisky.id }] } : {}),
   }

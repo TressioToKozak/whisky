@@ -1,3 +1,5 @@
+> Historyczna migawka interfejsu. Aktualny model danych, kopie i synchronizację opisuje [niezawodność dziennika](reliability-and-catalog.md).
+
 # Dram: przebudowa interfejsu, 18.10.2026
 
 Opis wcześniejszego etapu projektu. Aktualne uproszczenie ekranu startowego, kart i szczegółów opisuje [ui-simplification.md](ui-simplification.md).

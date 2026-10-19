@@ -1,114 +1,89 @@
 # Dram — dziennik whisky
 
-Mobilny dziennik whisky: własny barek, lista życzeń i oceny degustacji. React + TypeScript + Vite. Interfejs po polsku, dolna nawigacja na telefonie, panel boczny na komputerze.
+Aplikacja React + TypeScript + Vite na telefon i komputer: katalog whisky, własny barek, lista życzeń i dziennik degustacji. Interfejs PL/EN, region Polska (PLN) lub Holandia (EUR), bez obowiązkowego konta i backendu.
 
-## Funkcje
+## Aktualny stan
 
-- 579 kart: 253 Johnnie Walker / John Walker & Sons, 122 Jack Daniel’s, 18 Jamesonów oraz 186 pozycji pozostałych ośmiu marek. Każda ma autentyczne zdjęcie, parametry, cenę orientacyjną i źródła.
-- Jedenaście wypełnionych marek, w tym Jameson i Chivas Regal. TOKI ma przezroczysty znak literowy wyizolowany z etykiety producenta za pomocą edytora obrazów; zdjęcia butelek są oryginalne.
-- Wspólny barek, życzenia i oceny dla wszystkich marek.
-- Wyszukiwanie po nazwie, serii i nutach smakowych; filtry edycji; domyślne sortowanie cenowe oraz sortowanie po nazwie, własnej średniej ocen i wieku.
-- Barek z liczbą butelek i oznaczeniem otwartej butelki. Dodanie do barku usuwa whisky z życzeń.
-- Lista życzeń, wiele degustacji tej samej whisky, oceny 1–10 co 0,5, data, własne notatki i wybrane aromaty. Edycja i usuwanie degustacji.
-- Własne wpisy whisky ze zdjęciem z telefonu lub adresem HTTPS. Zdjęcia z telefonu są zmniejszane lokalnie przed zapisaniem.
-- Ochrona przed nadpisaniem uszkodzonego zapisu. Bez panelu ustawień i komunikatów o pamięci urządzenia w zwykłym interfejsie.
-- Manifest do dodania strony do ekranu głównego. Brak service workera: ponowne załadowanie aplikacji wymaga sieci.
+Statystyki wynikają z danych katalogu; `npm test` sprawdza ich zgodność. Aktualizacja: `node scripts/catalog-stats.mjs --write`.
 
-Dane dziennika są przechowywane w `localStorage` konkretnej przeglądarki. Aplikacja nie wymaga konta ani backendu, nie synchronizuje urządzeń i nie wysyła ocen na serwer. Odzyskanie zapisu jest dostępne wyłącznie w komunikacie rzeczywistego błędu odczytu lub zapisu.
+<!-- catalog-stats:start -->
+| Aktualny katalog | Liczba |
+| --- | ---: |
+| Wydań | 638 |
+| Nazw marek w katalogu | 61 |
+| Grup wyboru | 12 (11 marek + „Inne”) |
+| Potwierdzonych kodów | 241 |
+| Wydań z potwierdzonym kodem | 244 |
+| Wycenionych pozycji | 632 |
+| Pozycji bez wyceny | 6 |
+| Referencji poza sumą kolekcji | 18 |
+| Krajów pochodzenia | 8 |
+| Pozycji z nieustalonym krajem | 1 |
+<!-- catalog-stats:end -->
 
-## Uruchomienie
+„Marki” oznaczają różne wartości pola `brand`; grupy wyboru to odrębna liczba. Suntory obejmuje linie Toki, Hibiki, Yamazaki i Hakushu. Pozostałe marki spoza nazwanych grup są w „Innych”. Katalog zachowuje osobne etykiety, opakowania i rzadkie wydania, więc liczba pozycji nie oznacza liczby unikatowych receptur.
 
-Node.js 24 (przetestowano 24.19.0) i npm.
+## Funkcje i dane użytkownika
+
+- Barek zapisuje całkowitą liczbę butelek oraz liczbę otwartych. Zamknięte = wszystkie − otwarte; otwartych nigdy nie może być więcej niż wszystkich. Skan dodaje jedną zamkniętą butelkę. Filtry „Otwarte” i „Nieotwarte” mogą pokazać to samo wydanie, jeżeli masz oba rodzaje butelek.
+- Wartość barku to cena razy cała liczba butelek, również otwartych. Życzenia liczą jedną butelkę każdego wydania. Brak ceny oraz oznaczone `referenceOnly` wyklucza się z obu sum. Filtry nie zmieniają sumy kolekcji.
+- Oceny 1–10 co 0,5, wiele degustacji, daty, notatki, aromaty, edycja i usuwanie. Własne whisky, zdjęcia i przypisania kodów pozostają częścią dziennika.
+- Ustawienia zawierają eksport pełnego JSON oraz import z walidacją, podglądem liczby wpisów, pobraniem obecnej kopii i potwierdzeniem zastąpienia danych. Niepoprawny plik niczego nie nadpisuje. Starsze poprawne kopie v1 są obsługiwane.
+- Karty tej samej przeglądarki aktualizują widok po zapisie. Zapis jest kontrolowany wspólną blokadą i porównaniem aktualnej wersji. Konflikt nie nadpisuje nowszych danych; można pobrać niezapisany wariant. Nie synchronizuje to różnych urządzeń.
+- Aparat, zdjęcie kodu oraz ręczny EAN/UPC/GTIN; dekodowanie lokalne. Rozpoznanie nigdy nie dodaje butelki bez potwierdzenia. Nieznany kod można powiązać z katalogiem lub własnym wpisem.
+- Wyszukiwanie całego katalogu obsługuje apostrofy, polskie znaki, łączone nazwy i dowolną kolejność słów. Niezależne filtry obejmują typ whisky, informację o wieku i liczbę lat, kategorię wydania i stan butelek.
+
+Dziennik v2 jest w `dram.journal.v2`; wcześniejszy zapis `dram.journal.v1` pozostaje nietknięty. Migracja zachowuje ID i wpisy; `opened: true` daje jedną otwartą butelkę, `false` — zero. Starsza karta nie może nadpisać nowszego dziennika, bo używa wcześniejszego klucza. Jej późniejsze zmiany sygnalizuje komunikat z możliwością pobrania kopii. Ustawienia języka i regionu mają osobny klucz `dram.preferences.v1`.
+
+Blokada zapisu korzysta ze wspólnej transakcji IndexedDB; Web Locks stanowi dodatkową warstwę w obsługujących je przeglądarkach. IndexedDB przechowuje wyłącznie strukturę koordynacji, nie kopię dziennika. Jeśli bezpieczna blokada albo zapis nie są dostępne, aplikacja zgłasza błąd i zachowuje dotychczasowe dane. Przy braku miejsca migracja nie usuwa starszego zapisu; można go wyeksportować. Przeglądarka może usunąć dane po czyszczeniu pamięci — warto pobierać kopie.
+
+## Klasyfikacja i wiarygodność
+
+`whiskyType` jest niezależny od kategorii Klasyka / Edycja specjalna / Kolekcjonerska. Likiery, napoje smakowe i historyczne wydania pozostają w tych samych listach. `ageStatus` odróżnia deklarowany wiek, potwierdzone NAS oraz brak danych. Samo `age: null` nie oznacza NAS. Dla nieustalonego typu lub wieku aplikacja nie zgaduje.
+
+`country` oznacza kraj pochodzenia/produkcji, `region` region produkcji, a opcjonalne `salesMarket` rynek sprzedaży. Nie wyprowadzamy kraju z języka strony sprzedawcy. Dla europejskiego Jim Beam Peach 32,5% kraj jest nieustalony: wcześniejsze wskazanie Hiszpanii przez sklep nie zostało niezależnie potwierdzone, a amerykańska karta producenta potwierdza bazowy bourbon z Kentucky, nie produkcję tego europejskiego wariantu.
+
+Ceny mają źródło, datę, pojemność, walutę oryginalną i rodzaj notowania. Preferowane są oferty NL; występują też referencje zagraniczne, wyniki/mediany aukcji oraz jawnie oznaczone ceny zgłoszone przez użytkownika. Zachowano dotychczasowe zasady wyceny, również wyprzedanych i archiwalnych wydań. Kursy oraz ograniczenia importu/dostawy są opisane przy cenie. PLN bez polskiej oferty oznacza przeliczenie referencji, a nie ofertę polskiego sklepu. Sześć wcześniejszych butelek sklepowych pozostaje bez potwierdzonej ceny.
+
+## Zdjęcia i źródła
+
+- `src/catalog.json`, `src/prices.json`, `src/barcodes.json` — dane aplikacji, trwałe ID.
+- `data/catalog-sources.json` — źródło zdjęcia, wymiary, data i SHA-256.
+- `data/price-evidence.json`, `data/barcode-audit.json` — dowody cen i potwierdzonych kodów; `data/barcode-coverage.json` obejmuje każdą bieżącą pozycję.
+- `data/classification-audit-2026-10-19.json` — przegląd klasyfikacji wcześniejszego katalogu; `data/popular-expansion-2026-10-19.json` — wszystkie 40 nowych pozycji oraz korekty i ograniczenia.
+
+Wcześniejsze 598 plików zdjęć pozostało bez zmian. Czterdzieści nowych fotografii jest linkowanych z oryginalnych publicznych źródeł sprzedawców, bez publikowania ich kopii w repozytorium, generowania obrazów ani przerysowywania etykiet. W szczegółach jest podpis źródła; zachowano SHA-256 sprawdzonych obrazów. Nie deklarujemy otwartej licencji do cudzych fotografii. Dostępność linkowanego obrazu zależy od źródła. `tests/remote-photos.py` sprawdza dostępność i zgodność SHA przez HTTPS.
+
+`src/photo-layout.json` oraz `data/photo-framing.json` przechowują nieinwazyjne kadrowanie CSS. `python scripts/analyze-photos.py` mierzy lokalne oryginały i zachowuje zatwierdzone kadry zdjęć linkowanych; nie pobiera ich ani nie publikuje automatycznie. Wszystkie pola zdjęć mają białe tło; zachowano rzeczywiste etykiety, perspektywę i cienie. Logotyp Suntory pochodzi bezpośrednio z House of Suntory, pozostałe źródła opisuje `data/brand-sources.json`.
+
+## Uruchomienie i testy
+
+Node.js 24, npm; ścieżka bazowa `/whisky/`.
 
 ```sh
 npm ci
 npm run dev
-```
-
-Aplikacja używa ścieżki bazowej `/whisky/`, zgodnej z repozytorium GitHub Pages. Aby hostować ją w katalogu głównym innej domeny, zmień `base` w `vite.config.ts` oraz `start_url` i `scope` w `public/manifest.webmanifest`.
-
-```sh
 npm test
 npm run build
 npm run preview
 ```
 
-Testy modelu sprawdzają kopie, nieprawidłowe dane, unikatowość katalogu oraz sumy SHA-256 wszystkich zdjęć. Testy przeglądarkowe wymagają Python Playwright i Chromium:
+Testy przeglądarkowe wymagają Python Playwright i Chromium (`CHROMIUM_PATH` może wskazać plik wykonywalny). Każdy plik `tests/*-e2e.py` oraz `tests/e2e.py` można uruchomić wobec lokalnego serwera:
 
 ```sh
-python -m pip install playwright
-DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/e2e.py
+DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/journal-e2e.py
+DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/catalog-features-e2e.py
+python tests/remote-photos.py
 ```
 
-`CHROMIUM_PATH` pozwala wskazać inną lokalizację Chromium. Testy używają izolowanej sesji przeglądarki i nie zmieniają Twoich danych. Obejmują wyszukiwanie, filtrowanie, paginację, życzenia → barek, ilości, otwarcie butelki, dodawanie/edycję ocen, zdjęcie własnej whisky, ochronę uszkodzonego zapisu, trwałość po odświeżeniu i szerokości 320–1440 px.
-
-## Katalog i prawdziwe zdjęcia
-
-Stan weryfikacji: **19 października 2026**. Źródła: publiczne karty producenta, Master of Malt, The Whisky Exchange, Drankgigant, Topdrinks oraz zakończone aukcje Scotch Whisky Auctions. Uwzględniono różne wydania, projekty etykiet i historyczne butelkowania — liczba kart nie oznacza 579 różnych receptur. Nie dodajemy osobnych pozycji wyłącznie dla innej pojemności, braku kartonika lub zestawu z kieliszkami.
-
-- `src/catalog.json`: dane używane przez aplikację; stałe identyfikatory.
-- `public/bottles/`: 579 zdjęć pobranych ze źródeł, bez generowania obrazów ani podmieniania etykiet.
-- `data/catalog-sources.json`: oryginalna nazwa produktu, strona źródłowa, adres zdjęcia, rozmiar, data sprawdzenia i suma SHA-256.
-- `data/catalog-exclusions.json`: pominięte oferty, w tym zastępcza grafika „Waiting to be shot”.
-
-Zdjęcia skontrolowano także wizualnie w galerii całego katalogu. Nazwy i zdjęcia należą do odpowiednich właścicieli; aplikacja podaje ich źródła. Dane nie stanowią zapewnienia aktualnej dostępności w sklepach. Dla whisky archiwalnych parametry odnoszą się do sfotografowanego wydania. Etykieta NAS oznacza brak deklaracji wieku w zapisanych danych. Kategorie są redakcyjnym podziałem kolekcji; „edycja specjalna” obejmuje również wydania regionalne.
-
-Przy aktualizacji katalogu sprawdź nazwę i etykietę każdego zdjęcia. Nie dodawaj ilustracji zastępczych sprzedawców ani duplikatów samych pojemności. Zachowaj istniejące identyfikatory — dziennik użytkownika odwołuje się do nich. Zapisz pochodzenie i sumę pliku oraz uruchom testy.
+Testy używają izolowanych przeglądarek, nigdy rzeczywistych zapisów użytkowników. Obejmują migrację v1, kompletne kopie, błędny import, konflikty z dwóch kart, szkice notatek, starszą kartę v1, blokadę bez Web Locks, otwarte/zamknięte butelki, skaner zdjęć i kamery, źródła, ceny i zachowanie ID. Testy układu sprawdzają 320–1440 px oraz dostępne kontrole WCAG. `node scripts/catalog-stats.mjs --check` wykrywa nieaktualne statystyki README.
 
 ## Publikacja
 
-Workflow `.github/workflows/deploy-pages.yml` instaluje zależności z lockfile, uruchamia testy, buduje aplikację i publikuje artefakt przez GitHub Pages po zmianie gałęzi `main`. Zalecanym źródłem Pages w ustawieniach repozytorium jest **GitHub Actions**. Jeśli repozytorium nadal automatycznie publikuje pliki z `main` w trybie legacy, workflow czeka na zakończenie tej publikacji, a następnie publikuje zbudowaną aplikację. Zapobiega to nadpisaniu buildu surowym `index.html` odwołującym się do TSX. Po publikacji `scripts/check-deployment.mjs` pobiera publiczny HTML i sprawdza dostępność oraz typ MIME skompilowanego JavaScriptu i CSS. Dodatkowy test publicznej strony można uruchomić przez `python tests/live-smoke.py`. Publikacja środowiska Codex to osobna operacja od publikacji strony w GitHub Pages.
+`.github/workflows/deploy-pages.yml` uruchamia instalację z lockfile, testy i build, następnie publikuje przez GitHub Pages. Workflow czeka na ewentualną publikację legacy, żeby surowy HTML nie nadpisał buildu Vite. `scripts/check-deployment.mjs` weryfikuje publiczny HTML i skompilowane zasoby. Pełniejszy test publicznej strony: `python tests/live-smoke.py`. Manifest pozwala dodać aplikację do ekranu głównego; brak service workera, więc ponowne załadowanie wymaga sieci.
 
-## Orientacyjne ceny
+## Dokumentacja i historia
 
-Ceny w EUR: 145 ofert sklepów holenderskich, 260 wycen na podstawie sprzedanych aukcji, 172 referencje zagraniczne oraz 2 ceny zgłoszone przez użytkownika: Sabrina 25 € w Gall & Gall (promocja) i Sweet Blend ok. 19 € w Al Capone w Polsce (obie bez niezależnego potwierdzenia). Rodzaj źródła jest widoczny na karcie. Szczegóły, data i odnośnik znajdują się w whisky. Aukcje nie obejmują prowizji, podatków i dostawy; mediany obejmują do pięciu dopasowanych sprzedaży. Zagraniczne ceny są przeliczane według kursu z 16.10.2026, a nowe Goldfinch z 17.10.2026, bez szacowania importu. Ceny nie są proporcjonalnie przeliczane. 18 odniesień bez zgodnej pojemności lub mocy ma oznaczenie „ref.” i nie jest uwzględniane w wartości barku ani życzeń. Dowody: `data/price-evidence.json`, kurs: `data/exchange-rate.json`.
+Aktualny opis migracji, kopii, synchronizacji i rozbudowy: [niezawodność i katalog](docs/reliability-and-catalog.md). Skaner: [docs/barcode-scanning.md](docs/barcode-scanning.md). Kroje Fraunces / DM Sans: [licencje](public/font-notices.txt).
 
-Domyślnie katalog jest sortowany od najniższej ceny. Dodano 114 wydań Johnnie Walkera i 122 wydań Jack Daniel’s, zachowując wszystkie wcześniejsze identyfikatory i zapisane dane. To katalog potwierdzonych wydań, nie deklaracja kompletności wszystkich historycznych etykiet. Zdjęcia są oryginalnymi plikami źródłowymi, bez generowania i retuszu.
-
-## Kadrowanie i nowe marki
-
-`src/brands.ts` przypisuje whisky do marek; wszystkie jedenaście marek ma whisky. Dotychczasowe identyfikatory katalogu pozostają niezmienione. `data/brand-sources.json` zawiera pochodzenie i sumy logotypów, a `data/jack-daniels-audit.json` opisuje przegląd nowych wydań, wykluczenia i korekty. Nie uznajemy za osobne edycje każdej pojemności lub pudełka. Whisky smakowe Honey, Fire, Apple i Blackberry są opisane jako likiery na bazie whiskey; Winter Jack jako whiskey punch.
-
-Pliki oryginalnych zdjęć pozostają niezmienione. `scripts/analyze-photos.py` (Pillow) mierzy wolne marginesy i kolor tła, zapisując wyłącznie metadane w `src/photo-layout.json`. CSS przybliża kadr i łagodnie łączy krawędzie. Wszystkie fotografie mają wspólne białe pole; oryginalne cienie i perspektywa pozostają zachowane. Ręczne ramy w `data/photo-framing.json` odcinają tło Winter i torbę zakupową przy Spring, zachowując oryginalne piksele butelek. Nie generujemy etykiet. Przeglądarki bez `object-view-box` pokazują pełne oryginalne zdjęcie. Po zmianie zdjęć uruchom analizę ponownie, testy i build.
-
-Dodatkowy test: `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/brands-e2e.py` — wybór jedenastu wypełnionych marek, sortowanie cenowe, źródła, wspólne życzenia i szerokości 320–1440 px.
-
-Własne wpisy spoza jedenastu marek pozostają dostępne przez „Moje własne wpisy” na ekranie wyboru. Rozdzielenie marek nie migruje ani nie usuwa dziennika.
-
-Rozszerzenie 18.10: Jim Beam 12, Goldfinch 18, Ardbeg 18, Bushmills 19, Ballantine’s 8, Toki 2, Chivas Regal 13. Ceny Goldfinch pochodzą z katalogu producenta UK, również dla wyprzedanych wydań; są referencją zagraniczną, a nie bieżącą ofertą NL. Podsumowanie w `data/catalog-expansion-2026-10-18.json`.
-
-## Wyszukiwanie i wartość barku
-
-Wyszukiwarka na ekranie wyboru marki przeszukuje cały katalog i własne wpisy bez otwierania marki; obsługuje apostrofy, polskie znaki, dowolną kolejność słów i paginację. Wartość barku to suma cen katalogowych razy liczba butelek, niezależna od filtra listy. Otwartej butelki nie przeliczamy według nieznanej ilości pozostałego płynu. Nieznane ceny własnych wpisów są wyraźnie wyłączone z sumy i policzone osobno.
-
-Dodano Glenfiddich (30 wydań) i 46 pozycji w pozostałych markach. Audyt: `data/catalog-expansion-glenfiddich-2026-10-18.json`. Cena Sweet Blend pochodzi ze zgłoszenia użytkownika; producent potwierdza 30% i klasyfikację spirit drink. Źródłowe zdjęcie producenta ma niebieskie linie techniczne, wykluczone wyłącznie maską CSS w `data/photo-framing.json`. Logotyp Glenfiddich został wyizolowany edytorem obrazu z autentycznego zdjęcia butelki; nie jest oryginalnym plikiem wektorowym. Wszystkie zdjęcia butelek pozostają oryginalne.
-
-`DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/discovery-cellar-e2e.py` sprawdza wyszukiwanie między markami, paginację, Sweet Blend, ilości, wartość barku niezależną od filtrów, brakujące wyceny, trwałość i szerokości 320–1440 px.
-
-## Skanowanie butelek
-
-Barek obsługuje skan aparatem, zdjęcie kodu oraz wpisanie EAN/UPC-A. Po potwierdzeniu nazwy i pojemności dodawana jest jedna butelka; kolejne skany zwiększają ilość. Indeks zawiera 178 sprawdzonych kodów dla 182 pozycji (poprzednio 113 / 112). Nieznane kody można powiązać z katalogiem lub własnym wpisem. Aparat uruchamia się na żądanie i zatrzymuje po odczycie lub zamknięciu; obraz jest dekodowany lokalnie. Nie wymaga konta ani dodatkowego serwera.
-
-Analiza ograniczeń, pochodzenie kodów, zgodność zapisów i zakres testów: [docs/barcode-scanning.md](docs/barcode-scanning.md). Nowe zależności ZXing są przypięte w lockfile i instalowane przez `npm ci`. Aparat na publicznej stronie wymaga HTTPS oraz zgody przeglądarki. Test przeglądarkowy: `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/barcode-e2e.py`.
-
-## System interfejsu
-
-Ciepła paleta drewna i papieru, Fraunces w nagłówkach i DM Sans w treściach. Ekran startowy skupia się na wyszukiwaniu i kompaktowym wyborze marki; katalog, barek i historia degustacji mają osobne układy. Tokeny i reguły responsywności są w `src/styles.css`, a komponenty widoków w `src/components/`.
-
-Zakres zmian i kontrola jakości: [docs/redesign.md](docs/redesign.md). Licencje dołączonych krojów: [public/font-notices.txt](public/font-notices.txt).
-
-## Uproszczenie interfejsu i kody
-
-Ekran startowy ogranicza się do wyszukiwarki, marek i skrótu do barku. Na karcie jest jedna akcja zmiany kolekcji; życzenia i degustacje obsługuje się w szczegółach. Własny wpis jest dostępny przez dyskretny link pod markami i przy nieznanym kodzie. Usunięto sekcję odnośników „Źródła”, zachowując metadane katalogu i rozwijane pochodzenie ceny.
-
-Życzenia pokazują wartość całej listy: jedną butelkę każdej pozycji, niezależnie od wyszukiwania. Brakujące wyceny są liczone osobno. Raport wszystkich 579 pozycji: `data/barcode-coverage.json`. Szczegóły zmian, potwierdzone kody i ograniczenia: [docs/ui-simplification.md](docs/ui-simplification.md).
-
-## Audyt i Jameson — 19.10.2026
-
-Dodano 38 udokumentowanych wydań: Jameson 18, Chivas Regal 7, Bushmills 4, Ballantine’s 4, Ardbeg 2, Glenfiddich 2 i Jim Beam 1. Przejrzano również Johnnie Walkera, Jack Daniel’s, Goldfinch i Toki; nie dodano duplikatów samych pojemności, akcesoriów ani niepotwierdzonych wydań.
-
-[Raport audytu](docs/catalog-audit-2026-10-19.md) opisuje wszystkie 579 zdjęć i cen oraz inspekcję kodów. Potwierdzono źródła 317 cen sklepowych i 260 wycen aukcyjnych. Skorygowano 18 median po odrzuceniu niezgodnych pojemności lub mocy; 18 pozostałych referencji wyłączono z sumy kolekcji; dwie zgłoszone ceny pozostają oznaczone jako niepotwierdzone niezależnie. Podstawowe 541 oryginalnych fotografii zachowuje wcześniejsze sumy SHA-256. Znak Jamesona wyizolowano edytorem z fotografii autentycznej etykiety; nie jest oficjalnym plikiem wektorowym. Żadnego zdjęcia butelki nie wygenerowano ani nie przerysowano.
-
-Aktualizacja „Inne”: 598 wydań w 12 kategoriach, w tym whisky sklepowe z Biedronki i Lidla. Ustawienia pozwalają niezależnie wybrać PL/EN oraz Polskę (PLN) lub Holandię (EUR). Zagraniczne referencje w PLN mają jawny kurs w szczegółach ceny; sześć wydań sklepowych pozostaje bez potwierdzonej ceny. Baza skanera zawiera 204 potwierdzone kody obejmujące 207 wydań — pozostałe można dopasować po skanie. Szczegóły i ograniczenia w [audycie katalogu](docs/catalog-audit-2026-10-19.md).
-
-Dodatkowe testy: `node --test tests/preferences.test.mjs` oraz `DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/preferences-e2e.py`.
+Poprzednie raporty zachowano jako **historyczne migawki**, a nie bieżące statystyki: [audyt i Jameson](docs/catalog-audit-2026-10-19.md), [projekt interfejsu](docs/redesign.md), [uproszczenie interfejsu](docs/ui-simplification.md), `data/catalog-expansion-*.json`, `data/other-category-audit-2026-10-19.json`. Ich dawne liczby i dawny model barku odnoszą się do wskazanego etapu projektu.

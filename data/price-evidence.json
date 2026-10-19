@@ -17579,5 +17579,659 @@
         "sourceSha256": "b6344eedceb1e6d91edfdd39516e61dcef3f262e154adfc9d1056deb23619969"
       }
     ]
+  },
+  "popular-ad08bbea4e4c": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "The Macallan 12 Double Cask",
+        "amount": 64.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/macallan-12-years-double-cask.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "9ea2d1e49e04ed1e5a5d5a4ebdc47f2dfb01fbe96408ef8b8992313af752e265",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-85b4b40fd306": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "The Glenlivet 12 Double Oak",
+        "amount": 34.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/the-glenlivet-12-years-double-oak-html.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "6e9c6ac93e2328f26456fea6fe41bdc9ad5024dee39ef26b9b194c8fe3afa842",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-0c74bedf783e": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Laphroaig 10",
+        "amount": 31.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/laphroaig-10-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "5c0464bf016657b4bb9bf271549b230bedc04cc93652ac75eebe04c38b52c26f",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-27f3b31c9fef": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Lagavulin 16",
+        "amount": 59.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/lagavulin-16-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "de4d57f0d4fd8cf8ab7b6226fc75fc2209f5312f8b26ac4857060f270cfd33d6",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-9054108d9b82": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Talisker 10",
+        "amount": 29.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 45.8,
+        "source": "https://www.drankgigant.nl/talisker-10-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "d3dfc9a72a5a2d9f791fc2e1b1bec44d66d5e9e83781661cc0269ac8d5b9cd4f",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "abvCorrection": {
+      "source": "https://www.masterofmalt.com/whiskies/talisker/talisker-10-year-old-whisky/",
+      "sha256": "ed55b91d468c090604321328f15182c8de0735e79d0126bd5a6f8b5b4d76d394",
+      "publishedRetailerRounded": 46.0,
+      "confirmed": 45.8,
+      "evidence": "70cl | 45.8%"
+    }
+  },
+  "popular-ef7dfb98a93f": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Glenmorangie The Original 12",
+        "amount": 32.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/glenmorangie-12-years-the-original.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "09595e21f3d68ab40688dd52463b9d1149134543317af5fc7da2bec29751f4fe",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-d10a05715bbf": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "The Balvenie 12 DoubleWood",
+        "amount": 48.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/balvenie-12-years-double-wood.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "15dea9e8fc54a12414b7444415cfef681359afbbb7dd4aa06a768f94d4fc2f3c",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-1b911a609d26": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Highland Park 12",
+        "amount": 34.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/highland-park-12-years-2.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "a26faf10987c4c598596ac40b1155078553556c2c86d69a82d31e437109cd259",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-af6f87aebd61": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Aberlour 12 Double Cask Matured",
+        "amount": 43.14,
+        "currency": "GBP",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.masterofmalt.com/whiskies/aberlour/aberlour-12-year-old-double-cask-matured-whisky/?sku=27171",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "ca7207b95ea9cc7d003636f7f8bc611b6cb36f6e5795d7a2b8db8ef06340dc59",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-34b59784b4f9": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "The Dalmore 12",
+        "amount": 49.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/dalmore-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "63926581e3cbd4b281f384d8a6a840825ee38620c55897a7d17a5c107c20026a",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-399e6303795a": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "The GlenDronach 12",
+        "amount": 39.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/glendronach-12-year-70-cl.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "039dd2b68293f44d1d90c092b969e8080f0b63cfbb885d1c07a2230a0aed2e63",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-d7b4febaae23": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Bowmore 12",
+        "amount": 37.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/bowmore-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "198246d14c5c41cb143c4c7f0d7e6596bb669de9dc935d8468be50dabd6627ac",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-064a03ec3e3f": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Oban 14",
+        "amount": 53.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/oban-14-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "63e5b5d0a42b9e7beb05415c52a115c7458a252f89e255f50dd898a38e501083",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-bfb9574eddd8": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Caol Ila 12",
+        "amount": 37.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/caol-ila-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "c5278dd147bf62ee02c7036208dc5eaa92d8693117b4a5caddaad55b27dd49c8",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-d07a9d3b252d": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Bunnahabhain 12",
+        "amount": 39.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 46.3,
+        "source": "https://www.drankgigant.nl/bunnahabhain-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "990541295d8c0af26e1ea0b911b8778d3816ac94ca911e437e1f3b27876728f0",
+        "availability": "https://schema.org/InStock"
+      }
+    ],
+    "abvCorrection": {
+      "source": "https://www.masterofmalt.com/whiskies/bunnahabhain/bunnahabhain-12-year-old-whisky/",
+      "sha256": "1015cf22bcff5ee42db50a295213c3da81d9052f4ba1e55de37ad06061f66dc9",
+      "publishedRetailerRounded": 46.0,
+      "confirmed": 46.3,
+      "evidence": "70cl | 46.3%"
+    }
+  },
+  "popular-d014f311e6ca": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Buffalo Trace Kentucky Straight Bourbon",
+        "amount": 18.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/buffalo-trace-bourbon.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "5e55d139348658df06218783d7ce439c5531a9b6861c7ab50365ace19c392ed2",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-88d9b7f8ed7d": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Woodford Reserve Distiller’s Select",
+        "amount": 29.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 45.2,
+        "source": "https://www.drankgigant.nl/woodford-reserve.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "dc0880d5e3ae4b5281ce54820030f14339652a8e7f94786fb6925f2b9daaa950",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-7df0c0ad605a": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Bulleit Bourbon",
+        "amount": 32.95,
+        "currency": "EUR",
+        "volumeMl": 1000,
+        "abv": 45.0,
+        "source": "https://www.drankgigant.nl/bulleit-bourbon.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "98ac760c69235d5560253c45d2455eb1844a85a531c362ea2d351bf76f86c64d",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-ae829b1b5632": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Wild Turkey 101",
+        "amount": 27.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 50.5,
+        "source": "https://www.drankgigant.nl/wild-turkey-101.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "fa207030d06a5c8d7fb866afe64b401b4d4c72dd4e5bd7e95ee119c079eff3f1",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-568016f6e9c8": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Four Roses Single Barrel",
+        "amount": 38.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 50.0,
+        "source": "https://www.drankgigant.nl/four-roses-single-barrel-100-proof.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "146b2134a114331cb8f0f7e3c5bac30b67bd1ff703268152469837b74a43ade1",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-ef0d3753822c": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Maker’s Mark 46",
+        "amount": 42.5,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 47.0,
+        "source": "https://www.drankgigant.nl/makers-46.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "2ea138cb548139ff8ea89843e3a656a6587ed48ac459975eeb07d613fed29f31",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-3f2cf7bf942b": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Knob Creek 9",
+        "amount": 42.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 50.0,
+        "source": "https://www.drankgigant.nl/knob-creek-9-year-old-100-proof.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "b465056c70d7e5436f22e02cdc99bb3a26d861221a3d63b462fa166cb93d0ef0",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-14107b53bf66": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Eagle Rare 10",
+        "amount": 39.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 45.0,
+        "source": "https://www.drankgigant.nl/eagle-rare-10-years-single-barrel.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "4edc4dd569a9a8b2c8702d0ef39ab0554a8626c80a294850eb9edb4747efc315",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-64d08b9864cc": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Elijah Craig Small Batch",
+        "amount": 38.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 47.0,
+        "source": "https://www.drankgigant.nl/elijah-craig-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "f2f035b708e274800b7e37b0d392ec2d0694b841d08dc0387736ebe59dff5f42",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-694019cf40d3": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Michter’s US*1 Bourbon",
+        "amount": 59.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 45.7,
+        "source": "https://www.drankgigant.nl/michter-s-small-batch-bourbon.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "a8ff321a4e8e8fb31ecc2bcd85b22262f2043b3fac5f3fce66ffdbe87258783c",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-a83475b4084a": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Redbreast 12",
+        "amount": 41.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/redbreast-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "e50ba35b9b6d8ee8c54878367dfb689b793e63d93a915cb99c49e5c3d32d53bc",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-b6edaac097ae": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Teeling Small Batch",
+        "amount": 24.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 46.0,
+        "source": "https://www.drankgigant.nl/teeling-whiskey-small-batch.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "9f4d7e188eedb6df10dc245e22905b4cfe0d550cd478153f82134d7f9a010c3e",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-0bc4fd437564": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Mitchell & Son Green Spot",
+        "amount": 39.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/green-spot.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "876e5e6251130eedb01e63a96f99230059a74c625cca0b05528f34b892ac4b5e",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-20d6f15d28a5": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Connemara Original",
+        "amount": 22.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/connemara-irish-malt.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "dbd7b8261740ad9f7f245f22c79ebc4ba20a55bff06cf71deb4ad928bda5b55c",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-5f0f802ab52e": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Tullamore D.E.W. 12",
+        "amount": 37.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/tullamore-dew-12-year.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "55d94a0932ced7f44fce1537ca69a2517bffd3e981b648f69e50962f611497b0",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-12c64b3cd3ec": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Writers’ Tears Copper Pot",
+        "amount": 29.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/writers-tears-copper-pot.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "f0c4e8e21abd4452bd26a16a425d0473b8f60c92e655312659ee5e6728b0b609",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-63c78729ae8c": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Nikka From the Barrel",
+        "amount": 29.95,
+        "currency": "EUR",
+        "volumeMl": 500,
+        "abv": 51.4,
+        "source": "https://www.drankgigant.nl/nikka-from-the-barrel.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "13883b737cbf53554ac1a68aad2dbfb39315ed3f8ffb500626533321c39dd8dc",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-c35b23d84835": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Nikka Days",
+        "amount": 27.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/nikka-days.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "5888ef0f652a3246f322d29b549f42d7f78e8f3a367c9cb464d365e95f9cfab2",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-87d0c3fd578e": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Suntory Hibiki Japanese Harmony",
+        "amount": 79.5,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/hibiki-harmony.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "f67d075d2671997a696a978fc4c6e694748f100fa44832217d66a4d3e07a14c5",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-04d8a0217769": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Suntory Yamazaki Distiller’s Reserve",
+        "amount": 129.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/yamazaki-distillers-reserve-70cl.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "149bcfddd77aa5f7518c5046d6d4204a4aaed02f14c155527b5f439a1d3ec2d2",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-d962bc339eff": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Suntory Hakushu Distiller’s Reserve",
+        "amount": 99.5,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 43.0,
+        "source": "https://www.drankgigant.nl/suntory-hakushu-distillers-edition.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "93e5281fb17760962d2ae43e147910a6c752a84b13f6bc259d3f25aabad2d89b",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-75c6f793b59d": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Kavalan Classic",
+        "amount": 57.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/kavalan-single-malt.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "6c5d7b714b5cd58daf1229dd0068e7140a1b36c9689af56f44ebce790f76b0f2",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-39d5e2c073b8": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Amrut Fusion",
+        "amount": 44.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 50.0,
+        "source": "https://www.drankgigant.nl/amrut-fusion.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "ca7c9f8b45b1f52c772d1b9a821c94badf374e5a2c1a302dfe878cd24443fb00",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
+  },
+  "popular-64986651ac73": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Starward Two-Fold",
+        "amount": 32.0,
+        "currency": "GBP",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.masterofmalt.com/whiskies/starward/starward-two-fold-whisky/?sku=92775",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "68e06ae96c037a22c2306d22a702c314114af321033a17e6412a17ac023afbb4",
+        "availability": "https://schema.org/OutOfStock"
+      }
+    ]
+  },
+  "popular-3917de65350c": {
+    "method": "Exact full bottle offer and original packshot; product specs checked, ambiguous ages not copied. ABV roundings cross-checked where needed.",
+    "observations": [
+      {
+        "name": "Canadian Club Original",
+        "amount": 14.95,
+        "currency": "EUR",
+        "volumeMl": 700,
+        "abv": 40.0,
+        "source": "https://www.drankgigant.nl/canadian-club.html",
+        "checkedAt": "2026-10-19",
+        "sourceSha256": "efbcaf13fd51b418a870e9c06ed16231e3dfbbb7e94933ec882c0fb00274d27c",
+        "availability": "https://schema.org/InStock"
+      }
+    ]
   }
 }

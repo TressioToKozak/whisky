@@ -1,3 +1,4 @@
+from source_images import install_source_images
 """Seeded personal journal used only in isolated tests, never as application demo data."""
 import json,os
 from pathlib import Path
@@ -7,13 +8,13 @@ BASE=os.environ.get('DRAM_URL','http://127.0.0.1:5173/whisky/')
 SHOTS=Path(os.environ.get('DRAM_SCREENSHOTS','/tmp/dram-redesign/screenshots'));SHOTS.mkdir(parents=True,exist_ok=True)
 cat=json.loads((ROOT/'src/catalog.json').read_text());black=next(w for w in cat if w['id']=='jw-001');glen=next(w for w in cat if w['brand']=='Glenfiddich' and w['name']=='14 Year Bourbon Barrel Reserve');blue=next(w for w in cat if w['id']=='jw-002')
 custom={**black,'id':'custom-redesign-fixture','brand':'Własny wpis testowy','name':'Whisky bez wyceny','image':'','imageSource':'','source':'','custom':True}
-seed={'version':1,'custom':[custom],'bottles':[{'whiskyId':black['id'],'quantity':2,'opened':True},{'whiskyId':glen['id'],'quantity':1,'opened':False},{'whiskyId':custom['id'],'quantity':1,'opened':False}],'wishlist':[blue['id']],'reviews':[{'id':'test-note-1','whiskyId':black['id'],'score':8.5,'date':'2026-10-16','note':'Wpis testowy: własne wrażenia z degustacji przy kolacji.\nNotatka do kontroli układu dziennika.','tags':['Dym','Wanilia']},{'id':'test-note-2','whiskyId':glen['id'],'score':7,'date':'2026-10-18','note':'Notatka testowa — zapis z kolejnego spotkania degustacyjnego.','tags':['Owoce']}],'barcodeLinks':[{'code':'05901234123457','whiskyId':custom['id']}]}
+seed={'version':2,'custom':[custom],'bottles':[{'whiskyId':black['id'],'quantity':2,'openedCount':1},{'whiskyId':glen['id'],'quantity':1,'openedCount':0},{'whiskyId':custom['id'],'quantity':1,'openedCount':0}],'wishlist':[blue['id']],'reviews':[{'id':'test-note-1','whiskyId':black['id'],'score':8.5,'date':'2026-10-16','note':'Wpis testowy: własne wrażenia z degustacji przy kolacji.\nNotatka do kontroli układu dziennika.','tags':['Dym','Wanilia']},{'id':'test-note-2','whiskyId':glen['id'],'score':7,'date':'2026-10-18','note':'Notatka testowa — zapis z kolejnego spotkania degustacyjnego.','tags':['Owoce']}],'barcodeLinks':[{'code':'05901234123457','whiskyId':custom['id']}]}
 axe_path=Path(os.environ.get('AXE_SCRIPT','/tmp/dram-redesign/a11y-tools/node_modules/axe-core/axe.min.js'))
 violations=[];checks=[]
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},reduced_motion='reduce');page=ctx.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},reduced_motion='reduce');page=ctx.new_page();install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.locator('.brand-card')).to_have_count(12);expect(page.locator('.home-collection, .last-tasting, .add-top, .sidebar-note')).to_have_count(0)
- page.evaluate("j=>localStorage.setItem('dram.journal.v1',JSON.stringify(j))",seed);page.reload(wait_until='networkidle')
+ page.evaluate("j=>localStorage.setItem('dram.journal.v2',JSON.stringify(j))",seed);page.reload(wait_until='networkidle')
  def nav(index):
   selector='.sidebar nav button' if page.viewport_size['width']>=1024 else '.bottom-nav button'
   page.locator(selector).nth(index).click()
@@ -61,7 +62,7 @@ with sync_playwright() as p:
   print('width',width,'passed',flush=True)
  # Check the new inline collection management and filter against persisted state.
  page.set_viewport_size({'width':390,'height':900});nav(1);card=page.locator(f'.collection-card[data-whisky-id="{black["id"]}"]');card.get_by_role('button',name='Dodaj sztukę:',exact=False).click();expect(card.locator('.card-stock')).to_contain_text('3 szt.');page.get_by_role('button',name='Filtry',exact=True).click();page.get_by_role('group',name='Stan butelek').get_by_role('button',name='Otwarte',exact=True).click();expect(page.locator('.collection-card')).to_have_count(1);expect(page.locator('.cellar-value strong')).to_contain_text('101')
- page.reload(wait_until='networkidle');saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v1'))");assert saved['version']==1 and saved['barcodeLinks']==seed['barcodeLinks'] and saved['reviews']==seed['reviews'];assert saved['bottles'][0]['quantity']==3
+ page.reload(wait_until='networkidle');saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))");assert saved['version']==2 and saved['barcodeLinks']==seed['barcodeLinks'] and saved['reviews']==seed['reviews'];assert saved['bottles'][0]['quantity']==3
  assert page.evaluate("getComputedStyle(document.querySelector('.scan-top')).transitionDuration")=='0s'
  (SHOTS/'accessibility-results.json').write_text(json.dumps({'checks':checks,'axe_executed':axe_path.exists(),'violations':violations,'javascript_errors':errors},ensure_ascii=False,indent=2))
  assert not violations,json.dumps(violations,ensure_ascii=False)

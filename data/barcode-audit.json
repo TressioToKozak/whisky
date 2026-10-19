@@ -1,8 +1,8 @@
 {
   "checkedAt": "2026-10-19",
   "method": "EAN/GTIN explicitly published in retailer product specifications or Product JSON-LD, never inferred from SKU or name. Digit length and GS1 check digit validated. Source volume checked where published; source URL is the catalog page or a same-volume existing price quotation. Camera reads are confirmed before adding. Private-label bottle records may use EAN-8 codes specific to a retailer/market; these are backed by explicit bottle-record evidence and require label confirmation after scanning.",
-  "products": 207,
-  "uniqueCodes": 204,
+  "products": 244,
+  "uniqueCodes": 241,
   "byBrand": {
     "Johnnie Walker": 52,
     "John Walker & Sons": 8,
@@ -12,7 +12,7 @@
     "Bushmills": 22,
     "Chivas Regal": 17,
     "Jim Beam": 15,
-    "Toki": 2,
+    "Suntory": 5,
     "Glenfiddich": 19,
     "Jameson": 11,
     "Grant's": 1,
@@ -20,18 +20,48 @@
     "White Horse": 1,
     "Teacher’s": 1,
     "Dewar’s": 1,
-    "Tullamore D.E.W.": 1,
-    "Four Roses": 1,
-    "Wild Turkey": 1,
+    "Tullamore D.E.W.": 2,
+    "Four Roses": 2,
+    "Wild Turkey": 2,
     "The Famous Grouse": 1,
     "William Lawson’s": 1,
     "Whyte & Mackay": 1,
-    "Makers Mark": 1,
+    "Maker’s Mark": 1,
     "Monkey Shoulder": 1,
     "Golden Loch": 2,
     "Queen Margot": 2,
     "Western Gold": 1,
-    "Dundalgan": 1
+    "Dundalgan": 1,
+    "The Macallan": 1,
+    "The Glenlivet": 1,
+    "Laphroaig": 1,
+    "Lagavulin": 1,
+    "Talisker": 1,
+    "Glenmorangie": 1,
+    "The Balvenie": 1,
+    "Highland Park": 1,
+    "The Dalmore": 1,
+    "The GlenDronach": 1,
+    "Bowmore": 1,
+    "Oban": 1,
+    "Caol Ila": 1,
+    "Bunnahabhain": 1,
+    "Buffalo Trace": 1,
+    "Woodford Reserve": 1,
+    "Bulleit": 1,
+    "Knob Creek": 1,
+    "Eagle Rare": 1,
+    "Michter’s": 1,
+    "Redbreast": 1,
+    "Teeling": 1,
+    "Mitchell & Son": 1,
+    "Connemara": 1,
+    "Writers’ Tears": 1,
+    "Nikka": 2,
+    "Kavalan": 1,
+    "Amrut": 1,
+    "Starward": 1,
+    "Canadian Club": 1
   },
   "observations": [
     {
@@ -7272,6 +7302,598 @@
       "sourceSha256": "2ce0186021014434378005d801258d6b8eafe22f1e3fb17d757a3c5fbd79160d",
       "provider": "Whiskybase · community bottle record",
       "note": "Reviewed exact named series and default bottle size, excluding linked alternate-size child records. The Squid Game code is shared between label numbers."
+    },
+    {
+      "id": "popular-ad08bbea4e4c",
+      "source": "https://www.drankgigant.nl/macallan-12-years-double-cask.html",
+      "codeCandidates": [
+        "5010314302863"
+      ],
+      "codes": [
+        "5010314302863"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "9ea2d1e49e04ed1e5a5d5a4ebdc47f2dfb01fbe96408ef8b8992313af752e265",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-85b4b40fd306",
+      "source": "https://www.drankgigant.nl/the-glenlivet-12-years-double-oak-html.html",
+      "codeCandidates": [
+        "4005971767156"
+      ],
+      "codes": [
+        "4005971767156"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "6e9c6ac93e2328f26456fea6fe41bdc9ad5024dee39ef26b9b194c8fe3afa842",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-0c74bedf783e",
+      "source": "https://www.drankgigant.nl/laphroaig-10-year.html",
+      "codeCandidates": [
+        "5010019000163"
+      ],
+      "codes": [
+        "5010019000163"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5c0464bf016657b4bb9bf271549b230bedc04cc93652ac75eebe04c38b52c26f",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-27f3b31c9fef",
+      "source": "https://www.drankgigant.nl/lagavulin-16-year.html",
+      "codeCandidates": [
+        "5000281005409"
+      ],
+      "codes": [
+        "5000281005409"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "de4d57f0d4fd8cf8ab7b6226fc75fc2209f5312f8b26ac4857060f270cfd33d6",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-9054108d9b82",
+      "source": "https://www.drankgigant.nl/talisker-10-year.html",
+      "codeCandidates": [
+        "5000281005416"
+      ],
+      "codes": [
+        "5000281005416"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 45.8,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "d3dfc9a72a5a2d9f791fc2e1b1bec44d66d5e9e83781661cc0269ac8d5b9cd4f",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-ef7dfb98a93f",
+      "source": "https://www.drankgigant.nl/glenmorangie-12-years-the-original.html",
+      "codeCandidates": [
+        "5010494990393"
+      ],
+      "codes": [
+        "5010494990393"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "09595e21f3d68ab40688dd52463b9d1149134543317af5fc7da2bec29751f4fe",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-d10a05715bbf",
+      "source": "https://www.drankgigant.nl/balvenie-12-years-double-wood.html",
+      "codeCandidates": [
+        "5010327505138"
+      ],
+      "codes": [
+        "5010327505138"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "15dea9e8fc54a12414b7444415cfef681359afbbb7dd4aa06a768f94d4fc2f3c",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-1b911a609d26",
+      "source": "https://www.drankgigant.nl/highland-park-12-years-2.html",
+      "codeCandidates": [
+        "5010314570101"
+      ],
+      "codes": [
+        "5010314570101"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "a26faf10987c4c598596ac40b1155078553556c2c86d69a82d31e437109cd259",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-34b59784b4f9",
+      "source": "https://www.drankgigant.nl/dalmore-12-year.html",
+      "codeCandidates": [
+        "5010196111010"
+      ],
+      "codes": [
+        "5010196111010"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "63926581e3cbd4b281f384d8a6a840825ee38620c55897a7d17a5c107c20026a",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-399e6303795a",
+      "source": "https://www.drankgigant.nl/glendronach-12-year-70-cl.html",
+      "codeCandidates": [
+        "5060716145384"
+      ],
+      "codes": [
+        "5060716145384"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "039dd2b68293f44d1d90c092b969e8080f0b63cfbb885d1c07a2230a0aed2e63",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-d7b4febaae23",
+      "source": "https://www.drankgigant.nl/bowmore-12-year.html",
+      "codeCandidates": [
+        "5010496001233"
+      ],
+      "codes": [
+        "5010496001233"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "198246d14c5c41cb143c4c7f0d7e6596bb669de9dc935d8468be50dabd6627ac",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-064a03ec3e3f",
+      "source": "https://www.drankgigant.nl/oban-14-year.html",
+      "codeCandidates": [
+        "5000281005447"
+      ],
+      "codes": [
+        "5000281005447"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "63e5b5d0a42b9e7beb05415c52a115c7458a252f89e255f50dd898a38e501083",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-bfb9574eddd8",
+      "source": "https://www.drankgigant.nl/caol-ila-12-year.html",
+      "codeCandidates": [
+        "5000281016290"
+      ],
+      "codes": [
+        "5000281016290"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "c5278dd147bf62ee02c7036208dc5eaa92d8693117b4a5caddaad55b27dd49c8",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-d07a9d3b252d",
+      "source": "https://www.drankgigant.nl/bunnahabhain-12-year.html",
+      "codeCandidates": [
+        "5029704217366"
+      ],
+      "codes": [
+        "5029704217366"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 46.3,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "990541295d8c0af26e1ea0b911b8778d3816ac94ca911e437e1f3b27876728f0",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-d014f311e6ca",
+      "source": "https://www.drankgigant.nl/buffalo-trace-bourbon.html",
+      "codeCandidates": [
+        "080244009984"
+      ],
+      "codes": [
+        "080244009984"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5e55d139348658df06218783d7ce439c5531a9b6861c7ab50365ace19c392ed2",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-88d9b7f8ed7d",
+      "source": "https://www.drankgigant.nl/woodford-reserve.html",
+      "codeCandidates": [
+        "5099873025871"
+      ],
+      "codes": [
+        "5099873025871"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 45.2,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "dc0880d5e3ae4b5281ce54820030f14339652a8e7f94786fb6925f2b9daaa950",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-7df0c0ad605a",
+      "source": "https://www.drankgigant.nl/bulleit-bourbon.html",
+      "codeCandidates": [
+        "087000005549"
+      ],
+      "codes": [
+        "087000005549"
+      ],
+      "volumeMl": 1000,
+      "sourceVolumeMl": 1000,
+      "sourceAbv": 45.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "98ac760c69235d5560253c45d2455eb1844a85a531c362ea2d351bf76f86c64d",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-ae829b1b5632",
+      "source": "https://www.drankgigant.nl/wild-turkey-101.html",
+      "codeCandidates": [
+        "8000040500036"
+      ],
+      "codes": [
+        "8000040500036"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 50.5,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "fa207030d06a5c8d7fb866afe64b401b4d4c72dd4e5bd7e95ee119c079eff3f1",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-568016f6e9c8",
+      "source": "https://www.drankgigant.nl/four-roses-single-barrel-100-proof.html",
+      "codeCandidates": [
+        "5000299603017"
+      ],
+      "codes": [
+        "5000299603017"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 50.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "146b2134a114331cb8f0f7e3c5bac30b67bd1ff703268152469837b74a43ade1",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-3f2cf7bf942b",
+      "source": "https://www.drankgigant.nl/knob-creek-9-year-old-100-proof.html",
+      "codeCandidates": [
+        "5060045589620"
+      ],
+      "codes": [
+        "5060045589620"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 50.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "b465056c70d7e5436f22e02cdc99bb3a26d861221a3d63b462fa166cb93d0ef0",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-14107b53bf66",
+      "source": "https://www.drankgigant.nl/eagle-rare-10-years-single-barrel.html",
+      "codeCandidates": [
+        "088004005764"
+      ],
+      "codes": [
+        "088004005764"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 45.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "4edc4dd569a9a8b2c8702d0ef39ab0554a8626c80a294850eb9edb4747efc315",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-694019cf40d3",
+      "source": "https://www.drankgigant.nl/michter-s-small-batch-bourbon.html",
+      "codeCandidates": [
+        "4002547107606"
+      ],
+      "codes": [
+        "4002547107606"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 45.7,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "a8ff321a4e8e8fb31ecc2bcd85b22262f2043b3fac5f3fce66ffdbe87258783c",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-a83475b4084a",
+      "source": "https://www.drankgigant.nl/redbreast-12-year.html",
+      "codeCandidates": [
+        "5011007008345"
+      ],
+      "codes": [
+        "5011007008345"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "e50ba35b9b6d8ee8c54878367dfb689b793e63d93a915cb99c49e5c3d32d53bc",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-b6edaac097ae",
+      "source": "https://www.drankgigant.nl/teeling-whiskey-small-batch.html",
+      "codeCandidates": [
+        "5391523270021"
+      ],
+      "codes": [
+        "5391523270021"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 46.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "9f4d7e188eedb6df10dc245e22905b4cfe0d550cd478153f82134d7f9a010c3e",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-0bc4fd437564",
+      "source": "https://www.drankgigant.nl/green-spot.html",
+      "codeCandidates": [
+        "5011007008482"
+      ],
+      "codes": [
+        "5011007008482"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "876e5e6251130eedb01e63a96f99230059a74c625cca0b05528f34b892ac4b5e",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-20d6f15d28a5",
+      "source": "https://www.drankgigant.nl/connemara-irish-malt.html",
+      "codeCandidates": [
+        "5099357002305"
+      ],
+      "codes": [
+        "5099357002305"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "dbd7b8261740ad9f7f245f22c79ebc4ba20a55bff06cf71deb4ad928bda5b55c",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-5f0f802ab52e",
+      "source": "https://www.drankgigant.nl/tullamore-dew-12-year.html",
+      "codeCandidates": [
+        "5391516892469"
+      ],
+      "codes": [
+        "5391516892469"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "55d94a0932ced7f44fce1537ca69a2517bffd3e981b648f69e50962f611497b0",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-12c64b3cd3ec",
+      "source": "https://www.drankgigant.nl/writers-tears-copper-pot.html",
+      "codeCandidates": [
+        "5099811905739"
+      ],
+      "codes": [
+        "5099811905739"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "f0c4e8e21abd4452bd26a16a425d0473b8f60c92e655312659ee5e6728b0b609",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-63c78729ae8c",
+      "source": "https://www.drankgigant.nl/nikka-from-the-barrel.html",
+      "codeCandidates": [
+        "4904230100683"
+      ],
+      "codes": [
+        "4904230100683"
+      ],
+      "volumeMl": 500,
+      "sourceVolumeMl": 500,
+      "sourceAbv": 51.4,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "13883b737cbf53554ac1a68aad2dbfb39315ed3f8ffb500626533321c39dd8dc",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-c35b23d84835",
+      "source": "https://www.drankgigant.nl/nikka-days.html",
+      "codeCandidates": [
+        "3700597306383"
+      ],
+      "codes": [
+        "3700597306383"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "5888ef0f652a3246f322d29b549f42d7f78e8f3a367c9cb464d365e95f9cfab2",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-87d0c3fd578e",
+      "source": "https://www.drankgigant.nl/hibiki-harmony.html",
+      "codeCandidates": [
+        "080686007913"
+      ],
+      "codes": [
+        "080686007913"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "f67d075d2671997a696a978fc4c6e694748f100fa44832217d66a4d3e07a14c5",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-04d8a0217769",
+      "source": "https://www.drankgigant.nl/yamazaki-distillers-reserve-70cl.html",
+      "codeCandidates": [
+        "4901777254800"
+      ],
+      "codes": [
+        "4901777254800"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "149bcfddd77aa5f7518c5046d6d4204a4aaed02f14c155527b5f439a1d3ec2d2",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-d962bc339eff",
+      "source": "https://www.drankgigant.nl/suntory-hakushu-distillers-edition.html",
+      "codeCandidates": [
+        "4901777254695"
+      ],
+      "codes": [
+        "4901777254695"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 43.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "93e5281fb17760962d2ae43e147910a6c752a84b13f6bc259d3f25aabad2d89b",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-75c6f793b59d",
+      "source": "https://www.drankgigant.nl/kavalan-single-malt.html",
+      "codeCandidates": [
+        "4710085206711"
+      ],
+      "codes": [
+        "4710085206711"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "6c5d7b714b5cd58daf1229dd0068e7140a1b36c9689af56f44ebce790f76b0f2",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-39d5e2c073b8",
+      "source": "https://www.drankgigant.nl/amrut-fusion.html",
+      "codeCandidates": [
+        "8901193004122"
+      ],
+      "codes": [
+        "8901193004122"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 50.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "ca7c9f8b45b1f52c772d1b9a821c94badf374e5a2c1a302dfe878cd24443fb00",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-64986651ac73",
+      "source": "https://www.masterofmalt.com/whiskies/starward/starward-two-fold-whisky/",
+      "codeCandidates": [
+        "9346943000259"
+      ],
+      "codes": [
+        "9346943000259"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "68e06ae96c037a22c2306d22a702c314114af321033a17e6412a17ac023afbb4",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
+    },
+    {
+      "id": "popular-3917de65350c",
+      "source": "https://www.drankgigant.nl/canadian-club.html",
+      "codeCandidates": [
+        "080686816072"
+      ],
+      "codes": [
+        "080686816072"
+      ],
+      "volumeMl": 700,
+      "sourceVolumeMl": 700,
+      "sourceAbv": 40.0,
+      "checkedAt": "2026-10-19",
+      "sourceSha256": "efbcaf13fd51b418a870e9c06ed16231e3dfbbb7e94933ec882c0fb00274d27c",
+      "note": "Explicit EAN/GTIN on exact full-bottle product page; source SKU matched where applicable."
     }
   ],
   "expansion": {

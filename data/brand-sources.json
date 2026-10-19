@@ -100,5 +100,14 @@
     "sha256": "faad4074127c7233b0b21a74e21e2f4ce2f14b4a57123e2aca22c7f8dbab1769",
     "checkedAt": "2026-10-19",
     "note": "Original editorial category icon, authored for Dram. This category contains multiple manufacturers and is not a producer logo."
+  },
+  {
+    "id": "suntory",
+    "name": "Suntory",
+    "sourcePage": "https://house.suntory.com/",
+    "imageUrl": "https://house.suntory.com/themes/custom/bsi_tokens_theme/bsi_tokens_subtheme/logo.svg",
+    "sha256": "6e6749abb9615e037f35cf9ade1ffe9383eac8854f24644d48ee2beb868f6e71",
+    "checkedAt": "2026-10-19",
+    "note": "Original House of Suntory SVG from the official producer website. Product identifiers and Toki line remain unchanged."
   }
 ]

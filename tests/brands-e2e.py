@@ -1,3 +1,4 @@
+from source_images import install_source_images
 """Brand navigation, all placeholders, shared journal, photos and price ordering."""
 import json,os
 from pathlib import Path
@@ -6,12 +7,12 @@ BASE=os.environ.get('DRAM_URL','http://127.0.0.1:5173/whisky/')
 catalog=json.loads((Path(__file__).resolve().parents[1]/'src/catalog.json').read_text())
 prices=json.loads((Path(__file__).resolve().parents[1]/'src/prices.json').read_text())
 with sync_playwright() as p:
- b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);page=b.new_page(viewport={'width':390,'height':844});errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
+ b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);page=b.new_page(viewport={'width':390,'height':844});install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click()
  expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible();expect(page.locator('.brand-card')).to_have_count(12)
  assert page.locator('footer, .settings-panel').count()==0
  assert page.locator('.brand-logo img').evaluate_all('(xs)=>xs.every(x=>x.complete&&x.naturalWidth>0)')
- for name in ['Jameson','Jim Beam','Goldfinch','Ardbeg','Bushmills','Ballantine’s','Toki','Chivas Regal','Glenfiddich']:
+ for name in ['Jameson','Jim Beam','Goldfinch','Ardbeg','Bushmills','Ballantine’s','Suntory','Chivas Regal','Glenfiddich']:
   page.get_by_role('button',name='Otwórz '+name,exact=False).click()
   while page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).count():page.get_by_role('button',name='Pokaż kolejne whisky',exact=True).click()
   expected_brand=[w for w in catalog if w['brand']==name]
@@ -34,7 +35,7 @@ with sync_playwright() as p:
  page.set_viewport_size({'width':390,'height':844});page.locator('.bottom-nav').get_by_role('button',name='Odkrywaj',exact=True).click();expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible()
  # Older personal records from brands outside the curated nine must remain discoverable.
  custom={**catalog[0],'id':'custom-legacy-unknown-brand','brand':'Glenfiddich','name':'Własna stara butelka','image':'','source':'','imageSource':'','custom':True}
- page.evaluate("""(custom)=>{const data=JSON.parse(localStorage.getItem('dram.journal.v1'));data.custom.push(custom);localStorage.setItem('dram.journal.v1',JSON.stringify(data))}""",custom)
+ page.evaluate("""(custom)=>{const data=JSON.parse(localStorage.getItem('dram.journal.v2'));data.custom.push(custom);localStorage.setItem('dram.journal.v2',JSON.stringify(data))}""",custom)
  page.reload(wait_until='networkidle');page.get_by_role('button',name='Moje własne wpisy',exact=False).click();expect(page.get_by_role('button',name='Własna stara butelka',exact=True)).to_be_visible()
  assert not errors,errors
- print({'brand_logos':10,'populated_brands':10,'jack_releases':len(expected),'ascending_and_descending_prices':'passed','source_details':'passed','shared_journal_persistence':'passed','original_photo_framing':'passed','responsive_layout':'passed','javascript_errors':errors});b.close()
+ print({'brand_logos':12,'populated_groups':12,'jack_releases':len(expected),'ascending_and_descending_prices':'passed','source_details':'passed','shared_journal_persistence':'passed','original_photo_framing':'passed','responsive_layout':'passed','javascript_errors':errors});b.close()

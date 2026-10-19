@@ -6,8 +6,14 @@ from pathlib import Path
 from PIL import Image
 ROOT=Path(__file__).resolve().parents[1]
 result={}
+recorded=json.loads((ROOT/'src/photo-layout.json').read_text())
 manual=json.loads((ROOT/'data/photo-framing.json').read_text())
 for w in json.loads((ROOT/'src/catalog.json').read_text()):
+ if w['image'].startswith('https://'):
+  # Source links use recorded dimensions; never download or republish photos implicitly.
+  source=next(record for record in json.loads((ROOT/'data/catalog-sources.json').read_text()) if record['id']==w['id'])
+  result[w['id']]=recorded.get(w['id'],{'inset':'inset(0% 0% 0% 0%)','background':'#fff','ratio':round(source['width']/source['height'],5)})
+  continue
  im=Image.open(ROOT/'public'/w['image'].lstrip('/')).convert('RGBA')
  original_width,original_height=im.size
  # The reduced copy is used only for measurements; the downloaded original remains untouched.

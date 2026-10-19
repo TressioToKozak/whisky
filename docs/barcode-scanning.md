@@ -1,3 +1,5 @@
+> Aktualizacja: dziennik v2 używa `openedCount`; skan dodaje jedną zamkniętą butelkę i zachowuje liczbę otwartych. Bieżące statystyki kodów są generowane w [README](../README.md); starsze liczby w opisie poniżej są historyczne. Kopie i synchronizacja: [dokumentacja](reliability-and-catalog.md).
+
 # Dodawanie butelki z kodu kreskowego
 
 W barku wybierz **Skanuj butelkę**, albo ikonę kodu w górnym pasku. Włącz aparat, wybierz zdjęcie kodu lub wpisz EAN/UPC-A. Po odczycie sprawdź nazwę, pojemność i etykietę, a następnie potwierdź dodanie jednej butelki. Kolejny potwierdzony skan zwiększa ilość istniejącej pozycji; zachowuje oznaczenie otwarcia i degustacje, usuwa pozycję z życzeń i aktualizuje wartość barku.

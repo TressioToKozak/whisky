@@ -1,3 +1,4 @@
+from source_images import install_source_images
 """Smoke-test the actual HTTPS deployment.
 The local browser does not share the environment's CA store. Route public GETs
 through Python's verified TLS/proxy transport; no certificate checks are disabled.
@@ -31,7 +32,7 @@ with sync_playwright() as p:
             fetched.append((route.request.url,response.status))
             route.fulfill(status=response.status,body=body,headers=headers)
     context.route(f'{origin.scheme}://{origin.netloc}/**',verified_get)
-    page=context.new_page();errors=[]
+    page=context.new_page();install_source_images(page);errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto(BASE,wait_until='networkidle',timeout=90000)
     expect(page.get_by_role('heading',name='Masz ukończone 18 lat?')).to_be_visible()
@@ -68,7 +69,7 @@ with sync_playwright() as p:
     expect(page.locator('.whisky-card')).to_have_count(1)
     expect(page.locator('.card-price')).to_contain_text('€')
     page.get_by_role('button',name='Wszystkie marki',exact=True).click()
-    for name in ['Jameson','Ardbeg','Jim Beam','Goldfinch','Bushmills','Ballantine’s','Toki','Chivas Regal','Glenfiddich']:
+    for name in ['Jameson','Ardbeg','Jim Beam','Goldfinch','Bushmills','Ballantine’s','Suntory','Chivas Regal','Glenfiddich']:
         page.get_by_role('button',name='Otwórz '+name,exact=False).click()
         assert page.locator('.whisky-card').count()>0
         page.wait_for_function("document.querySelector('.whisky-card img')?.naturalWidth>0")
@@ -106,7 +107,7 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).click()
     expect(page.locator('[data-whisky-id="jameson-f2dd066b692a"]')).to_have_count(1)
     # A verified historical price for another bottle size must not inflate a wishlist.
-    page.evaluate("()=>{const j=JSON.parse(localStorage.getItem('dram.journal.v1'));j.wishlist=['jw-cfa84236a438'];localStorage.setItem('dram.journal.v1',JSON.stringify(j))}")
+    page.evaluate("()=>{const j=JSON.parse(localStorage.getItem('dram.journal.v2'));j.wishlist=['jw-cfa84236a438'];localStorage.setItem('dram.journal.v2',JSON.stringify(j))}")
     page.reload(wait_until='networkidle',timeout=90000)
     page.locator('.bottom-nav').get_by_role('button',name='Życzenia').click()
     expect(page.locator('.wishlist-value strong')).to_contain_text('0')
@@ -122,7 +123,7 @@ with sync_playwright() as p:
     expect(page.locator('.wishlist-value strong')).to_contain_text('PLN')
     page.locator('.bottom-nav').get_by_role('button',name='Discover',exact=True).click()
     page.get_by_role('button',name='Open Other',exact=False).click()
-    expect(page.locator('.whisky-card')).to_have_count(19)
+    expect(page.locator('.page-intro .count')).to_have_text('56')
     expect(page.locator('.card-price').first).to_contain_text('PLN')
     for term in ['Golden Loch','Queen Margot','Western Gold','Dundalgan']:
         page.get_by_role('searchbox',name='Search whisky',exact=True).fill(term)

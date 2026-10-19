@@ -35,14 +35,14 @@ test('matches retain ambiguity, reject wrong-volume records and allow explicit p
  assert.deepEqual(barcodeMatches('1234567890128',all,entries),[])
 })
 test('confirmed scans increment quantities once, preserve opened status and reviews, remove wishes, and round-trip associations',()=>{
- const original={...emptyJournal(),wishlist:[w.id],reviews:[{id:'review',whiskyId:w.id,score:8,date:'2026-10-18',note:'keep',tags:[]}],bottles:[{whiskyId:w.id,quantity:2,opened:true}]}
+ const original={...emptyJournal(),wishlist:[w.id],reviews:[{id:'review',whiskyId:w.id,score:8,date:'2026-10-18',note:'keep',tags:[]}],bottles:[{whiskyId:w.id,quantity:2,openedCount:1}]}
  const next=addBarcodeBottle(original,w,entry.code,true)
- assert.equal(next.bottles[0].quantity,3);assert.equal(next.bottles[0].opened,true);assert.deepEqual(next.reviews,original.reviews);assert.equal(next.wishlist.length,0)
+ assert.equal(next.bottles[0].quantity,3);assert.equal(next.bottles[0].openedCount,1);assert.deepEqual(next.reviews,original.reviews);assert.equal(next.wishlist.length,0)
  assert.equal(original.bottles[0].quantity,2)
  assert.deepEqual(validateJournal(JSON.parse(JSON.stringify(next)),ids),next)
  assert.deepEqual(validateJournal(emptyJournal(),ids),emptyJournal())
  assert.equal(addBarcodeBottle(emptyJournal(),w,entry.code,false).barcodeLinks,undefined)
- assert.throws(()=>addBarcodeBottle({...original,bottles:[{whiskyId:w.id,quantity:999,opened:false}]},w,entry.code,true))
+ assert.throws(()=>addBarcodeBottle({...original,bottles:[{whiskyId:w.id,quantity:999,openedCount:0}]},w,entry.code,true))
  assert.throws(()=>addBarcodeBottle(original,w,'bad',true))
  for(const links of [[{code:'bad',whiskyId:w.id}],[{code:entry.code,whiskyId:'unknown'}],[{code:entry.code,whiskyId:w.id},{code:entry.code,whiskyId:w.id}]])assert.throws(()=>validateJournal({...original,barcodeLinks:links},ids))
 })
@@ -54,7 +54,7 @@ test('verified Red Label EAN resolves exactly to the 700 ml catalog entry',()=>{
  assert.deepEqual(barcodeMatches('5000267014203',all,entries).map(w=>w.id),['jw-004'])
  let journal=addBarcodeBottle(emptyJournal(),red,'5000267014203',false)
  journal=addBarcodeBottle(journal,red,'5000267014203',false)
- assert.deepEqual(journal.bottles,[{whiskyId:'jw-004',quantity:2,opened:false}])
+ assert.deepEqual(journal.bottles,[{whiskyId:'jw-004',quantity:2,openedCount:0}])
 })
 
 test('coverage report accounts for every catalog ID without claiming unknown codes',()=>{
