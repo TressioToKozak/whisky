@@ -548,5 +548,6 @@
   "Nowa wersja jest gotowa. Odśwież po zakończeniu edycji.": "The new version is ready. Refresh after finishing your edits.",
   "Starsza karta zmieniła zapis sprzed migracji. Aktualna kolekcja jest bezpieczna; pobierz oddzielną kopię tych zmian.": "An older tab changed the pre-migration journal. Your current collection is safe; download a separate copy of those changes.",
   "Nie znaleziono jednoznacznego wydania w katalogu.": "No unique matching release was found in the catalogue.",
-  "Niepoprawny CSV.": "Invalid CSV."
+  "Niepoprawny CSV.": "Invalid CSV.",
+  "Nazwa lokalizacji jest niejednoznaczna. Zmień jej nazwę przed importem.": "The location name is ambiguous. Rename it before importing."
 }

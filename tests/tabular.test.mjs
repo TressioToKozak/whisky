@@ -15,6 +15,7 @@ test('preview maps fields, validates money and known release, and handles duplic
  const again=previewCSV(rows,mapping,result.data,catalog,'merge');assert.equal(again.added,0);assert.equal(again.duplicates,2)
  const replace=previewCSV(rows,mapping,result.data,catalog,'replace');assert.equal(replace.data.ownedBottles.length,1)
  for(const row of ['missing,closed,25,EUR,note','a,closed,25,,note','a,closed,-1,EUR,note','a,fake,25,EUR,note'])assert.equal(previewCSV([rows[0],row.split(',')],mapping,j,catalog,'merge').errors.length,1)
+ const duplicateLocations={...j,locations:[{id:'one',name:'Shelf',parentId:null,kind:'shelf'},{id:'two',name:'Shelf',parentId:null,kind:'shelf'}]};assert.equal(previewCSV([['whisky_id','location'],['a','Shelf']],{whisky_id:0,location:1},duplicateLocations,catalog,'merge').errors.length,1)
  assert.throws(()=>previewCSV(rows,{name:0,whisky_id:0},j,catalog,'merge'),/raz/)
 })
 test('CSV and XLSX protect executable formulas and preserve Unicode; XLSX contains only inline strings and numeric cells',()=>{

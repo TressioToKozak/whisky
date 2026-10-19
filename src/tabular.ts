@@ -47,7 +47,7 @@ export function previewCSV(rows:string[][],mapping:Mapping,current:CollectionJou
    const amount=get('amount'),currency=get('currency').toUpperCase(),date=get('purchase_date'),place=get('place')
    b.purchase={kind:amount||date||place?'purchase':'unknown',date:date||null,amount:amount?Number(amount.replace(',','.')):null,currency:currency?currency as OwnedBottle['purchase']['currency']:null,place}
    b.notes=get('notes')
-   const location=get('location');if(location){let found=locations.find(l=>locationPath(locations,l.id)===location);if(!found){found={id:`csv-location:${digest(location)}`,name:location,parentId:null,kind:'other'};locations.push(found)}b.locationId=found.id}
+   const location=get('location');if(location){const matching=locations.filter(l=>locationPath(locations,l.id)===location);if(matching.length>1)throw Error('Nazwa lokalizacji jest niejednoznaczna. Zmień jej nazwę przed importem.');let found=matching[0];if(!found){found={id:`csv-location:${digest(location)}`,name:location,parentId:null,kind:'other'};locations.push(found)}b.locationId=found.id}
    // Run the same domain validation used by editors and JSON backup restoration.
    const validated=validateCollection({...current,ownedBottles:[b],events:[],locations},catalog.map(w=>w.id));incoming.push(validated.ownedBottles[0])
   }catch(e){errors.push(`${i+1}: ${e instanceof Error?e.message:'Niepoprawny wiersz.'}`)}
