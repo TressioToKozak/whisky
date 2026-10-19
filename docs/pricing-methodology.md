@@ -11,3 +11,5 @@
 - **Zrealizowany wynik:** tylko gdy znane są brutto, opłaty oraz koszt zakupu w tej samej walucie. Prezenty i niespójne waluty nie otrzymują fikcyjnego wyniku. Ujemny wynik jest dopuszczony.
 
 Nie sumujemy różnych walut transakcji i nie stosujemy dzisiejszego kursu do historycznych kosztów. Regionalne ceny referencyjne zachowują istniejący, ujawniony sposób przeliczenia PL/NL. Historia notowań, kursy transakcyjne z dowodami, wartość odtworzeniowa, szacunki sprzedaży, wykresy i alerty są zadaniami fazy 4. Wydatki historyczne są zachowane w rekordach egzemplarzy; miesięczne raporty nie są jeszcze zaimplementowane.
+
+Dashboard fazy 2 używa tej samej regionalnej, orientacyjnej wartości katalogowej co barek. Nie utożsamia jej z kosztami zakupu ani realizowalną ceną sprzedaży. Importowana kolumna `amount` oznacza wyłącznie koszt prywatnej transakcji i nie aktualizuje publicznych cen katalogu. W tej fazie nie zmieniono żadnego notowania ani kursu.

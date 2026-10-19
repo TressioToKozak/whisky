@@ -1,6 +1,6 @@
 # Dram — dziennik whisky
 
-**Dram 2.0, faza 1:** kolekcja fizycznych egzemplarzy i Journal v3. [Raport wykonania i testów](docs/phase-1-report.md). Kolejne fazy opisuje [roadmapa](docs/roadmap.md); pełne PWA i synchronizacja urządzeń nie są jeszcze wdrożone.
+**Dram 2.0, faza 2:** IndexedDB z bezpieczną migracją v3, offline po restarcie, ekran Start, jasny/ciemny motyw oraz CSV/XLSX. [Raport fazy 2](docs/phase-2-report.md), [roadmapa](docs/roadmap.md). Konta i synchronizacja urządzeń pozostają fazą 3.
 
 Aplikacja React + TypeScript + Vite na telefon i komputer: katalog whisky, własny barek, lista życzeń i dziennik degustacji. Interfejs PL/EN, region Polska (PLN) lub Holandia (EUR), bez obowiązkowego konta i backendu.
 
@@ -30,6 +30,10 @@ Statystyki wynikają z danych katalogu; `npm test` sprawdza ich zgodność. Aktu
 
 ## Funkcje i dane użytkownika
 
+- Ekran Start pokazuje prawdziwe liczniki, wartość katalogową, ostatnie dodania i degustacje. Ciemny motyw jest domyślny; jasny wybierzesz w ustawieniach.
+- Katalog i edycja kolekcji działają po ponownym uruchomieniu offline, po pierwszym pełnym zainstalowaniu shell. Zdjęcia zewnętrzne mogą wymagać sieci. Aktualizacja jest jawna i nie przeładowuje innych kart.
+- Kolekcję przechowuje IndexedDB; stare JSON w localStorage są zachowanymi kopiami migracyjnymi. Import CSV ma mapowanie, podgląd, obsługę duplikatów i kopię przed zastąpieniem. Eksport CSV/XLSX służy do tabel; pełne zdjęcia, dokumenty i historię zachowuje JSON.
+
 - **Egzemplarze:** każdy posiada własne ID, status, zakup, walutę, datę, napełnienie, numery, stan zachowania, lokalizację, notatki i prywatne załączniki. Wejście „Zarządzaj egzemplarzami” jest w barku; szczegóły wydania prowadzą do jego kopii. Dostępne są dodawanie wielu, historia, statusy i masowe przenoszenie.
 - Barek wylicza całkowitą liczbę butelek oraz liczbę otwartych. Zamknięte = wszystkie − otwarte; otwartych nigdy nie może być więcej niż wszystkich. Skan dodaje jedną zamkniętą butelkę. Filtry „Otwarte” i „Nieotwarte” mogą pokazać to samo wydanie, jeżeli masz oba rodzaje butelek.
 - Koszty posiadanych egzemplarzy są oddzielone od referencji katalogowych i rzeczywistych sprzedaży. Walut zakupów nie sumujemy automatycznie. Brak opłat sprzedaży nie oznacza zera; wynik wymaga kosztu w tej samej walucie.
@@ -43,7 +47,7 @@ Statystyki wynikają z danych katalogu; `npm test` sprawdza ich zgodność. Aktu
 
 Dziennik v3 jest w `dram.journal.v3`. Poprzednie klucze v2 i v1 pozostają zachowane. Migracja tworzy odrębne egzemplarze z deterministycznymi ID; 5 / 2 otwarte daje pięć rekordów, dwa otwarte. Nie uzupełnia nieznanych dat, kosztów, walut, poziomu płynu ani historii. V1 `opened: true` daje jedną otwartą butelkę. Stare karty nie nadpisują v3; ich zmiany można pobrać jako oddzielny wariant. Ustawienia pozostają w `dram.preferences.v1`. Szczegóły: [model v3](docs/data-model-v3.md), [migracje](docs/migrations.md), [metodologia cen](docs/pricing-methodology.md), [prywatność](docs/privacy.md).
 
-Blokada zapisu korzysta ze wspólnej transakcji IndexedDB; Web Locks stanowi dodatkową warstwę w obsługujących je przeglądarkach. IndexedDB przechowuje wyłącznie strukturę koordynacji, nie kopię dziennika. Jeśli bezpieczna blokada albo zapis nie są dostępne, aplikacja zgłasza błąd i zachowuje dotychczasowe dane. Przy braku miejsca migracja nie usuwa starszego zapisu; można go wyeksportować. Faza 1 nadal zapisuje właściwą kolekcję w localStorage; binaria mają limit 1 MB na plik i podlegają limitowi miejsca przeglądarki. Przeniesienie kolekcji i binariów do IndexedDB jest następną fazą. Przeglądarka może usunąć dane po czyszczeniu pamięci — warto pobierać kopie.
+Kolekcja i binaria korzystają z atomowych transakcji IndexedDB. Web Locks jest dodatkową warstwą zgodności ze starszymi kartami. Błąd zapisu zachowuje dotychczasowy stan i szkic; migracja nie usuwa starego zapisu. UI przyjmuje pliki do 1 MB i pełny JSON do 20 MB. Nowy plik wymaga także miejsca na synchroniczne zabezpieczenie; istniejące pliki nie są ponownie kopiowane do zamiarów. Przeglądarka może usunąć dane po czyszczeniu pamięci — warto pobierać kopie.
 
 ## Klasyfikacja i wiarygodność
 
@@ -99,10 +103,10 @@ Testy używają izolowanych przeglądarek, nigdy rzeczywistych zapisów użytkow
 
 ## Publikacja
 
-`.github/workflows/deploy-pages.yml` uruchamia instalację z lockfile, testy Node, build i trzy obowiązkowe zestawy Playwright (`quality-e2e.py`, `journal-e2e.py`, `collection-e2e.py`), następnie publikuje przez GitHub Pages. Testy działają również na pull requestach bez publikacji; ich kolejka nie anuluje wdrożenia main. Obrazy zewnętrzne w szybkich testach CI są zastąpione jawną lokalną fixturą; audyt źródeł uruchamia się osobno przez `check-external-photos.yml` (ręcznie). Workflow czeka na ewentualną publikację legacy, żeby surowy HTML nie nadpisał buildu Vite. `scripts/check-deployment.mjs` weryfikuje publiczny HTML i skompilowane zasoby. Pełniejszy test publicznej strony: `python tests/live-smoke.py`. Manifest pozwala dodać aplikację do ekranu głównego; brak service workera, więc ponowne załadowanie wymaga sieci.
+`.github/workflows/deploy-pages.yml` uruchamia instalację z lockfile, testy Node, build, dotychczasowe trzy zestawy Playwright oraz `phase2-e2e.py` i `offline-update-e2e.py`; oddzielne obowiązkowe joby uruchamiają fazę 2 na Firefox i WebKit, następnie publikuje przez GitHub Pages. Testy działają również na pull requestach bez publikacji; ich kolejka nie anuluje wdrożenia main. Obrazy zewnętrzne w szybkich testach CI są zastąpione jawną lokalną fixturą; audyt źródeł uruchamia się osobno przez `check-external-photos.yml` (ręcznie). Workflow czeka na ewentualną publikację legacy, żeby surowy HTML nie nadpisał buildu Vite. `scripts/check-deployment.mjs` weryfikuje publiczny HTML i skompilowane zasoby. Pełniejszy test publicznej strony: `python tests/live-smoke.py`. Manifest i wersjonowany service worker pozwalają dodać aplikację do ekranu głównego oraz ponownie uruchomić shell i katalog offline po pierwszej pełnej instalacji.
 
 ## Dokumentacja i historia
 
-Dram 2.0 faza 1: [architektura](docs/architecture.md), [roadmapa](docs/roadmap.md), [testy i procedura telefonów](docs/testing.md), [stan synchronizacji](docs/sync.md). Poprzednie poprawki grupowania, trwałych zmian, aromatów, tłumaczeń i CI: [raport jakości katalogu](docs/catalog-quality.md). Opis migracji, kopii, synchronizacji i rozbudowy: [niezawodność i katalog](docs/reliability-and-catalog.md). Skaner: [docs/barcode-scanning.md](docs/barcode-scanning.md). Kroje Fraunces / DM Sans: [licencje](public/font-notices.txt).
+Dram 2.0 faza 2: [architektura](docs/architecture.md), [roadmapa](docs/roadmap.md), [testy i procedura telefonów](docs/testing.md), [stan synchronizacji](docs/sync.md). Poprzednie poprawki grupowania, trwałych zmian, aromatów, tłumaczeń i CI: [raport jakości katalogu](docs/catalog-quality.md). Opis migracji, kopii, synchronizacji i rozbudowy: [niezawodność i katalog](docs/reliability-and-catalog.md). Skaner: [docs/barcode-scanning.md](docs/barcode-scanning.md). Kroje Fraunces / DM Sans: [licencje](public/font-notices.txt).
 
 Poprzednie raporty zachowano jako **historyczne migawki**, a nie bieżące statystyki: [audyt i Jameson](docs/catalog-audit-2026-10-19.md), [projekt interfejsu](docs/redesign.md), [uproszczenie interfejsu](docs/ui-simplification.md), `data/catalog-expansion-*.json`, `data/other-category-audit-2026-10-19.json`. Ich dawne liczby i dawny model barku odnoszą się do wskazanego etapu projektu.

@@ -8,15 +8,17 @@ Implementacja: fizyczne egzemplarze v3, migracja v1/v2, zachowane stare klucze, 
 
 Wyniki testów i ograniczenia: `testing.md`, `data-model-v3.md`, `migrations.md`. Faza 1 nie wdraża całego systemu offline ani chmury.
 
-## Faza 2 — niezawodność i UX (następna)
+## Faza 2 — niezawodność i UX
 
-1. Dodać bazę IndexedDB z osobnymi store `metadata`, `ownedBottles`, `events`, `attachments`, `locations`, `pendingOperations`; indeksy wydania, statusu, lokalizacji i daty zakupu.
-2. Przetestować atomową migrację v3 localStorage do IDB z markerem zakończenia, SHA kopii, równoczesnym startem dwóch kart, brakiem miejsca i przerwaniem; dopiero po potwierdzeniu aktywować nowy backend.
-3. Oddzielić binaria od JSON w pamięci roboczej i zwiększyć bezpieczne limity dużych kolekcji. Zachować pełny przenośny backup.
-4. Import CSV z mapowaniem, podglądem i duplikatami, bez udawania znajomości formatów konkurencji; CSV/XLSX eksport z ochroną przed formułami.
-5. Dashboard z prawdziwymi licznikami i empty state, tryb jasny, dalsze usprawnienia wyszukiwania i małe moduły ładowane na żądanie. Zachować istniejące dynamiczne marki i źródła.
-6. Service worker: cache wersjonowanego shell i podstawowego katalogu, bez masowego pobierania zdjęć; kontrolowana aktualizacja bez przeładowania podczas zapisu. Test odcięcia sieci i ponownego startu zainstalowanej aplikacji.
-7. Testy Safari/WebKit i Firefox oraz instrukcja urządzeń fizycznych.
+Wdrożono IndexedDB z sześcioma store, indeksami, transakcyjnym zapisem i atomową migracją ze starym JSON oraz SHA kopii. Testy obejmują dwie karty, przerwanie, quota, korupcję, odzyskanie zamiarów i pliki. Binaria są osobnymi rekordami; zamiary istniejących plików używają referencji. Pełny backup pozostaje zgodnym v3.
+
+Dostępne są mapowany import CSV z podglądem/błędami/duplikatami, dołączanie i potwierdzane zastąpienie z kopią, eksport CSV/XLSX chroniony przed formułami. Ekran Start, onboarding, jasny/ciemny motyw, indeks wyszukiwania, kody i ostrożna tolerancja literówek zachowują wcześniejszy branding.
+
+Service worker zapisuje wersjonowany shell z modułami i katalogiem, bez hurtowego pobierania zdjęć. Pełny restart offline i zapis po kolejnym restarcie są testowane. Aktualizacja jest jawna, respektuje edytory i zapisy oraz nie przeładowuje innych kart. CI obejmuje Chromium i osobne bramki Firefox/WebKit; brak dostępu do urządzeń fizycznych opisuje procedura `testing.md`.
+
+Świadome ograniczenie: interfejs/backup nadal składa pełny v3 w pamięci. Nie zwiększono nieodpowiedzialnie limitów zdjęć i JSON. Stronicowane odczyty i całkowite wyeliminowanie danych plików z runtime snapshotu wymagają kolejnej zgodnej optymalizacji, opisanej w `architecture.md`; nie są warunkiem rozpoczęcia projektu backendu, ale pozostają ważne przed dużymi archiwami zdjęć. Żaden obecny limit nie powoduje cichego obcinania danych.
+
+Raport i wyniki: `phase-2-report.md`.
 
 ## Faza 3 — konta i synchronizacja
 

@@ -1,15 +1,17 @@
-# Dram 2.0 — architektura etapowa
+# Dram 2.0 — architektura po fazie 2
 
-Audyt bazowy: commit `ddbcbb3`, 638 wydań, React 19/TypeScript/Vite. Działają: katalog, dynamiczne marki od 4 wydań, skaner EAN/UPC/GTIN, barek ilościowy, życzenia, degustacje, źródłowe wyceny PL/NL, PL/EN, backup v1/v2, kolejka trwałych zmian i blokada między kartami. Brak: fizycznych egzemplarzy, bazy kolekcji w IndexedDB, offline po restarcie, backendu i kont.
+React 19 / TypeScript / Vite; 638 istniejących wydań i ich ID, fotografie, źródła, ceny oraz kody pozostają niezmienione. Brak serwera kont i synchronizacji urządzeń.
 
-## Plan i zależności
+`collection-model.ts` waliduje przenośny Journal v3. `collection.ts` wykonuje operacje na fizycznych egzemplarzach, historię i projekcję liczników starego interfejsu. `journal-store.ts` nadal obsługuje kolejkę, deterministyczne zamiary, szkice konfliktów i potwierdzane zastąpienia. Starszy backend pozostaje dostępny do migracji i testowania dawnych formatów.
 
-1. `collection-model.ts`: Journal v3, OwnedBottle, BottleEvent, Location; walidacja i deterministyczna migracja v1/v2. To źródło prawdy dla fazy 1.
-2. `journal-store.ts`: dotychczasowy protokół blokady, porównania wersji i trwałych zamiarów otrzymuje parametr formatu. Domyślny v2 pozostaje testowalny. V3 używa osobnego klucza i osobnej przestrzeni oczekujących zmian.
-3. `collection.ts`: projekcja dawnych liczników i adapter istniejących akcji. Wszystkie stare operacje barku zmieniają fizyczne egzemplarze; liczniki są wyliczane, nie stanowią osobnej kolekcji.
-4. `CellarInstances`: edytor egzemplarza, metadane zakupu, statusy, historia, napełnienie, zdjęcia/dokumenty i lokalizacje. Edycja sprawdza pierwotny egzemplarz przed zapisem.
-5. `collection-finance.ts`: koszty według waluty, orientacyjne ceny katalogowe, rzeczywiste sprzedaże. Nie dodaje nieistniejących notowań ani nie nazywa wyceny zyskiem.
-6. Backup v3 obejmuje egzemplarze, zdarzenia i załączniki. Starsze formaty są przyjmowane przez migrację.
-7. Faza 2 przeniesie właściwą kolekcję i binaria do IndexedDB oraz doda service worker. Faza 3 jest zależna od bezpiecznego lokalnego modelu oraz osobno skonfigurowanego backendu. Zaawansowane portfolio, Passport i Lens są kolejnymi fazami.
+Przeglądarka korzysta z `indexed-collection.ts`: IndexedDB `dram-collection`, wersja 1, store `metadata`, `ownedBottles`, `events`, `attachments`, `locations`, `pendingOperations`. Metadane robocze zawierają wspólną część dziennika, SHA-256 i kolejność ID. Fizyczne rekordy i zdarzenia są osobnymi wierszami; indeksy egzemplarzy: wydanie, status, lokalizacja, data zakupu. Prywatne pliki są `Uint8Array` w `attachments`; wiersze egzemplarzy zawierają referencje. Niezmienna kopia migracyjna zachowuje oryginalny JSON, także jego wcześniejsze osadzone pliki.
 
-W fazie 1 IndexedDB nadal koordynuje blokadę, a zapis kolekcji pozostaje w localStorage. Nie deklarujemy jeszcze prawdziwego offline ani synchronizacji chmurowej. Istniejący branding, katalog i ceny pozostają zachowane.
+Każdy zapis ponownie odczytuje stan pod rzeczywistą transakcją readwrite obejmującą wszystkie store. Dokładne porównanie wersji, walidacja i zapis są w tej samej transakcji; sukces czeka na `oncomplete`. Web Lock zachowuje zgodność ze starszymi kartami, ale nie jest jedyną ochroną — bez niego transakcja IDB nadal serializuje pisarzy. Awaria transakcji cofa widok i pozostawia szkic. BroadcastChannel, niewrażliwy marker rewizji i powrót do widocznej karty odświeżają inne widoki. localStorage v3 jest wyłącznie zachowaną kopią migracyjną, bez roboczego mirroru.
+
+Przed pierwszym await zamiar nadal trafia synchronicznie do localStorage. Zawiera SHA poprzedniej wersji i kandydata; wcześniej zapisane pliki zastępuje referencjami SHA do IDB. Nowe pliki pozostają w zabezpieczeniu do pierwszego zatwierdzenia. Binariów potrzebnych przez oczekujące szkice nie usuwa się podczas innych zapisów. `pendingOperations` jest przygotowanym store, nie udawaną kolejką chmurową. Nie ma jeszcze operacji synchronizacji z serwerem.
+
+`Dashboard` jest ekranem Start: posiadane/otwarte, degustacje, życzenia, orientacyjna wartość, ostatnie rzeczywiste daty i onboarding. Nie dopisuje dat migrowanym butelkom. Motyw jasny/ciemny zachowuje osobno region i język. Edytory egzemplarzy, koszty i arkusze są ładowane na żądanie; katalog ma osobny niezmienny chunk. Wyszukiwanie używa cache indeksów, znanych kodów i własnych przypisań; tolerancja pojedynczej literówki działa dopiero przy braku ścisłych wyników. Numery nie są dopasowywane przybliżeniowo.
+
+Plugin kompilacji generuje wersjonowany service worker: kompletny shell, moduły leniwe, fonty, katalog i logotypy. Bez hurtowego cache fotografii. Aktualizacja wymaga działania użytkownika, zakończonych zapisów i zamkniętych edytorów; druga karta może zawetować aktywację. Inne karty nie są przeładowywane. Poprzednie shell pozostają do bezpiecznego sprzątnięcia przy jednej karcie używającej aktualnych assetów.
+
+Ograniczenie wydajności: zgodny interfejs i przenośny backup nadal składają pełny v3 w pamięci. IDB rozdziela wiersze i binaria na dysku, a zamiary nie powielają już istniejących plików. Nie jest to jeszcze stronicowany backend dla nieograniczonych archiwów fotograficznych; limity pozostają jawne w `data-model-v3.md`. Kolejna optymalizacja musi zachować kompatybilność eksportu i odzyskiwania.

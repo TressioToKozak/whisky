@@ -27,3 +27,11 @@ Zdarzenia zapisują czas operacji, rodzaj oraz poprzednie i nowe wartości zmien
 ## Limity fazy 1
 
 Maksymalnie 999 posiadanych egzemplarzy jednego wydania, 100 000 rekordów w walidatorze v3, 200 000 zdarzeń, 4000 lokalizacji, 15 załączników po do 1 MB w UI. Rzeczywisty limit localStorage jest znacznie mniejszy i zależy od przeglądarki; przekroczenie nie nadpisuje danych. Migracja ilościowa powyżej 20 000 egzemplarzy jest zatrzymywana przed alokacją — wymaga fazy IndexedDB. To zabezpieczenie pamięci, nie usuwanie ani skracanie kolekcji. Limity i backend przechowywania zostaną ponownie ocenione w fazie 2.
+
+## Backend i limity po fazie 2
+
+Przenośny format pozostaje v3; schemat bazy ma niezależną wersję 1. W IDB binaria są poza roboczymi wierszami JSON. Odtworzenie kopii i zgodny snapshot interfejsu nadal składają pełny dokument w pamięci. Nie zwiększamy na ślepo limitów plików: UI 1 MB/pliku, 15/egzemplarz, JSON import 20 MB; CSV 5 MB i 20 000 wierszy. Limity rekordów powyżej pozostają aktualne, a bariera 20 000 dotyczy wyłącznie rozwijania dawnych ilości v1/v2. Duże v3 nie są obcinane.
+
+Istniejące pliki w trwałych zamiarach są referencjami do bazy, więc kolejne edycje nie zużywają ponownie ich wielkości w localStorage. Pierwsze dodanie nowego pliku nadal wymaga miejsca na synchroniczne zabezpieczenie; błąd jest widoczny i nie udaje sukcesu. Rzeczywisty dostępny limit IDB zależy od przeglądarki, wolnego dysku i polityki usuwania danych. Nie deklarujemy nieograniczonej kolekcji.
+
+Arkusz obejmuje ID egzemplarza, ID/nazwę/markę wydania, status, datę i kwotę/walutę zakupu, miejsce, lokalizację i notatki. Nie zawiera dokumentów, historii, degustacji, życzeń ani wszystkich pól kolekcjonerskich; służy do wymiany tabelarycznej. Eksport CSV chroni komórki zaczynające się od formuły apostrofem; XLSX używa typowanych liczb i inline strings, bez formuł. Import nie usuwa automatycznie apostrofu ochronnego, żeby nie zmieniać prywatnych notatek.
