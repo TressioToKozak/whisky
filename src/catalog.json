@@ -15,6 +15,10 @@
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/640w/attribute_rule_images/31953_source_1792164051.jpg?compression=lossy",
     "tags": [
       "Dym",
+      "Przyprawy",
+      "Karmel",
+      "Cytrusy",
+      "Suszone owoce",
       "Wanilia",
       "Owoce"
     ],
@@ -37,9 +41,12 @@
     "source": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-whisky/?sku=2423",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/640w/attribute_rule_images/31936_source_1790320251.jpg?compression=lossy",
     "tags": [
-      "Miód",
       "Dym",
-      "Przyprawy"
+      "Karmel",
+      "Czekolada",
+      "Suszone owoce",
+      "Przyprawy",
+      "Miód"
     ],
     "ageStatus": "nas",
     "whiskyType": "blended-scotch",
@@ -82,8 +89,11 @@
     "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-red-label-whisky/?sku=2427",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/640w/attribute_rule_images/31967_source_1792065032.jpg?compression=lossy",
     "tags": [
+      "Dym",
+      "Miód",
       "Przyprawy",
-      "Dym"
+      "Karmel",
+      "Dąb"
     ],
     "ageStatus": "nas",
     "whiskyType": "blended-scotch",
@@ -126,8 +136,12 @@
     "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-green-label-15-year-old-whisky/?sku=2428",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/640w/attribute_rule_images/31928_source_1789635731.jpg?compression=lossy",
     "tags": [
-      "Dąb",
-      "Dym"
+      "Dym",
+      "Kawa",
+      "Czekolada",
+      "Orzechy",
+      "Miód",
+      "Dąb"
     ],
     "ageStatus": "stated",
     "whiskyType": "blended-malt-scotch",
@@ -1608,7 +1622,9 @@
     "image": "/bottles/jw-b5ecf110444a.webp",
     "source": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-johnnie-blonde-whisky/?sku=110834",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/640w/attribute_rule_images/49058_source_1761856845.jpg?compression=lossy",
-    "tags": [],
+    "tags": [
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch",
     "region": "Other Scotch"
@@ -4730,7 +4746,10 @@
     "image": "/bottles/jd-213370286da9.png",
     "source": "https://www.topdrinks.nl/jack-daniel-s-honey-70cl",
     "imageSource": "https://www.topdrinks.nl/media/catalog/product/L/_/L_06_512_00_1_ac50.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "whisky-liqueur"
@@ -4749,7 +4768,11 @@
     "image": "/bottles/jd-51c20cabcae7.png",
     "source": "https://www.topdrinks.nl/jack-daniel-s-fire-70cl",
     "imageSource": "https://www.topdrinks.nl/media/catalog/product/L/_/L_16_518_00_1_861f.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "whisky-liqueur"
@@ -4768,7 +4791,11 @@
     "image": "/bottles/jd-54b8c42456f8.png",
     "source": "https://www.topdrinks.nl/jack-daniel-s-apple-70cl",
     "imageSource": "https://www.topdrinks.nl/media/catalog/product/L/_/L_20_683_00_1_242f.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "whisky-liqueur"
@@ -4787,7 +4814,12 @@
     "image": "/bottles/jd-718998175b4f.png",
     "source": "https://www.topdrinks.nl/jack-daniels-blackberry-0-70-liter",
     "imageSource": "https://www.topdrinks.nl/media/catalog/product/L/_/L_67_777_00_1_fe0a.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Dąb"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "whisky-liqueur"
@@ -4844,7 +4876,12 @@
     "image": "/bottles/jd-3c0f56ada9a8.png",
     "source": "https://www.drankgigant.nl/jack-daniels-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jack_daniels_70cl_1.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Dąb"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "tennessee"
@@ -4958,7 +4995,10 @@
     "image": "/bottles/jd-e7c7a55da65a.webp",
     "source": "https://www.masterofmalt.com/whiskies/jack-daniels/gentleman-jack-whiskey/?sku=3002",
     "imageSource": "https://www.topdrinks.nl/media/converted/resized/70aa86933c8e44b4d0ff54b0769f85e1/360x480/catalog/product/L/_/L_06_504_00_1_3c931x.webp",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Przyprawy"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "tennessee"
@@ -5072,7 +5112,9 @@
     "image": "/bottles/jd-4c20bc914736.webp",
     "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-bonded-rye-whiskey/?sku=134176",
     "imageSource": "https://www.topdrinks.nl/media/converted/resized/4b80c706e1e3bab8b9e73b505ec32de7/360x480/catalog/product/L/_/L_62_918_00_1_59bf1x.webp",
-    "tags": [],
+    "tags": [
+      "Przyprawy"
+    ],
     "region": "Tennessee",
     "ageStatus": "unknown",
     "whiskyType": "rye"
@@ -7219,7 +7261,13 @@
     "image": "/bottles/ardbeg-614bbda2ea6d.png",
     "source": "https://www.drankgigant.nl/ardbeg-an-oa.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/a/r/ardbeg_an_oa_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Karmel",
+      "Cytrusy",
+      "Czekolada",
+      "Suszone owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "single-malt-scotch",
     "region": "Islay"
@@ -7238,7 +7286,12 @@
     "image": "/bottles/ardbeg-236eaaf24cb0.png",
     "source": "https://www.drankgigant.nl/ardbeg-10-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/a/r/ardbeg_10_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Karmel",
+      "Orzechy"
+    ],
     "ageStatus": "stated",
     "whiskyType": "single-malt-scotch",
     "region": "Islay"
@@ -7276,7 +7329,11 @@
     "image": "/bottles/ardbeg-a56dff8b6045.png",
     "source": "https://www.drankgigant.nl/ardbeg-wee-beastie-5-years.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/a/r/ardbeg_wee_beastie_5_year_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Przyprawy",
+      "Czekolada"
+    ],
     "ageStatus": "stated",
     "whiskyType": "single-malt-scotch",
     "region": "Islay"
@@ -7390,7 +7447,12 @@
     "image": "/bottles/ballantines-07ba608b18f6.png",
     "source": "https://www.drankgigant.nl/ballantines.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/a/ballantines_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -7408,7 +7470,12 @@
     "image": "/bottles/ballantines-5d45c26add75.png",
     "source": "https://www.drankgigant.nl/ballantines-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/a/ballantines_12_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Dąb"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -7444,7 +7511,13 @@
     "image": "/bottles/ballantines-bb6f35f4dc5f.png",
     "source": "https://www.drankgigant.nl/ballantines-10-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/a/ballantines_10_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Przyprawy",
+      "Dąb"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -7462,7 +7535,12 @@
     "image": "/bottles/ballantines-80ec5901ec08.png",
     "source": "https://www.drankgigant.nl/ballantines-barrel-smooth-blended.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/a/ballantines_barrel_smooth_blended_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Miód",
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -7553,7 +7631,12 @@
     "image": "/bottles/bushmills-6802a226f822.png",
     "source": "https://www.drankgigant.nl/bushmills-10-years-sherry-cask-finish.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_10_years_sherry_cask_finish_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Suszone owoce"
+    ],
     "ageStatus": "stated",
     "whiskyType": "irish-single-malt"
   },
@@ -7589,7 +7672,13 @@
     "image": "/bottles/bushmills-27410c6a6124.png",
     "source": "https://www.drankgigant.nl/bushmills-10-years-vino-dulce-reserve.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_10_years_vino_dulce_reserve_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy",
+      "Czekolada",
+      "Suszone owoce"
+    ],
     "ageStatus": "stated",
     "whiskyType": "irish-single-malt"
   },
@@ -7607,7 +7696,9 @@
     "image": "/bottles/bushmills-788c3a811aeb.png",
     "source": "https://www.drankgigant.nl/bushmills-black-bush-80-20-px-sherry.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_black_bush_80_20_px_sherry_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -7625,7 +7716,11 @@
     "image": "/bottles/bushmills-7fbab2c163ad.jpg",
     "source": "https://www.drankgigant.nl/bushmills-black-bush.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_black_bush_70cl_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Przyprawy",
+      "Sherry"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -7643,7 +7738,9 @@
     "image": "/bottles/bushmills-1f0ef4bc40eb.jpg",
     "source": "https://www.drankgigant.nl/bushmills-original-red.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_original_red_70cl_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -7661,7 +7758,11 @@
     "image": "/bottles/bushmills-07edd289caee.jpg",
     "source": "https://www.drankgigant.nl/bushmills-american-oak.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_american_oak_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Miód"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "irish-blended"
   },
@@ -7715,7 +7816,13 @@
     "image": "/bottles/bushmills-38b56c97ed0b.png",
     "source": "https://www.drankgigant.nl/bushmills-12-years-irish-whiskey.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_12_years_irish_whiskey_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Przyprawy",
+      "Suszone owoce"
+    ],
     "ageStatus": "stated",
     "whiskyType": "irish-single-malt"
   },
@@ -7787,7 +7894,13 @@
     "image": "/bottles/bushmills-47c507ed1824.png",
     "source": "https://www.drankgigant.nl/bushmills-steamship-collection-char-bourbon-cask.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_steamship_collection_bourbon_cask_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Cytrusy",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "irish-single-malt"
   },
@@ -7805,7 +7918,11 @@
     "image": "/bottles/bushmills-0a63cfe85c85.jpg",
     "source": "https://www.drankgigant.nl/bushmills-caribbean-rum-cask-finish.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_whisky_caribbean_rum_cask_finish_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "irish-blended"
   },
@@ -7841,7 +7958,12 @@
     "image": "/bottles/bushmills-87e924a59f06.png",
     "source": "https://www.drankgigant.nl/bushmills-10-year-single-malt.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bushmills_10_year_single_malt_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Dąb",
+      "Czekolada"
+    ],
     "ageStatus": "stated",
     "whiskyType": "irish-single-malt"
   },
@@ -7877,7 +7999,13 @@
     "image": "/bottles/chivas-7d82ecd33570.png",
     "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-oloroso-sherry-cask.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/h/chivas_regal_extra_13_year_oloroso_sherry_cask_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -7913,7 +8041,11 @@
     "image": "/bottles/chivas-d1f30518067d.png",
     "source": "https://www.drankgigant.nl/chivas-regal-13-years-extra-tequila-cask.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/h/chivas_regal_13_years_extra_tequila_cask_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Cytrusy"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -7931,7 +8063,12 @@
     "image": "/bottles/chivas-7c1e99c38f63.png",
     "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-american-rye-casks.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/h/chivas_regal_extra_13_year_american_rye_casks_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Cytrusy",
+      "Czekolada"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -8021,7 +8158,12 @@
     "image": "/bottles/chivas-5d1fd127da81.png",
     "source": "https://www.drankgigant.nl/chivas-regal-12-year-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/h/chivas_regal_12_year_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Przyprawy",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -8093,7 +8235,12 @@
     "image": "/bottles/chivas-d1ca12afd81a.png",
     "source": "https://www.drankgigant.nl/chivas-regal-xv-15-year-70cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/h/chivas_regal_xv_15_year_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -8111,7 +8258,9 @@
     "image": "/bottles/jim-beam-ce0383739df1.png",
     "source": "https://www.drankgigant.nl/jim-beam-honey-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_honey_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Miód"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -8129,7 +8278,9 @@
     "image": "/bottles/jim-beam-919b7ad0e448.png",
     "source": "https://www.drankgigant.nl/jim-beam-apple.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_apple_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -8147,7 +8298,10 @@
     "image": "/bottles/jim-beam-2f7ba13aa2c2.png",
     "source": "https://www.drankgigant.nl/jim-beam-peach.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_peach_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -8165,7 +8319,12 @@
     "image": "/bottles/jim-beam-757955520bff.png",
     "source": "https://www.drankgigant.nl/jim-beam-pineapple.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_pineapple_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -8183,7 +8342,12 @@
     "image": "/bottles/jim-beam-4c8b791f3b54.png",
     "source": "https://www.drankgigant.nl/jim-beam-white-label-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_white_label_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -8201,7 +8365,12 @@
     "image": "/bottles/jim-beam-126de4a3f392.png",
     "source": "https://www.drankgigant.nl/jim-beam-devil-s-cut.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_devils_cut_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -8237,7 +8406,11 @@
     "image": "/bottles/jim-beam-45e20d1071da.png",
     "source": "https://www.drankgigant.nl/jim-beam-double-oak.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_double_oak_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -8255,7 +8428,12 @@
     "image": "/bottles/jim-beam-e17ca6a02cc8.png",
     "source": "https://www.drankgigant.nl/jim-beam-sunshine-blend.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_sunshine_blend_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Cytrusy",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -8273,7 +8451,11 @@
     "image": "/bottles/jim-beam-8b24b672975b.png",
     "source": "https://www.drankgigant.nl/jim-beam-black-cherry.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_black_cherry_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Owoce",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -8291,7 +8473,11 @@
     "image": "/bottles/jim-beam-c5f708575387.png",
     "source": "https://www.drankgigant.nl/jim-beam-7-years-black.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_7_years_black_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy"
+    ],
     "ageStatus": "stated",
     "whiskyType": "bourbon"
   },
@@ -8309,7 +8495,12 @@
     "image": "/bottles/jim-beam-62541216b3b1.png",
     "source": "https://www.drankgigant.nl/jim-beam-black-extra-aged.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/i/jim_beam_black_extra-aged_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -8327,7 +8518,13 @@
     "image": "/bottles/toki-f4832cf8c916.png",
     "source": "https://www.drankgigant.nl/suntory-toki.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/s/u/suntory_toki_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Suntory Toki"
     ],
@@ -8348,7 +8545,13 @@
     "image": "/bottles/toki-769a58a24728.png",
     "source": "https://www.drankgigant.nl/suntory-toki-black.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/s/u/suntory_toki_black_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Black"
     ],
@@ -8693,7 +8896,13 @@
     "image": "/bottles/glenfiddich-bdb7d1818d93.png",
     "source": "https://www.drankgigant.nl/glenfiddich-14-year-bourbon-barrel-reserve.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_14_year_bourbon_barrel_reserve_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Cytrusy",
+      "Przyprawy",
+      "Dąb"
+    ],
     "ageStatus": "stated",
     "whiskyType": "single-malt-scotch",
     "region": "Speyside"
@@ -8840,7 +9049,13 @@
     "image": "/bottles/glenfiddich-adeb4545b1a4.png",
     "source": "https://www.drankgigant.nl/glenfiddich-project-xx.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_project_xx_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy",
+      "Dąb",
+      "Orzechy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "single-malt-scotch",
     "region": "Speyside"
@@ -8859,7 +9074,12 @@
     "image": "/bottles/glenfiddich-0eab037cea0f.png",
     "source": "https://www.drankgigant.nl/glenfiddich-fire-cane-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_fire_cane_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Wanilia",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "single-malt-scotch",
     "region": "Speyside"
@@ -8878,7 +9098,10 @@
     "image": "/bottles/glenfiddich-d49b43469be1.png",
     "source": "https://www.drankgigant.nl/glenfiddich-12-year-70cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_12_year_70cl_new_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Karmel"
+    ],
     "ageStatus": "stated",
     "whiskyType": "single-malt-scotch",
     "region": "Speyside"
@@ -8916,7 +9139,10 @@
     "image": "/bottles/glenfiddich-42bc72f7783e.png",
     "source": "https://www.drankgigant.nl/glenfiddich-our-malt-master-s-edition.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_our_malt_master_039_s_edition_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "single-malt-scotch"
   },
@@ -8934,7 +9160,11 @@
     "image": "/bottles/glenfiddich-547ee86728f6.png",
     "source": "https://www.drankgigant.nl/glenfiddich-12-years-our-triple-oak.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_12_years_our_triple_oak_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Przyprawy",
+      "Orzechy"
+    ],
     "ageStatus": "stated",
     "whiskyType": "single-grain"
   },
@@ -9007,7 +9237,11 @@
     "image": "/bottles/glenfiddich-a88131f4da8d.png",
     "source": "https://www.drankgigant.nl/glenfiddich-orchard-experiment-series-05.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenfiddich_orchard_experiment_series_05_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "single-malt-scotch",
     "region": "Speyside"
@@ -9434,7 +9668,11 @@
     "image": "/bottles/jim-beam-4f1078f0996b.webp",
     "source": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-single-barrel-whiskey/?sku=100616",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/55678_source_1787677894.jpg?compression=lossy",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -9929,7 +10167,12 @@
     "image": "/bottles/ballantines-50517570c981.jpg",
     "source": "https://www.thewhiskyexchange.com/p/72610/ballantines-finest-true-music-icons-queen-edition",
     "imageSource": "https://img.thewhiskyexchange.com/480/blend_bal118.jpg?v=202407241",
-    "tags": [],
+    "tags": [
+      "Miód",
+      "Owoce",
+      "Przyprawy",
+      "Czekolada"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10073,7 +10316,13 @@
     "image": "/bottles/ballantines-c4ea0929f476.png",
     "source": "https://www.ballantines.com/en/range/ballantines-sweet-blend/",
     "imageSource": "https://www.ballantines.com/wp-content/uploads/assets-v2/2025/10/ballantines_sweet_blend_70cl_line.png",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Czekolada",
+      "Orzechy"
+    ],
     "aliases": [
       "Ballantines Sweet Blend",
       "Ballantine’s Sweet"
@@ -10095,7 +10344,12 @@
     "image": "/bottles/jameson-41334cc7c37a.png",
     "source": "https://www.drankgigant.nl/jameson-crested.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_crested_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Przyprawy",
+      "Czekolada",
+      "Sherry"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10113,7 +10367,11 @@
     "image": "/bottles/jameson-94510a185f6f.jpg",
     "source": "https://www.drankgigant.nl/jameson-caskmates-stout-pairing-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_caskmates_stout_pairing_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Cytrusy",
+      "Czekolada"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10131,7 +10389,12 @@
     "image": "/bottles/jameson-e0d491e62f8c.jpg",
     "source": "https://www.drankgigant.nl/jameson-black-barrel.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_black_barrel_1_1_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Orzechy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10149,7 +10412,12 @@
     "image": "/bottles/jameson-1c96a4c5399b.jpg",
     "source": "https://www.drankgigant.nl/jameson-caskmates-ipa.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_caskmates_ipa_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy",
+      "Orzechy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10167,7 +10435,12 @@
     "image": "/bottles/jameson-6aa2530dd5fb.jpg",
     "source": "https://www.drankgigant.nl/jameson-cold-brew.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_cold_brew_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Czekolada",
+      "Kawa"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -10185,7 +10458,11 @@
     "image": "/bottles/jameson-2e7953f86482.jpg",
     "source": "https://www.drankgigant.nl/jameson-orange-spirit.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_orange_spirit_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Cytrusy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "flavoured-spirit"
   },
@@ -10203,7 +10480,13 @@
     "image": "/bottles/jameson-1ec8e4e0f3dd.png",
     "source": "https://www.drankgigant.nl/jameson-triple-triple.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_triple_triple_cask_100cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy",
+      "Czekolada",
+      "Suszone owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10221,7 +10504,13 @@
     "image": "/bottles/jameson-81eb0397c5ee.png",
     "source": "https://www.drankgigant.nl/jameson-triple-triple-marsala-cask.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_triple_triple_marsala_cask_100cl_2.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy",
+      "Czekolada",
+      "Orzechy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10459,7 +10748,12 @@
     "image": "/bottles/jameson-f2dd066b692a.jpg",
     "source": "https://www.drankgigant.nl/jameson-irish.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/j/a/jameson_irish_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Przyprawy",
+      "Orzechy",
+      "Sherry"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10531,7 +10825,10 @@
     "image": "/bottles/chivas-e8b6f623c5fa.webp",
     "source": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-extra-13-year-old-bourbon-cask-whisky/?sku=112931",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/47518_source_1759246265.jpg?compression=lossy",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Dąb"
+    ],
     "ageStatus": "stated",
     "whiskyType": "blended-scotch"
   },
@@ -10783,7 +11080,10 @@
     "image": "/bottles/other-722af468f64a.png",
     "source": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/r/grant_039_s_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Sherry"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10801,7 +11101,10 @@
     "image": "/bottles/other-1eb8ee16a9b0.png",
     "source": "https://www.drankgigant.nl/bell-s-blended.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/e/bell_s_blended_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Miód",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10819,7 +11122,11 @@
     "image": "/bottles/other-9b95a315376c.png",
     "source": "https://www.drankgigant.nl/white-horse-blended-liter.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/h/white_horse_blended_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Torf",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10837,7 +11144,13 @@
     "image": "/bottles/other-818f3c3b74bc.png",
     "source": "https://www.drankgigant.nl/teachers-blended-whisky.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/e/teacher_039_s_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Torf",
+      "Miód",
+      "Owoce",
+      "Przyprawy",
+      "Sherry"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10855,7 +11168,13 @@
     "image": "/bottles/other-8db2396baea4.png",
     "source": "https://www.drankgigant.nl/dewar-s-white-label.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/d/e/dewars_white_label_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10873,7 +11192,11 @@
     "image": "/bottles/other-3fe069aa8de2.jpg",
     "source": "https://www.drankgigant.nl/tullamore-dew.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/u/tullamore_dew_1_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "unknown"
   },
@@ -10891,7 +11214,12 @@
     "image": "/bottles/other-eebe36df5be5.jpg",
     "source": "https://www.drankgigant.nl/four-roses-bourbon.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/f/o/four_roses_bourbon_70cl_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Miód",
+      "Cytrusy",
+      "Dąb"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -10909,7 +11237,13 @@
     "image": "/bottles/other-8c1fc5574504.jpg",
     "source": "https://www.drankgigant.nl/wild-turkey-81.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/i/wild_turkey_81_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Miód",
+      "Przyprawy",
+      "Kawa"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "bourbon"
   },
@@ -10927,7 +11261,12 @@
     "image": "/bottles/other-fdcd977fcf87.png",
     "source": "https://www.drankgigant.nl/famous-grouse.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/f/a/famous_grouse_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10945,7 +11284,12 @@
     "image": "/bottles/other-06da966d7dc7.png",
     "source": "https://www.drankgigant.nl/william-lawsons.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/i/william_lawsons_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Przyprawy",
+      "Dąb",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10963,7 +11307,12 @@
     "image": "/bottles/other-8c3011829c0f.png",
     "source": "https://www.drankgigant.nl/whyte-mackay.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/h/whyte_mackay_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Miód",
+      "Cytrusy",
+      "Czekolada"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-scotch"
   },
@@ -10981,7 +11330,12 @@
     "image": "/bottles/other-5bf6d84baf0d.jpg",
     "source": "https://www.drankgigant.nl/makers-mark.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/m/a/makers_mark_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Dąb",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Makers Mark"
     ],
@@ -11002,7 +11356,12 @@
     "image": "/bottles/other-753bf62a563d.jpg",
     "source": "https://www.drankgigant.nl/monkey-shoulder.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/m/o/monkey_shoulder_70cl_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce",
+      "Przyprawy"
+    ],
     "ageStatus": "unknown",
     "whiskyType": "blended-malt-scotch"
   },
@@ -11172,7 +11531,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/m/a/macallan_12_years_double_cask_1_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/macallan-12-years-double-cask.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/m/a/macallan_12_years_double_cask_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Macallan 12 Years Double Cask"
     ],
@@ -11194,7 +11559,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/t/h/the_glenlivet_12_years_double_oak_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/the-glenlivet-12-years-double-oak-html.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/h/the_glenlivet_12_years_double_oak_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Orzechy"
+    ],
     "aliases": [
       "The Glenlivet 12 Years Double Oak"
     ]
@@ -11215,7 +11584,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/l/a/laphroaig_10_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/laphroaig-10-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/l/a/laphroaig_10_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Wanilia",
+      "Przyprawy"
+    ],
     "aliases": [
       "Laphroaig 10 Year"
     ],
@@ -11237,7 +11611,10 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/l/a/lagavulin_16_1_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/lagavulin-16-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/l/a/lagavulin_16_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf"
+    ],
     "aliases": [
       "Lagavulin 16 Year"
     ],
@@ -11259,7 +11636,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/t/a/talisker_10_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/talisker-10-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/a/talisker_10_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Owoce",
+      "Przyprawy"
+    ],
     "aliases": [
       "Talisker 10 Year"
     ],
@@ -11281,7 +11663,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/g/l/glenmorangie_12_years_the_original_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/glenmorangie-12-years-the-original.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glenmorangie_12_years_the_original_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Owoce",
+      "Cytrusy"
+    ],
     "aliases": [
       "Glenmorangie 12 Years The Original"
     ],
@@ -11303,7 +11690,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/t/h/the_balvenie_12_year_double_wood_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/balvenie-12-years-double-wood.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/h/the_balvenie_12_year_double_wood_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Orzechy",
+      "Suszone owoce",
+      "Sherry"
+    ],
     "aliases": [
       "Balvenie 12 Years Double Wood"
     ]
@@ -11324,7 +11717,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/h/i/highland_park_12_years_new_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/highland-park-12-years-2.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/h/i/highland_park_12_years_new_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Miód",
+      "Cytrusy",
+      "Przyprawy",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Highland Park 12 Years"
     ],
@@ -11346,7 +11745,12 @@
     "image": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/31086_source_1788869430.jpg?compression=lossy",
     "source": "https://www.masterofmalt.com/whiskies/aberlour/aberlour-12-year-old-double-cask-matured-whisky/",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/31086_source_1788869430.jpg?compression=lossy",
-    "tags": [],
+    "tags": [
+      "Miód",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Aberlour 12 Year Old Double Cask Matured 70cl Whisky"
     ]
@@ -11367,7 +11771,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/d/a/dalmore_12_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/dalmore-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/d/a/dalmore_12_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Cytrusy",
+      "Przyprawy",
+      "Czekolada",
+      "Kawa"
+    ],
     "aliases": [
       "Dalmore 12 Year"
     ],
@@ -11389,7 +11798,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/g/l/glendronach_12_years_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/glendronach-12-year-70-cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/l/glendronach_12_years_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Przyprawy",
+      "Dąb",
+      "Suszone owoce",
+      "Sherry"
+    ],
     "aliases": [
       "Glendronach 12 Years"
     ],
@@ -11411,7 +11826,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/b/o/bowmore_12_year_70cl_new_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/bowmore-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/o/bowmore_12_year_70cl_new_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Miód",
+      "Cytrusy",
+      "Dąb"
+    ],
     "aliases": [
       "Bowmore 12 Year"
     ],
@@ -11433,7 +11854,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/o/b/oban_14_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/oban-14-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/o/b/oban_14_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Oban 14 Year"
     ],
@@ -11455,7 +11881,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/c/a/caol_ila_12_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/caol-ila-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/a/caol_ila_12_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Karmel",
+      "Cytrusy"
+    ],
     "aliases": [
       "Caol Ila 12 Year"
     ],
@@ -11477,7 +11908,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/b/u/bunnahabhain_12_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/bunnahabhain-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bunnahabhain_12_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Bunnahabhain 12 Year"
     ],
@@ -11499,7 +11935,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/b/u/buffalo_trace_bourbon_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/buffalo-trace-bourbon.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/buffalo_trace_bourbon_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Przyprawy",
+      "Dąb"
+    ],
     "aliases": [
       "Buffalo Trace Bourbon"
     ]
@@ -11520,7 +11961,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/w/o/woodford_reserve_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/woodford-reserve.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/o/woodford_reserve_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Cytrusy",
+      "Przyprawy",
+      "Czekolada",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Woodford Reserve"
     ]
@@ -11541,7 +11988,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/b/u/bulleit_bourbon_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/bulleit-bourbon.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/b/u/bulleit_bourbon_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Cytrusy",
+      "Przyprawy",
+      "Dąb"
+    ],
     "aliases": [
       "Bulleit Bourbon"
     ]
@@ -11562,7 +12014,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/w/i/wild_turkey_101_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/wild-turkey-101.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/i/wild_turkey_101_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy"
+    ],
     "aliases": [
       "Wild Turkey 101"
     ]
@@ -11583,7 +12039,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/f/o/four_roses_single_barrel_100_proof_1.jpg?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/four-roses-single-barrel-100-proof.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/f/o/four_roses_single_barrel_100_proof_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Czekolada"
+    ],
     "aliases": [
       "Four Roses Single Barrel 100 Proof"
     ]
@@ -11604,7 +12064,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/m/a/makers_46_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/makers-46.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/m/a/makers_46_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Dąb"
+    ],
     "aliases": [
       "Makers 46"
     ]
@@ -11625,7 +12090,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/k/n/knob_creek_9_year_old_100_proof_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/knob-creek-9-year-old-100-proof.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/k/n/knob_creek_9_year_old_100_proof_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Czekolada",
+      "Orzechy"
+    ],
     "aliases": [
       "Knob Creek 9 Year Old 100 Proof"
     ]
@@ -11646,7 +12116,10 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/e/a/eagle_rare_10_years_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/eagle-rare-10-years-single-barrel.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/e/a/eagle_rare_10_years_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Karmel",
+      "Owoce"
+    ],
     "aliases": [
       "Eagle Rare 10 Years"
     ]
@@ -11667,7 +12140,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/e/l/elijah-craig-small-batch.jpg?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/elijah-craig-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/e/l/elijah-craig-small-batch.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Przyprawy",
+      "Dąb"
+    ],
     "aliases": [
       "Elijah Craig Small Batch"
     ]
@@ -11688,7 +12165,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/m/i/michter_s_small_batch_bourbon_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/michter-s-small-batch-bourbon.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/m/i/michter_s_small_batch_bourbon_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Owoce"
+    ],
     "aliases": [
       "Michter's Small Batch Bourbon"
     ]
@@ -11709,7 +12190,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/r/e/redbreast_12_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/redbreast-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/r/e/redbreast_12_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Przyprawy",
+      "Sherry"
+    ],
     "aliases": [
       "Redbreast 12 Year"
     ]
@@ -11730,7 +12215,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/t/e/teeling_small_batch_rum_cask_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/teeling-whiskey-small-batch.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/e/teeling_small_batch_rum_cask_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy"
+    ],
     "aliases": [
       "Teeling Small Batch Rum Cask"
     ]
@@ -11751,7 +12240,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/g/r/green_spot_chateau_montelena_zinfandel_cask_70cl_1_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/green-spot.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/g/r/green_spot_chateau_montelena_zinfandel_cask_70cl_1_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Green Spot"
     ]
@@ -11772,7 +12266,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/c/o/connemara_irish_peated_malt_70cl.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/connemara-irish-malt.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/o/connemara_irish_peated_malt_70cl.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Torf",
+      "Miód"
+    ],
     "aliases": [
       "Connemara Irish Peated Malt"
     ]
@@ -11793,7 +12291,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/t/u/tullamore_dew_12_year_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/tullamore-dew-12-year.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/t/u/tullamore_dew_12_year_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Czekolada",
+      "Orzechy",
+      "Suszone owoce"
+    ],
     "aliases": [
       "Tullamore Dew 12 Year"
     ]
@@ -11814,7 +12318,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/w/r/writers_tears_copper_pot_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/writers-tears-copper-pot.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/w/r/writers_tears_copper_pot_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Miód",
+      "Cytrusy",
+      "Przyprawy"
+    ],
     "aliases": [
       "Writers Tears Copper Pot"
     ]
@@ -11835,7 +12344,13 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/n/i/nikka_from_the_barrel_50cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/nikka-from-the-barrel.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/n/i/nikka_from_the_barrel_50cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Karmel",
+      "Przyprawy",
+      "Dąb",
+      "Czekolada"
+    ],
     "aliases": [
       "Nikka from the Barrel"
     ]
@@ -11856,7 +12371,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/n/i/nikka_days_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/nikka-days.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/n/i/nikka_days_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Cytrusy",
+      "Orzechy"
+    ],
     "aliases": [
       "Nikka Days"
     ]
@@ -11877,7 +12397,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/h/i/hibiki_japanese_harmony_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/hibiki-harmony.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/h/i/hibiki_japanese_harmony_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Owoce",
+      "Cytrusy",
+      "Czekolada"
+    ],
     "aliases": [
       "Hibiki Japanese Harmony"
     ]
@@ -11898,7 +12422,11 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/y/a/yamazaki_distillers_reserve_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/yamazaki-distillers-reserve-70cl.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/y/a/yamazaki_distillers_reserve_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce",
+      "Przyprawy"
+    ],
     "aliases": [
       "Yamazaki Distillers Reserve"
     ]
@@ -11919,7 +12447,10 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/s/u/suntory_hakushu_distillers_reserve_70cl_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/suntory-hakushu-distillers-edition.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/s/u/suntory_hakushu_distillers_reserve_70cl_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Dym",
+      "Cytrusy"
+    ],
     "aliases": [
       "Suntory Hakushu Distillers Reserve"
     ]
@@ -11940,7 +12471,10 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/k/a/kavalan_single_malt_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/kavalan-single-malt.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/k/a/kavalan_single_malt_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Owoce"
+    ],
     "aliases": [
       "Kavalan Single Malt"
     ]
@@ -11961,7 +12495,12 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/a/m/amrut_fusion_1.png?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/amrut-fusion.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/a/m/amrut_fusion_1.png?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Torf",
+      "Wanilia",
+      "Czekolada",
+      "Kawa"
+    ],
     "aliases": [
       "Amrut Fusion"
     ]
@@ -11982,7 +12521,9 @@
     "image": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/3345_source_1758883941.jpg?compression=lossy",
     "source": "https://www.masterofmalt.com/whiskies/starward/starward-two-fold-whisky/",
     "imageSource": "https://cdn11.bigcommerce.com/s-e8lbekfe7c/images/stencil/1024w/attribute_rule_images/3345_source_1758883941.jpg?compression=lossy",
-    "tags": [],
+    "tags": [
+      "Owoce"
+    ],
     "aliases": [
       "Starward Two-Fold 70cl Whisky"
     ],
@@ -12004,7 +12545,10 @@
     "image": "https://www.drankgigant.nl/media/catalog/product/c/a/canadian_club_70cl_1.jpg?store=default&image-type=image",
     "source": "https://www.drankgigant.nl/canadian-club.html",
     "imageSource": "https://www.drankgigant.nl/media/catalog/product/c/a/canadian_club_70cl_1.jpg?store=default&image-type=image",
-    "tags": [],
+    "tags": [
+      "Wanilia",
+      "Orzechy"
+    ],
     "aliases": [
       "Canadian Club"
     ]

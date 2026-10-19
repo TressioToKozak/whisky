@@ -1,0 +1,2374 @@
+{
+  "checkedAt": "2026-10-19",
+  "method": "Individually reviewed product-specific tasting descriptions. No cask-only inferences, history, cocktail garnishes or generic brand extrapolation. Existing personal review tags are never changed. Quotes retained for audit, not displayed as product copy.",
+  "products": [
+    {
+      "id": "popular-ad08bbea4e4c",
+      "source": "https://www.drankgigant.nl/macallan-12-years-double-cask.html",
+      "sourceSha256": "9ea2d1e49e04ed1e5a5d5a4ebdc47f2dfb01fbe96408ef8b8992313af752e265",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Karmel": "In de geur zul je romige kenmerken van toffee en butterscotch opvatten, ondersteund door een fruitige hint van appel .",
+        "Owoce": "In de geur zul je romige kenmerken van toffee en butterscotch opvatten, ondersteund door een fruitige hint van appel .",
+        "Cytrusy": "Op de achtergrond bevindt zich een hint van citrusfruit .",
+        "Przyprawy": "Deze toetsen zetten zich door naar de smaak van de drank, waar ze in contact komen met verschillende kruiden, rozijnen en karamel.",
+        "Suszone owoce": "Deze toetsen zetten zich door naar de smaak van de drank, waar ze in contact komen met verschillende kruiden, rozijnen en karamel."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-85b4b40fd306",
+      "source": "https://www.drankgigant.nl/the-glenlivet-12-years-double-oak-html.html",
+      "sourceSha256": "6e9c6ac93e2328f26456fea6fe41bdc9ad5024dee39ef26b9b194c8fe3afa842",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Het resultaat is een heerlijke whisky met een aangename vanille karakter.",
+        "Owoce": "Zijn aroma gaat van start met geuren van een zomerse weide , gepaard met tropische vruchten in het bijzonder een piekende toon van ananas.",
+        "Orzechy": "Met een afdronk van marsepein en verse hazelnoten ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-0c74bedf783e",
+      "source": "https://www.drankgigant.nl/laphroaig-10-year.html",
+      "sourceSha256": "5c0464bf016657b4bb9bf271549b230bedc04cc93652ac75eebe04c38b52c26f",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Wanilia",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Dym": "Dit is een Schots eiland dat beroemd staat om zijn rokerige whisky's.",
+        "Torf": "In de geur herken je veelal toetsen van turfrook , medicinale invloeden en een licht zoetige ondertoon .",
+        "Wanilia": "Het wordt verder aangevuld door tonen van hout , vanille en kruiden .",
+        "Przyprawy": "Het wordt verder aangevuld door tonen van hout , vanille en kruiden ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-27f3b31c9fef",
+      "source": "https://www.drankgigant.nl/lagavulin-16-year.html",
+      "sourceSha256": "de4d57f0d4fd8cf8ab7b6226fc75fc2209f5312f8b26ac4857060f270cfd33d6",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf"
+      ],
+      "evidence": {
+        "Dym": "De smaak is zeer veelzijdig, en bevat kenmerken van hout , een combinatie van zoete en zoute tonen en een terugkerende hint van turfrook.",
+        "Torf": "Het aroma kent hierdoor toetsen van turf en jodium."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-9054108d9b82",
+      "source": "https://www.drankgigant.nl/talisker-10-year.html",
+      "sourceSha256": "d3dfc9a72a5a2d9f791fc2e1b1bec44d66d5e9e83781661cc0269ac8d5b9cd4f",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Dym": "De tonen die in het aroma naar voren komen zijn die van vers zoet fruit en rook.",
+        "Torf": "De smaak bestaat veelal uit toetsen van turf en zwarte peper .",
+        "Owoce": "De tonen die in het aroma naar voren komen zijn die van vers zoet fruit en rook.",
+        "Przyprawy": "De smaak bestaat veelal uit toetsen van turf en zwarte peper ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-ef7dfb98a93f",
+      "source": "https://www.drankgigant.nl/glenmorangie-12-years-the-original.html",
+      "sourceSha256": "09595e21f3d68ab40688dd52463b9d1149134543317af5fc7da2bec29751f4fe",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Cytrusy"
+      ],
+      "evidence": {
+        "Wanilia": "Het aroma dat in de neus naar bovenkomt, is een harmonieuze mix van citrusvruchten, rijpe perziken en subtiele vanilletonen, aangevuld met een hint van honing.",
+        "Miód": "Het aroma dat in de neus naar bovenkomt, is een harmonieuze mix van citrusvruchten, rijpe perziken en subtiele vanilletonen, aangevuld met een hint van honing.",
+        "Owoce": "Het aroma dat in de neus naar bovenkomt, is een harmonieuze mix van citrusvruchten, rijpe perziken en subtiele vanilletonen, aangevuld met een hint van honing.",
+        "Cytrusy": "Het aroma dat in de neus naar bovenkomt, is een harmonieuze mix van citrusvruchten, rijpe perziken en subtiele vanilletonen, aangevuld met een hint van honing."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-d10a05715bbf",
+      "source": "https://www.drankgigant.nl/balvenie-12-years-double-wood.html",
+      "sourceSha256": "15dea9e8fc54a12414b7444415cfef681359afbbb7dd4aa06a768f94d4fc2f3c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Orzechy",
+        "Suszone owoce",
+        "Sherry"
+      ],
+      "evidence": {
+        "Wanilia": "In de neus ontdek je warme aroma’s van honing, vanille en licht geroosterd hout, subtiel aangevuld met gedroogd fruit en een hint van kruiden.",
+        "Miód": "In de neus ontdek je warme aroma’s van honing, vanille en licht geroosterd hout, subtiel aangevuld met gedroogd fruit en een hint van kruiden.",
+        "Orzechy": "De smaak is rijk en rond, met tonen van zoete mout, karamel, noten en zachte sherry-invloeden die prachtig in elkaar overlopen.",
+        "Suszone owoce": "In de neus ontdek je warme aroma’s van honing, vanille en licht geroosterd hout, subtiel aangevuld met gedroogd fruit en een hint van kruiden.",
+        "Sherry": "De smaak is rijk en rond, met tonen van zoete mout, karamel, noten en zachte sherry-invloeden die prachtig in elkaar overlopen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-1b911a609d26",
+      "source": "https://www.drankgigant.nl/highland-park-12-years-2.html",
+      "sourceSha256": "a26faf10987c4c598596ac40b1155078553556c2c86d69a82d31e437109cd259",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Miód",
+        "Cytrusy",
+        "Przyprawy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Dym": "Bij het openen van de fles stijgt een rijk aroma op van honing , gedroogd fruit en een subtiele rokerigheid , beïnvloed door het unieke Orkney-veenturf.",
+        "Miód": "Bij het openen van de fles stijgt een rijk aroma op van honing , gedroogd fruit en een subtiele rokerigheid , beïnvloed door het unieke Orkney-veenturf.",
+        "Cytrusy": "In de mond ontvouwt zich een perfecte balans tussen zoete heidehoning , kruidige sinaasappel , kruidige fruitcake en een lichte, verfijnde rooktoets.",
+        "Przyprawy": "In de mond ontvouwt zich een perfecte balans tussen zoete heidehoning , kruidige sinaasappel , kruidige fruitcake en een lichte, verfijnde rooktoets.",
+        "Suszone owoce": "Bij het openen van de fles stijgt een rijk aroma op van honing , gedroogd fruit en een subtiele rokerigheid , beïnvloed door het unieke Orkney-veenturf."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-af6f87aebd61",
+      "source": "https://www.masterofmalt.com/whiskies/aberlour/aberlour-12-year-old-double-cask-matured-whisky/",
+      "sourceSha256": "ca7207b95ea9cc7d003636f7f8bc611b6cb36f6e5795d7a2b8db8ef06340dc59",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Miód",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Miód": "This double cask maturation brings rich depth and balance to the crisp, citrus character at its core, with layers of honeyed fruit and sweet spice.",
+        "Owoce": "This double cask maturation brings rich depth and balance to the crisp, citrus character at its core, with layers of honeyed fruit and sweet spice.",
+        "Cytrusy": "This double cask maturation brings rich depth and balance to the crisp, citrus character at its core, with layers of honeyed fruit and sweet spice.",
+        "Przyprawy": "This double cask maturation brings rich depth and balance to the crisp, citrus character at its core, with layers of honeyed fruit and sweet spice."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-34b59784b4f9",
+      "source": "https://www.drankgigant.nl/dalmore-12-year.html",
+      "sourceSha256": "63926581e3cbd4b281f384d8a6a840825ee38620c55897a7d17a5c107c20026a",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Cytrusy",
+        "Przyprawy",
+        "Czekolada",
+        "Kawa"
+      ],
+      "evidence": {
+        "Cytrusy": "Rondom ruikt u zachte tonen van mout en graan, boter en rijke sinaasappelen aroma.",
+        "Przyprawy": "Van zachte marmelade, tripel sec en verwarmende winterse kruiden en vruchtencake.",
+        "Czekolada": "Zestige cacao.",
+        "Kawa": "Een whisky met het aroma van een warm koffiehuis in Seattle."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-399e6303795a",
+      "source": "https://www.drankgigant.nl/glendronach-12-year-70-cl.html",
+      "sourceSha256": "039dd2b68293f44d1d90c092b969e8080f0b63cfbb885d1c07a2230a0aed2e63",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Przyprawy",
+        "Dąb",
+        "Suszone owoce",
+        "Sherry"
+      ],
+      "evidence": {
+        "Wanilia": "Gesuikerde hinten, evenals vanille , openen het aroma, ondersteund door toetsen van pittige gember , rijpe peren en wijn.",
+        "Przyprawy": "Gesuikerde hinten, evenals vanille , openen het aroma, ondersteund door toetsen van pittige gember , rijpe peren en wijn.",
+        "Dąb": "In de smaak zul je voornamelijk eikenhout , verschillende soorten kruid en zoete toetsen van sherry opvatten.",
+        "Suszone owoce": "Op de achtergrond bevinden zich voornamelijk toetsen van rozijnen en fruit.",
+        "Sherry": "In de smaak zul je voornamelijk eikenhout , verschillende soorten kruid en zoete toetsen van sherry opvatten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-d7b4febaae23",
+      "source": "https://www.drankgigant.nl/bowmore-12-year.html",
+      "sourceSha256": "198246d14c5c41cb143c4c7f0d7e6596bb669de9dc935d8468be50dabd6627ac",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Miód",
+        "Cytrusy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Dym": "In het aroma zul je intense hinten van rook en turf opvatten, ondersteund door zachtere kenmerken van zoete honing , verse limoen en rood fruit.",
+        "Torf": "In het aroma zul je intense hinten van rook en turf opvatten, ondersteund door zachtere kenmerken van zoete honing , verse limoen en rood fruit.",
+        "Miód": "In het aroma zul je intense hinten van rook en turf opvatten, ondersteund door zachtere kenmerken van zoete honing , verse limoen en rood fruit.",
+        "Cytrusy": "In het aroma zul je intense hinten van rook en turf opvatten, ondersteund door zachtere kenmerken van zoete honing , verse limoen en rood fruit.",
+        "Dąb": "Deze kenmerkt zich met invloeden van gebrand eikenhout en een maritieme invloed van zeezout , evenals tonen van romige vanille, wederom een zoete invloed van honing en karamel."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-064a03ec3e3f",
+      "source": "https://www.drankgigant.nl/oban-14-year.html",
+      "sourceSha256": "63e5b5d0a42b9e7beb05415c52a115c7458a252f89e255f50dd898a38e501083",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Dym": "In de geur zul je veelal toetsen van zeezout, rook , vijgen en een aromatische kruidenmelange opvatten.",
+        "Owoce": "De smaak kenmerkt zich door toetsen van vers fruit, zoals peren en sinaasappelen .",
+        "Cytrusy": "De smaak kenmerkt zich door toetsen van vers fruit, zoals peren en sinaasappelen .",
+        "Przyprawy": "In de geur zul je veelal toetsen van zeezout, rook , vijgen en een aromatische kruidenmelange opvatten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-bfb9574eddd8",
+      "source": "https://www.drankgigant.nl/caol-ila-12-year.html",
+      "sourceSha256": "c5278dd147bf62ee02c7036208dc5eaa92d8693117b4a5caddaad55b27dd49c8",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Karmel",
+        "Cytrusy"
+      ],
+      "evidence": {
+        "Dym": "Een bijzonder smaakpalet voor deze krachtige en rokerige whisky.",
+        "Torf": "Op de neus bevat deze whisky fruitige aroma's van citrusvruchten, aangevuld door turf, olie en gerookt vlees.",
+        "Karmel": "Zoete mout, gerst, dadels en toffee zijn te herkennen.",
+        "Cytrusy": "Op de neus bevat deze whisky fruitige aroma's van citrusvruchten, aangevuld door turf, olie en gerookt vlees."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-d07a9d3b252d",
+      "source": "https://www.drankgigant.nl/bunnahabhain-12-year.html",
+      "sourceSha256": "990541295d8c0af26e1ea0b911b8778d3816ac94ca911e437e1f3b27876728f0",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Het gedroogd fruit zet zich door naar de smaak, waar ze gepaard gaat met hinten van noten, romige vanille en zoete karamel.",
+        "Karmel": "Het gedroogd fruit zet zich door naar de smaak, waar ze gepaard gaat met hinten van noten, romige vanille en zoete karamel.",
+        "Orzechy": "Het gedroogd fruit zet zich door naar de smaak, waar ze gepaard gaat met hinten van noten, romige vanille en zoete karamel.",
+        "Suszone owoce": "Ook bevat het een onderliggende toets van gedroogd fruit , gepaard met kenmerken van rook ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-d014f311e6ca",
+      "source": "https://www.drankgigant.nl/buffalo-trace-bourbon.html",
+      "sourceSha256": "5e55d139348658df06218783d7ce439c5531a9b6861c7ab50365ace19c392ed2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Op de achtergrond bevindt zich een romige toon van vanille gecombineerd met peper .",
+        "Miód": "Hierin zul je ook frisse munt en honing opvatten.",
+        "Przyprawy": "Op de achtergrond bevindt zich een romige toon van vanille gecombineerd met peper .",
+        "Dąb": "Fruitige toetsen zijn ook volop aanwezig, evenals eikenhout."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-88d9b7f8ed7d",
+      "source": "https://www.drankgigant.nl/woodford-reserve.html",
+      "sourceSha256": "dc0880d5e3ae4b5281ce54820030f14339652a8e7f94786fb6925f2b9daaa950",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Cytrusy",
+        "Przyprawy",
+        "Czekolada",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Verwacht tonen van rijke gedroogde vruchten, munt en sinaasappel, aangevuld met een laagje cacao, vanille, en een subtiele kruidigheid van tabak en leer.",
+        "Cytrusy": "Verwacht tonen van rijke gedroogde vruchten, munt en sinaasappel, aangevuld met een laagje cacao, vanille, en een subtiele kruidigheid van tabak en leer.",
+        "Przyprawy": "Verwacht tonen van rijke gedroogde vruchten, munt en sinaasappel, aangevuld met een laagje cacao, vanille, en een subtiele kruidigheid van tabak en leer.",
+        "Czekolada": "Verwacht tonen van rijke gedroogde vruchten, munt en sinaasappel, aangevuld met een laagje cacao, vanille, en een subtiele kruidigheid van tabak en leer.",
+        "Suszone owoce": "Verwacht tonen van rijke gedroogde vruchten, munt en sinaasappel, aangevuld met een laagje cacao, vanille, en een subtiele kruidigheid van tabak en leer."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-7df0c0ad605a",
+      "source": "https://www.drankgigant.nl/bulleit-bourbon.html",
+      "sourceSha256": "98ac760c69235d5560253c45d2455eb1844a85a531c362ea2d351bf76f86c64d",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Cytrusy",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "In de geur zul je een fijne fruitige hint van sinaasappelschillen ruiken, ondersteund door hinten van vanille en gebrand eikenhout .",
+        "Cytrusy": "In de geur zul je een fijne fruitige hint van sinaasappelschillen ruiken, ondersteund door hinten van vanille en gebrand eikenhout .",
+        "Przyprawy": "De smaak opent met kenmerken van verse sinaasappels , gepaard met tonen van verschillende winterse kruiden.",
+        "Dąb": "In de geur zul je een fijne fruitige hint van sinaasappelschillen ruiken, ondersteund door hinten van vanille en gebrand eikenhout ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-ae829b1b5632",
+      "source": "https://www.drankgigant.nl/wild-turkey-101.html",
+      "sourceSha256": "fa207030d06a5c8d7fb866afe64b401b4d4c72dd4e5bd7e95ee119c079eff3f1",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Deze whiskey heeft een heerlijke neus waarbij de vanille de spits afbijt, die wordt gevolgd door de geuren van karamel en eik die worden ondersteund door een zoete aroma.",
+        "Karmel": "Deze whiskey heeft een heerlijke neus waarbij de vanille de spits afbijt, die wordt gevolgd door de geuren van karamel en eik die worden ondersteund door een zoete aroma.",
+        "Przyprawy": "De mond wordt verwend door heerlijke smaken en een smaakvolle gladde wending, hierbij zijn gladde maïs met een gemiddelde dikte die gepaard gaat met een niet al te dikke kruidige afdronk de hoofdleverancieren voor de smaak."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-568016f6e9c8",
+      "source": "https://www.drankgigant.nl/four-roses-single-barrel-100-proof.html",
+      "sourceSha256": "146b2134a114331cb8f0f7e3c5bac30b67bd1ff703268152469837b74a43ade1",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Wanilia": "In de geur zul je een fruitige invloed van rijpe peren herkennen, gecombineerd met Canadese maple syrup , romige vanille en cacao.",
+        "Karmel": "Zoete karamel voert de ondertoon.",
+        "Czekolada": "In de geur zul je een fruitige invloed van rijpe peren herkennen, gecombineerd met Canadese maple syrup , romige vanille en cacao."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-ef0d3753822c",
+      "source": "https://www.drankgigant.nl/makers-46.html",
+      "sourceSha256": "2ea138cb548139ff8ea89843e3a656a6587ed48ac459975eeb07d613fed29f31",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Ook bevat het palet romige tonen van vanille en karamel die in balans gehouden worden door een krachtige toon van eikenhout .",
+        "Karmel": "Ook bevat het palet romige tonen van vanille en karamel die in balans gehouden worden door een krachtige toon van eikenhout .",
+        "Przyprawy": "Hierdoor zul je veel kruidige invloeden herkennen, met name kruidnagel, kaneel en piment.",
+        "Dąb": "Ook bevat het palet romige tonen van vanille en karamel die in balans gehouden worden door een krachtige toon van eikenhout ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-3f2cf7bf942b",
+      "source": "https://www.drankgigant.nl/knob-creek-9-year-old-100-proof.html",
+      "sourceSha256": "b465056c70d7e5436f22e02cdc99bb3a26d861221a3d63b462fa166cb93d0ef0",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Czekolada",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Je proeft een pittige smaak, met marshmallow-hints, en dan een vleugje vanille met donkere chocolade.",
+        "Karmel": "Het aroma dat in de neus verschijnt is zoet en kruidig, met een toon van boter en karamel.",
+        "Czekolada": "Je proeft een pittige smaak, met marshmallow-hints, en dan een vleugje vanille met donkere chocolade.",
+        "Orzechy": "De afdronk is lang, met aroma's van notenolie en vanille."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-14107b53bf66",
+      "source": "https://www.drankgigant.nl/eagle-rare-10-years-single-barrel.html",
+      "sourceSha256": "4edc4dd569a9a8b2c8702d0ef39ab0554a8626c80a294850eb9edb4747efc315",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Owoce"
+      ],
+      "evidence": {
+        "Karmel": "De neus van de Eagle Rare is rijk en voornamelijk door de inbreng van karamel heeft deze een zoet en zachte aroma.",
+        "Owoce": "Met een paar tinten groene appel en bubblegum heeft deze whiskey een bijna onweerstaanbare neus die u gelijk doet laten verlangen naar de smaak van de drank."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-64d08b9864cc",
+      "source": "https://www.drankgigant.nl/elijah-craig-12-year.html",
+      "sourceSha256": "f2f035b708e274800b7e37b0d392ec2d0694b841d08dc0387736ebe59dff5f42",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Een small batch Kentucky straight bourbon whisky met een heerlijk complex aroma van vanille en zachte zoet fruit en slechts een kleine hint van munt die het geheel volgt.",
+        "Przyprawy": "Maar zijn smaak neemt een iets andere wending, meer kruidig, glad en warm.",
+        "Dąb": "Piekende tonen van eikenhout met verschillende accenten van specerijen waaronder nootmuskaat , omringd met een lichte toon van rook."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-694019cf40d3",
+      "source": "https://www.drankgigant.nl/michter-s-small-batch-bourbon.html",
+      "sourceSha256": "a8ff321a4e8e8fb31ecc2bcd85b22262f2043b3fac5f3fce66ffdbe87258783c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "In de mond vinden we tonen van caramel in combinatie met vanille.",
+        "Karmel": "In de mond vinden we tonen van caramel in combinatie met vanille.",
+        "Owoce": "Daarnaast heeft deze whisky fruitige kenmerken, een rokerige diepte en een eiken achtige afdronk."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-a83475b4084a",
+      "source": "https://www.drankgigant.nl/redbreast-12-year.html",
+      "sourceSha256": "e50ba35b9b6d8ee8c54878367dfb689b793e63d93a915cb99c49e5c3d32d53bc",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Przyprawy",
+        "Sherry"
+      ],
+      "evidence": {
+        "Owoce": "Deze whisky heeft een mooie amber kleur en op de neus heeft hij tonen van eucalyptus, zwarte bessen, kokosnoot en zacht fruit met sherry.",
+        "Przyprawy": "In de mond is Redbreast 12 year rond met notities van mint, peper en kruidigheid en zoetheid van sherry.",
+        "Sherry": "Deze whisky heeft een mooie amber kleur en op de neus heeft hij tonen van eucalyptus, zwarte bessen, kokosnoot en zacht fruit met sherry."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-b6edaac097ae",
+      "source": "https://www.drankgigant.nl/teeling-whiskey-small-batch.html",
+      "sourceSha256": "9f4d7e188eedb6df10dc245e22905b4cfe0d550cd478153f82134d7f9a010c3e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "In de smaak proef je ook de zoete tonen van vers fruit, samen met een kruidige vanille die afkomstig is van de rumvaten.",
+        "Owoce": "Deze whiskey heeft een goudkleurige tint en een fruitig aroma van abrikozen, appels en peren.",
+        "Przyprawy": "In de smaak proef je ook de zoete tonen van vers fruit, samen met een kruidige vanille die afkomstig is van de rumvaten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-0bc4fd437564",
+      "source": "https://www.drankgigant.nl/green-spot.html",
+      "sourceSha256": "876e5e6251130eedb01e63a96f99230059a74c625cca0b05528f34b892ac4b5e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Green Spot opent met aroma’s van groene appel, peer en citrus, gevolgd door zachte tonen van vanille, kruiden en eikenhout.",
+        "Owoce": "Green Spot opent met aroma’s van groene appel, peer en citrus, gevolgd door zachte tonen van vanille, kruiden en eikenhout.",
+        "Cytrusy": "Green Spot opent met aroma’s van groene appel, peer en citrus, gevolgd door zachte tonen van vanille, kruiden en eikenhout.",
+        "Przyprawy": "Green Spot opent met aroma’s van groene appel, peer en citrus, gevolgd door zachte tonen van vanille, kruiden en eikenhout."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-20d6f15d28a5",
+      "source": "https://www.drankgigant.nl/connemara-irish-malt.html",
+      "sourceSha256": "dbd7b8261740ad9f7f245f22c79ebc4ba20a55bff06cf71deb4ad928bda5b55c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Miód"
+      ],
+      "evidence": {
+        "Dym": "Gevolgd door een rokerige turfsmaak met zachte tonen van mout en gerst-zoetheid.",
+        "Torf": "Connemara Irish Malt is een goudkleurige geturfde Ierse whiskey die veel nadruk legt op het turf gedeelte.",
+        "Miód": "Vlak op zijn hielen vind het een zoete geur van honing met houterige achtergrond."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-5f0f802ab52e",
+      "source": "https://www.drankgigant.nl/tullamore-dew-12-year.html",
+      "sourceSha256": "55d94a0932ced7f44fce1537ca69a2517bffd3e981b648f69e50962f611497b0",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Czekolada",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Het rijke aroma bevat invloeden van gebrande amandelen, een verse fruitcake , romige vanille en karamel .",
+        "Karmel": "Het rijke aroma bevat invloeden van gebrande amandelen, een verse fruitcake , romige vanille en karamel .",
+        "Czekolada": "Deze ontwikkelen zich verder naar toetsen van chocolade, noten en gedroogde vruchten.",
+        "Orzechy": "Het rijke aroma bevat invloeden van gebrande amandelen, een verse fruitcake , romige vanille en karamel .",
+        "Suszone owoce": "Het rijke aroma bevat invloeden van gebrande amandelen, een verse fruitcake , romige vanille en karamel ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-12c64b3cd3ec",
+      "source": "https://www.drankgigant.nl/writers-tears-copper-pot.html",
+      "sourceSha256": "f0c4e8e21abd4452bd26a16a425d0473b8f60c92e655312659ee5e6728b0b609",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Een enerverende smaaksensatie van bittere tonen is aanwezig, die met afwisselende zoetige tonen de strijd voeren tussen honing, vanille en kruidigheid.",
+        "Miód": "Op de neus heeft deze whisky een glorieuze pot still karakter, kruidig met zachte aroma’s van honing met delicate kumquat-achtige citrus tonen.",
+        "Cytrusy": "Op de neus heeft deze whisky een glorieuze pot still karakter, kruidig met zachte aroma’s van honing met delicate kumquat-achtige citrus tonen.",
+        "Przyprawy": "Op de neus heeft deze whisky een glorieuze pot still karakter, kruidig met zachte aroma’s van honing met delicate kumquat-achtige citrus tonen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-63c78729ae8c",
+      "source": "https://www.drankgigant.nl/nikka-from-the-barrel.html",
+      "sourceSha256": "13883b737cbf53554ac1a68aad2dbfb39315ed3f8ffb500626533321c39dd8dc",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Dąb",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Wanilia": "De afdronk is heerlijk lang, met aroma´s van rijpe vruchten, gecombineerd met zacht eiken en tonen van vanille.",
+        "Karmel": "Nikka from the Barrel begint stevig en kruidig en zult tonen van eikenhout ontdekken, vervolgens gaat dit over in  aroma's van gekarameliseerd fruit.",
+        "Przyprawy": "Nikka from the Barrel begint stevig en kruidig en zult tonen van eikenhout ontdekken, vervolgens gaat dit over in  aroma's van gekarameliseerd fruit.",
+        "Dąb": "Nikka from the Barrel begint stevig en kruidig en zult tonen van eikenhout ontdekken, vervolgens gaat dit over in  aroma's van gekarameliseerd fruit.",
+        "Czekolada": "Ook zult u wat lichte rokerige tonen ontdekken met wat cacao."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-c35b23d84835",
+      "source": "https://www.drankgigant.nl/nikka-days.html",
+      "sourceSha256": "5888ef0f652a3246f322d29b549f42d7f78e8f3a367c9cb464d365e95f9cfab2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Cytrusy",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "In de smaak komen accenten van verse peren en citrusfruit naar voren, ondersteund door romige vanille en toetsen van geroosterde noten .",
+        "Owoce": "Zo zul je veel florale tonen in het aroma herkennen, evenals rijpe vruchten en oranjebloesem.",
+        "Cytrusy": "In de smaak komen accenten van verse peren en citrusfruit naar voren, ondersteund door romige vanille en toetsen van geroosterde noten .",
+        "Orzechy": "In de smaak komen accenten van verse peren en citrusfruit naar voren, ondersteund door romige vanille en toetsen van geroosterde noten ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-87d0c3fd578e",
+      "source": "https://www.drankgigant.nl/hibiki-harmony.html",
+      "sourceSha256": "f67d075d2671997a696a978fc4c6e694748f100fa44832217d66a4d3e07a14c5",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Cytrusy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Owoce": "Bij het openen van deze fles komen heerlijke aroma's vrij van pruimen die aangevuld worden door een zachte en zoete geur van hout.",
+        "Cytrusy": "In de mond komen de smaken van sinaasappel, marmelade en chocolade naar boven.",
+        "Czekolada": "In de mond komen de smaken van sinaasappel, marmelade en chocolade naar boven."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-04d8a0217769",
+      "source": "https://www.drankgigant.nl/yamazaki-distillers-reserve-70cl.html",
+      "sourceSha256": "149bcfddd77aa5f7518c5046d6d4204a4aaed02f14c155527b5f439a1d3ec2d2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "De whisky sluit af met een zoete toon van vanille en kaneel.",
+        "Owoce": "In de neus komen verse aroma's naar boven aardbeien en kersen gevolgd door Japans eikenhout.",
+        "Przyprawy": "De whisky sluit af met een zoete toon van vanille en kaneel."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-d962bc339eff",
+      "source": "https://www.drankgigant.nl/suntory-hakushu-distillers-edition.html",
+      "sourceSha256": "93e5281fb17760962d2ae43e147910a6c752a84b13f6bc259d3f25aabad2d89b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Cytrusy"
+      ],
+      "evidence": {
+        "Dym": "De afdronk is zacht en geeft een elegante toon van rook mee.",
+        "Cytrusy": "Je proeft een frisse smaak met notities van yuzu (Aziatische citrusvrucht), gevolgd door grapefruit , citroen en tijm."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-75c6f793b59d",
+      "source": "https://www.drankgigant.nl/kavalan-single-malt.html",
+      "sourceSha256": "6c5d7b714b5cd58daf1229dd0068e7140a1b36c9689af56f44ebce790f76b0f2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Op de neus kent de whisky tonen van tropische fruit, vanille tezamen met florale notities.",
+        "Owoce": "Op de neus kent de whisky tonen van tropische fruit, vanille tezamen met florale notities."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-39d5e2c073b8",
+      "source": "https://www.drankgigant.nl/amrut-fusion.html",
+      "sourceSha256": "ca7c9f8b45b1f52c772d1b9a821c94badf374e5a2c1a302dfe878cd24443fb00",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Torf",
+        "Wanilia",
+        "Czekolada",
+        "Kawa"
+      ],
+      "evidence": {
+        "Torf": "Hierin komt een een vleugje van mokka voorbij maar zeker niet te ontkennen is de eikige, rijken en zachter turf met tonen van pure chocolade en koffie.",
+        "Wanilia": "De geur van hout, vanille en donker fruit vind je ook terug in de smaak.",
+        "Czekolada": "Hierin komt een een vleugje van mokka voorbij maar zeker niet te ontkennen is de eikige, rijken en zachter turf met tonen van pure chocolade en koffie.",
+        "Kawa": "Hierin komt een een vleugje van mokka voorbij maar zeker niet te ontkennen is de eikige, rijken en zachter turf met tonen van pure chocolade en koffie."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-64986651ac73",
+      "source": "https://www.masterofmalt.com/whiskies/starward/starward-two-fold-whisky/",
+      "sourceSha256": "68e06ae96c037a22c2306d22a702c314114af321033a17e6412a17ac023afbb4",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce"
+      ],
+      "evidence": {
+        "Owoce": "A big, fruit-forward dram that suits sipping over ice on a warm evening or even used in cocktails."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "popular-3917de65350c",
+      "source": "https://www.drankgigant.nl/canadian-club.html",
+      "sourceSha256": "efbcaf13fd51b418a870e9c06ed16231e3dfbbb7e94933ec882c0fb00274d27c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Het aroma kenmerkt zich door kenmerken van amandelen , evenals hinten van vanille en onderliggende frisse toetsen.",
+        "Orzechy": "Het aroma kenmerkt zich door kenmerken van amandelen , evenals hinten van vanille en onderliggende frisse toetsen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-1eb8ee16a9b0",
+      "source": "https://www.drankgigant.nl/bell-s-blended.html",
+      "sourceSha256": "c5d1989b6539bb7d86bfa8a1148e27a95b4be792129be47381fc247f914f8355",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Miód",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Miód": "Granen met honing.",
+        "Przyprawy": "Vrij teder in de neus, voornamelijk mout met florale tonen en vers gesneden kruiden."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-e17ca6a02cc8",
+      "source": "https://www.drankgigant.nl/jim-beam-sunshine-blend.html",
+      "sourceSha256": "fd3add9fb6add66bf6bd289de04e87dc63d622bb70a385fc0e0bed8ce24c0369",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Cytrusy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Voor deze speciale editie wordt de klassieke Jim Beam bourbon whiskey gebruikt met zijn karakteristieke smaak en rijke aroma's van vanille , karamel en eikenhout .",
+        "Karmel": "Voor deze speciale editie wordt de klassieke Jim Beam bourbon whiskey gebruikt met zijn karakteristieke smaak en rijke aroma's van vanille , karamel en eikenhout .",
+        "Cytrusy": "Maar wat deze blend zo uniek maakt, is de toevoeging van een vleugje verfrissende citrus .",
+        "Dąb": "Voor deze speciale editie wordt de klassieke Jim Beam bourbon whiskey gebruikt met zijn karakteristieke smaak en rijke aroma's van vanille , karamel en eikenhout ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-722af468f64a",
+      "source": "https://www.drankgigant.nl/grant-s-triple-wood-blended-whisky-70cl.html",
+      "sourceSha256": "01c4dbff0b8cb94c7ca21831113420e92f9e3d617a699f706c9dc29631845434",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Sherry"
+      ],
+      "evidence": {
+        "Owoce": "De zoete smaak zijn de kenmerken van de Lowlands whiksy's, die de blend van Grant's verrijkt hebben, met in de afdronk een fruitigheid en lichte sherry achtige zoetheid.",
+        "Sherry": "De zoete smaak zijn de kenmerken van de Lowlands whiksy's, die de blend van Grant's verrijkt hebben, met in de afdronk een fruitigheid en lichte sherry achtige zoetheid."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-818f3c3b74bc",
+      "source": "https://www.drankgigant.nl/teachers-blended-whisky.html",
+      "sourceSha256": "9e5b86a52305d498ba18da290b76ee164c9f381d8efe34e7d81b710cae920913",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Torf",
+        "Miód",
+        "Owoce",
+        "Przyprawy",
+        "Sherry"
+      ],
+      "evidence": {
+        "Torf": "Teacher’s kenmerkt zich met een aroma van fruitige invloeden van peren en tonen van sherry, ondersteund door turf en honing .",
+        "Miód": "Teacher’s kenmerkt zich met een aroma van fruitige invloeden van peren en tonen van sherry, ondersteund door turf en honing .",
+        "Owoce": "Teacher’s kenmerkt zich met een aroma van fruitige invloeden van peren en tonen van sherry, ondersteund door turf en honing .",
+        "Przyprawy": "In de smaak zul je voornamelijk tonen van verse appels proeven, samen met een kruidenmelange.",
+        "Sherry": "Teacher’s kenmerkt zich met een aroma van fruitige invloeden van peren en tonen van sherry, ondersteund door turf en honing ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-06da966d7dc7",
+      "source": "https://www.drankgigant.nl/william-lawsons.html",
+      "sourceSha256": "393109ff758f972619563c9db6c4d986b05754075ea8038b6abb0a7e50c0f638",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Przyprawy",
+        "Dąb",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Przyprawy": "Zijn aroma zit bom vol met diverse zoete kruiden ondergedompeld in een dikke laag cacaoboter .",
+        "Dąb": "Zijn smaakpalet gaat van start met een stevige toon van geroosterde eikenhout , omringd door tonen van zoete dadels en rozijntjes.",
+        "Orzechy": "Aangevuld door de hartige toetsen van walnoten.",
+        "Suszone owoce": "Deze worden opgevolgd door vleugjes van eikenhout, gerstemout met diverse gedroogde fruit schillen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-fdcd977fcf87",
+      "source": "https://www.drankgigant.nl/famous-grouse.html",
+      "sourceSha256": "e7928d77d21d9caaf977a5bf82cfc941de98e1b74d1724e687eb7154086bf317",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Karmel": "De geur bevat veelal kenmerken van romige en zoete karamel , verse appels en citroen .",
+        "Owoce": "De geur bevat veelal kenmerken van romige en zoete karamel , verse appels en citroen .",
+        "Cytrusy": "De geur bevat veelal kenmerken van romige en zoete karamel , verse appels en citroen .",
+        "Przyprawy": "Dit wordt onderbouwd door een subtiel kruidige hint ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-757955520bff",
+      "source": "https://www.drankgigant.nl/jim-beam-pineapple.html",
+      "sourceSha256": "d307f2bbd16a8c109ea6079a90dd73668773e2f78795dc85cb43c296377158e9",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Het resultaat is een perfect uitgebalanceerde drank waarin de vertrouwde, warme tonen van vanille, karamel en eikenhout naadloos samensmelten met de explosieve frisheid van rijpe ananas.",
+        "Karmel": "Het resultaat is een perfect uitgebalanceerde drank waarin de vertrouwde, warme tonen van vanille, karamel en eikenhout naadloos samensmelten met de explosieve frisheid van rijpe ananas.",
+        "Owoce": "Jim Beam Pineapple een verrassende creatie combineert de legendarische Kentucky Straight Bourbon Whiskey met een zoete, fruitige ananaslikeur .",
+        "Dąb": "Het resultaat is een perfect uitgebalanceerde drank waarin de vertrouwde, warme tonen van vanille, karamel en eikenhout naadloos samensmelten met de explosieve frisheid van rijpe ananas."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-4c8b791f3b54",
+      "source": "https://www.drankgigant.nl/jim-beam-white-label-70-cl.html",
+      "sourceSha256": "849f10402f86e0477b5d40f917be8d3d3283426682b9193171b955934a86c203",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Hierin zul je de klassieke vanille toets goed herkennen, ondersteund door tonen van eikenhout , zoete karamel en fruit .",
+        "Karmel": "Hierin zul je de klassieke vanille toets goed herkennen, ondersteund door tonen van eikenhout , zoete karamel en fruit .",
+        "Owoce": "Hierin zul je de klassieke vanille toets goed herkennen, ondersteund door tonen van eikenhout , zoete karamel en fruit .",
+        "Dąb": "Hierin zul je de klassieke vanille toets goed herkennen, ondersteund door tonen van eikenhout , zoete karamel en fruit ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-ce0383739df1",
+      "source": "https://www.drankgigant.nl/jim-beam-honey-70-cl.html",
+      "sourceSha256": "9cdaea0d0c64f2463fe07a5990944bdc2516e26791852c4f29370d5130b13930",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Miód"
+      ],
+      "evidence": {
+        "Miód": "Jim Beam Honey is een authentiek likeur afkomstig uit de VS."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-8b24b672975b",
+      "source": "https://www.drankgigant.nl/jim-beam-black-cherry.html",
+      "sourceSha256": "b64b769662d7e2889874acb266847fe7b708e2b38b87e4e26c891aa741bbf55d",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Karmel": "De smaak is uitgebalanceerd met tonen van eikenhout , karamel en de zoete smaak van zwarte kersen.",
+        "Owoce": "Jim Beam Black Cherry is een whiskey likeur uit de Verenigde Staten.",
+        "Dąb": "De smaak is uitgebalanceerd met tonen van eikenhout , karamel en de zoete smaak van zwarte kersen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-3fe069aa8de2",
+      "source": "https://www.drankgigant.nl/tullamore-dew.html",
+      "sourceSha256": "dbb79a26b5390c9fff7e2a71566f51e7d1d64d5a6198746d1750e85601e8ae1b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Accenten van boter en verschillende kruiden kenmerken de smaak, met terugkerende toetsen van mout, hout en een invloed van vanille.",
+        "Cytrusy": "Het aroma opent met hinten van citroenen , waarna deze zich verder ontwikkelt naar tonen van mout en verkoolde stukken hout.",
+        "Przyprawy": "Accenten van boter en verschillende kruiden kenmerken de smaak, met terugkerende toetsen van mout, hout en een invloed van vanille."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-07ba608b18f6",
+      "source": "https://www.drankgigant.nl/ballantines.html",
+      "sourceSha256": "598c51e787ad53e69c9967e7baa15acd1cd09bf435b74fc1fc6647cd88affb49",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Deze whisky staat bekend om zijn zachte, ronde smaakprofiel waarin frisse tonen van honing en vanille harmonieus samengaan met subtiele hints van appel, peer en een lichte kruidigheid, afgerond door een elegante, romige afdronk.",
+        "Miód": "Deze whisky staat bekend om zijn zachte, ronde smaakprofiel waarin frisse tonen van honing en vanille harmonieus samengaan met subtiele hints van appel, peer en een lichte kruidigheid, afgerond door een elegante, romige afdronk.",
+        "Owoce": "Deze whisky staat bekend om zijn zachte, ronde smaakprofiel waarin frisse tonen van honing en vanille harmonieus samengaan met subtiele hints van appel, peer en een lichte kruidigheid, afgerond door een elegante, romige afdronk.",
+        "Przyprawy": "Deze whisky staat bekend om zijn zachte, ronde smaakprofiel waarin frisse tonen van honing en vanille harmonieus samengaan met subtiele hints van appel, peer en een lichte kruidigheid, afgerond door een elegante, romige afdronk."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-1f0ef4bc40eb",
+      "source": "https://www.drankgigant.nl/bushmills-original-red.html",
+      "sourceSha256": "a86ee40918cea63c3f15a90d43c0c5141ad406e34739255532ffaebc4bae37a1",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Przyprawy": "In de afdronk komt een kruidige tint van kardemom naar voren, evenals een zoete toets van gerst."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-2f7ba13aa2c2",
+      "source": "https://www.drankgigant.nl/jim-beam-peach.html",
+      "sourceSha256": "eb9cf66fe32db1566db8529146c703dce750ff0a03102c2755eefa4d7a41dc27",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Je zult houtachtige tonen opmerken met een fijne zoetheid van perzik en vanille .",
+        "Owoce": "Jim Beam Peach is van oorsprong een whiskylikeur uit de Verenigde Staten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-213370286da9",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-honey-70cl",
+      "sourceSha256": "00319c16e471c3595bcdc9b27bf31d53a88330ec05f76aac75b8482b66a5d922",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód"
+      ],
+      "evidence": {
+        "Wanilia": "Bij het openen van de fles word je verwelkomd door een florale geur, die subtiele hints van honing en vanille bevat.",
+        "Miód": "Jack Daniel's Honey 70cl"
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-51c20cabcae7",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-fire-70cl",
+      "sourceSha256": "c02fc1ced558857bd6261ac42ffe56347a7074a17d511a41bb4bf88f46c4c311",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Wanneer je Jack Daniel's Fire opent, komt er een heerlijke geur vrij van kaneel en subtiele hints van vanille.",
+        "Karmel": "Je proeft krachtige tonen van specerijen, aangevuld met een zoete ondertoon van karamel.",
+        "Przyprawy": "Deze bijzondere drank combineert de klassieke Jack Daniel's smaak met een warme cinnamon twist, waardoor het perfect is voor koude avonden of feestelijke momenten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-54b8c42456f8",
+      "source": "https://www.topdrinks.nl/jack-daniel-s-apple-70cl",
+      "sourceSha256": "4f249153b3c5ce80fa10356408e81965a26539abb54e99889ce4516ad3e6924c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "De eerste slok onthult een lichte en fruitige smaak, waarbij de sappige appels perfect harmoniëren met de zachte vanille- en karameltonen van de whisky.",
+        "Karmel": "De eerste slok onthult een lichte en fruitige smaak, waarbij de sappige appels perfect harmoniëren met de zachte vanille- en karameltonen van de whisky.",
+        "Owoce": "Jack Daniel's Apple 70cl"
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-3c0f56ada9a8",
+      "source": "https://www.drankgigant.nl/jack-daniels-70-cl.html",
+      "sourceSha256": "5e8685bc97a3898bfad1e191c041de15f56cf86b40e93b7e00474f7a6a58e560",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Tonen van kruiden en zoetere invloeden domineren het aroma, terwijl de smaak kenmerken van karamel en vanille bevat, ondersteund door accenten van eikenhout .",
+        "Karmel": "Tonen van kruiden en zoetere invloeden domineren het aroma, terwijl de smaak kenmerken van karamel en vanille bevat, ondersteund door accenten van eikenhout .",
+        "Przyprawy": "Tonen van kruiden en zoetere invloeden domineren het aroma, terwijl de smaak kenmerken van karamel en vanille bevat, ondersteund door accenten van eikenhout .",
+        "Dąb": "Tonen van kruiden en zoetere invloeden domineren het aroma, terwijl de smaak kenmerken van karamel en vanille bevat, ondersteund door accenten van eikenhout ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-919b7ad0e448",
+      "source": "https://www.drankgigant.nl/jim-beam-apple.html",
+      "sourceSha256": "d0efa25fce1298042a0648e0b0b07f58a2c412dab255ef844e8ad98fae6e971e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce"
+      ],
+      "evidence": {
+        "Owoce": "Jim Beam Apple is van oorsprong een whiskey likeur uit de Verenigde Staten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-eebe36df5be5",
+      "source": "https://www.drankgigant.nl/four-roses-bourbon.html",
+      "sourceSha256": "484ca3c027d3d00dbe37c82ecaf54e0db726166e170d82addabcdc9adc8e9b48",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Miód",
+        "Cytrusy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Karmel": "Het aroma bevat veelal zoete tonen, voornamelijk karamel, toffee en marmelade.",
+        "Miód": "In de mond zul je deze tonen ook opvatten, waar ze in combinatie gaan met hinten van geroosterd eikenhout en honing .",
+        "Cytrusy": "Een subtiele toon van citrusfruit is te herkennen op de achtergrond.",
+        "Dąb": "In de mond zul je deze tonen ook opvatten, waar ze in combinatie gaan met hinten van geroosterd eikenhout en honing ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-c4ea0929f476",
+      "source": "https://www.ballantines.com/en/range/ballantines-sweet-blend/",
+      "sourceSha256": "03c02d884b59ed4618fbbaf3f4749406f2b324f47fd85baa37333f9a0673f466",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Czekolada",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Tasting Notes Buy Colour Warm amber gold Nose Hazelnut, vanilla pods, butterscotch, caramalized apple Taste Creamy milk chocolate, crème brûlée, vanilla fudge, malt biscuit Finish Fudge and vanilla.",
+        "Karmel": "Tasting Notes Buy Colour Warm amber gold Nose Hazelnut, vanilla pods, butterscotch, caramalized apple Taste Creamy milk chocolate, crème brûlée, vanilla fudge, malt biscuit Finish Fudge and vanilla.",
+        "Owoce": "Tasting Notes Buy Colour Warm amber gold Nose Hazelnut, vanilla pods, butterscotch, caramalized apple Taste Creamy milk chocolate, crème brûlée, vanilla fudge, malt biscuit Finish Fudge and vanilla.",
+        "Czekolada": "Tasting Notes Buy Colour Warm amber gold Nose Hazelnut, vanilla pods, butterscotch, caramalized apple Taste Creamy milk chocolate, crème brûlée, vanilla fudge, malt biscuit Finish Fudge and vanilla.",
+        "Orzechy": "Tasting Notes Buy Colour Warm amber gold Nose Hazelnut, vanilla pods, butterscotch, caramalized apple Taste Creamy milk chocolate, crème brûlée, vanilla fudge, malt biscuit Finish Fudge and vanilla."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-718998175b4f",
+      "source": "https://www.topdrinks.nl/jack-daniels-blackberry-0-70-liter",
+      "sourceSha256": "93bdfea10159e97e8ce469c6f098de372581d5a7345196cc1c917218a7bb704c",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "De warme tonen van vanille, karamel en eikenhout van de klassieke",
+        "Karmel": "De warme tonen van vanille, karamel en eikenhout van de klassieke",
+        "Owoce": "Een fruitig en verfijnd smaakprofiel",
+        "Dąb": "De warme tonen van vanille, karamel en eikenhout van de klassieke"
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-07edd289caee",
+      "source": "https://www.drankgigant.nl/bushmills-american-oak.html",
+      "sourceSha256": "eb4c550127dcbd48722e09ea400a7bdf356122442d65ae5dc55a731f7a447c0e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Miód"
+      ],
+      "evidence": {
+        "Wanilia": "Het aroma die in de neus naar bovenkomt, is afkomstig van vanille en karamel met een vleugje honing .",
+        "Karmel": "Het aroma die in de neus naar bovenkomt, is afkomstig van vanille en karamel met een vleugje honing .",
+        "Miód": "Het aroma die in de neus naar bovenkomt, is afkomstig van vanille en karamel met een vleugje honing ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-f2dd066b692a",
+      "source": "https://www.drankgigant.nl/jameson-irish.html",
+      "sourceSha256": "3ebc775dea52fbb1ed57653ee9823c783207314ae1821dfc2fa6e2325d175399",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Przyprawy",
+        "Orzechy",
+        "Sherry"
+      ],
+      "evidence": {
+        "Wanilia": "De smaak is een perfecte balans van verschillende tonen, met name kenmerken van vanille, zoete sherry , accenten van noten en verschillende soorten kruiden.",
+        "Przyprawy": "Het aroma kent invloeden van bloemen , gepaard met een invloed van hout , kruiden en een zoete toon.",
+        "Orzechy": "De smaak is een perfecte balans van verschillende tonen, met name kenmerken van vanille, zoete sherry , accenten van noten en verschillende soorten kruiden.",
+        "Sherry": "De smaak is een perfecte balans van verschillende tonen, met name kenmerken van vanille, zoete sherry , accenten van noten en verschillende soorten kruiden."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-8c3011829c0f",
+      "source": "https://www.drankgigant.nl/whyte-mackay.html",
+      "sourceSha256": "d243bfbb26a3c142b03b4c5c993141fb88fd47c788cc0803a7e5abbb0f4653b4",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Miód",
+        "Cytrusy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Karmel": "Het aroma is zacht met noten van marsepein en honing gevolgd door karamel en chocolade.",
+        "Miód": "Het aroma is zacht met noten van marsepein en honing gevolgd door karamel en chocolade.",
+        "Cytrusy": "Je proeft een zachte smaak van tropische vruchten en gekarameliseerde sinaasappel in combinatie met bitterkoekjes en perziken.",
+        "Czekolada": "Het aroma is zacht met noten van marsepein en honing gevolgd door karamel en chocolade."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-5bf6d84baf0d",
+      "source": "https://www.drankgigant.nl/makers-mark.html",
+      "sourceSha256": "5c81c77179fbaf035a0972d298cd4560e84a4b18dc2c878b41b7714f3a071bb7",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Dąb",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "De afdronk is middellang van duur en kent een romige hint van vanille .",
+        "Dąb": "In het aroma zul je ook exotisch fruit en eikenhout herkennen.",
+        "Orzechy": "De smaak opent met toetsen van verschillende noten.",
+        "Suszone owoce": "Deze ontwikkeld zich verder naar zoete pruimen, evenals verschillende gedroogde vruchten ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-8c1fc5574504",
+      "source": "https://www.drankgigant.nl/wild-turkey-81.html",
+      "sourceSha256": "374be296bfa33c7db5854ce55ef934d31c0198b73368fb36292149a9f8af017f",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Miód",
+        "Przyprawy",
+        "Kawa"
+      ],
+      "evidence": {
+        "Wanilia": "Het aroma die in de neus naar bovenkomt, is kruidig met een toon van eiken en vanille gevolgd door roggekruiden en koffiebonen.",
+        "Karmel": "Je proeft een rijke smaak met tonen van karamel en honing gepaard met hints van rabarber en espresso.",
+        "Miód": "Je proeft een rijke smaak met tonen van karamel en honing gepaard met hints van rabarber en espresso.",
+        "Przyprawy": "Het aroma die in de neus naar bovenkomt, is kruidig met een toon van eiken en vanille gevolgd door roggekruiden en koffiebonen.",
+        "Kawa": "Het aroma die in de neus naar bovenkomt, is kruidig met een toon van eiken en vanille gevolgd door roggekruiden en koffiebonen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-7fbab2c163ad",
+      "source": "https://www.drankgigant.nl/bushmills-black-bush.html",
+      "sourceSha256": "93d11c4557244d26a6fca28ea77202ae33e2c3672e4fa6cca34654cc2bec59ef",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Przyprawy",
+        "Sherry"
+      ],
+      "evidence": {
+        "Owoce": "Het kent rijke toetsen van vers fruit, veelal citroen en druif.",
+        "Przyprawy": "In de afdronk komen tonen van biscuits en een omvangrijke kruidenmelange naar voren.",
+        "Sherry": "Ook zul je tonen van zoete moutsoorten en sherry herkennen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-126de4a3f392",
+      "source": "https://www.drankgigant.nl/jim-beam-devil-s-cut.html",
+      "sourceSha256": "61862917938dc94144a4a586c8f82d48ea02a53df3e42306add2cc93ee240820",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Het opent met een aroma die veel toetsen van eikenhout , nootmuskaat en kaneel bevat, evenals de klassieke vanille- en karameltonen .",
+        "Karmel": "Het opent met een aroma die veel toetsen van eikenhout , nootmuskaat en kaneel bevat, evenals de klassieke vanille- en karameltonen .",
+        "Przyprawy": "Het vocht dat uit de Jim Beam vaten gehaald wordt, wordt gecombineerd met de kwaliteit Jim Beam Black Extra-Aged bourbon whiskey, waardoor er een kruidig en veelzijdig eindproduct ontstaat.",
+        "Dąb": "Het opent met een aroma die veel toetsen van eikenhout , nootmuskaat en kaneel bevat, evenals de klassieke vanille- en karameltonen ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-9b95a315376c",
+      "source": "https://www.drankgigant.nl/white-horse-blended-liter.html",
+      "sourceSha256": "116318116e65ce2fc75ef0972d5ab4da6b4c2870111a0904930da38ef203aee4",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Torf",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Torf": "Deze bijzondere whisky bevat noten van taai graan en turf in de neus, evenals tonen van gestoofde pruimen en banoffeetaart .",
+        "Owoce": "Deze bijzondere whisky bevat noten van taai graan en turf in de neus, evenals tonen van gestoofde pruimen en banoffeetaart .",
+        "Przyprawy": "Licht en nootachtig op de tong, met geleidelijk steeds meer peper."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-8db2396baea4",
+      "source": "https://www.drankgigant.nl/dewar-s-white-label.html",
+      "sourceSha256": "91cc93ea270d9cb07332402ae27a13d070f6c6019f4030e4be04f02a2df86d44",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Dym": "Ook de smaak is complex: deze bevat romige tinten van vanille en eikenhout, met een terugkomend accent van honing en rook.",
+        "Wanilia": "Ook de smaak is complex: deze bevat romige tinten van vanille en eikenhout, met een terugkomend accent van honing en rook.",
+        "Miód": "Het aroma bevat fijne tonen van honing, verse appels , perzik en accenten van hout.",
+        "Owoce": "Het aroma bevat fijne tonen van honing, verse appels , perzik en accenten van hout.",
+        "Dąb": "Ook de smaak is complex: deze bevat romige tinten van vanille en eikenhout, met een terugkomend accent van honing en rook."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "other-753bf62a563d",
+      "source": "https://www.drankgigant.nl/monkey-shoulder.html",
+      "sourceSha256": "b6344eedceb1e6d91edfdd39516e61dcef3f262e154adfc9d1056deb23619969",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Het is licht zoetig van karakter dankzij rijke tonen van toffee , verschillende smaakvolle kruiden en vanille.",
+        "Karmel": "Het is licht zoetig van karakter dankzij rijke tonen van toffee , verschillende smaakvolle kruiden en vanille.",
+        "Owoce": "Ook herken je veel kenmerken van vers fruit ondersteund door mout .",
+        "Przyprawy": "Het is licht zoetig van karakter dankzij rijke tonen van toffee , verschillende smaakvolle kruiden en vanille."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jw-005",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-double-black-whisky/?sku=11104",
+      "sourceSha256": "51e034373ed91602f3449fa7f22dd1062129ff7642e69ab844b81e0616082a0e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf"
+      ],
+      "evidence": {
+        "Dym": "The result is a toasty, smoky whisky with Johnnie Walker's usual rich, malty core.",
+        "Torf": "Originally released to the travel retail market, Double Black combines the rich, malty flavour of Black Label with slightly peatier whisky and casks that were more heavily charred."
+      },
+      "previousTags": [
+        "Dym",
+        "Torf"
+      ],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-0a63cfe85c85",
+      "source": "https://www.drankgigant.nl/bushmills-caribbean-rum-cask-finish.html",
+      "sourceSha256": "b06a983441a8f291ad657df9cea46fd1a014008525ad454a6b105a5361b5e894",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Zijn smaak biedt ook een heerlijk tropisch karakter vol met fruit en zoete vanille.",
+        "Karmel": "Het geheel wordt afgesloten door een zoete afdronk van butterscotch , ananas met slagroom en opnieuw een peperige ondertoon.",
+        "Owoce": "Het eindresultaat is een gouden drank gevuld met de heerlijk tropische tonen van ananas, banaan en licht pittige geuren van kruidig eik."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-1c96a4c5399b",
+      "source": "https://www.drankgigant.nl/jameson-caskmates-ipa.html",
+      "sourceSha256": "cd9ace8ec99898b688c77c4841bc4def98b0a9defa487e3e6abb035c7c07d535",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Owoce": "Het aroma dat naar boven komt bevat toetsen van boomgaardfruit , grapefruit en citrusfruit.",
+        "Cytrusy": "Het aroma dat naar boven komt bevat toetsen van boomgaardfruit , grapefruit en citrusfruit.",
+        "Przyprawy": "Het wordt verder aangevuld door kruidige invloeden, met een subtiel pittige hint ter ondersteuning.",
+        "Orzechy": "Dit wordt onderbouwd door kenmerken van hop, hout en een toets van noten."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-e7c7a55da65a",
+      "source": "https://www.masterofmalt.com/whiskies/jack-daniels/gentleman-jack-whiskey/?sku=3002",
+      "sourceSha256": "ceb73056397a7bbc263ae7b976f4e0987a168c3cc88e3b2c76b40be9537daca2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "It has a distinctively rich flavour with notes of vanilla and spice.",
+        "Przyprawy": "It has a distinctively rich flavour with notes of vanilla and spice."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-5d1fd127da81",
+      "source": "https://www.drankgigant.nl/chivas-regal-12-year-70-cl.html",
+      "sourceSha256": "4c4750307dd3eb5f39be69a57c27ad3837a9ff2dd2fb6dc6c92ece5eb1950fbb",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Przyprawy",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Karmel": "Het aroma bevat invloeden van gedroogd fruit , met name banaan, en een zoete hint van toffee .",
+        "Przyprawy": "De afdronk kenmerkt zich met een toon van zwarte peper en houdt lang aan.",
+        "Orzechy": "Deze tonen zetten zich door naar de smaak, waar deze gepaard gaan met toetsen van walnoten en karamel.",
+        "Suszone owoce": "Het aroma bevat invloeden van gedroogd fruit , met name banaan, en een zoete hint van toffee ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-62541216b3b1",
+      "source": "https://www.drankgigant.nl/jim-beam-black-extra-aged.html",
+      "sourceSha256": "a4661e3dd02675f0d1922e07cda21482458efb4da99e6972443954f17720108b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Ook zul je veel toetsen van zoete karamel , kruidige kaneel en de klassieke hint van vanille opvatten.",
+        "Karmel": "Ook zul je veel toetsen van zoete karamel , kruidige kaneel en de klassieke hint van vanille opvatten.",
+        "Przyprawy": "Ook zul je veel toetsen van zoete karamel , kruidige kaneel en de klassieke hint van vanille opvatten.",
+        "Dąb": "Hierdoor krijgt zowel de geur als de smaak een sterk kenmerk van eikenhout ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-6aa2530dd5fb",
+      "source": "https://www.drankgigant.nl/jameson-cold-brew.html",
+      "sourceSha256": "24d3e610d4376aa426545c809a03f790bdd6b38a9e71bb42d9f14b7fa9f461bd",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Czekolada",
+        "Kawa"
+      ],
+      "evidence": {
+        "Wanilia": "Zijn aroma is dat van rijke diepgaande tonen van koffiebonen samen met een sterke toon van chocolade en karamel omringt door lichte toetsen van vanille.",
+        "Karmel": "Zijn aroma is dat van rijke diepgaande tonen van koffiebonen samen met een sterke toon van chocolade en karamel omringt door lichte toetsen van vanille.",
+        "Czekolada": "Zijn aroma is dat van rijke diepgaande tonen van koffiebonen samen met een sterke toon van chocolade en karamel omringt door lichte toetsen van vanille.",
+        "Kawa": "Voor deze variant wordt de originele Jameson gecombineerd met cold brew koffie, gebrouwen moet 100% Arabica bonen uit Brazilië en Colombia."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-2e7953f86482",
+      "source": "https://www.drankgigant.nl/jameson-orange-spirit.html",
+      "sourceSha256": "13d7fe247599961da9d2585561842e10974165b7b9dbdac57904560e67520d6a",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Cytrusy"
+      ],
+      "evidence": {
+        "Wanilia": "Gepaard met sappige citrus en een licht zoete ondertoon van vanille met lichte tonen van eik.",
+        "Owoce": "Deze spirit heeft als basis de drie dubbel gedistilleerde whisky van Jameson die vervolgens verder verrijkt is met de heerlijke smaak van sinaasappel.",
+        "Cytrusy": "Jameson Orange Spirit is een amberkleurige drank afkomstig uit Ierland."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-94510a185f6f",
+      "source": "https://www.drankgigant.nl/jameson-caskmates-stout-pairing-70-cl.html",
+      "sourceSha256": "71e6c077ff73b95d4d657b2f1a4bdc316dfde05a1eedff1232b04818ee527c7b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Cytrusy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Owoce": "Het aroma is zeer complex en bevat veel fruitige tonen van appels en peren, evenals een invloed van limoenschil .",
+        "Cytrusy": "Het aroma is zeer complex en bevat veel fruitige tonen van appels en peren, evenals een invloed van limoenschil .",
+        "Czekolada": "Deze ontwikkelen zich verder naar tonen van groene thee, geoogst hooi en hazelnoot , met lichte toetsen van melkchocolade."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-c5f708575387",
+      "source": "https://www.drankgigant.nl/jim-beam-7-years-black.html",
+      "sourceSha256": "8e862e176983017fec2e7c7c81042e27436a9a6eb4c21ba3632e3cf230825eae",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "In de neus ontvouwen zich warme aroma's van vanille, geroosterd eiken en een vleugje karamel.",
+        "Karmel": "In de neus ontvouwen zich warme aroma's van vanille, geroosterd eiken en een vleugje karamel.",
+        "Przyprawy": "De smaak is vol en gelaagd, met tonen van donker fruit, toffee en een subtiele kruidigheid."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "toki-f4832cf8c916",
+      "source": "https://www.drankgigant.nl/suntory-toki.html",
+      "sourceSha256": "18b36c598464a5af1b55e361a6632f5257339a424039861a3c868d1ab7e325cb",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Hij heeft een smaak van grapefruit, groene druiven, pepermunt en tijm, en een afdronk die subtiel zoet is, maar ook een beetje pittig met hint van vanille en eikenhout, witte peper en gember.",
+        "Miód": "Suntory Toki heeft een heldere gouden kleur en een aroma van basilicum, groene appel en honing.",
+        "Owoce": "Suntory Toki heeft een heldere gouden kleur en een aroma van basilicum, groene appel en honing.",
+        "Cytrusy": "Hij heeft een smaak van grapefruit, groene druiven, pepermunt en tijm, en een afdronk die subtiel zoet is, maar ook een beetje pittig met hint van vanille en eikenhout, witte peper en gember.",
+        "Przyprawy": "Hij heeft een smaak van grapefruit, groene druiven, pepermunt en tijm, en een afdronk die subtiel zoet is, maar ook een beetje pittig met hint van vanille en eikenhout, witte peper en gember."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-50517570c981",
+      "source": "https://www.thewhiskyexchange.com/p/72610/ballantines-finest-true-music-icons-queen-edition",
+      "sourceSha256": "8dbf3aef6473a0d27da9db291197b39d0b29ea6e6b565df67178b79510995dc6",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Miód",
+        "Owoce",
+        "Przyprawy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Miód": "The bottle is emblazoned with the band’s crest which was designed by Freddie Mercury and offers notes of heather, honey and hints of baking spice, leading to notes of milk chocolate, orchard fruit and toasted malt on the palate.",
+        "Owoce": "The bottle is emblazoned with the band’s crest which was designed by Freddie Mercury and offers notes of heather, honey and hints of baking spice, leading to notes of milk chocolate, orchard fruit and toasted malt on the palate.",
+        "Przyprawy": "The bottle is emblazoned with the band’s crest which was designed by Freddie Mercury and offers notes of heather, honey and hints of baking spice, leading to notes of milk chocolate, orchard fruit and toasted malt on the palate.",
+        "Czekolada": "The bottle is emblazoned with the band’s crest which was designed by Freddie Mercury and offers notes of heather, honey and hints of baking spice, leading to notes of milk chocolate, orchard fruit and toasted malt on the palate."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-5d45c26add75",
+      "source": "https://www.drankgigant.nl/ballantines-12-year.html",
+      "sourceSha256": "e618646509b6c359ae6e346506ee86ae60123b30ec210e0b7d8c4c1a25c5913e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Op de neus zijn er zoete geuren van honing met hints ven eikenhout en vanille aanwezig.",
+        "Miód": "Een volle, ronde whisky met een smakenpalet dat tot in perfectie is gebalanceerd en tonen van onder meer eikenhout en honing met een rijk scala aan fruit en kruiden die de smaken complementeren.",
+        "Owoce": "Een volle, ronde whisky met een smakenpalet dat tot in perfectie is gebalanceerd en tonen van onder meer eikenhout en honing met een rijk scala aan fruit en kruiden die de smaken complementeren.",
+        "Dąb": "Een volle, ronde whisky met een smakenpalet dat tot in perfectie is gebalanceerd en tonen van onder meer eikenhout en honing met een rijk scala aan fruit en kruiden die de smaken complementeren."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-80ec5901ec08",
+      "source": "https://www.drankgigant.nl/ballantines-barrel-smooth-blended.html",
+      "sourceSha256": "a742deabdc5f709f6bef14f0e257e4ea12e99879f57c73e173fac009f35e017a",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Miód",
+        "Owoce"
+      ],
+      "evidence": {
+        "Wanilia": "De afdronk is lang met aanhoudende vanille.",
+        "Karmel": "Hij heeft mogen rijpen op gekarameliseerde eikenhouten vaten.",
+        "Miód": "Je proeft een zoete smaak van honing gepaard met een vleugje zachte rook en drop.",
+        "Owoce": "Het aroma die in de neus naar bovenkomt, is fruitig met een toon van butterscotch toffee."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-788c3a811aeb",
+      "source": "https://www.drankgigant.nl/bushmills-black-bush-80-20-px-sherry.html",
+      "sourceSha256": "e260bd9424bca840c0025a6ef133cea6690cff4475851b2bf01005754672ed5b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce"
+      ],
+      "evidence": {
+        "Owoce": "Het aroma die in de neus naar bovenkomt, is fruitig met een sherry zoetheid."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-87e924a59f06",
+      "source": "https://www.drankgigant.nl/bushmills-10-year-single-malt.html",
+      "sourceSha256": "f1a6f8aac435ad09a5374f99c32964997844a3b80bb86cfa261036adf3050920",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Dąb",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Wanilia": "De smaak bevat voornamelijk toetsen van geroosterd eikenhout , naast kenmerken van vanille, kamperfoelie en opnieuw zoete melkchocolade.",
+        "Miód": "Het aroma opent met een toon van rijpe banaan die zich later ontwikkelt naar melkchocolade en honing.",
+        "Dąb": "De smaak bevat voornamelijk toetsen van geroosterd eikenhout , naast kenmerken van vanille, kamperfoelie en opnieuw zoete melkchocolade.",
+        "Czekolada": "Het aroma opent met een toon van rijpe banaan die zich later ontwikkelt naar melkchocolade en honing."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-45e20d1071da",
+      "source": "https://www.drankgigant.nl/jim-beam-double-oak.html",
+      "sourceSha256": "cb82d80b9361fe2c18686d3e70d9e04cdce215f5ca068d11b7494c31f60f505b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "Hierdoor heeft hij een heerlijk aroma van karamel en vanille met hinten van verkoold eiken, de smaak is heerlijk intens met notities van karamel, toffee en een heerlijke eiken houten kruidigheid.",
+        "Karmel": "Hierdoor heeft hij een heerlijk aroma van karamel en vanille met hinten van verkoold eiken, de smaak is heerlijk intens met notities van karamel, toffee en een heerlijke eiken houten kruidigheid.",
+        "Przyprawy": "Hierdoor heeft hij een heerlijk aroma van karamel en vanille met hinten van verkoold eiken, de smaak is heerlijk intens met notities van karamel, toffee en een heerlijke eiken houten kruidigheid."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-d49b43469be1",
+      "source": "https://www.drankgigant.nl/glenfiddich-12-year-70cl.html",
+      "sourceSha256": "3dcb3f9260de46f8bb535cc6fbf98f95160157d3e93552e29d10de3f041af51f",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Karmel"
+      ],
+      "evidence": {
+        "Owoce": "Het aroma bevat invloeden van vers fruit , ondersteund door een aangename frisheid.",
+        "Karmel": "In de smaak komen voornamelijk toetsen van turfrook en butterscotch naar voren."
+      },
+      "reviewNote": "Retailer peat/smoke claims rejected; only fruit and butterscotch supported without that conflict.",
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-e0d491e62f8c",
+      "source": "https://www.drankgigant.nl/jameson-black-barrel.html",
+      "sourceSha256": "90e67295da532d371c08d430f6f7737c2bd85ed74661f739afc3b21bc085b0c5",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Przyprawy",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Zo zul je toetsen van zoete karamel proeven, ondersteund door romige vanille .",
+        "Karmel": "Zo zul je toetsen van zoete karamel proeven, ondersteund door romige vanille .",
+        "Przyprawy": "Ook zul je hinten van noten en verschillende soorten kruiden herkennen.",
+        "Orzechy": "Ook zul je hinten van noten en verschillende soorten kruiden herkennen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jw-b5ecf110444a",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-johnnie-blonde-whisky/?sku=110834",
+      "sourceSha256": "13de80f976bbea3db6f90869b359ed536ff9232c7feed6679d253391e289a244",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce"
+      ],
+      "evidence": {
+        "Owoce": "Joining the core range from Johnnie Walker comes Johnnie Blonde, a bright and fruity blend of wheat and malt whisky, ideal for topping up with your favourite mixer!"
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jw-003",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-gold-label-reserve-blended-whisky/?sku=14376",
+      "sourceSha256": "02deb474d21623d7f86a7b58952feb186a28e343035d34641dcfaa14beac6a41",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Miód"
+      ],
+      "evidence": {
+        "Miód": "It’s built around a core of single malt whisky from Clynelish, but also features spirit from the likes of Cardhu, Blair Athol, and grain whisky from Cameronbridge, all chosen for their sweet, honeyed qualities."
+      },
+      "previousTags": [
+        "Miód",
+        "Wanilia"
+      ],
+      "retainedLegacyTags": [
+        "Wanilia"
+      ]
+    },
+    {
+      "id": "ardbeg-a56dff8b6045",
+      "source": "https://www.drankgigant.nl/ardbeg-wee-beastie-5-years.html",
+      "sourceSha256": "926523e733c749f565a3267c028f5e412ab76541670cf6c97739a82096437771",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Przyprawy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Dym": "Een whisky die zich kenmerkt door een intens rokerige smaak met op de achtergrond een explosie aan chocolade!",
+        "Przyprawy": "Op de neus vind je de aangename, kruidige tonen van vers gekraakte peper en frisse dennenhars .",
+        "Czekolada": "Een whisky die zich kenmerkt door een intens rokerige smaak met op de achtergrond een explosie aan chocolade!"
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ballantines-bb6f35f4dc5f",
+      "source": "https://www.drankgigant.nl/ballantines-10-year.html",
+      "sourceSha256": "635b6efe34a63dae112c81450a09c2dfcc743a813c5c3d5feee87425941c1deb",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Ondergedompeld in een golf van vanille met toetsen van nootmuskaat.",
+        "Karmel": "Zijn smaak brengt dikke lagen van karamel met tropisch fruit en gedroogde tonen van kokosnoot.",
+        "Owoce": "Hierdoor heeft hij een zeer aangenaam zoet aroma vol met bruine suiker en boomgaard fruit.",
+        "Przyprawy": "Ondergedompeld in een golf van vanille met toetsen van nootmuskaat.",
+        "Dąb": "Aangevuld door tonen van licht verkoolde eikenhout en gerst."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jd-4c20bc914736",
+      "source": "https://www.masterofmalt.com/whiskies/jack-daniels/jack-daniels-bonded-rye-whiskey/?sku=134176",
+      "sourceSha256": "ac0a32d04b67648a80db82f1a40850d11f50fc1ecbf8a047da24d75d2a4f562b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Przyprawy": "If you like a big spicy flavour in your cocktails, then you've come to the right place."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-27410c6a6124",
+      "source": "https://www.drankgigant.nl/bushmills-10-years-vino-dulce-reserve.html",
+      "sourceSha256": "08011ef5f26cefaa859276f1def0eb39e858e617d9b7d872e9bbcc5bdc42edb2",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy",
+        "Czekolada",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Een aroma met zoete tonen van rood fruit , vanille en een vleugje eikenhout .",
+        "Owoce": "Een aroma met zoete tonen van rood fruit , vanille en een vleugje eikenhout .",
+        "Przyprawy": "Vol en soepele smaak  met hints van donkere chocolade , gedroogd fruit en een subtiele kruidigheid .",
+        "Czekolada": "Vol en soepele smaak  met hints van donkere chocolade , gedroogd fruit en een subtiele kruidigheid .",
+        "Suszone owoce": "Vol en soepele smaak  met hints van donkere chocolade , gedroogd fruit en een subtiele kruidigheid ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-41334cc7c37a",
+      "source": "https://www.drankgigant.nl/jameson-crested.html",
+      "sourceSha256": "df24ca8c6ff8e10f62a4f5e3e8ee5976b839a094fedee7c89f33c1e7309a6f40",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Przyprawy",
+        "Czekolada",
+        "Sherry"
+      ],
+      "evidence": {
+        "Owoce": "De smaak kenmerkt zich met toetsen van geroosterd hout gecombineerd met vers fruit.",
+        "Przyprawy": "De whisky is erg rijk van karakter, met tonen van verse meloen, pittige gember en sherry in het aroma.",
+        "Czekolada": "Terugkerende hinten van sherry en een accent van chocolade zijn tevens ook te herkennen.",
+        "Sherry": "De whisky is erg rijk van karakter, met tonen van verse meloen, pittige gember en sherry in het aroma."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-81eb0397c5ee",
+      "source": "https://www.drankgigant.nl/jameson-triple-triple-marsala-cask.html",
+      "sourceSha256": "b51fc4220178e5912bc41536e78bb9b2e5fa02fe8225f1fe9c244b39afae0a1d",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy",
+        "Czekolada",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Smaaktechnisch versmelten rijke tonen van gekonfijte appel, romige vanille en in chocolade gedoopte walnoten prachtig met een subtiele, warme gemberkruidigheid.",
+        "Owoce": "Jameson Triple Triple Marsala Cask is een bijzonder zachte en fruitige Ierse whiskey , die de traditionele ambacht van Jameson verrijkt met een zonnige, Italiaanse twist.",
+        "Przyprawy": "Smaaktechnisch versmelten rijke tonen van gekonfijte appel, romige vanille en in chocolade gedoopte walnoten prachtig met een subtiele, warme gemberkruidigheid.",
+        "Czekolada": "Smaaktechnisch versmelten rijke tonen van gekonfijte appel, romige vanille en in chocolade gedoopte walnoten prachtig met een subtiele, warme gemberkruidigheid.",
+        "Orzechy": "Smaaktechnisch versmelten rijke tonen van gekonfijte appel, romige vanille en in chocolade gedoopte walnoten prachtig met een subtiele, warme gemberkruidigheid."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "toki-769a58a24728",
+      "source": "https://www.drankgigant.nl/suntory-toki-black.html",
+      "sourceSha256": "348c539face086525121049ad98da5855a83c8e50f86f52c6ad79381b8b6b62e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "In de geur komen frisse tonen van groene appel en citrus samen met zachte aroma's van honing , vanille en een subtiele hint van eikenhout.",
+        "Miód": "In de geur komen frisse tonen van groene appel en citrus samen met zachte aroma's van honing , vanille en een subtiele hint van eikenhout.",
+        "Owoce": "In de geur komen frisse tonen van groene appel en citrus samen met zachte aroma's van honing , vanille en een subtiele hint van eikenhout.",
+        "Cytrusy": "In de geur komen frisse tonen van groene appel en citrus samen met zachte aroma's van honing , vanille en een subtiele hint van eikenhout.",
+        "Przyprawy": "De lichte kruidigheid van origano geeft het geheel extra diepgang."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-47c507ed1824",
+      "source": "https://www.drankgigant.nl/bushmills-steamship-collection-char-bourbon-cask.html",
+      "sourceSha256": "63595d4cf989cf9c48790d8d29d0010be3da8dfefa25fb32a0002796f12ddddc",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Cytrusy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Het opent met een omvangrijk aroma die kenmerken van geroosterd eikenhout bevat, ondersteund door honing , vanille en verse peren .",
+        "Miód": "Het opent met een omvangrijk aroma die kenmerken van geroosterd eikenhout bevat, ondersteund door honing , vanille en verse peren .",
+        "Owoce": "Het opent met een omvangrijk aroma die kenmerken van geroosterd eikenhout bevat, ondersteund door honing , vanille en verse peren .",
+        "Cytrusy": "In de smaak komt honing opnieuw voor, evenals fruitige tonen van verse perziken en schilletjes van sinaasappels.",
+        "Dąb": "Het opent met een omvangrijk aroma die kenmerken van geroosterd eikenhout bevat, ondersteund door honing , vanille en verse peren ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-547ee86728f6",
+      "source": "https://www.drankgigant.nl/glenfiddich-12-years-our-triple-oak.html",
+      "sourceSha256": "2c01f96783e5c336099f579d8b70357be8f75688ced667c7169c829c41cddd85",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Przyprawy",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "Het resultaat van dit proces is een zacht profiel met de romige tonen van vanille die vergezeld worden door geroosterde amandelen en aanhoudende gember toetsen.",
+        "Przyprawy": "Het resultaat van dit proces is een zacht profiel met de romige tonen van vanille die vergezeld worden door geroosterde amandelen en aanhoudende gember toetsen.",
+        "Orzechy": "Het resultaat van dit proces is een zacht profiel met de romige tonen van vanille die vergezeld worden door geroosterde amandelen en aanhoudende gember toetsen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jameson-1ec8e4e0f3dd",
+      "source": "https://www.drankgigant.nl/jameson-triple-triple.html",
+      "sourceSha256": "5a87cfd95868a363840699500f136a479c517f3b2c3ed205cfae1041667d0c5e",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Cytrusy",
+        "Przyprawy",
+        "Czekolada",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Owoce": "Dit heeft er voor gezorgd dat de whisky een aangenaam zoet aroma heeft vol van peer die zich langzaam verder ontwikkelt tot een melange van pittige citroenschil met diverse fruit op de achtergrond.",
+        "Cytrusy": "Dit heeft er voor gezorgd dat de whisky een aangenaam zoet aroma heeft vol van peer die zich langzaam verder ontwikkelt tot een melange van pittige citroenschil met diverse fruit op de achtergrond.",
+        "Przyprawy": "Hints van kaneel en kruidnagel gaan verspreid door het geheel en zorgen voor en gebalanceerd geheel.",
+        "Czekolada": "De romige tonen van chocolade gemend met zoethout nemen je mee naar zijn afdronk.",
+        "Suszone owoce": "Zeer fruitig met zwarte bessen, pruimen en rozijntjes."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ardbeg-236eaaf24cb0",
+      "source": "https://www.drankgigant.nl/ardbeg-10-year.html",
+      "sourceSha256": "c7805118937cfa371099cca1f0a5599086d667fe32c9fc46eb2a760433e8b871",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Torf",
+        "Karmel",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Dym": "De intense en fruitige aroma's nemen je mee op reis waarna je terechtkomt in een ware smaakexplosie van turf, rook en drop.",
+        "Torf": "De intense en fruitige aroma's nemen je mee op reis waarna je terechtkomt in een ware smaakexplosie van turf, rook en drop.",
+        "Karmel": "Dankzij de zeer lange afdronk kan je nog lang nagenieten met een vleugje van anijs, geroosterde amandelen en toffee.",
+        "Orzechy": "Dankzij de zeer lange afdronk kan je nog lang nagenieten met een vleugje van anijs, geroosterde amandelen en toffee."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-38b56c97ed0b",
+      "source": "https://www.drankgigant.nl/bushmills-12-years-irish-whiskey.html",
+      "sourceSha256": "9109a91e0914097444e99f0446ff35575b22fb08be171fb59704850325b8efe1",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Przyprawy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Gerijpt in zowel bourbon- als sherryvaten, onthult deze whisky een harmonieus palet van honing, vanille, rijpe appel en gedroogde vruchten, aangevuld met lichte kruiden en een subtiele noot van eikenhout.",
+        "Miód": "Gerijpt in zowel bourbon- als sherryvaten, onthult deze whisky een harmonieus palet van honing, vanille, rijpe appel en gedroogde vruchten, aangevuld met lichte kruiden en een subtiele noot van eikenhout.",
+        "Owoce": "Gerijpt in zowel bourbon- als sherryvaten, onthult deze whisky een harmonieus palet van honing, vanille, rijpe appel en gedroogde vruchten, aangevuld met lichte kruiden en een subtiele noot van eikenhout.",
+        "Przyprawy": "Gerijpt in zowel bourbon- als sherryvaten, onthult deze whisky een harmonieus palet van honing, vanille, rijpe appel en gedroogde vruchten, aangevuld met lichte kruiden en een subtiele noot van eikenhout.",
+        "Suszone owoce": "Gerijpt in zowel bourbon- als sherryvaten, onthult deze whisky een harmonieus palet van honing, vanille, rijpe appel en gedroogde vruchten, aangevuld met lichte kruiden en een subtiele noot van eikenhout."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-42bc72f7783e",
+      "source": "https://www.drankgigant.nl/glenfiddich-our-malt-master-s-edition.html",
+      "sourceSha256": "03b7a1580dc1bb206d721a6d45221775d50699b857d267192e6346c733d706c6",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Owoce": "Je proeft sorbet smaken die vervagen in kruiden, die worden verzacht door tonen van pruim .",
+        "Przyprawy": "Je proeft sorbet smaken die vervagen in kruiden, die worden verzacht door tonen van pruim ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-7d82ecd33570",
+      "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-oloroso-sherry-cask.html",
+      "sourceSha256": "b3875bb21907a86c3cc863c1e69a99da1efdc2deff682b5778a65c2047a8a1d5",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy",
+        "Orzechy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Zijn smaak heeft een zijdezachte textuur vol met romige vanille tonen en diverse toetsen van vruchten zoals bramen en peer.",
+        "Owoce": "Deze variant heeft voor dertien jaar lang mogen rijpen op oloroso sherry vaten waardoor hij een zeer aangenaam aroma heeft verkregen van heerlijk gestoofde boomgaardfruit met gedroogde vruchten .",
+        "Przyprawy": "Hij ligt hier iets droger op de tong met een kruidig karakter.",
+        "Orzechy": "Gehuld in een deken van gepolijste eikenhout en gekarameliseerde noten.",
+        "Suszone owoce": "Deze variant heeft voor dertien jaar lang mogen rijpen op oloroso sherry vaten waardoor hij een zeer aangenaam aroma heeft verkregen van heerlijk gestoofde boomgaardfruit met gedroogde vruchten ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jim-beam-4f1078f0996b",
+      "source": "https://www.masterofmalt.com/whiskies/jim-beam/jim-beam-single-barrel-whiskey/?sku=100616",
+      "sourceSha256": "61b036c3f14b4b3b12f98c49b9ab399ce521ddec9e066d10329a60e7ff9fa328",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "The ones that do get chosen are impressive indeed, full of deep, rich, oaky vanilla and generous caramel notes that top-notch Bourbon is known for.",
+        "Karmel": "The ones that do get chosen are impressive indeed, full of deep, rich, oaky vanilla and generous caramel notes that top-notch Bourbon is known for.",
+        "Dąb": "The ones that do get chosen are impressive indeed, full of deep, rich, oaky vanilla and generous caramel notes that top-notch Bourbon is known for."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-e8b6f623c5fa",
+      "source": "https://www.masterofmalt.com/whiskies/chivas-regal/chivas-regal-extra-13-year-old-bourbon-cask-whisky/?sku=112931",
+      "sourceSha256": "4492a6ac502f34ac1a8e8777bb315f0f0137b26c49e3b3e15f1736b0a7168252",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "The result is a bright and creamy profile, with sweet oak and vanilla shining through.",
+        "Dąb": "The result is a bright and creamy profile, with sweet oak and vanilla shining through."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "bushmills-6802a226f822",
+      "source": "https://www.drankgigant.nl/bushmills-10-years-sherry-cask-finish.html",
+      "sourceSha256": "f582d23c13b4531539f8e3efe48db09402cbd8316fb92fafc2e7dbc10f0a3263",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Miód",
+        "Owoce",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Wanilia": "Je proeft een fruitige smaak met vijgen en vanille gevolgd door honing en rozijnen.",
+        "Miód": "Je proeft een fruitige smaak met vijgen en vanille gevolgd door honing en rozijnen.",
+        "Owoce": "Het aroma die in de neus naar bovenkomt, is afkomstig van donker fruit gepaard met pruimen en vijgen.",
+        "Suszone owoce": "Je proeft een fruitige smaak met vijgen en vanille gevolgd door honing en rozijnen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-7c1e99c38f63",
+      "source": "https://www.drankgigant.nl/chivas-regal-extra-13-year-american-rye-casks.html",
+      "sourceSha256": "be047d9e2252f2d057c9e4a3ac6f177950bf8ae00c9c9ff7c8ca6cc7cf6d3879",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Cytrusy",
+        "Czekolada"
+      ],
+      "evidence": {
+        "Wanilia": "Het aroma die in de neus naar bovenkomt, is afkomstig van vanille gepaard met meloen en chocolade .",
+        "Owoce": "Je proeft een smaak van sinaasappel gevolgd door melkchocolade.",
+        "Cytrusy": "Je proeft een smaak van sinaasappel gevolgd door melkchocolade.",
+        "Czekolada": "Het aroma die in de neus naar bovenkomt, is afkomstig van vanille gepaard met meloen en chocolade ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-bdb7d1818d93",
+      "source": "https://www.drankgigant.nl/glenfiddich-14-year-bourbon-barrel-reserve.html",
+      "sourceSha256": "8777737a3de093939c9d975966fd6c42d62a713b8d36961b16cda47a24b90793",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Cytrusy",
+        "Przyprawy",
+        "Dąb"
+      ],
+      "evidence": {
+        "Wanilia": "Hierdoor beschikt het aroma over een zeer levendig vanille karakter .",
+        "Karmel": "Zijn smaak biedt dikke lagen van toffee, met eikenhout en gekonfijte sinaasappelschil die een wat frisse toets aan het geheel toevoegt.",
+        "Cytrusy": "Met name een frisse vleug van citrus die onderbroken wordt door de kruidige toetsen van kaneel en eik.",
+        "Przyprawy": "Met name een frisse vleug van citrus die onderbroken wordt door de kruidige toetsen van kaneel en eik.",
+        "Dąb": "Zijn smaak biedt dikke lagen van toffee, met eikenhout en gekonfijte sinaasappelschil die een wat frisse toets aan het geheel toevoegt."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-adeb4545b1a4",
+      "source": "https://www.drankgigant.nl/glenfiddich-project-xx.html",
+      "sourceSha256": "aa3bc86caf46f8dc5757e147b66e244892a1269fe8e73f6a10b92273a2e94f1b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Przyprawy",
+        "Dąb",
+        "Orzechy"
+      ],
+      "evidence": {
+        "Wanilia": "In de geur zul je rijke tonen van vanille en vers fruit herkennen, voornamelijk peer .",
+        "Owoce": "In de geur zul je rijke tonen van vanille en vers fruit herkennen, voornamelijk peer .",
+        "Przyprawy": "De smaak wordt geopend door accenten van geroosterde amandelen die zich ontwikkelen naar een lichte invloed van kaneel .",
+        "Dąb": "Ook bevat het een onderliggende toets van eikenhout .",
+        "Orzechy": "De smaak wordt geopend door accenten van geroosterde amandelen die zich ontwikkelen naar een lichte invloed van kaneel ."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-0eab037cea0f",
+      "source": "https://www.drankgigant.nl/glenfiddich-fire-cane-70-cl.html",
+      "sourceSha256": "0c412fb4e2687e8be79102fff62a42dd884a0fceee387fbbcfece5bb2eb2a1e8",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Wanilia",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Dym": "Deze whisky wordt eerst gerijpt in Amerikaanse eiken vaten, en vervolgens afgewerkt in rumvaten, waardoor een perfecte balans ontstaat tussen gerookte, kruidige tonen en zachte, zoete rum-invloeden.",
+        "Wanilia": "Elke slok van Glenfiddich Fire & Cane biedt een harmonie van geroosterde eik, licht rokerige hints, vanille en tropisch fruit, met een warme, lange en elegante afdronk.",
+        "Owoce": "Elke slok van Glenfiddich Fire & Cane biedt een harmonie van geroosterde eik, licht rokerige hints, vanille en tropisch fruit, met een warme, lange en elegante afdronk.",
+        "Przyprawy": "Deze whisky wordt eerst gerijpt in Amerikaanse eiken vaten, en vervolgens afgewerkt in rumvaten, waardoor een perfecte balans ontstaat tussen gerookte, kruidige tonen en zachte, zoete rum-invloeden."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "glenfiddich-a88131f4da8d",
+      "source": "https://www.drankgigant.nl/glenfiddich-orchard-experiment-series-05.html",
+      "sourceSha256": "12d99fa261667f118f3e3f79881590832537a558c4ded5571f1bcafb7758d01b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Karmel",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Karmel": "Je proeft een smaak van rijp boomgaardfruit die zich ontwikkelt tot romige toffee en gekarameliseerde appel met houtachtige kruiden.",
+        "Owoce": "Dit vat geeft de whisky een zoete en fruitige toon van appels.",
+        "Przyprawy": "Je proeft een smaak van rijp boomgaardfruit die zich ontwikkelt tot romige toffee en gekarameliseerde appel met houtachtige kruiden."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-d1f30518067d",
+      "source": "https://www.drankgigant.nl/chivas-regal-13-years-extra-tequila-cask.html",
+      "sourceSha256": "b4f99aebf319926d288f822ef9a0ea9e0aaf4436619fc0d7aa3954d9f495df1a",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Owoce",
+        "Cytrusy"
+      ],
+      "evidence": {
+        "Wanilia": "Deze whisky heeft een verleidelijk aroma van zoete vanille met een vleugje citrus.",
+        "Owoce": "In de mond proef je een delicate mix van lichte en fruitige vanille noten, verrijkt met verfrissende grapefruit en ananas.",
+        "Cytrusy": "Deze whisky heeft een verleidelijk aroma van zoete vanille met een vleugje citrus."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "chivas-d1ca12afd81a",
+      "source": "https://www.drankgigant.nl/chivas-regal-xv-15-year-70cl.html",
+      "sourceSha256": "efc1c789cd4eb3a39e5ba544c2f46fefa38d727dd399cfc9b67dc29b69f7601f",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Wanilia",
+        "Karmel",
+        "Owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Wanilia": "De afdronk kent een subtiele toon van vanille.",
+        "Karmel": "De smaak is zoet van aard en bevat een rijke combinatie van verse vruchten, butterscotch en zoete karamel .",
+        "Owoce": "De smaak is zoet van aard en bevat een rijke combinatie van verse vruchten, butterscotch en zoete karamel .",
+        "Przyprawy": "Wanneer de stop uit de fles gehaald wordt zullen tonen van rijpe druiven, marmelade en een vleugje kaneel de neus binnenkomen."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "ardbeg-614bbda2ea6d",
+      "source": "https://www.drankgigant.nl/ardbeg-an-oa.html",
+      "sourceSha256": "3796de5c76ac74d6c7f1ef31cbd7fa70149626dcabd450e2680c233670e86f49",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Karmel",
+        "Cytrusy",
+        "Czekolada",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Dym": "De finish is langslepend met notities van anijszaad en een subtiele hint van rook.",
+        "Karmel": "Deze heerlijke ronde whisky heeft een romig aroma met notities van toffe, anijs zaad en dadels die in de mond zorgen voor een ware explosie aan smaken zoals melk chocolade, toffee, sinaasappel en anijs zaad.",
+        "Cytrusy": "Deze heerlijke ronde whisky heeft een romig aroma met notities van toffe, anijs zaad en dadels die in de mond zorgen voor een ware explosie aan smaken zoals melk chocolade, toffee, sinaasappel en anijs zaad.",
+        "Czekolada": "Deze heerlijke ronde whisky heeft een romig aroma met notities van toffe, anijs zaad en dadels die in de mond zorgen voor een ware explosie aan smaken zoals melk chocolade, toffee, sinaasappel en anijs zaad.",
+        "Suszone owoce": "Deze heerlijke ronde whisky heeft een romig aroma met notities van toffe, anijs zaad en dadels die in de mond zorgen voor een ware explosie aan smaken zoals melk chocolade, toffee, sinaasappel en anijs zaad."
+      },
+      "previousTags": [],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jw-004",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-red-label-whisky/?sku=2427",
+      "sourceSha256": "3f239d14a846cd5334b2eaf7634c2abbc3ad1facaa058d44bf036d08f814b1ed",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Miód",
+        "Przyprawy",
+        "Karmel",
+        "Dąb"
+      ],
+      "evidence": {
+        "Dym": "Nose A surprisingly rich, aromatic nose with heather honey, mixed peels, soft smoke and rum spice. Palate Cedar wood, oak and butterscotch, aniseed, Christmas cake and malt. Finish Long, spiced nose with smoke on the tail.",
+        "Miód": "Nose A surprisingly rich, aromatic nose with heather honey, mixed peels, soft smoke and rum spice. Palate Cedar wood, oak and butterscotch, aniseed, Christmas cake and malt. Finish Long, spiced nose with smoke on the tail.",
+        "Przyprawy": "Nose A surprisingly rich, aromatic nose with heather honey, mixed peels, soft smoke and rum spice. Palate Cedar wood, oak and butterscotch, aniseed, Christmas cake and malt. Finish Long, spiced nose with smoke on the tail.",
+        "Karmel": "Nose A surprisingly rich, aromatic nose with heather honey, mixed peels, soft smoke and rum spice. Palate Cedar wood, oak and butterscotch, aniseed, Christmas cake and malt. Finish Long, spiced nose with smoke on the tail.",
+        "Dąb": "Nose A surprisingly rich, aromatic nose with heather honey, mixed peels, soft smoke and rum spice. Palate Cedar wood, oak and butterscotch, aniseed, Christmas cake and malt. Finish Long, spiced nose with smoke on the tail."
+      },
+      "previousTags": [
+        "Przyprawy",
+        "Dym"
+      ],
+      "retainedLegacyTags": []
+    },
+    {
+      "id": "jw-001",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-black-label-12-year-old-whisky/?sku=2422",
+      "sourceSha256": "00029ef690635c949b33bfa2c74c4b3d86bbdc6e6289b5b0dfe97f1f7763264b",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Przyprawy",
+        "Karmel",
+        "Cytrusy",
+        "Suszone owoce"
+      ],
+      "evidence": {
+        "Dym": "Nose Winter spice and treacle, hints of white pepper and a little citrus. Palate Rich and full with notes of wood smoke and dry spice, hints of barley and cereal with creamy toffee and a distinct herbal note. Finish Quite fruity and long with a note of sultanas and mixed peels.",
+        "Przyprawy": "Nose Winter spice and treacle, hints of white pepper and a little citrus. Palate Rich and full with notes of wood smoke and dry spice, hints of barley and cereal with creamy toffee and a distinct herbal note. Finish Quite fruity and long with a note of sultanas and mixed peels.",
+        "Karmel": "Nose Winter spice and treacle, hints of white pepper and a little citrus. Palate Rich and full with notes of wood smoke and dry spice, hints of barley and cereal with creamy toffee and a distinct herbal note. Finish Quite fruity and long with a note of sultanas and mixed peels.",
+        "Cytrusy": "Nose Winter spice and treacle, hints of white pepper and a little citrus. Palate Rich and full with notes of wood smoke and dry spice, hints of barley and cereal with creamy toffee and a distinct herbal note. Finish Quite fruity and long with a note of sultanas and mixed peels.",
+        "Suszone owoce": "Nose Winter spice and treacle, hints of white pepper and a little citrus. Palate Rich and full with notes of wood smoke and dry spice, hints of barley and cereal with creamy toffee and a distinct herbal note. Finish Quite fruity and long with a note of sultanas and mixed peels."
+      },
+      "previousTags": [
+        "Dym",
+        "Wanilia",
+        "Owoce"
+      ],
+      "retainedLegacyTags": [
+        "Wanilia",
+        "Owoce"
+      ]
+    },
+    {
+      "id": "jw-002",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker/johnnie-walker-blue-label-whisky/?sku=2423",
+      "sourceSha256": "cc6d63c2368489d4cb48abd4433c1ee5c432fee456cb324290a3e4b73205fe2d",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Karmel",
+        "Czekolada",
+        "Suszone owoce",
+        "Przyprawy"
+      ],
+      "evidence": {
+        "Dym": "Nose Fragrant with good body. Notes of oak, crisp spice, dried fruit, pastries. Berry fruits, aniseed, hints of cedar, a touch of spice and citrus. Palate Supple and balanced. Good toffee and hints of very wistful smoke. Chocolate, hints of grass and a good hit of malt. Finish Floral, oaky, good length, urged on by a plume of very well-kept, highland style smoke. Dried fruit, spice, honey. Overall One of the ultimate premium blends, Blue Label is a legend in its own right and will continue to be.",
+        "Karmel": "Nose Fragrant with good body. Notes of oak, crisp spice, dried fruit, pastries. Berry fruits, aniseed, hints of cedar, a touch of spice and citrus. Palate Supple and balanced. Good toffee and hints of very wistful smoke. Chocolate, hints of grass and a good hit of malt. Finish Floral, oaky, good length, urged on by a plume of very well-kept, highland style smoke. Dried fruit, spice, honey. Overall One of the ultimate premium blends, Blue Label is a legend in its own right and will continue to be.",
+        "Czekolada": "Nose Fragrant with good body. Notes of oak, crisp spice, dried fruit, pastries. Berry fruits, aniseed, hints of cedar, a touch of spice and citrus. Palate Supple and balanced. Good toffee and hints of very wistful smoke. Chocolate, hints of grass and a good hit of malt. Finish Floral, oaky, good length, urged on by a plume of very well-kept, highland style smoke. Dried fruit, spice, honey. Overall One of the ultimate premium blends, Blue Label is a legend in its own right and will continue to be.",
+        "Suszone owoce": "Nose Fragrant with good body. Notes of oak, crisp spice, dried fruit, pastries. Berry fruits, aniseed, hints of cedar, a touch of spice and citrus. Palate Supple and balanced. Good toffee and hints of very wistful smoke. Chocolate, hints of grass and a good hit of malt. Finish Floral, oaky, good length, urged on by a plume of very well-kept, highland style smoke. Dried fruit, spice, honey. Overall One of the ultimate premium blends, Blue Label is a legend in its own right and will continue to be.",
+        "Przyprawy": "Nose Fragrant with good body. Notes of oak, crisp spice, dried fruit, pastries. Berry fruits, aniseed, hints of cedar, a touch of spice and citrus. Palate Supple and balanced. Good toffee and hints of very wistful smoke. Chocolate, hints of grass and a good hit of malt. Finish Floral, oaky, good length, urged on by a plume of very well-kept, highland style smoke. Dried fruit, spice, honey. Overall One of the ultimate premium blends, Blue Label is a legend in its own right and will continue to be."
+      },
+      "previousTags": [
+        "Miód",
+        "Dym",
+        "Przyprawy"
+      ],
+      "retainedLegacyTags": [
+        "Miód"
+      ]
+    },
+    {
+      "id": "jw-006",
+      "source": "https://www.masterofmalt.com/whiskies/johnnie-walker-green-label-15-year-old-whisky/?sku=2428",
+      "sourceSha256": "a370b421bbac05d36513b61b19efb329198f29ea03df7340ac88350373542994",
+      "checkedAt": "2026-10-19",
+      "tags": [
+        "Dym",
+        "Kawa",
+        "Czekolada",
+        "Orzechy",
+        "Miód"
+      ],
+      "evidence": {
+        "Dym": "Nose The nose is quite rich and full. There are notes of mochaccino and espresso coffee, wood smoke and a fireplace, as well as a touch of bitter chocolate and oak. Palate The palate has a medium-body with notes of crisp cereals, coffee beans and chocolate, a date note with a touch of walnut. Finish The finish is quite long and spicy with honeyed sweetness and oak.",
+        "Kawa": "Nose The nose is quite rich and full. There are notes of mochaccino and espresso coffee, wood smoke and a fireplace, as well as a touch of bitter chocolate and oak. Palate The palate has a medium-body with notes of crisp cereals, coffee beans and chocolate, a date note with a touch of walnut. Finish The finish is quite long and spicy with honeyed sweetness and oak.",
+        "Czekolada": "Nose The nose is quite rich and full. There are notes of mochaccino and espresso coffee, wood smoke and a fireplace, as well as a touch of bitter chocolate and oak. Palate The palate has a medium-body with notes of crisp cereals, coffee beans and chocolate, a date note with a touch of walnut. Finish The finish is quite long and spicy with honeyed sweetness and oak.",
+        "Orzechy": "Nose The nose is quite rich and full. There are notes of mochaccino and espresso coffee, wood smoke and a fireplace, as well as a touch of bitter chocolate and oak. Palate The palate has a medium-body with notes of crisp cereals, coffee beans and chocolate, a date note with a touch of walnut. Finish The finish is quite long and spicy with honeyed sweetness and oak.",
+        "Miód": "Nose The nose is quite rich and full. There are notes of mochaccino and espresso coffee, wood smoke and a fireplace, as well as a touch of bitter chocolate and oak. Palate The palate has a medium-body with notes of crisp cereals, coffee beans and chocolate, a date note with a touch of walnut. Finish The finish is quite long and spicy with honeyed sweetness and oak."
+      },
+      "previousTags": [
+        "Dąb",
+        "Dym"
+      ],
+      "retainedLegacyTags": [
+        "Dąb"
+      ]
+    }
+  ]
+}

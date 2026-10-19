@@ -1,0 +1,19 @@
+name: Check external photograph sources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/check-external-photos.py --report external-photos-report.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: external-photo-availability
+          path: external-photos-report.json

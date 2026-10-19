@@ -1,4 +1,5 @@
 """Backups, legacy migration, real two-tab conflicts and stock counts with transactional storage."""
+from source_images import install_source_images
 import json,os
 from pathlib import Path
 from playwright.sync_api import sync_playwright,expect
@@ -6,7 +7,7 @@ R=Path(__file__).resolve().parents[1];BASE=os.environ.get('DRAM_URL','http://127
 catalog=json.loads((R/'src/catalog.json').read_text());custom={**catalog[0],'id':'custom-migration','brand':'Moja marka','name':'Moja butelka','series':'Własna kolekcja','image':'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6H2sAAAAASUVORK5CYII=','source':'','imageSource':'','custom':True}
 old={'version':1,'custom':[custom],'reviews':[{'id':'review-migrate','whiskyId':'jw-001','score':8.5,'date':'2026-10-18','tags':['Dym'],'note':'Moja oryginalna notatka'}],'bottles':[{'whiskyId':'jw-001','quantity':4,'opened':True}],'wishlist':['jw-002'],'barcodeLinks':[{'code':'05901234123457','whiskyId':'custom-migration'}]}
 with sync_playwright() as p:
- browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':390,'height':900},accept_downloads=True);a=ctx.new_page();errors=[];a.on('pageerror',lambda e:errors.append(str(e)));a.goto(BASE,wait_until='networkidle');a.get_by_role('button',name='Tak, mam 18 lat').click();a.evaluate('(data)=>{localStorage.removeItem("dram.journal.v2");localStorage.setItem("dram.journal.v1",JSON.stringify(data))}',old);a.reload(wait_until='networkidle');a.wait_for_function('JSON.parse(localStorage.getItem("dram.journal.v2"))?.version===2')
+ browser=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=browser.new_context(viewport={'width':390,'height':900},accept_downloads=True);install_source_images(ctx);a=ctx.new_page();errors=[];a.on('pageerror',lambda e:errors.append(str(e)));a.goto(BASE,wait_until='networkidle');a.get_by_role('button',name='Tak, mam 18 lat').click();a.evaluate('(data)=>{localStorage.removeItem("dram.journal.v2");localStorage.setItem("dram.journal.v1",JSON.stringify(data))}',old);a.reload(wait_until='networkidle');a.wait_for_function('JSON.parse(localStorage.getItem("dram.journal.v2"))?.version===2')
  def journal(page=a):return page.evaluate('JSON.parse(localStorage.getItem("dram.journal.v2"))')
  def nav(page,name):page.locator('.bottom-nav').get_by_role('button',name=name,exact=True).click()
  def settings(page=a):page.get_by_role('button',name='Ustawienia',exact=True).click()

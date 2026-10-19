@@ -87,6 +87,7 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Usuń własny wpis').click()
     page.get_by_role('button',name='Potwierdź',exact=True).click()
     expect(page.locator('.whisky-card')).to_have_count(1)
+    expect(page.get_by_role('dialog')).to_have_count(0)
     assert page.evaluate('document.body.style.overflow')!='hidden', 'Nested dialog left scrolling locked'
     # Remove cellar stock without losing the tasting history.
     page.get_by_role('button',name='Black Label 12',exact=True).click()

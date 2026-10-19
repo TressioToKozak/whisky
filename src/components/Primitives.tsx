@@ -1,4 +1,5 @@
 import { interpolate, locale, t } from '../i18n'
+import { responsivePhoto } from '../photo-sources'
 import { useEffect, useId, useRef, useState } from 'react'
 import type { CSSProperties, KeyboardEvent, ReactNode } from 'react'
 import { Search, Wine, X } from 'lucide-react'
@@ -18,9 +19,10 @@ export function Wordmark({ compact = false }: { compact?: boolean }) {
   return <span className={`wordmark ${compact ? 'wordmark-compact' : ''}`}><span>dram<span className="wordmark-dot">.</span></span>{!compact && <>{' '}<small>{t("Dziennik whisky")}</small></>}</span>
 }
 export function Photo({ whisky, className = '', eager = false }: { whisky: Whisky; className?: string; eager?: boolean }) {
-  const [failed, setFailed] = useState(false)
-  if (!whisky.image || failed) return <div className={`photo-missing ${className}`}><Wine size={28} strokeWidth={1}/><span>{t("Bez zdjęcia")}</span></div>
-  return <img className={`bottle-photo ${className}`} style={{ objectViewBox: layouts[whisky.id]?.inset, transform: layouts[whisky.id]?.rotationDeg ? `rotate(${layouts[whisky.id].rotationDeg}deg)` : undefined, '--photo-ratio': layouts[whisky.id]?.ratio ?? 1, '--photo-clip': layouts[whisky.id]?.clipPath ?? 'none', ...(layouts[whisky.id]?.clipPath ? { maskImage: 'none' } : {}) } as CSSProperties} src={whisky.image.startsWith('/') ? `${import.meta.env.BASE_URL}${whisky.image.slice(1)}` : whisky.image} alt={interpolate('{0} {1} — zdjęcie butelki', whisky.brand, whisky.name)} loading={eager ? 'eager' : 'lazy'} onError={() => setFailed(true)} />
+  const [failedSource, setFailedSource] = useState<string | null>(null)
+  const responsive = responsivePhoto(whisky.image)
+  if (!whisky.image || failedSource === whisky.image) return <div className={`photo-missing ${className}`}><Wine size={28} strokeWidth={1}/><span>{whisky.brand} {whisky.name}</span><small>{t("Bez zdjęcia")}</small></div>
+  return <img className={`bottle-photo ${className}`} style={{ objectViewBox: layouts[whisky.id]?.inset, transform: layouts[whisky.id]?.rotationDeg ? `rotate(${layouts[whisky.id].rotationDeg}deg)` : undefined, '--photo-ratio': layouts[whisky.id]?.ratio ?? 1, '--photo-clip': layouts[whisky.id]?.clipPath ?? 'none', ...(layouts[whisky.id]?.clipPath ? { maskImage: 'none' } : {}) } as CSSProperties} src={whisky.image.startsWith('/') ? `${import.meta.env.BASE_URL}${whisky.image.slice(1)}` : whisky.image} srcSet={responsive.srcSet} sizes={eager ? '(max-width: 600px) 80vw, 440px' : '(max-width: 600px) 45vw, 280px'} decoding="async" alt={interpolate('{0} {1} — zdjęcie butelki', whisky.brand, whisky.name)} loading={eager ? 'eager' : 'lazy'} onError={() => setFailedSource(whisky.image)} />
 }
 export function SearchField({ value, onChange, label = 'Szukaj whisky', placeholder = 'Szukaj nazwy lub edycji', className = '' }: { value: string; onChange: (value: string) => void; label?: string; placeholder?: string; className?: string }) {
   return <div className={`search ${className}`}><Search size={19}/><input type="search" aria-label={t(label)} placeholder={t(placeholder)} value={value} onChange={e => onChange(e.target.value)}/>{value && <button aria-label={t("Wyczyść wyszukiwanie")} onClick={() => onChange('')}><X size={18}/></button>}</div>

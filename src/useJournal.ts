@@ -4,7 +4,7 @@ import { createJournalStore } from './journal-store'
 import { LEGACY_STORAGE_KEY, STORAGE_KEY } from './model'
 
 export function useJournal(catalogIds: string[]) {
-  const [store] = useState(() => createJournalStore({getItem:key=>localStorage.getItem(key),setItem:(key,value)=>localStorage.setItem(key,value)}, typeof indexedDB !== 'undefined' ? browserJournalLock : null,catalogIds))
+  const [store] = useState(() => createJournalStore({getItem:key=>localStorage.getItem(key),setItem:(key,value)=>localStorage.setItem(key,value),removeItem:key=>localStorage.removeItem(key),key:i=>localStorage.key(i),get length(){return localStorage.length}}, typeof indexedDB !== 'undefined' ? browserJournalLock : null,catalogIds))
   const snapshot = useSyncExternalStore(store.subscribe,store.getSnapshot)
   useEffect(() => {
     const changed = (event: StorageEvent) => { if (event.storageArea !== localStorage) return; if(event.key === LEGACY_STORAGE_KEY) store.legacyChanged(); else if(event.key === STORAGE_KEY || event.key === null) store.reload() }

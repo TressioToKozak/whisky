@@ -1,3 +1,4 @@
+import english from './english.json' with {type:'json'}
 import { normalizeBarcode } from './barcode.ts'
 import type { BarcodeLink } from './barcode.ts'
 
@@ -48,7 +49,7 @@ export const today = () => { const d = new Date(); return `${d.getFullYear()}-${
 
 export function matchesWhisky(w: Whisky, query: string) {
   const normalize = (text: string) => text.toLocaleLowerCase('pl').replace(/ł/g, 'l').normalize('NFD').replace(/\p{M}/gu, '').replace(/[’'™]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
-  const haystack = normalize([w.brand, w.name, w.series, ...w.tags, ...(w.aliases ?? [])].join(' '))
+  const haystack = normalize([w.brand, w.name, w.series, ...w.tags, ...w.tags.map(tag=>(english as Record<string,string>)[tag] ?? tag), ...(w.aliases ?? [])].join(' '))
   const compact = haystack.replace(/\s/g, '')
   return normalize(query).split(/\s+/).every(term => haystack.includes(term) || compact.includes(term))
 }

@@ -458,3 +458,13 @@ input[type=date] { color-scheme: dark; }
 
 .brand-suntory .brand-logo { background: var(--paper); }
 .photo-credit { display: flex; gap: 5px; align-items: center; font-size: 11px; color: var(--muted); margin-top: 12px; min-height: 32px; }
+
+.brand-text { font-family: 'Fraunces', Georgia, serif; font-size: clamp(1.15rem, 3vw, 1.8rem); color: var(--text); text-align: center; padding: 1rem; overflow-wrap: anywhere; }
+.photo-missing { text-align: center; padding: 1rem; gap: .5rem; overflow-wrap: anywhere; }
+.photo-missing span { max-width: 100%; line-height: 1.4; }
+.photo-missing small { color: #6b6257; font-size: 13px; }
+.save-status { font-size: .72rem; color: var(--muted); }
+.brand-logo:has(.brand-text) { width: auto; height: auto; min-height: 52px; flex: 1; padding: 0; background: transparent; }
+.brand-text { padding: 4px 0; text-align: left; font-size: clamp(1rem, 2vw, 1.4rem); line-height: 1.3; }
+.brand-card:has(.brand-text) .brand-card-caption { flex: 0; align-self: end; }
+.brand-card:has(.brand-text) .brand-card-caption > span { display: none; }

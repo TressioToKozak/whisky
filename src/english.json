@@ -275,9 +275,6 @@
   "Ceny zagraniczne przeliczamy na PLN. Kurs i źródło znajdziesz przy cenie butelki.": "Foreign prices are converted to PLN. The rate and source are shown in the bottle details.",
   "Brak potwierdzonej ceny dla tego wydania.": "No verified price for this edition.",
   "Opis źródłowy (polski)": "Original description (Polish)",
-  "Wydanie marki sklepowej Biedronka. Kod i zdjęcie dotyczą dokładnie tej etykiety; inne rynki mogą mieć inny kod. Brak potwierdzonej aktualnej ceny — nie wliczamy jej do wartości barku ani życzeń.": "Supermarket edition sold by Biedronka. The barcode and original photo refer to this specific label; other markets may use different codes. No verified current price, so this bottle is excluded from cabinet and wishlist totals.",
-  "Wydanie marki sklepowej Lidl. Kod i zdjęcie dotyczą dokładnie tej etykiety; inne rynki mogą mieć inny kod. Brak potwierdzonej aktualnej ceny — nie wliczamy jej do wartości barku ani życzeń.": "Supermarket edition sold by Lidl. The barcode and original photo refer to this specific label; other markets may use different codes. No verified current price, so this bottle is excluded from cabinet and wishlist totals.",
-  "Wydanie marki sklepowej Lidl. Kod i zdjęcie dotyczą dokładnie tej etykiety; inne rynki mogą mieć inny kod. Brak potwierdzonej aktualnej ceny — nie wliczamy jej do wartości barku ani życzeń. Etykieta rynku niemieckiego.": "Supermarket edition sold by Lidl. The barcode and original photo refer to this specific label; other markets may use different codes. No verified current price, so this bottle is excluded from cabinet and wishlist totals. German-market label.",
   "Kopie dziennika": "Journal backups",
   "Eksportuj dane": "Export data",
   "Importuj dane": "Import data",
@@ -338,5 +335,13 @@
   "Źródło produktu": "Product source",
   "Tę whisky usunięto w innej karcie. Twoja notatka jest w kopii niezapisanych zmian.": "This whisky was deleted in another tab. Your note is in the unsaved changes backup.",
   "Wiek w latach": "Age in years",
-  "Każdy wiek": "Any age"
+  "Każdy wiek": "Any age",
+  "Orzechy": "Nuts",
+  "Suszone owoce": "Dried fruit",
+  "Sherry": "Sherry",
+  "Kawa": "Coffee",
+  "Zapisywanie…": "Saving…",
+  "Odzyskano zmianę przerwaną przy zamykaniu strony.": "Recovered a change interrupted when the page closed.",
+  "Nie udało się zabezpieczyć oczekującej zmiany. Dotychczasowe dane pozostały bez zmian.": "The pending change could not be secured. Your existing data is unchanged.",
+  "Nie udało się odzyskać oczekującej zmiany. Kopia oczekującego zapisu pozostała zachowana.": "The pending change could not be recovered. Its pending copy has been retained."
 }
