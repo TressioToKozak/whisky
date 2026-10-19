@@ -60,7 +60,7 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
       } catch (error) {
         let draft: T | null = queuedCandidate
         if(error instanceof JournalDraftConflict) {try{draft=codec.validate(error.draft,catalogIds)}catch{/* Form retains invalid content. */}}
-        fail({error:error instanceof JournalDraftConflict ? error.message : 'Nie udało się zabezpieczyć oczekującej zmiany. Dotychczasowe dane pozostały bez zmian.',draft})
+        fail({error:error instanceof JournalDraftConflict || (!queuedCandidate && error instanceof Error) ? error.message : 'Nie udało się zabezpieczyć oczekującej zmiany. Dotychczasowe dane pozostały bez zmian.',draft})
         return Promise.resolve(false)
       }
     }
