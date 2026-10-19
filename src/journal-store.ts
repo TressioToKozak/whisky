@@ -15,7 +15,7 @@ export class JournalDraftConflict extends Error {
 }
 
 /** localStorage remains the journal format. Web Locks serialize check-and-write across tabs. */
-export type JournalCodec<T>={key:string;legacyKeys:string[];pendingPrefix:string;version:number;empty:()=>T;validate:(value:unknown,ids:string[])=>T}
+export type JournalCodec<T>={key:string;legacyKeys:string[];pendingPrefix:string;version:number;fingerprint?:(raw:string|null)=>string;empty:()=>T;validate:(value:unknown,ids:string[])=>T}
 export function createJournalStore<T=Journal>(storage: StoragePort, lock: JournalLock | null, catalogIds: string[], format?:JournalCodec<T>) {
   const codec=format ?? {key:STORAGE_KEY,legacyKeys:[LEGACY_STORAGE_KEY],pendingPrefix:INTENT_PREFIX,version:2,empty:emptyJournal,validate:validateJournal} as unknown as JournalCodec<T>
   let baseline: string | null = null, generation = 0, queue = Promise.resolve(true)
@@ -53,7 +53,9 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
         const candidate = codec.validate(recipe(base),catalogIds);queuedCandidate=candidate
         const baseRaw = projected ? projectedRaw : baseline
         intentKey = `${codec.pendingPrefix}${owner}.${String(++sequence).padStart(8,'0')}`
-        storage.setItem(intentKey,JSON.stringify({baseRaw,replacement:Boolean(options?.replacement),expectedRaw:options && 'expectedRaw' in options ? options.expectedRaw : baseRaw,journal:candidate}))
+        const expectedRaw=options && 'expectedRaw' in options ? options.expectedRaw! : baseRaw
+        const compare=codec.fingerprint?{baseFingerprint:codec.fingerprint(baseRaw),expectedFingerprint:codec.fingerprint(expectedRaw)}:{baseRaw,expectedRaw}
+        storage.setItem(intentKey,JSON.stringify({...compare,replacement:Boolean(options?.replacement),journal:candidate}))
         projected=candidate;projectedRaw=JSON.stringify(candidate)
       } catch (error) {
         let draft: T | null = queuedCandidate
@@ -133,7 +135,8 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
               const intent=JSON.parse(storage.getItem(key)!), candidate=codec.validate(intent.journal,catalogIds), next=JSON.stringify(candidate), raw=diskRaw()
               if(raw===next) {storage.removeItem!(key);continue}
               if(snapshot.blocked && !intent.replacement) {recoveryFailed=true;recoveredConflicts.add(key);fail({error:readError,draft:candidate});continue}
-              if(raw!==intent.baseRaw || raw!==intent.expectedRaw) {
+              const matches='baseFingerprint' in intent ? Boolean(codec.fingerprint&&codec.fingerprint(raw)===intent.baseFingerprint&&codec.fingerprint(raw)===intent.expectedFingerprint) : raw===intent.baseRaw&&raw===intent.expectedRaw
+              if(!matches) {
                 recoveryFailed=true;recoveredConflicts.add(key)
                 fail({error:conflictError,draft:candidate});continue
               }

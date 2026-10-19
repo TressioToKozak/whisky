@@ -35,7 +35,7 @@ with sync_playwright() as p:
  page.set_viewport_size({'width':390,'height':844});page.locator('.bottom-nav').get_by_role('button',name='Odkrywaj',exact=True).click();expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible()
  # Older personal records from brands outside the curated nine must remain discoverable.
  custom={**catalog[0],'id':'custom-legacy-unknown-brand','brand':'Glenfiddich','name':'Własna stara butelka','image':'','source':'','imageSource':'','custom':True}
- page.evaluate("""(custom)=>{const data=JSON.parse(localStorage.getItem('dram.journal.v2'));data.custom.push(custom);localStorage.setItem('dram.journal.v2',JSON.stringify(data))}""",custom)
+ page.evaluate("""(custom)=>{const data=JSON.parse(localStorage.getItem('dram.journal.v3'));data.custom.push(custom);localStorage.setItem('dram.journal.v3',JSON.stringify(data))}""",custom)
  page.reload(wait_until='networkidle');page.get_by_role('button',name='Moje własne wpisy',exact=False).click();expect(page.get_by_role('button',name='Własna stara butelka',exact=True)).to_be_visible()
  assert not errors,errors
  print({'brand_logos':12,'populated_groups':12,'jack_releases':len(expected),'ascending_and_descending_prices':'passed','source_details':'passed','shared_journal_persistence':'passed','original_photo_framing':'passed','responsive_layout':'passed','javascript_errors':errors});b.close()

@@ -2,8 +2,8 @@ import {JournalDraftConflict} from './journal-store.ts'
 import {activeBottle,asLegacyJournal,blankBottle,stockProjection} from './collection-model.ts'
 import type {CollectionJournal,OwnedBottle,BottleEvent,StorageLocation} from './collection-model.ts'
 import type {Journal} from './model.ts'
-export type Mutation={id:string;at:string}
-export const mutation=():Mutation=>({id:crypto.randomUUID(),at:new Date().toISOString()})
+export type Mutation={id:string;at:string;date?:string}
+export function mutation():Mutation{const now=new Date();return{id:crypto.randomUUID(),at:now.toISOString(),date:`${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`}}
 const summary=(value:unknown):string|null=>value===null?null:typeof value==='string'?value:JSON.stringify(value)
 function changes(before:OwnedBottle,after:OwnedBottle):BottleEvent['changes']{
  return (Object.keys(before)as(keyof OwnedBottle)[]).filter(k=>!['id','whiskyId','createdAt','updatedAt'].includes(k)&&JSON.stringify(before[k])!==JSON.stringify(after[k])).map(field=>({field,from:summary(field==='attachments'?before.attachments.map(({data,...a})=>a):before[field]),to:summary(field==='attachments'?after.attachments.map(({data,...a})=>a):after[field])}))
@@ -40,7 +40,7 @@ export function applyLegacyChange(j:CollectionJournal,next:Journal,m:Mutation):C
   }
   active=result.ownedBottles.filter(b=>b.whiskyId===whiskyId&&activeBottle(b))
   const opened=active.filter(b=>b.status==='open').length,delta=target.openedCount-opened
-  for(const b of active.filter(b=>b.status===(delta>0?'closed':'open')).slice(0,Math.abs(delta)))result=editBottle(result,{...b,status:delta>0?'open':'closed',openedAt:delta>0?(b.openedAt??m.at.slice(0,10)):null},b,step())
+  for(const b of active.filter(b=>b.status===(delta>0?'closed':'open')).slice(0,Math.abs(delta)))result=editBottle(result,{...b,status:delta>0?'open':'closed',openedAt:delta>0?(b.openedAt??m.date??m.at.slice(0,10)):null},b,step())
  }
  // Explicitly deleting a custom release retains the old documented removal semantics.
  const removed=new Set(j.custom.filter(w=>!next.custom.some(n=>n.id===w.id)).map(w=>w.id))

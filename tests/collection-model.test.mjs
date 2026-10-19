@@ -12,7 +12,7 @@ const lock=async f=>f()
 test('v1 and v2 migrate deterministically and v3 validates idempotently with unknown facts retained',()=>{
  for(const legacy of [{...emptyJournal(),version:1,bottles:[{whiskyId:'a',quantity:5,opened:true}]},{...emptyJournal(),bottles:[{whiskyId:'a',quantity:5,openedCount:2}]}]){
   const v3=validateCollection(legacy,ids);assert.equal(v3.version,3);assert.equal(v3.ownedBottles.length,5);assert.equal(new Set(v3.ownedBottles.map(b=>b.id)).size,5);assert.equal(v3.ownedBottles.filter(b=>b.status==='open').length,legacy.version===1?1:2)
-  for(const b of v3.ownedBottles){assert.equal(b.purchase.amount,null);assert.equal(b.purchase.date,null);assert.equal(b.remainingMl,null);assert.equal(b.createdAt,null)}assert.deepEqual(v3.events,[]);assert.deepEqual(validateCollection(v3,ids),v3);assert.deepEqual(validateCollection(legacy,ids),v3)
+  for(const b of v3.ownedBottles){assert.equal(b.purchase.amount,null);assert.equal(b.purchase.currency,null);assert.equal(b.purchase.date,null);assert.equal(b.remainingMl,null);assert.equal(b.createdAt,null)}assert.deepEqual(v3.events,[]);assert.deepEqual(validateCollection(v3,ids),v3);assert.deepEqual(validateCollection(legacy,ids),v3)
  }
 })
 test('physical stock drives the legacy projection; counter changes preserve individual metadata and archive withdrawals',()=>{
@@ -23,7 +23,7 @@ test('physical stock drives the legacy projection; counter changes preserve indi
 test('edits cannot silently replace a stale bottle; events omit binary attachment payloads',()=>{
  const j=addBottles(emptyCollection(),'a',1,m),old=j.ownedBottles[0],next=editBottle(j,{...old,notes:'new'},old,{...m,id:'edit'})
  assert.throws(()=>editBottle(next,{...old,notes:'stale'},old,{...m,id:'stale'}),/innej karcie/)
- const attachment={id:'front',kind:'front',name:'front.png',data:'data:image/png;base64,YQ=='};const edited=editBottle(j,{...old,attachments:[attachment]},old,{...m,id:'photo'})
+ const attachment={id:'front',kind:'front',name:'front.png',data:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6H2sAAAAASUVORK5CYII='};const edited=editBottle(j,{...old,attachments:[attachment]},old,{...m,id:'photo'})
  assert.ok(!JSON.stringify(edited.events).includes('base64'));assert.equal(validateCollection(edited,ids).ownedBottles[0].attachments[0].data,attachment.data)
 })
 test('v3 rejects invalid money, dates, attachments, duplicate IDs, status and location cycles',()=>{
@@ -46,4 +46,30 @@ test('simultaneous v3 initialization creates one deterministic migration and ret
 test('interrupted v3 changes recover without duplicate instances; older app writes cannot replace v3',async()=>{
  const storage=disk(),a=createCollectionStore(storage,lock,ids);await a.initialize();await a.update(j=>({...j,bottles:[{whiskyId:'a',quantity:2,openedCount:1}]}));const raw=storage.getItem(COLLECTION_KEY);storage.setItem('dram.journal.v2',JSON.stringify(emptyJournal()));a.legacyChanged('dram.journal.v2');assert.equal(storage.getItem(COLLECTION_KEY),raw)
  const stalled=createJournalStore(storage,()=>new Promise(()=>{}),ids,collectionCodec);void stalled.update(j=>addBottles(j,'b',2,{...m,id:'recover'}));const fresh=createCollectionStore(storage,lock,ids);await fresh.initialize();assert.equal(fresh.getSnapshot().journal.ownedBottles.length,4);assert.equal(new Set(fresh.getSnapshot().journal.ownedBottles.map(b=>b.id)).size,4)
+})
+test('legacy migration preserves arbitrary valid custom IDs and all existing personal data',()=>{
+ const w={id:'custom-odds / ł',name:'Private',brand:'Mine',series:'',category:'Klasyka',abv:null,age:null,volume:null,country:'',description:'My note',image:'',source:'',imageSource:'',tags:[]}
+ const old={...emptyJournal(),custom:[w],bottles:[{whiskyId:w.id,quantity:2,openedCount:1}],wishlist:[w.id],reviews:[{id:'r',whiskyId:w.id,score:9,note:'unchanged',date:'2026-10-19',tags:['Personal tag']}]};const j=validateCollection(old,ids);assert.equal(j.ownedBottles[0].whiskyId,w.id);assert.deepEqual(validateCollection(j,ids),j);assert.equal(j.reviews[0].note,'unchanged');assert.deepEqual(j.reviews[0].tags,['Personal tag']);assert.deepEqual(j.wishlist,[w.id])
+})
+test('v3 ignores forged aggregate counters and requires currency for known costs',()=>{
+ const j=addBottles(emptyCollection(),'a',2,m);assert.equal(validateCollection({...j,bottles:[{whiskyId:'a',quantity:999,openedCount:999}]},ids).bottles[0].quantity,2)
+ assert.throws(()=>validateCollection({...j,ownedBottles:[{...j.ownedBottles[0],purchase:{kind:'purchase',amount:20,currency:null,date:null,place:''}}]},ids),/waluty/)
+})
+test('a failed migration retains exact legacy bytes; interrupted v2 intents are recovered before migration',async()=>{
+ const raw=JSON.stringify({...emptyJournal(),bottles:[{whiskyId:'a',quantity:2,openedCount:1}]}),storage=disk({'dram.journal.v2':raw});const failing={...storage,get length(){return storage.length},setItem:(key,value)=>{if(key===COLLECTION_KEY)throw Error('quota');storage.setItem(key,value)}};const a=createCollectionStore(failing,lock,ids);assert.equal(await a.initialize(),false);assert.equal(storage.getItem('dram.journal.v2'),raw);assert.equal(storage.getItem(COLLECTION_KEY),null)
+ const old=createJournalStore(storage,()=>new Promise(()=>{}),ids);void old.update(j=>({...j,bottles:[{whiskyId:'a',quantity:3,openedCount:1}]}));const fresh=createCollectionStore(storage,lock,ids);await fresh.initialize();assert.equal(fresh.getSnapshot().journal.ownedBottles.length,3);assert.equal(fresh.getSnapshot().journal.bottles[0].openedCount,1)
+})
+test('older-version pending changes recovered after v3 exists stay a separate downloadable variant',async()=>{
+ const storage=disk(),current=createCollectionStore(storage,lock,ids);await current.initialize();await current.update(j=>({...j,bottles:[{whiskyId:'a',quantity:2,openedCount:1}]}));const raw=storage.getItem(COLLECTION_KEY)
+ const older=createJournalStore(storage,()=>new Promise(()=>{}),ids);void older.update(j=>({...j,wishlist:['b']}));const refreshed=createCollectionStore(storage,lock,ids);await refreshed.initialize();assert.equal(storage.getItem(COLLECTION_KEY),raw);assert.deepEqual(refreshed.getSnapshot().draft.wishlist,['b']);assert.match(refreshed.getSnapshot().error,/Starsza wersja/)
+})
+test('transaction money rejects unsupported fractional cents and false image headers',()=>{
+ const j=addBottles(emptyCollection(),'a',1,m),b=j.ownedBottles[0]
+ assert.throws(()=>validateCollection({...j,ownedBottles:[{...b,purchase:{kind:'purchase',amount:12.345,currency:'EUR',date:null,place:''}}]},ids))
+ assert.throws(()=>validateCollection({...j,ownedBottles:[{...b,attachments:[{id:'fake',name:'image.png',kind:'front',data:'data:image/png;base64,PHN2Zz48c2NyaXB0PmFsZXJ0KDEpPC9zY3JpcHQ+'}]}]},ids))
+})
+test('v3 durable intents use SHA-256 without duplicating the complete baseline and recover by exact fingerprint',async()=>{
+ const j=addBottles(emptyCollection(),'a',100,m);j.ownedBottles=j.ownedBottles.map(b=>({...b,notes:'x'.repeat(2000)}));const raw=JSON.stringify(j),storage=disk({[COLLECTION_KEY]:raw}),stalled=createJournalStore(storage,()=>new Promise(()=>{}),ids,collectionCodec)
+ void stalled.update(state=>({...state,wishlist:['b']}));const key=[...storage.map.keys()].find(k=>k.startsWith('dram.journal.pending.v3.')),pending=storage.getItem(key),intent=JSON.parse(pending);assert.equal(intent.baseRaw,undefined);assert.match(intent.baseFingerprint,/^[a-f0-9]{64}$/);assert.ok(pending.length<raw.length*1.05)
+ const fresh=createCollectionStore(storage,lock,ids);await fresh.initialize();assert.deepEqual(fresh.getSnapshot().journal.wishlist,['b']);assert.equal(fresh.getSnapshot().journal.ownedBottles.length,100)
 })

@@ -14,7 +14,7 @@ violations=[];checks=[]
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},reduced_motion='reduce');page=ctx.new_page();install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
  page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();expect(page.locator('.brand-card')).to_have_count(12);expect(page.locator('.home-collection, .last-tasting, .add-top, .sidebar-note')).to_have_count(0)
- page.evaluate("j=>localStorage.setItem('dram.journal.v2',JSON.stringify(j))",seed);page.reload(wait_until='networkidle')
+ page.evaluate("j=>localStorage.setItem('dram.journal.v3',JSON.stringify(j))",seed);page.reload(wait_until='networkidle')
  def nav(index):
   selector='.sidebar nav button' if page.viewport_size['width']>=1024 else '.bottom-nav button'
   page.locator(selector).nth(index).click()
@@ -62,7 +62,7 @@ with sync_playwright() as p:
   print('width',width,'passed',flush=True)
  # Check the new inline collection management and filter against persisted state.
  page.set_viewport_size({'width':390,'height':900});nav(1);card=page.locator(f'.collection-card[data-whisky-id="{black["id"]}"]');card.get_by_role('button',name='Dodaj sztukę:',exact=False).click();expect(card.locator('.card-stock')).to_contain_text('3 szt.');page.get_by_role('button',name='Filtry',exact=True).click();page.get_by_role('group',name='Stan butelek').get_by_role('button',name='Otwarte',exact=True).click();expect(page.locator('.collection-card')).to_have_count(1);expect(page.locator('.cellar-value strong')).to_contain_text('101')
- page.reload(wait_until='networkidle');saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))");assert saved['version']==2 and saved['barcodeLinks']==seed['barcodeLinks'] and saved['reviews']==seed['reviews'];assert saved['bottles'][0]['quantity']==3
+ page.reload(wait_until='networkidle');saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v3'))");assert saved['version']==3 and saved['barcodeLinks']==seed['barcodeLinks'] and saved['reviews']==seed['reviews'];assert saved['bottles'][0]['quantity']==3
  assert page.evaluate("getComputedStyle(document.querySelector('.scan-top')).transitionDuration")=='0s'
  (SHOTS/'accessibility-results.json').write_text(json.dumps({'checks':checks,'axe_executed':axe_path.exists(),'violations':violations,'javascript_errors':errors},ensure_ascii=False,indent=2))
  assert not violations,json.dumps(violations,ensure_ascii=False)

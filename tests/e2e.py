@@ -77,7 +77,7 @@ with sync_playwright() as p:
     expect(page.get_by_role('dialog')).to_have_count(0)
     page.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click()
     expect(page.locator('.whisky-card')).to_have_count(2)
-    exported=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))")
+    exported=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v3'))")
     assert len(exported['bottles'])==2 and exported['reviews'][0]['score']==9
     assert exported['custom'][0]['image'].startswith('data:image/jpeg;')
     page.get_by_role('button',name='Własne wydanie testowe',exact=True).click()
@@ -109,10 +109,10 @@ with sync_playwright() as p:
             assert response.status==200
             assert response.headers['content-type'].startswith('image/')
     # Corrupt local data must never be silently overwritten.
-    page.evaluate("localStorage.setItem('dram.journal.v2','BROKEN-BACKUP')")
+    page.evaluate("localStorage.setItem('dram.journal.v3','BROKEN-BACKUP')")
     page.reload(wait_until='networkidle')
     expect(page.get_by_role('alert')).to_contain_text('Dotychczasowy zapis nie zostanie nadpisany')
-    assert page.evaluate("localStorage.getItem('dram.journal.v2')")=='BROKEN-BACKUP'
+    assert page.evaluate("localStorage.getItem('dram.journal.v3')")=='BROKEN-BACKUP'
     assert not errors, errors
     print(json.dumps({'passed':['age gate','search and filters','wishlist to cellar','stock and opened status','tasting create/edit','persistence','custom whisky and photo','deletion confirmation','cellar removal preserves reviews','responsive 320–1440px','local photo responses','corruption protection'],'page_errors':errors},ensure_ascii=False))
     b.close()

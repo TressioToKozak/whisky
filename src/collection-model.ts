@@ -7,8 +7,8 @@ export const BOTTLE_STATUSES=['closed','open','empty','sold','gifted','archived'
 export type BottleStatus=typeof BOTTLE_STATUSES[number]
 export type Currency='EUR'|'PLN'|'GBP'|'USD'
 export type Condition='unknown'|'excellent'|'good'|'damaged'|'missing'
-export type Purchase={kind:'unknown'|'purchase'|'gift';date:string|null;amount:number|null;currency:Currency;place:string}
-export type Sale={date:string|null;amount:number|null;fees:number|null;currency:Currency}
+export type Purchase={kind:'unknown'|'purchase'|'gift';date:string|null;amount:number|null;currency:Currency|null;place:string}
+export type Sale={date:string|null;amount:number|null;fees:number|null;currency:Currency|null}
 export type Attachment={id:string;kind:'front'|'back'|'seal'|'cork'|'box'|'other'|'receipt';name:string;data:string}
 export type OwnedBottle={
  id:string;whiskyId:string;status:BottleStatus;purchase:Purchase;sale:Sale|null;
@@ -29,11 +29,12 @@ export function stockProjection(owned:OwnedBottle[]):Journal['bottles'] {
  return [...rows.values()]
 }
 export const asLegacyJournal=(j:CollectionJournal):Journal=>({version:2,custom:j.custom,reviews:j.reviews,bottles:stockProjection(j.ownedBottles),wishlist:j.wishlist,...(j.barcodeLinks?{barcodeLinks:j.barcodeLinks}:{})})
-export function blankBottle(id:string,whiskyId:string):OwnedBottle{return{id,whiskyId,status:'closed',purchase:{kind:'unknown',date:null,amount:null,currency:'EUR',place:''},sale:null,openedAt:null,remainingMl:null,remainingPercent:null,bottleNumber:'',caskNumber:'',batch:'',condition:{label:'unknown',cork:'unknown',bottle:'unknown',packaging:'unknown'},locationId:null,notes:'',attachments:[],createdAt:null,updatedAt:null}}
+export function blankBottle(id:string,whiskyId:string):OwnedBottle{return{id,whiskyId,status:'closed',purchase:{kind:'unknown',date:null,amount:null,currency:null,place:''},sale:null,openedAt:null,remainingMl:null,remainingPercent:null,bottleNumber:'',caskNumber:'',batch:'',condition:{label:'unknown',cork:'unknown',bottle:'unknown',packaging:'unknown'},locationId:null,notes:'',attachments:[],createdAt:null,updatedAt:null}}
 const string=(v:unknown,max=3000):v is string=>typeof v==='string'&&v.length<=max
 const id=(v:unknown):v is string=>string(v,180)&&/^[a-zA-Z0-9][a-zA-Z0-9_:.-]*$/.test(v)
 const num=(v:unknown,max=1e10):v is number=>typeof v==='number'&&Number.isFinite(v)&&v>=0&&v<=max
 export const validDate=(v:unknown):v is string=>string(v,10)&&/^\d{4}-\d{2}-\d{2}$/.test(v)&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString().slice(0,10)===v
+const money=(v:unknown)=>num(v)&&Math.abs(v*100-Math.round(v*100))<1e-6
 const date=(v:unknown)=>v===null||validDate(v)
 const timestamp=(v:unknown)=>v===null||(string(v,30)&&Number.isFinite(Date.parse(v))&&new Date(v).toISOString()===v)
 const currency=(v:unknown)=>['EUR','PLN','GBP','USD'].includes(v as string)
@@ -62,15 +63,19 @@ export function validateCollection(value:unknown,catalogIds:string[]):Collection
  for(const location of locations){const seen=new Set([location.id]);let next=location.parentId;while(next!==null){if(!locationMap.has(next)||seen.has(next)||seen.size>20)fail('Lokalizacje zawierają cykl lub nieznanego rodzica.');seen.add(next);next=locationMap.get(next)!.parentId}}
  const volumes=new Map([...catalog,...common.custom].map(w=>[w.id,w.volume]))
  const ownedBottles=d.ownedBottles.map(b=>{
-  if(!b||!id(b.id)||!ids.has(b.whiskyId)||!BOTTLE_STATUSES.includes(b.status)||!b.purchase||!['unknown','purchase','gift'].includes(b.purchase.kind)||!date(b.purchase.date)||!(b.purchase.amount===null||num(b.purchase.amount))||!currency(b.purchase.currency)||!string(b.purchase.place,300)||!date(b.openedAt)||!(b.remainingMl===null||num(b.remainingMl,10000))||!(b.remainingPercent===null||num(b.remainingPercent,100))||b.remainingMl!==null&&b.remainingPercent!==null||!string(b.bottleNumber,150)||!string(b.caskNumber,150)||!string(b.batch,150)||!b.condition||!Object.values(b.condition).every(condition)||!['label','cork','bottle','packaging'].every(k=>k in b.condition)||!(b.locationId===null||locationMap.has(b.locationId))||!string(b.notes)||!Array.isArray(b.attachments)||b.attachments.length>15||!timestamp(b.createdAt)||!timestamp(b.updatedAt))fail()
+  if(!b||!id(b.id)||!ids.has(b.whiskyId)||!BOTTLE_STATUSES.includes(b.status)||!b.purchase||!['unknown','purchase','gift'].includes(b.purchase.kind)||!date(b.purchase.date)||!(b.purchase.amount===null||money(b.purchase.amount))||!(b.purchase.currency===null||currency(b.purchase.currency))||!string(b.purchase.place,300)||!date(b.openedAt)||!(b.remainingMl===null||num(b.remainingMl,10000))||!(b.remainingPercent===null||num(b.remainingPercent,100))||b.remainingMl!==null&&b.remainingPercent!==null||!string(b.bottleNumber,150)||!string(b.caskNumber,150)||!string(b.batch,150)||!b.condition||!Object.values(b.condition).every(condition)||!['label','cork','bottle','packaging'].every(k=>k in b.condition)||!(b.locationId===null||locationMap.has(b.locationId))||!string(b.notes)||!Array.isArray(b.attachments)||b.attachments.length>15||!timestamp(b.createdAt)||!timestamp(b.updatedAt))fail()
+  if(b.purchase.amount!==null&&b.purchase.currency===null)fail('Znana kwota wymaga podania waluty.')
   if(b.purchase.kind!=='purchase'&&b.purchase.amount!==null)fail('Prezent nie może mieć przypisanego kosztu zakupu.')
   if(b.status==='empty'&&(b.remainingMl!==0||b.remainingPercent!==null))fail('Opróżniony egzemplarz musi mieć 0 ml.')
   const volume=volumes.get(b.whiskyId)
   if(volume && b.remainingMl!==null && b.remainingMl>volume)fail('Pozostała objętość przekracza pojemność wydania.')
   const s=b.sale
-  if(s&&(!date(s.date)||!(s.amount===null||num(s.amount))||!(s.fees===null||num(s.fees))||!currency(s.currency)))fail('Nieprawidłowe dane sprzedaży.')
+  if(s&&(!date(s.date)||!(s.amount===null||money(s.amount))||!(s.fees===null||money(s.fees))||!(s.currency===null||currency(s.currency))||((s.amount!==null||s.fees!==null)&&s.currency===null)))fail('Nieprawidłowe dane sprzedaży.')
   unique(b.attachments)
-  const attachments=b.attachments.map(a=>{if(!a||!id(a.id)||!['front','back','seal','cork','box','other','receipt'].includes(a.kind)||!string(a.name,160)||!string(a.data,1_500_000)||!/^data:(?:image\/(?:jpeg|png|webp)|application\/pdf);base64,[A-Za-z0-9+/]+={0,2}$/.test(a.data)||(a.data.startsWith('data:application/pdf')&&a.kind!=='receipt'))fail('Nieprawidłowy załącznik egzemplarza.');return{id:a.id,kind:a.kind,name:a.name,data:a.data}})
+  const attachments=b.attachments.map(a=>{if(!a||!id(a.id)||!['front','back','seal','cork','box','other','receipt'].includes(a.kind)||!string(a.name,160)||!string(a.data,1_500_000)||!/^data:(?:image\/(?:jpeg|png|webp)|application\/pdf);base64,[A-Za-z0-9+/]+={0,2}$/.test(a.data)||(a.data.startsWith('data:application/pdf')&&a.kind!=='receipt'))fail('Nieprawidłowy załącznik egzemplarza.');const [header,payload]=a.data.split(',');let prefix=''
+   try{if(payload.length%4!==0)fail('Nieprawidłowy załącznik egzemplarza.');prefix=atob(payload.slice(0,16))}catch{fail('Nieprawidłowy załącznik egzemplarza.')}
+   if(header.includes('image/png')&&!prefix.startsWith('\x89PNG\r\n\x1a\n')||header.includes('image/jpeg')&&!prefix.startsWith('\xff\xd8\xff')||header.includes('image/webp')&&!(prefix.startsWith('RIFF')&&prefix.slice(8,12)==='WEBP')||header.includes('application/pdf')&&!prefix.startsWith('%PDF-'))fail('Nieprawidłowy załącznik egzemplarza.')
+   return{id:a.id,kind:a.kind,name:a.name,data:a.data}})
   return {...blankBottle(b.id,b.whiskyId),status:b.status,purchase:{kind:b.purchase.kind,date:b.purchase.date,amount:b.purchase.amount,currency:b.purchase.currency,place:b.purchase.place},sale:s?{date:s.date,amount:s.amount,fees:s.fees,currency:s.currency}:null,openedAt:b.openedAt,remainingMl:b.remainingMl,remainingPercent:b.remainingPercent,bottleNumber:b.bottleNumber,caskNumber:b.caskNumber,batch:b.batch,condition:{label:b.condition.label,cork:b.condition.cork,bottle:b.condition.bottle,packaging:b.condition.packaging},locationId:b.locationId,notes:b.notes,attachments,createdAt:b.createdAt,updatedAt:b.updatedAt}
  })
  const bottleIds=new Set(ownedBottles.map(b=>b.id))

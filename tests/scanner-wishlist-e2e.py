@@ -10,7 +10,7 @@ with sync_playwright() as p:
  page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click()
  def scan():page.get_by_role('button',name='Skanuj kod kreskowy',exact=True).click()
  def enter(code):page.get_by_label('Numer kodu kreskowego').fill(code);page.get_by_role('button',name='Znajdź butelkę',exact=True).click()
- def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))")
+ def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v3'))")
  search=page.get_by_role('searchbox',name='Szukaj we wszystkich markach')
  for query in ['Red Label','RedLabel','red label','Johnnie Walker Red Label','johnniewalker redlabel','redlabel johnniewalker']:
   search.fill(query);expect(page.locator('[data-whisky-id="jw-004"]')).to_have_count(1)
@@ -25,7 +25,7 @@ with sync_playwright() as p:
  page.reload(wait_until='networkidle');scan();enter(unknown);expect(page.locator('.barcode-match h3')).to_have_text('Red Label');page.get_by_role('button',name='Dodaj kolejną butelkę',exact=True).click();expect(page.get_by_role('dialog')).to_have_count(0);assert journal()['bottles'][0]['quantity']==4
  # Seed only isolated user state, including an unpriced own entry and a priced bottle in stock.
  cat=json.loads((R/'src/catalog.json').read_text());prices=json.loads((R/'src/prices.json').read_text());custom={**cat[0],'id':'custom-wishlist-test','name':'Test bez wyceny','brand':'Własna marka','series':'Własny wpis','aliases':[],'tags':[],'image':'','source':'','imageSource':'','custom':True}
- page.evaluate("w=>{const j=JSON.parse(localStorage.getItem('dram.journal.v2'));j.custom.push(w);j.wishlist=['jw-001','jw-002',w.id];localStorage.setItem('dram.journal.v2',JSON.stringify(j))}",custom)
+ page.evaluate("w=>{const j=JSON.parse(localStorage.getItem('dram.journal.v3'));j.custom.push(w);j.wishlist=['jw-001','jw-002',w.id];localStorage.setItem('dram.journal.v3',JSON.stringify(j))}",custom)
  page.reload(wait_until='networkidle');page.locator('.bottom-nav').get_by_role('button',name='Życzenia',exact=True).click();total=page.locator('.wishlist-value strong');expected=round(prices['jw-001']['amount']+prices['jw-002']['amount']);expect(total).to_contain_text(str(expected));expect(page.locator('.wishlist-value')).to_contain_text('Bez wyceny: 1 pozycja')
  page.get_by_role('searchbox',name='Szukaj whisky').fill('BlackLabel');expect(page.locator('.whisky-card')).to_have_count(1);expect(total).to_contain_text(str(expected))
  page.reload(wait_until='networkidle');page.locator('.bottom-nav').get_by_role('button',name='Życzenia',exact=True).click();expect(total).to_contain_text(str(expected));expect(page.locator('.whisky-card')).to_have_count(3)

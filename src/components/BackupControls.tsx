@@ -1,17 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
 import { Download, Upload } from 'lucide-react'
-import type { Journal } from '../model'
-import { today, validateJournal } from '../model'
+import type { CollectionJournal } from '../collection-model'
+import {validateCollection} from '../collection-model'
+import { today } from '../model'
 import { t } from '../i18n'
 import { Modal } from './Primitives'
 
-export function downloadJournal(journal: Journal | string, name = 'kopia') {
+export function downloadJournal(journal: CollectionJournal | string, name = 'kopia') {
   const url = URL.createObjectURL(new Blob([typeof journal === 'string' ? journal : JSON.stringify(journal,null,2)],{type:'application/json'}))
   const link = document.createElement('a'); link.href = url; link.download = `dram-${name}-${today()}.json`; link.click()
   setTimeout(() => URL.revokeObjectURL(url),1000)
 }
-export default function BackupControls({ journal, catalogIds, getToken, onImport, onExport }: {journal:Journal;catalogIds:string[];getToken:()=>string|null;onImport:(journal:Journal,token:string|null)=>Promise<boolean>;onExport:()=>void}) {
-  const [pending,setPending] = useState<{data:Journal;token:string|null}|null>(null)
+export default function BackupControls({ journal, catalogIds, getToken, onImport, onExport }: {journal:CollectionJournal;catalogIds:string[];getToken:()=>string|null;onImport:(journal:CollectionJournal,token:string|null)=>Promise<boolean>;onExport:()=>void}) {
+  const [pending,setPending] = useState<{data:CollectionJournal;token:string|null}|null>(null)
   const [error,setError] = useState(''),[busy,setBusy]=useState(false)
   const task = useRef(0), confirming=useRef(false)
   useEffect(() => () => {task.current++},[])
@@ -20,7 +21,7 @@ export default function BackupControls({ journal, catalogIds, getToken, onImport
     const token = getToken()
     try {
       if (file.size > 20_000_000) throw Error('Plik kopii może mieć maksymalnie 20 MB.')
-      const data = validateJournal(JSON.parse(await file.text()),catalogIds)
+      const data = validateCollection(JSON.parse(await file.text()),catalogIds)
       if(current===task.current)setPending({data,token})
     } catch (e) { if(current===task.current)setError(e instanceof SyntaxError ? 'Plik nie jest poprawnym JSON. Dotychczasowe dane pozostały bez zmian.' : e instanceof Error ? e.message : 'Nie udało się odczytać pliku.') }
     finally {if(current===task.current)setBusy(false)}

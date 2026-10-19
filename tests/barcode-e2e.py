@@ -9,7 +9,7 @@ entries=json.loads((root/'src/barcodes.json').read_text());target=next(e['whisky
 cat=json.loads((root/'src/catalog.json').read_text());whisky=next(w for w in cat if w['id']==target)
 with sync_playwright() as p:
  b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':844});page=ctx.new_page();install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
- def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))")
+ def journal():return page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v3'))")
  def open_scan():page.get_by_role('button',name='Skanuj kod kreskowy',exact=True).click();expect(page.get_by_role('dialog',name='Skaner kodów kreskowych')).to_be_visible()
  def enter(c):page.get_by_role('textbox',name='Numer kodu kreskowego').fill(c);page.get_by_role('button',name='Znajdź butelkę').click()
  def close():page.get_by_role('button',name='Zamknij',exact=True).click()

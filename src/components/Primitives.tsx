@@ -31,6 +31,7 @@ export function Modal({ title, children, onClose, className = '' }: { title: str
   const ref = useRef<HTMLDialogElement>(null), titleId = useId()
   function keepFocus(event: KeyboardEvent<HTMLDialogElement>) {
     if (event.key !== 'Tab') return
+    event.stopPropagation()
     const dialog = event.currentTarget
     const elements = Array.from(dialog.querySelectorAll<HTMLElement>('button:not(:disabled), a[href], input:not(:disabled), textarea:not(:disabled), select:not(:disabled), summary, [tabindex="0"]')).filter(element => element.checkVisibility() && element.tabIndex >= 0)
     const first = elements[0], last = elements.at(-1)
@@ -49,5 +50,5 @@ export function Modal({ title, children, onClose, className = '' }: { title: str
       if (previous?.isConnected) previous.focus({ preventScroll: true })
     }
   }, [])
-  return <dialog ref={ref} className={`modal ${className}`} aria-labelledby={titleId} onKeyDown={keepFocus} onCancel={e => { e.preventDefault(); onClose() }} onClick={e => { if (e.target === ref.current) { const box = e.currentTarget.getBoundingClientRect(); if (e.clientX < box.left || e.clientX > box.right || e.clientY < box.top || e.clientY > box.bottom) onClose() } }}><div className="modal-heading"><span id={titleId}>{t(title)}</span><button className="icon-button" onClick={onClose} aria-label={t("Zamknij")}><X size={22}/></button></div><div className="modal-content">{children}</div></dialog>
+  return <dialog ref={ref} className={`modal ${className}`} aria-labelledby={titleId} onKeyDown={keepFocus} onCancel={e => { e.preventDefault(); e.stopPropagation(); onClose() }} onClick={e => { if (e.target === ref.current) { const box = e.currentTarget.getBoundingClientRect(); if (e.clientX < box.left || e.clientX > box.right || e.clientY < box.top || e.clientY > box.bottom) onClose() } }}><div className="modal-heading"><span id={titleId}>{t(title)}</span><button className="icon-button" onClick={onClose} aria-label={t("Zamknij")}><X size={22}/></button></div><div className="modal-content">{children}</div></dialog>
 }

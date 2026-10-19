@@ -107,7 +107,7 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).click()
     expect(page.locator('[data-whisky-id="jameson-f2dd066b692a"]')).to_have_count(1)
     # A verified historical price for another bottle size must not inflate a wishlist.
-    page.evaluate("()=>{const j=JSON.parse(localStorage.getItem('dram.journal.v2'));j.wishlist=['jw-cfa84236a438'];localStorage.setItem('dram.journal.v2',JSON.stringify(j))}")
+    page.evaluate("()=>{const j=JSON.parse(localStorage.getItem('dram.journal.v3'));j.wishlist=['jw-cfa84236a438'];localStorage.setItem('dram.journal.v3',JSON.stringify(j))}")
     page.reload(wait_until='networkidle',timeout=90000)
     page.locator('.bottom-nav').get_by_role('button',name='Życzenia').click()
     expect(page.locator('.wishlist-value strong')).to_contain_text('0')

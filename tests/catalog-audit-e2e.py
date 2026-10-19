@@ -13,10 +13,10 @@ with sync_playwright() as p:
  scan('5011007003005');expect(page.locator('.barcode-match h3')).to_have_text('Original');expect(page.locator('.barcode-match')).to_contain_text('700 ml');page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).click()
  # Retailers publish this same GTIN for the 2023 and 2024 McLaren labels. Never auto-pick one.
  scan('5099873026045');expect(page.locator('.barcode-match')).to_have_count(0);expect(page.get_by_text('Ten kod pasuje do kilku wydań.',exact=False)).to_be_visible();page.locator('.barcode-option').filter(has=page.get_by_text('McLaren X JD Edition 2024',exact=True)).click();page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).click();expect(page.get_by_role('dialog')).to_have_count(0);page.reload(wait_until='networkidle');scan('5099873026045');expect(page.locator('.barcode-match h3')).to_have_text('McLaren X JD Edition 2024');page.get_by_role('button',name='Zamknij',exact=True).click()
- saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v2'))");assert saved['version']==2 and saved['bottles'][0]['whiskyId']==jameson['id'];assert saved['bottles'][0]['quantity']==1
+ saved=page.evaluate("JSON.parse(localStorage.getItem('dram.journal.v3'))");assert saved['version']==3 and saved['bottles'][0]['whiskyId']==jameson['id'];assert saved['bottles'][0]['quantity']==1
  # A different-capacity reference remains visible, but cannot inflate either collection.
  prices=json.loads((R/'src/prices.json').read_text());ref=next(w for w in catalog if prices.get(w['id'],{}).get('referenceOnly'))
- page.evaluate("w=>{const j=JSON.parse(localStorage.getItem('dram.journal.v2'));j.wishlist=[w.id];j.bottles.push({whiskyId:w.id,quantity:1,openedCount:0});localStorage.setItem('dram.journal.v2',JSON.stringify(j))}",ref)
+ page.evaluate("w=>{const j=JSON.parse(localStorage.getItem('dram.journal.v3'));j.wishlist=[w.id];j.ownedBottles.push({...structuredClone(j.ownedBottles[0]),id:'fixture-reference-only',whiskyId:w.id,status:'closed'});j.bottles.push({whiskyId:w.id,quantity:1,openedCount:0});localStorage.setItem('dram.journal.v3',JSON.stringify(j))}",ref)
  page.reload(wait_until='networkidle');page.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click()
  expected=sum(prices[bottle['whiskyId']]['amount']*bottle['quantity'] for bottle in saved['bottles'] if not prices[bottle['whiskyId']].get('referenceOnly'))
  formatted=page.evaluate("n=>new Intl.NumberFormat('pl-PL',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(n)",expected)
