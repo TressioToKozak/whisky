@@ -11,7 +11,8 @@
       "sourceSha256": "01c4dbff0b8cb94c7ca21831113420e92f9e3d617a699f706c9dc29631845434",
       "photoSha256": "e371692a2d5e21fb71e055eca7c6f7182726825d11b9e2e626f958c890a8f782",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-1eb8ee16a9b0",
@@ -22,7 +23,8 @@
       "sourceSha256": "c5d1989b6539bb7d86bfa8a1148e27a95b4be792129be47381fc247f914f8355",
       "photoSha256": "3f525d439f2be4f4673769b97b3648a65b039769587410c40199d9f4bc7acfe6",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-9b95a315376c",
@@ -33,7 +35,8 @@
       "sourceSha256": "116318116e65ce2fc75ef0972d5ab4da6b4c2870111a0904930da38ef203aee4",
       "photoSha256": "103681061cc3c8391f1e984f196564876f26d5e826c8058ef1b737c633168afe",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-818f3c3b74bc",
@@ -44,7 +47,8 @@
       "sourceSha256": "9e5b86a52305d498ba18da290b76ee164c9f381d8efe34e7d81b710cae920913",
       "photoSha256": "3fc7037f89033f6d8f084e6af2d25b246cd2e7dac3614e669edba2f63d29935a",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-8db2396baea4",
@@ -55,7 +59,8 @@
       "sourceSha256": "91cc93ea270d9cb07332402ae27a13d070f6c6019f4030e4be04f02a2df86d44",
       "photoSha256": "36a3c805789523de2def6dd06ae517859a3a71bd4984d8e5e8d9edbef0dcc05f",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-3fe069aa8de2",
@@ -66,7 +71,8 @@
       "sourceSha256": "dbb79a26b5390c9fff7e2a71566f51e7d1d64d5a6198746d1750e85601e8ae1b",
       "photoSha256": "a588a9ad6941e6ca7d712f3111cf8d2530fde691e65045295e7a3cdd443cec76",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-eebe36df5be5",
@@ -77,7 +83,8 @@
       "sourceSha256": "484ca3c027d3d00dbe37c82ecaf54e0db726166e170d82addabcdc9adc8e9b48",
       "photoSha256": "02df664065600869a74bf5893b1c6007b1ba3e97f36b4820769762745442eaf5",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-8c1fc5574504",
@@ -88,7 +95,8 @@
       "sourceSha256": "374be296bfa33c7db5854ce55ef934d31c0198b73368fb36292149a9f8af017f",
       "photoSha256": "045f64ae0b0e112f1b6689407310113e326fa277788c0c4fdf328d4c938a00c4",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-fdcd977fcf87",
@@ -99,7 +107,8 @@
       "sourceSha256": "e7928d77d21d9caaf977a5bf82cfc941de98e1b74d1724e687eb7154086bf317",
       "photoSha256": "52c87477cd3bd850198de42f2981dd73fc1ca13bddce612d551edaed075bee8e",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-06da966d7dc7",
@@ -110,7 +119,8 @@
       "sourceSha256": "393109ff758f972619563c9db6c4d986b05754075ea8038b6abb0a7e50c0f638",
       "photoSha256": "43bf8dca7cc63c8559a012ff7b4e4e563dce09be2839704d33c35542ce9b821c",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-8c3011829c0f",
@@ -121,7 +131,8 @@
       "sourceSha256": "d243bfbb26a3c142b03b4c5c993141fb88fd47c788cc0803a7e5abbb0f4653b4",
       "photoSha256": "d5063b845393c9980181ccb68825f5b49edf8db8f460c2c080eb4fb0896bb877",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-5bf6d84baf0d",
@@ -132,7 +143,8 @@
       "sourceSha256": "5c81c77179fbaf035a0972d298cd4560e84a4b18dc2c878b41b7714f3a071bb7",
       "photoSha256": "3568ae63619db4d45104ce74a34c5b45c1345bbc5fa55f0fade0495e041e514a",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-753bf62a563d",
@@ -143,7 +155,8 @@
       "sourceSha256": "b6344eedceb1e6d91edfdd39516e61dcef3f262e154adfc9d1056deb23619969",
       "photoSha256": "b549587ad8ecb5dea9554a9428cd067733cb241d25384a0d9ca204c8818f8d6c",
       "priceStatus": "verified-retail-NL",
-      "retailer": "Drankgigant"
+      "retailer": "Drankgigant",
+      "photoVisuallyReviewed": true
     },
     {
       "id": "other-wb-56794",
@@ -154,7 +167,9 @@
       "sourceSha256": "acf52cd0dc2fdf09e63298e729de2f47e4cb55718147d064c8c252590f542408",
       "photoSha256": "ddf84abdaed7b44a24dc146e0e27d41afe64427cfb794f25d019b87e823d2864",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Biedronka"
+      "retailer": "Biedronka",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "unspecified"
     },
     {
       "id": "other-wb-177609",
@@ -165,7 +180,9 @@
       "sourceSha256": "722aed77c29c755c311be9b3f800a332fe94adc9176625a619d273199e9b4826",
       "photoSha256": "9a82b96fa50b026dd60943cb682dea76927f217d71a7653827cf778ef5f029f1",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Biedronka"
+      "retailer": "Biedronka",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "PL"
     },
     {
       "id": "other-wb-191402",
@@ -176,7 +193,9 @@
       "sourceSha256": "1401623008d1317d65954c48bc81fdf27ee8e8cd91949a5f4adc0495b4da1ca3",
       "photoSha256": "b93dbe538532ab00bbf0d883a3bed9af92261203180ca63bc09f9d71ca60ee1a",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Lidl"
+      "retailer": "Lidl",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "unspecified"
     },
     {
       "id": "other-wb-292138",
@@ -187,7 +206,9 @@
       "sourceSha256": "cdf02d9cdcd29a8bd2d328604da50c84363624165a60cac13baeefda13effe40",
       "photoSha256": "18bfc356f8efe32f7a03c2231519fcd7f3ef85d5b8ba43570425c089669c26d1",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Lidl"
+      "retailer": "Lidl",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "DE"
     },
     {
       "id": "other-wb-258977",
@@ -198,7 +219,9 @@
       "sourceSha256": "e66fc804cffccc93f40ff55e729ee8269cd98a532ec2656457e12a11698d7401",
       "photoSha256": "d1893aab686c6e35564503af4c590d1eae88429f5877ac490e943155562e9735",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Lidl"
+      "retailer": "Lidl",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "unspecified"
     },
     {
       "id": "other-wb-260740",
@@ -209,7 +232,9 @@
       "sourceSha256": "4f4b3af2051b05df25c55296726d9feb6acfb85e83016be3ea1790f3e8231272",
       "photoSha256": "7573b76e9b52db19338e56795ffe9fc6132150066e5fb5e5626a85b7e39d97c2",
       "priceStatus": "unverified-price-not-in-valuation",
-      "retailer": "Lidl"
+      "retailer": "Lidl",
+      "photoVisuallyReviewed": true,
+      "verifiedLabelMarket": "unspecified"
     }
   ],
   "limitations": [

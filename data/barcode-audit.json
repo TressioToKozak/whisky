@@ -7066,8 +7066,8 @@
       "checkedAt": "2026-10-19",
       "sourceSha256": "acf52cd0dc2fdf09e63298e729de2f47e4cb55718147d064c8c252590f542408",
       "provider": "Whiskybase · community bottle record",
-      "marketScope": "PL",
-      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning."
+      "marketScope": "unspecified",
+      "note": "Private-label EAN-8 may be retailer/market specific; always confirm label and volume after scanning. The source does not identify the market of this older NAS label; no claim is made that its code covers current Polish stock."
     },
     {
       "id": "other-wb-177609",
