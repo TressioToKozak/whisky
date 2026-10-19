@@ -1,3 +1,4 @@
+from indexed_helpers import install_indexed_helpers,open_discovery
 """New catalogue, independent type/age filters, exact metadata and original source images."""
 import json,os
 from pathlib import Path
@@ -5,7 +6,7 @@ from playwright.sync_api import sync_playwright,expect
 from source_images import install_source_images
 R=Path(__file__).resolve().parents[1];BASE=os.environ.get('DRAM_URL','http://127.0.0.1:4173/whisky/');report=json.loads((R/'data/popular-expansion-2026-10-19.json').read_text())
 with sync_playwright()as p:
- b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=b.new_page(viewport={'width':390,'height':900});install_source_images(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click()
+ b=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']);page=b.new_page(viewport={'width':390,'height':900});install_source_images(page);install_indexed_helpers(page);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.goto(BASE,wait_until='networkidle');page.get_by_role('button',name='Tak, mam 18 lat').click();open_discovery(page)
  page.get_by_role('button',name='Otwórz Suntory',exact=True).click();expect(page.locator('.whisky-card')).to_have_count(5)
  for name in ['Toki','Toki Black','Hibiki Japanese Harmony','Yamazaki Distiller’s Reserve','Hakushu Distiller’s Reserve']:expect(page.get_by_role('button',name=name,exact=True)).to_be_visible()
  page.locator('.whisky-card img').evaluate_all('xs=>xs.forEach(x=>x.loading="eager")');page.wait_for_function('Array.from(document.querySelectorAll(".whisky-card img")).every(x=>x.complete&&x.naturalWidth>0)');page.get_by_role('button',name='Wszystkie marki',exact=True).click()

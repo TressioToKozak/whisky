@@ -1,3 +1,4 @@
+from indexed_helpers import install_indexed_helpers
 """Phase 1: real migration, physical copies, private files, finances and safe two-tab edits."""
 import json,os,base64
 from pathlib import Path
@@ -6,10 +7,10 @@ from source_images import install_source_images
 R=Path(__file__).resolve().parents[1];BASE=os.environ.get('DRAM_URL','http://127.0.0.1:4173/whisky/');KEY='dram.journal.v3'
 seed={'version':2,'custom':[],'reviews':[{'id':'keep-note','whiskyId':'jw-001','score':8,'note':'Notatka sprzed migracji','date':'2026-10-18','tags':['Dym']}],'bottles':[{'whiskyId':'jw-001','quantity':5,'openedCount':2}],'wishlist':['jw-002'],'barcodeLinks':[{'code':'05000267014203','whiskyId':'jw-004'}]}
 with sync_playwright()as p:
- b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},accept_downloads=True);install_source_images(ctx);errors=[]
+ b=p.chromium.launch(executable_path=os.environ.get('CHROMIUM_PATH','/usr/bin/chromium'),args=['--no-sandbox']);ctx=b.new_context(viewport={'width':390,'height':900},accept_downloads=True);install_source_images(ctx);install_indexed_helpers(ctx);errors=[]
  a=ctx.new_page();a.on('pageerror',lambda e:errors.append(str(e)))
- a.goto(BASE,wait_until='networkidle');a.get_by_role('button',name='Tak, mam 18 lat').click();a.evaluate('(j)=>{localStorage.setItem("dram.journal.v2",JSON.stringify(j));localStorage.removeItem("dram.journal.v3")}',seed);a.reload(wait_until='networkidle');a.wait_for_function('JSON.parse(localStorage.getItem("dram.journal.v3"))?.version===3')
- def data():return a.evaluate('JSON.parse(localStorage.getItem("dram.journal.v3"))')
+ a.goto(BASE,wait_until='networkidle');a.get_by_role('button',name='Tak, mam 18 lat').click();a.evaluate('async (j)=>{await new Promise((resolve,reject)=>{const r=indexedDB.deleteDatabase("dram-collection");r.onsuccess=resolve;r.onerror=()=>reject(r.error)});localStorage.setItem("dram.journal.v2",JSON.stringify(j));localStorage.removeItem("dram.journal.v3")}',seed);a.reload(wait_until='networkidle');a.wait_for_function('async ()=>(await window.readDramJournal())?.version===3')
+ def data():return a.evaluate('async () => await window.readDramJournal()')
  migrated=data();assert len(migrated['ownedBottles'])==5;assert sum(x['status']=='open'for x in migrated['ownedBottles'])==2;assert migrated['reviews']==seed['reviews'];assert migrated['barcodeLinks']==seed['barcodeLinks'];assert migrated['events']==[];assert all(x['purchase']['amount']is None and x['purchase']['date']is None and x['remainingMl']is None for x in migrated['ownedBottles']);assert a.evaluate('JSON.parse(localStorage.getItem("dram.journal.v2"))')==seed
  a.locator('.bottom-nav').get_by_role('button',name='Barek',exact=True).click();a.get_by_role('button',name='Zarządzaj egzemplarzami',exact=True).click();expect(a.locator('.instance-row')).to_have_count(5)
  # Add a storage hierarchy with explicit user names.

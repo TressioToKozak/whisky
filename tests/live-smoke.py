@@ -1,3 +1,4 @@
+from indexed_helpers import install_indexed_helpers,open_discovery
 from source_images import install_source_images
 """Smoke-test the actual HTTPS deployment.
 The local browser does not share the environment's CA store. Route public GETs
@@ -32,11 +33,11 @@ with sync_playwright() as p:
             fetched.append((route.request.url,response.status))
             route.fulfill(status=response.status,body=body,headers=headers)
     context.route(f'{origin.scheme}://{origin.netloc}/**',verified_get)
-    page=context.new_page();install_source_images(page);errors=[]
+    page=context.new_page();install_source_images(page);install_indexed_helpers(page);errors=[]
     page.on('pageerror',lambda e:errors.append(str(e)))
     page.goto(BASE,wait_until='networkidle',timeout=90000)
     expect(page.get_by_role('heading',name='Masz ukończone 18 lat?')).to_be_visible()
-    page.get_by_role('button',name='Tak, mam 18 lat').click()
+    page.get_by_role('button',name='Tak, mam 18 lat').click();open_discovery(page)
     expect(page.get_by_role('heading',name='Wybierz markę')).to_be_visible()
     expect(page.locator('.brand-card')).to_have_count(12)
     page.get_by_role('searchbox',name='Szukaj we wszystkich markach').fill('ballantines sweet')
@@ -107,7 +108,7 @@ with sync_playwright() as p:
     page.get_by_role('button',name='Dodaj butelkę do barku',exact=True).click()
     expect(page.locator('[data-whisky-id="jameson-f2dd066b692a"]')).to_have_count(1)
     # A verified historical price for another bottle size must not inflate a wishlist.
-    page.evaluate("()=>{const j=JSON.parse(localStorage.getItem('dram.journal.v3'));j.wishlist=['jw-cfa84236a438'];localStorage.setItem('dram.journal.v3',JSON.stringify(j))}")
+    page.evaluate("async()=>{const j=await readDramJournal();j.wishlist=['jw-cfa84236a438'];await seedDramJournal(j)}")
     page.reload(wait_until='networkidle',timeout=90000)
     page.locator('.bottom-nav').get_by_role('button',name='Życzenia').click()
     expect(page.locator('.wishlist-value strong')).to_contain_text('0')

@@ -7,11 +7,12 @@ import { regionalPrices, cellarValue, wishlistValue, comparePrices } from '../sr
 const read=p=>JSON.parse(readFileSync(new URL(p,import.meta.url),'utf8'))
 const quotes=read('../src/prices.json'),catalog=read('../src/catalog.json'),fx=read('../src/exchange-rate-pln.json'),audit=read('../data/other-category-audit-2026-10-19.json'),sources=read('../data/catalog-sources.json'),entries=read('../src/barcodes.json')
 test('preferences validate independently and never share the journal storage key',()=>{
+ assert.deepEqual(parsePreferences('{"language":"en","region":"NL","theme":"light"}'),{language:'en',region:'NL',theme:'light'})
  assert.equal(PREFERENCES_KEY,'dram.preferences.v1')
- assert.deepEqual(parsePreferences(null),{language:'pl',region:'NL'})
- assert.deepEqual(parsePreferences('{broken'),{language:'pl',region:'NL'})
- assert.deepEqual(parsePreferences('{"language":"en","region":"PL"}'),{language:'en',region:'PL'})
- assert.deepEqual(parsePreferences('{"language":"unknown","region":"PL"}'),{language:'pl',region:'PL'})
+ assert.deepEqual(parsePreferences(null),{language:'pl',region:'NL',theme:'dark'})
+ assert.deepEqual(parsePreferences('{broken'),{language:'pl',region:'NL',theme:'dark'})
+ assert.deepEqual(parsePreferences('{"language":"en","region":"PL"}'),{language:'en',region:'PL',theme:'dark'})
+ assert.deepEqual(parsePreferences('{"language":"unknown","region":"PL"}'),{language:'pl',region:'PL',theme:'dark'})
 })
 test('PL prices convert with documented rate without changing market attribution or source quotes',()=>{
  const pl=regionalPrices(quotes,'PL'),nl=regionalPrices(quotes,'NL'),q=quotes['jw-001']

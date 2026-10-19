@@ -47,11 +47,18 @@ export const average = (reviews: Review[]): number | null => reviews.length ? re
 export const formatScore = (value: number, language = 'pl-PL') => value.toLocaleString(language, { maximumFractionDigits: 1, minimumFractionDigits: 1 })
 export const today = () => { const d = new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}` }
 
-export function matchesWhisky(w: Whisky, query: string) {
-  const normalize = (text: string) => text.toLocaleLowerCase('pl').replace(/ł/g, 'l').normalize('NFD').replace(/\p{M}/gu, '').replace(/[’'™]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
-  const haystack = normalize([w.brand, w.name, w.series, ...w.tags, ...w.tags.map(tag=>(english as Record<string,string>)[tag] ?? tag), ...(w.aliases ?? [])].join(' '))
-  const compact = haystack.replace(/\s/g, '')
-  return normalize(query).split(/\s+/).every(term => haystack.includes(term) || compact.includes(term))
+const searchNormalize=(text:string)=>text.toLocaleLowerCase('pl').replace(/ł/g,'l').normalize('NFD').replace(/\p{M}/gu,'').replace(/[’'™]/g,'').replace(/[^\p{L}\p{N}]+/gu,' ').trim()
+const searchCache=new WeakMap<Whisky,{text:string;compact:string;names:string[]}>()
+function oneEdit(a:string,b:string){
+ if(Math.abs(a.length-b.length)>1)return false
+ let i=0,j=0,edits=0
+ while(i<a.length&&j<b.length){if(a[i]===b[j]){i++;j++;continue}if(++edits>1)return false;if(a.length>=b.length)i++;if(b.length>=a.length)j++}
+ return edits+(a.length-i)+(b.length-j)<=1
+}
+export function matchesWhisky(w:Whisky,query:string,allowTypos=false){
+ let index=searchCache.get(w)
+ if(!index){const text=searchNormalize([w.id,w.brand,w.name,w.series,w.country,w.region??'',w.age??'',w.volume===null?'':`${w.volume} ml`,w.abv===null?'':`${w.abv}%`,...w.tags,...w.tags.map(tag=>(english as Record<string,string>)[tag]??tag),...(w.aliases??[])].join(' '));index={text,compact:text.replace(/\s/g,''),names:searchNormalize([w.brand,w.name,...(w.aliases??[])].join(' ')).split(' ')};searchCache.set(w,index)}
+ return searchNormalize(query).split(/\s+/).every(term=>index!.text.includes(term)||index!.compact.includes(term)||allowTypos&&term.length>=5&&!/\d/.test(term)&&index!.names.some(word=>oneEdit(term,word)))
 }
 
 /** All counts describe whole bottles; changing total cannot leave more open bottles than stock. */

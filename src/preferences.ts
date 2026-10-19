@@ -1,10 +1,10 @@
 export type Language = 'pl' | 'en'
 export type Region = 'NL' | 'PL'
-export type Preferences = { language: Language; region: Region }
+export type Preferences = { language: Language; region: Region; theme:'dark'|'light' }
 export const PREFERENCES_KEY = 'dram.preferences.v1'
-export const defaults: Preferences = { language: 'pl', region: 'NL' }
+export const defaults: Preferences = { language: 'pl', region: 'NL', theme:'dark' }
 export function parsePreferences(raw: string | null): Preferences {
-  try { const value = JSON.parse(raw ?? 'null'); return { language: value?.language === 'en' ? 'en' : 'pl', region: value?.region === 'PL' ? 'PL' : 'NL' } } catch { return { ...defaults } }
+  try { const value = JSON.parse(raw ?? 'null'); return { language: value?.language === 'en' ? 'en' : 'pl', region: value?.region === 'PL' ? 'PL' : 'NL', theme:value?.theme==='light'?'light':'dark' } } catch { return { ...defaults } }
 }
 let current: Preferences = typeof window === 'undefined' ? defaults : (() => { try { return parsePreferences(localStorage.getItem(PREFERENCES_KEY)) } catch { return { ...defaults } } })()
 const listeners = new Set<() => void>()
