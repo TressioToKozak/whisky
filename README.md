@@ -1,5 +1,7 @@
 # Dram — dziennik whisky
 
+**Dram 2.0, faza 1:** kolekcja fizycznych egzemplarzy i Journal v3. [Raport wykonania i testów](docs/phase-1-report.md). Kolejne fazy opisuje [roadmapa](docs/roadmap.md); pełne PWA i synchronizacja urządzeń nie są jeszcze wdrożone.
+
 Aplikacja React + TypeScript + Vite na telefon i komputer: katalog whisky, własny barek, lista życzeń i dziennik degustacji. Interfejs PL/EN, region Polska (PLN) lub Holandia (EUR), bez obowiązkowego konta i backendu.
 
 ## Aktualny stan
@@ -28,18 +30,20 @@ Statystyki wynikają z danych katalogu; `npm test` sprawdza ich zgodność. Aktu
 
 ## Funkcje i dane użytkownika
 
-- Barek zapisuje całkowitą liczbę butelek oraz liczbę otwartych. Zamknięte = wszystkie − otwarte; otwartych nigdy nie może być więcej niż wszystkich. Skan dodaje jedną zamkniętą butelkę. Filtry „Otwarte” i „Nieotwarte” mogą pokazać to samo wydanie, jeżeli masz oba rodzaje butelek.
+- **Egzemplarze:** każdy posiada własne ID, status, zakup, walutę, datę, napełnienie, numery, stan zachowania, lokalizację, notatki i prywatne załączniki. Wejście „Zarządzaj egzemplarzami” jest w barku; szczegóły wydania prowadzą do jego kopii. Dostępne są dodawanie wielu, historia, statusy i masowe przenoszenie.
+- Barek wylicza całkowitą liczbę butelek oraz liczbę otwartych. Zamknięte = wszystkie − otwarte; otwartych nigdy nie może być więcej niż wszystkich. Skan dodaje jedną zamkniętą butelkę. Filtry „Otwarte” i „Nieotwarte” mogą pokazać to samo wydanie, jeżeli masz oba rodzaje butelek.
+- Koszty posiadanych egzemplarzy są oddzielone od referencji katalogowych i rzeczywistych sprzedaży. Walut zakupów nie sumujemy automatycznie. Brak opłat sprzedaży nie oznacza zera; wynik wymaga kosztu w tej samej walucie.
 - Wartość barku to cena razy cała liczba butelek, również otwartych. Życzenia liczą jedną butelkę każdego wydania. Brak ceny oraz oznaczone `referenceOnly` wyklucza się z obu sum. Filtry nie zmieniają sumy kolekcji.
 - Oceny 1–10 co 0,5, wiele degustacji, daty, notatki, aromaty, edycja i usuwanie. Własne whisky, zdjęcia i przypisania kodów pozostają częścią dziennika.
-- Ustawienia zawierają eksport pełnego JSON oraz import z walidacją, podglądem liczby wpisów, pobraniem obecnej kopii i potwierdzeniem zastąpienia danych. Niepoprawny plik niczego nie nadpisuje. Starsze poprawne kopie v1 są obsługiwane.
-- Przed asynchroniczną blokadą oczekująca zmiana jest zabezpieczana synchronicznie w `dram.journal.pending.v1.*`. Po odświeżeniu lub zamknięciu karty następne otwarcie odtwarza zgodny łańcuch zmian; nowszy dziennik zatrzymuje odzyskiwanie i udostępnia szkic. Potwierdzenia pojawiają się dopiero po zapisie. Błąd późniejszej operacji pozostaje widoczny także wtedy, gdy wcześniejszy zapis kończy się sukcesem.
+- Ustawienia zawierają eksport pełnego JSON oraz import z walidacją, podglądem liczby wpisów, pobraniem obecnej kopii i potwierdzeniem zastąpienia danych. Niepoprawny plik niczego nie nadpisuje. Starsze poprawne kopie v1/v2 są migrowane; kopia v3 obejmuje także zdarzenia i prywatne pliki.
+- Przed asynchroniczną blokadą oczekująca zmiana jest zabezpieczana synchronicznie w `dram.journal.pending.v3.*`. Po odświeżeniu lub zamknięciu karty następne otwarcie odtwarza zgodny łańcuch zmian; nowszy dziennik zatrzymuje odzyskiwanie i udostępnia szkic. Potwierdzenia pojawiają się dopiero po zapisie. Błąd późniejszej operacji pozostaje widoczny także wtedy, gdy wcześniejszy zapis kończy się sukcesem.
 - Karty tej samej przeglądarki aktualizują widok po zapisie. Zapis jest kontrolowany wspólną blokadą i porównaniem aktualnej wersji. Konflikt nie nadpisuje nowszych danych; można pobrać niezapisany wariant. Nie synchronizuje to różnych urządzeń.
 - Aparat, zdjęcie kodu oraz ręczny EAN/UPC/GTIN; dekodowanie lokalne. Rozpoznanie nigdy nie dodaje butelki bez potwierdzenia. Nieznany kod można powiązać z katalogiem lub własnym wpisem.
 - Wyszukiwanie całego katalogu obsługuje apostrofy, polskie znaki, łączone nazwy i dowolną kolejność słów. Wyszukiwanie rozumie także polskie i angielskie nazwy aromatów. Niezależne filtry obejmują typ whisky, informację o wieku i liczbę lat, kategorię wydania i stan butelek.
 
-Dziennik v2 jest w `dram.journal.v2`; wcześniejszy zapis `dram.journal.v1` pozostaje nietknięty. Migracja zachowuje ID i wpisy; `opened: true` daje jedną otwartą butelkę, `false` — zero. Starsza karta nie może nadpisać nowszego dziennika, bo używa wcześniejszego klucza. Jej późniejsze zmiany sygnalizuje komunikat z możliwością pobrania kopii. Ustawienia języka i regionu mają osobny klucz `dram.preferences.v1`.
+Dziennik v3 jest w `dram.journal.v3`. Poprzednie klucze v2 i v1 pozostają zachowane. Migracja tworzy odrębne egzemplarze z deterministycznymi ID; 5 / 2 otwarte daje pięć rekordów, dwa otwarte. Nie uzupełnia nieznanych dat, kosztów, walut, poziomu płynu ani historii. V1 `opened: true` daje jedną otwartą butelkę. Stare karty nie nadpisują v3; ich zmiany można pobrać jako oddzielny wariant. Ustawienia pozostają w `dram.preferences.v1`. Szczegóły: [model v3](docs/data-model-v3.md), [migracje](docs/migrations.md), [metodologia cen](docs/pricing-methodology.md), [prywatność](docs/privacy.md).
 
-Blokada zapisu korzysta ze wspólnej transakcji IndexedDB; Web Locks stanowi dodatkową warstwę w obsługujących je przeglądarkach. IndexedDB przechowuje wyłącznie strukturę koordynacji, nie kopię dziennika. Jeśli bezpieczna blokada albo zapis nie są dostępne, aplikacja zgłasza błąd i zachowuje dotychczasowe dane. Przy braku miejsca migracja nie usuwa starszego zapisu; można go wyeksportować. Przeglądarka może usunąć dane po czyszczeniu pamięci — warto pobierać kopie.
+Blokada zapisu korzysta ze wspólnej transakcji IndexedDB; Web Locks stanowi dodatkową warstwę w obsługujących je przeglądarkach. IndexedDB przechowuje wyłącznie strukturę koordynacji, nie kopię dziennika. Jeśli bezpieczna blokada albo zapis nie są dostępne, aplikacja zgłasza błąd i zachowuje dotychczasowe dane. Przy braku miejsca migracja nie usuwa starszego zapisu; można go wyeksportować. Faza 1 nadal zapisuje właściwą kolekcję w localStorage; binaria mają limit 1 MB na plik i podlegają limitowi miejsca przeglądarki. Przeniesienie kolekcji i binariów do IndexedDB jest następną fazą. Przeglądarka może usunąć dane po czyszczeniu pamięci — warto pobierać kopie.
 
 ## Klasyfikacja i wiarygodność
 
@@ -84,6 +88,8 @@ Instalacja narzędzi CI: `python -m pip install -r tests/requirements.txt` i `py
 DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/journal-e2e.py
 DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/catalog-features-e2e.py
 DRAM_OFFLINE_IMAGES=1 python tests/quality-e2e.py
+DRAM_OFFLINE_IMAGES=1 python tests/collection-e2e.py
+DRAM_OFFLINE_IMAGES=1 python tests/collection-ui-e2e.py
 # Osobne kontrole źródeł sieciowych:
 python scripts/check-external-photos.py --report /tmp/dram-photo-report.json
 python tests/remote-photos.py
@@ -93,10 +99,10 @@ Testy używają izolowanych przeglądarek, nigdy rzeczywistych zapisów użytkow
 
 ## Publikacja
 
-`.github/workflows/deploy-pages.yml` uruchamia instalację z lockfile, testy Node, build i dwa obowiązkowe zestawy Playwright (`quality-e2e.py`, `journal-e2e.py`), następnie publikuje przez GitHub Pages. Testy działają również na pull requestach bez publikacji; ich kolejka nie anuluje wdrożenia main. Obrazy zewnętrzne w szybkich testach CI są zastąpione jawną lokalną fixturą; audyt źródeł uruchamia się osobno przez `check-external-photos.yml` (ręcznie). Workflow czeka na ewentualną publikację legacy, żeby surowy HTML nie nadpisał buildu Vite. `scripts/check-deployment.mjs` weryfikuje publiczny HTML i skompilowane zasoby. Pełniejszy test publicznej strony: `python tests/live-smoke.py`. Manifest pozwala dodać aplikację do ekranu głównego; brak service workera, więc ponowne załadowanie wymaga sieci.
+`.github/workflows/deploy-pages.yml` uruchamia instalację z lockfile, testy Node, build i trzy obowiązkowe zestawy Playwright (`quality-e2e.py`, `journal-e2e.py`, `collection-e2e.py`), następnie publikuje przez GitHub Pages. Testy działają również na pull requestach bez publikacji; ich kolejka nie anuluje wdrożenia main. Obrazy zewnętrzne w szybkich testach CI są zastąpione jawną lokalną fixturą; audyt źródeł uruchamia się osobno przez `check-external-photos.yml` (ręcznie). Workflow czeka na ewentualną publikację legacy, żeby surowy HTML nie nadpisał buildu Vite. `scripts/check-deployment.mjs` weryfikuje publiczny HTML i skompilowane zasoby. Pełniejszy test publicznej strony: `python tests/live-smoke.py`. Manifest pozwala dodać aplikację do ekranu głównego; brak service workera, więc ponowne załadowanie wymaga sieci.
 
 ## Dokumentacja i historia
 
-Aktualne poprawki grupowania, trwałych zmian, aromatów, tłumaczeń i CI: [raport jakości katalogu](docs/catalog-quality.md). Opis migracji, kopii, synchronizacji i rozbudowy: [niezawodność i katalog](docs/reliability-and-catalog.md). Skaner: [docs/barcode-scanning.md](docs/barcode-scanning.md). Kroje Fraunces / DM Sans: [licencje](public/font-notices.txt).
+Dram 2.0 faza 1: [architektura](docs/architecture.md), [roadmapa](docs/roadmap.md), [testy i procedura telefonów](docs/testing.md), [stan synchronizacji](docs/sync.md). Poprzednie poprawki grupowania, trwałych zmian, aromatów, tłumaczeń i CI: [raport jakości katalogu](docs/catalog-quality.md). Opis migracji, kopii, synchronizacji i rozbudowy: [niezawodność i katalog](docs/reliability-and-catalog.md). Skaner: [docs/barcode-scanning.md](docs/barcode-scanning.md). Kroje Fraunces / DM Sans: [licencje](public/font-notices.txt).
 
 Poprzednie raporty zachowano jako **historyczne migawki**, a nie bieżące statystyki: [audyt i Jameson](docs/catalog-audit-2026-10-19.md), [projekt interfejsu](docs/redesign.md), [uproszczenie interfejsu](docs/ui-simplification.md), `data/catalog-expansion-*.json`, `data/other-category-audit-2026-10-19.json`. Ich dawne liczby i dawny model barku odnoszą się do wskazanego etapu projektu.

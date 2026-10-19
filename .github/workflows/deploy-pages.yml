@@ -43,6 +43,7 @@ jobs:
           python scripts/wait-for-app.py
           python tests/quality-e2e.py
           python tests/journal-e2e.py
+          python tests/collection-e2e.py
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3

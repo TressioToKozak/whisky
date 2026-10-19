@@ -1,5 +1,6 @@
 # Jakość katalogu, grupowanie i trwały zapis — 19.10.2026
 
+> Historyczna migawka sprzed fazy 1 Dram 2.0. Aktualny model i zapis: [Journal v3](data-model-v3.md), [migracje](migrations.md).
 Ta iteracja zachowuje 638 wydań. Nie dodano ani nie usunięto whisky; ceny, kody kreskowe, odmiany opakowań, identyfikatory i zasady wyceny pozostają bez zmian. Poprzednie audyty są zachowane jako historyczne migawki. Statystyki w README są generowane z bieżących danych.
 
 ## Automatyczne marki

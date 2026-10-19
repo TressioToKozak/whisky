@@ -1,5 +1,6 @@
 # Niezawodność dziennika i rozbudowa katalogu
 
+> Historyczna migawka sprzed fazy 1 Dram 2.0. Aktualny model i zapis: [Journal v3](data-model-v3.md), [migracje](migrations.md).
 Aktualizacja 19.10.2026 po rozszerzeniu „Inne”. Poprzednie audyty pozostają historycznymi migawkami. Bieżące liczby są generowane w README przez `scripts/catalog-stats.mjs` i sprawdzane testem.
 
 ## Zapis, migracja i kopie
