@@ -11,7 +11,7 @@ Bazą jest `60060dd`. Nie wdrożono kont, serwera synchronizacji, AI Lens ani fi
 
 ## Walidacja lokalna
 
-81 testów Node: wszystkie przeszły. Build i TypeScript z `noUnusedLocals/noUnusedParameters`: zaliczone. Pełne 14 dotychczasowych i nowych zestawów E2E przeszło na systemowym Chromium; dodatkowy piętnasty zestaw rzeczywistej aktualizacji service workera również przeszedł.
+82 testy Node: wszystkie przeszły. Build i TypeScript z `noUnusedLocals/noUnusedParameters`: zaliczone. Pełne 14 dotychczasowych i nowych zestawów E2E przeszło na systemowym Chromium; dodatkowy piętnasty zestaw rzeczywistej aktualizacji service workera również przeszedł.
 
 Nowe testy obejmują przerwaną migrację i brak markera, dwie karty, quota podczas zapisu, niezgodny SHA i naprawę, referencje załączników, import i duplikaty, CRC ZIP/XML w XLSX, PL/EN, sześć szerokości 320–1440 px, obie palety i axe WCAG A/AA, wyszukiwanie kodów/literówek, zamknięcie wszystkich stron przed odcięciem sieci oraz edycję i kolejny restart offline. Test aktualizacji używa dwóch rzeczywistych rewizji SW i niezapisanego formularza w drugiej karcie.
 

@@ -47,7 +47,7 @@ Wyniki końcowe: 72 testy jednostkowe i 13 zestawów E2E zaliczone, build i Type
 
 ## Nowe testy i odtwarzanie fazy 2
 
-`indexed-collection.test.mjs`: prawdziwa semantyka transakcji z fake-indexeddb, sześć store i indeksy, źródłowy SHA, osobne bytes, dowolna kolejność ID, dwie równoległe migracje, przerwana migracja bez markera, quota w trakcie zapisu, checksum/naprawa i kompaktowe referencje plików. `tabular.test.mjs`: cudzysłowy, BOM, CRLF, wielowierszowe dane, mapowanie, nieznane wydania, kwoty, duplikaty i ochrona formuł. Python dodatkowo sprawdza CRC ZIP oraz poprawność XML w XLSX.
+`indexed-collection.test.mjs`: prawdziwa semantyka transakcji z fake-indexeddb, sześć store i indeksy, duży import bez powielenia pliku w localStorage, źródłowy SHA, osobne bytes, dowolna kolejność ID, dwie równoległe migracje, przerwana migracja bez markera, quota w trakcie zapisu, checksum/naprawa i kompaktowe referencje plików. `tabular.test.mjs`: cudzysłowy, BOM, CRLF, wielowierszowe dane, mapowanie, nieznane wydania, kwoty, duplikaty i ochrona formuł. Python dodatkowo sprawdza CRC ZIP oraz poprawność XML w XLSX.
 
 ```sh
 DRAM_OFFLINE_IMAGES=1 DRAM_URL=http://127.0.0.1:4173/whisky/ python tests/phase2-e2e.py

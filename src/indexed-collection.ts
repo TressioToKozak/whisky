@@ -103,7 +103,7 @@ export function createIndexedCollectionStore(storage:Pick<Storage,'getItem'|'set
  store=createCollectionStore(port,lock,ids)
  const initialize=store.initialize
  return {...store,
-  replace:async(journal:CollectionJournal,token:string|null)=>{if(store.getSnapshot().pending)return false;repairing=true;try{return await store.replace(journal,token)}finally{repairing=false}},
+  replace:async(journal:CollectionJournal,token:string|null)=>{if(store.getSnapshot().pending)return false;repairing=true;try{return await store.replace(journal,token,JSON.stringify(journal).length<=2_000_000)}finally{repairing=false}},
   initialize:async()=>{const result=await initialize();if(result)ready=true;return result},
   reload:async()=>{if(!ready)return;try{await lock(()=>{store.reload();return true})}catch(e){store.reportFailure(e instanceof Error?e.message:'Nie udało się odczytać kolekcji.')}},
   legacyChanged:(key?:string)=>{if(loaded&&key===COLLECTION_KEY){try{const raw=storage.getItem(COLLECTION_KEY);if(raw)store.reportFailure('Starsza karta zmieniła zapis sprzed migracji. Aktualna kolekcja jest bezpieczna; pobierz oddzielną kopię tych zmian.',validateCollection(JSON.parse(raw),ids))}catch{store.reportFailure('Nie udało się odczytać zmian starszej karty.')}return}store.legacyChanged(key)},

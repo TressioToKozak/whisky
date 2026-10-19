@@ -14,7 +14,7 @@ export class JournalDraftConflict extends Error {
   constructor(message: string, draft: unknown) { super(message); this.draft = draft }
 }
 
-/** localStorage remains the journal format. Web Locks serialize check-and-write across tabs. */
+/** Serializable journal engine; the storage port can be backed by an atomic IndexedDB adapter. */
 export type JournalCodec<T>={key:string;legacyKeys:string[];pendingPrefix:string;version:number;fingerprint?:(raw:string|null)=>string;empty:()=>T;validate:(value:unknown,ids:string[])=>T}
 export function createJournalStore<T=Journal>(storage: StoragePort, lock: JournalLock | null, catalogIds: string[], format?:JournalCodec<T>) {
   const codec=format ?? {key:STORAGE_KEY,legacyKeys:[LEGACY_STORAGE_KEY],pendingPrefix:INTENT_PREFIX,version:2,empty:emptyJournal,validate:validateJournal} as unknown as JournalCodec<T>
@@ -42,12 +42,12 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
       emit({ journal, blocked: false, remoteChanges: snapshot.remoteChanges + 1, ...(snapshot.blocked ? {error:''} : {}) })
     } catch { fail({error:readError,blocked:true}) }
   }
-  function update(recipe: (journal: T) => T, options?: { replacement?: boolean; expectedRaw?: string | null }) {
+  function update(recipe: (journal: T) => T, options?: { replacement?: boolean; expectedRaw?: string | null; durable?:boolean }) {
     const requestedGeneration = generation, requestedFailureRevision = failureRevision
     let intentKey: string | null = null, queuedCandidate: T | null = null
     // Persist the complete proposed result synchronously BEFORE the first promise/lock.
     // Consecutive intents form an exact compare-and-write chain, including removals/imports.
-    if (durable && lock && (!snapshot.blocked || options?.replacement)) {
+    if (durable && options?.durable!==false && lock && (!snapshot.blocked || options?.replacement)) {
       try {
         const base = projected ?? snapshot.journal
         const candidate = codec.validate(recipe(base),catalogIds);queuedCandidate=candidate
@@ -122,7 +122,7 @@ export function createJournalStore<T=Journal>(storage: StoragePort, lock: Journa
     },
     reload,
     update,
-    replace: (journal: T, expectedRaw: string | null) => update(() => journal,{replacement:true,expectedRaw}),
+    replace: (journal: T, expectedRaw: string | null, durable=true) => update(() => journal,{replacement:true,expectedRaw,durable}),
     initialize: async () => {
       if (!lock) return false
       try {return await lock(() => {

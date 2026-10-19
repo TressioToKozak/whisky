@@ -67,3 +67,11 @@ test('quota failure during a write rolls back all rows and retains an exportable
  abort=false;const b=createIndexedCollectionStore(storage,ids,factory);await b.initialize();assert.equal(b.getSnapshot().journal.ownedBottles.length,0)
  assert.equal((await rows(factory,'events')).length,0)
 })
+test('large explicit backup import uses one IDB transaction without duplicating the external file into localStorage',async()=>{
+ const factory=new IDBFactory(),storage=disk(JSON.stringify(emptyCollection())),original=storage.setItem;storage.setItem=(key,value)=>{if(value.length>100000)throw new DOMException('Quota exceeded','QuotaExceededError');original(key,value)}
+ const a=createIndexedCollectionStore(storage,ids,factory);await a.initialize();const j=addBottles(emptyCollection(),'a',1,m)
+ const png='data:image/png;base64,'+Buffer.concat([Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6H2sAAAAASUVORK5CYII=','base64'),Buffer.alloc(600000)]).toString('base64')
+ j.ownedBottles[0].attachments=Array.from({length:4},(_,i)=>({id:`pic${i}`,name:`pic${i}.png`,kind:'front',data:png}))
+ assert.ok(JSON.stringify(j).length>2_000_000);assert.equal(await a.replace(j,a.getToken()),true);assert.equal((await rows(factory,'attachments')).filter(f=>!f.id.startsWith('retained:')).length,4)
+ const b=createIndexedCollectionStore(storage,ids,factory);assert.equal(await b.initialize(),true);assert.equal(b.getSnapshot().journal.ownedBottles[0].attachments.length,4);assert.equal(storage.getItem(COLLECTION_KEY),JSON.stringify(emptyCollection()))
+})

@@ -549,5 +549,13 @@
   "Starsza karta zmieniła zapis sprzed migracji. Aktualna kolekcja jest bezpieczna; pobierz oddzielną kopię tych zmian.": "An older tab changed the pre-migration journal. Your current collection is safe; download a separate copy of those changes.",
   "Nie znaleziono jednoznacznego wydania w katalogu.": "No unique matching release was found in the catalogue.",
   "Niepoprawny CSV.": "Invalid CSV.",
-  "Nazwa lokalizacji jest niejednoznaczna. Zmień jej nazwę przed importem.": "The location name is ambiguous. Rename it before importing."
+  "Nazwa lokalizacji jest niejednoznaczna. Zmień jej nazwę przed importem.": "The location name is ambiguous. Rename it before importing.",
+  "Zamknij starsze karty aplikacji i spróbuj ponownie.": "Close older app tabs and try again.",
+  "Brak załącznika w bazie.": "An attachment is missing from the database.",
+  "Nie udało się zapisać zmian w bazie.": "The database could not save your changes.",
+  "Nie udało się odczytać kolekcji.": "The collection could not be read.",
+  "Nie udało się odczytać załącznika oczekującej zmiany.": "An attachment needed by a pending change could not be read.",
+  "Brak metadanych kolekcji. Przywróć kopię danych.": "Collection metadata is missing. Restore a backup.",
+  "Suma kontrolna kolekcji jest niezgodna. Przywróć kopię danych.": "The collection checksum does not match. Restore a backup.",
+  "Nie udało się odczytać zmian starszej karty.": "Changes made by an older tab could not be read."
 }
