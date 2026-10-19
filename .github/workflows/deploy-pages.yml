@@ -37,6 +37,7 @@ jobs:
           DRAM_URL: http://127.0.0.1:4173/whisky/
           DRAM_OFFLINE_IMAGES: '1'
         run: |
+          set -euo pipefail
           npm run preview -- --host 127.0.0.1 --port 4173 --strictPort > /tmp/dram-preview.log 2>&1 &
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
@@ -47,7 +48,7 @@ jobs:
           python tests/phase2-e2e.py 2>&1 | tee -a /tmp/dram-test.log
           python tests/offline-update-e2e.py 2>&1 | tee -a /tmp/dram-test.log
       - name: Report browser diagnostics
-        if: failure()
+        if: always()
         run: |
           python - <<'PYLOG'
           from pathlib import Path
@@ -55,7 +56,8 @@ jobs:
           if path.exists():
               message=path.read_text(errors='replace')[-14000:]
               message=message.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
-              print('::error title=Dram browser test::'+message)
+              level='error' if 'Traceback (most recent call last)' in message else 'notice'
+              print(f'::{level} title=Dram browser test::'+message)
           PYLOG
       - uses: actions/configure-pages@v5
         if: github.event_name != 'pull_request'
@@ -88,13 +90,14 @@ jobs:
           DRAM_OFFLINE_IMAGES: '1'
           DRAM_BROWSER: ${{ matrix.browser }}
         run: |
+          set -euo pipefail
           npm run preview -- --host 127.0.0.1 --port 4173 --strictPort > /tmp/dram-preview.log 2>&1 &
           preview_pid=$!
           trap 'kill "$preview_pid"' EXIT
           python scripts/wait-for-app.py
           python tests/phase2-e2e.py 2>&1 | tee -a /tmp/dram-test.log
       - name: Report browser diagnostics
-        if: failure()
+        if: always()
         run: |
           python - <<'PYLOG'
           from pathlib import Path
@@ -102,7 +105,8 @@ jobs:
           if path.exists():
               message=path.read_text(errors='replace')[-14000:]
               message=message.replace('%','%25').replace('\r','%0D').replace('\n','%0A')
-              print('::error title=Dram browser test::'+message)
+              level='error' if 'Traceback (most recent call last)' in message else 'notice'
+              print(f'::{level} title=Dram browser test::'+message)
           PYLOG
   deploy:
     environment:
