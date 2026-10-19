@@ -546,5 +546,7 @@
   "Tryb offline nie jest gotowy. Sprawdź połączenie i wolne miejsce.": "Offline mode is not ready. Check your connection and free space.",
   "Zamknij edycję i poczekaj na zakończenie zapisu we wszystkich kartach.": "Close editors and wait for saves to finish in all tabs.",
   "Nowa wersja jest gotowa. Odśwież po zakończeniu edycji.": "The new version is ready. Refresh after finishing your edits.",
-  "Starsza karta zmieniła zapis sprzed migracji. Aktualna kolekcja jest bezpieczna; pobierz oddzielną kopię tych zmian.": "An older tab changed the pre-migration journal. Your current collection is safe; download a separate copy of those changes."
+  "Starsza karta zmieniła zapis sprzed migracji. Aktualna kolekcja jest bezpieczna; pobierz oddzielną kopię tych zmian.": "An older tab changed the pre-migration journal. Your current collection is safe; download a separate copy of those changes.",
+  "Nie znaleziono jednoznacznego wydania w katalogu.": "No unique matching release was found in the catalogue.",
+  "Niepoprawny CSV.": "Invalid CSV."
 }

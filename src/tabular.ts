@@ -10,7 +10,9 @@ export type Mapping=Partial<Record<Column,number>>
 export const labels:Record<Column,string>={id:'ID egzemplarza',whisky_id:'ID whisky',name:'Nazwa whisky',brand:'Marka',status:'Status',purchase_date:'Data zakupu',amount:'Cena zakupu',currency:'Waluta zakupu',place:'Miejsce zakupu',location:'Lokalizacja',notes:'Notatki'}
 export function parseCSV(text:string):string[][]{
  if(text.length>5_000_000)throw Error('CSV może mieć maksymalnie 5 MB.')
- text=text.replace(/^\uFEFF/,'');const first=text.split(/\r?\n/,1)[0],delimiter=(first.match(/;/g)?.length??0)>(first.match(/,/g)?.length??0)?';':','
+ text=text.replace(/^\uFEFF/,'');let inHeaderQuote=false,commas=0,semicolons=0
+ for(let i=0;i<text.length;i++){const c=text[i];if(c==='\"'){if(inHeaderQuote&&text[i+1]==='\"')i++;else inHeaderQuote=!inHeaderQuote}else if(!inHeaderQuote){if(c==='\n'||c==='\r')break;if(c===',')commas++;if(c===';')semicolons++}}
+ const delimiter=semicolons>commas?';':','
  const rows:string[][]=[];let row:string[]=[],value='',quoted=false,closed=false
  for(let i=0;i<text.length;i++){
   const c=text[i]
@@ -33,7 +35,7 @@ export function previewCSV(rows:string[][],mapping:Mapping,current:CollectionJou
  const errors:string[]=[],incoming:OwnedBottle[]=[],seen=new Set(mode==='merge'?current.ownedBottles.map(b=>b.id):[]);let duplicates=0
  const locations=[...current.locations]
  for(let i=1;i<rows.length;i++){
-  const row=rows[i],get=(key:Column)=>mapping[key]===undefined?'':(row[mapping[key]!]??'').trim()
+  const row=rows[i],get=(key:Column)=>{const value=mapping[key]===undefined?'':row[mapping[key]!]??'';return key==='notes'?value:value.trim()}
   try{
    const id=get('whisky_id'),name=get('name'),brand=get('brand'),matches=catalog.filter(w=>id?w.id===id:w.name.toLocaleLowerCase()===name.toLocaleLowerCase()&&(!brand||w.brand.toLocaleLowerCase()===brand.toLocaleLowerCase()))
    if(matches.length!==1)throw Error('Nie znaleziono jednoznacznego wydania w katalogu.')
